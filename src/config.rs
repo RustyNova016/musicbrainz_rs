@@ -151,5 +151,5 @@ pub fn set_base_url(base_url: String) {
 pub(crate) fn get_base_url() -> &'static str {
     BASE_URL
         .get()
-        .map_or_else(|| "https://musicbrainz.org/ws/2", String::as_str)
+        .map_or_else(|| "http://musicbrainz.org/ws/2", String::as_str)
 }
