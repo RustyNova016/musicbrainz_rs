@@ -1,4 +1,5 @@
 use once_cell::sync::Lazy;
+use once_cell::sync::OnceCell;
 use reqwest::header;
 use reqwest::Error;
 use std::sync::Arc;
@@ -11,13 +12,7 @@ use reqwest::blocking::{Client, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use reqwest::{Client, RequestBuilder, Response};
 
-pub(crate) const BASE_URL: Lazy<String> = Lazy::new(|| {
-    if let Some(env) = std::env::var("MUSICBRAINZ_BASE_URL").ok() {
-        env
-    } else {
-        "https://musicbrainz.org/ws/2".to_string()
-    }
-});
+static BASE_URL: OnceCell<String> = OnceCell::new();
 pub(crate) const BASE_COVERART_URL: &str = "http://coverartarchive.org";
 pub(crate) const FMT_JSON: &str = "?fmt=json";
 pub(crate) const PARAM_INC: &str = "&inc=";
@@ -147,4 +142,14 @@ pub fn set_default_retries(retries: u32) {
         .lock()
         .expect("Unable to set musicbrainz client retries");
     *retries_lock = retries;
+}
+
+pub fn set_base_url(base_url: String) {
+    BASE_URL.get_or_init(|| base_url);
+}
+
+pub(crate) fn get_base_url() -> &'static str {
+    BASE_URL
+        .get()
+        .map_or_else(|| "https://musicbrainz.org/ws/2", String::as_str)
 }
