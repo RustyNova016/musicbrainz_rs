@@ -496,7 +496,7 @@ pub trait Fetch<'a> {
         Self: Sized + Path<'a>,
     {
         FetchQuery(Query {
-            path: format!("{}/{}", BASE_URL, Self::path()),
+            path: format!("{}/{}", *BASE_URL, Self::path()),
             phantom: PhantomData,
             include: vec![],
         })
@@ -543,7 +543,7 @@ pub trait Browse<'a> {
     {
         BrowseQuery {
             inner: Query {
-                path: format!("{}/{}", BASE_URL, Self::path()),
+                path: format!("{}/{}", *BASE_URL, Self::path()),
                 phantom: PhantomData,
                 include: vec![],
             },
@@ -560,7 +560,7 @@ pub trait Search<'a> {
         Self: Sized + Path<'a>,
     {
         SearchQuery(Query {
-            path: format!("{}/{}{}&{}", BASE_URL, Self::path(), FMT_JSON, query),
+            path: format!("{}/{}{}&{}", *BASE_URL, Self::path(), FMT_JSON, query),
             phantom: PhantomData,
             include: vec![],
         })

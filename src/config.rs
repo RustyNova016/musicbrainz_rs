@@ -11,7 +11,13 @@ use reqwest::blocking::{Client, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use reqwest::{Client, RequestBuilder, Response};
 
-pub(crate) const BASE_URL: &str = "http://musicbrainz.org/ws/2";
+pub(crate) const BASE_URL: Lazy<String> = Lazy::new(|| {
+    if let Some(env) = std::env::var("MUSICBRAINZ_BASE_URL").ok() {
+        env
+    } else {
+        "https://musicbrainz.org/ws/2".to_string()
+    }
+});
 pub(crate) const BASE_COVERART_URL: &str = "http://coverartarchive.org";
 pub(crate) const FMT_JSON: &str = "?fmt=json";
 pub(crate) const PARAM_INC: &str = "&inc=";
