@@ -28,19 +28,19 @@ You can choose to use either the default async client or a blocking one.
 **async client:**
 
 ```toml
-musicbrainz_rs_nova = "0.7.0"
+musicbrainz_rs_nova = "0.8.0"
 ```
 
 **blocking client:**
 
 ```toml
-musicbrainz_rs_nova = { version = "0.7.0", default-features = false, features = ["blocking"] }
+musicbrainz_rs_nova = { version = "0.8.0", default-features = false, features = ["blocking"] }
 ```
 
 **If it's a migration from musicbrainz_rs:**
 
 ```toml
-musicbrainz_rs = {version = "0.7.0", package = "musicbrainz_rs_nova"}
+musicbrainz_rs = {version = "0.8.0", package = "musicbrainz_rs_nova"}
 ```
 
 ## Features

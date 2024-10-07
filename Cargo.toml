@@ -1,6 +1,6 @@
 [package]
 name = "musicbrainz_rs_nova"
-version = "0.7.0"
+version = "0.8.0"
 authors = ["okno <paul.delafosse@protonmail.com>", "RustyNova"]
 repository = "https://github.com/RustyNova016/musicbrainz_rs"
 documentation = "https://docs.rs/musicbrainz_rs_nova"
