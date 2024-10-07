@@ -6,7 +6,7 @@
 [Action]: https://github.com/RustyNova016/musicbrainz_rs/actions/workflows/rust_check.yaml
 [Latest Version]: https://img.shields.io/crates/v/musicbrainz_rs_nova.svg
 [crates.io]: https://www.crates.io/crates/musicbrainz_rs_nova
-[MusicBrainz]: https://staticbrainz.org/MB/header-logo-791fb3f.svg
+[MusicBrainz]: https://static.metabrainz.org/MB/header-logo-1f7dc2a.svg
 
 **MusicBrainz rust is a utility crate for the the [MusicBrainz API](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2).**
 
