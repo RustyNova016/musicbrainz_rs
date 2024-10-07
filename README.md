@@ -248,6 +248,7 @@ Here is the list of supported feature values. The default features are: `async`,
 - `async`: use an async client
 - `rate_limit`: add a rate limiter for the requests. Require `async`
 - `rustls`: Use rustls instead of the platform's tls
+- `legacy_serialize`: Use an old version of the serializer for compatibility with musicbrainz_rs and musicbrainz_rs < 0.8.0
 
 ## MSRV
 
