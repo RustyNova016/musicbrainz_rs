@@ -256,7 +256,7 @@ The Minimum Supported Rust Version for the crate is `1.70.0`. Any bump to the MS
 
 ## Contributing
 
-All contributions are welcome, if find a bug or have a feature request don't hesitate to open an issue! You can check the documentation folder for more information if needed
+All contributions are welcome, if find a bug or have a feature request don't hesitate to open an issue! You can check the [documentation](https://github.com/RustyNova016/musicbrainz_rs_nova/tree/main/documentation) folder for more information if needed
 
 ## Credits
 

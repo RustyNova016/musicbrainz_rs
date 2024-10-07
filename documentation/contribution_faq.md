@@ -1,5 +1,14 @@
 # FAQ
 
+## Which branch should I PR onto?
+
+The project uses [gitflow](https://www.gitkraken.com/learn/git/git-flow) as a project management. In short, PR onto `develop`. 
+
+## What commit mesage should I use?
+
+Anything you want, as long as it is descriptive. But consider using [Conventional Commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13) if you want to
+be mentioned in the changlogs.
+
 ## Deal with CI Fails
 
 ### Clippy
