@@ -11,6 +11,9 @@ use reqwest::blocking::{Client, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use reqwest::{Client, RequestBuilder, Response};
 
+#[cfg(feature = "rate_limit")]
+use crate::rate_limit::wait_for_mb_ratelimit;
+
 const DEFAULT_USER_AGENT: &str = concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));
 pub(crate) const BASE_URL: &str = "http://musicbrainz.org/ws/2";
 pub(crate) const BASE_COVERART_URL: &str = "http://coverartarchive.org";
@@ -70,7 +73,7 @@ impl MusicBrainzClient {
         let mut retries = *HTTP_RETRIES.0.lock().unwrap();
 
         #[cfg(feature = "rate_limit")]
-        super::rate_limit::wait_for_ratelimit().await;
+        wait_for_mb_ratelimit().await;
 
         loop {
             let request = request.try_clone().unwrap();
