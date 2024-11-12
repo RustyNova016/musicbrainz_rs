@@ -6,7 +6,7 @@
 [Action]: https://github.com/RustyNova016/musicbrainz_rs/actions/workflows/rust_check.yaml
 [Latest Version]: https://img.shields.io/crates/v/musicbrainz_rs_nova.svg
 [crates.io]: https://www.crates.io/crates/musicbrainz_rs_nova
-[MusicBrainz]: https://staticbrainz.org/MB/header-logo-791fb3f.svg
+[MusicBrainz]: https://static.metabrainz.org/MB/header-logo-1f7dc2a.svg
 
 **MusicBrainz rust is a utility crate for the the [MusicBrainz API](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2).**
 
@@ -28,19 +28,19 @@ You can choose to use either the default async client or a blocking one.
 **async client:**
 
 ```toml
-musicbrainz_rs_nova = "0.7.0"
+musicbrainz_rs_nova = "0.8.0"
 ```
 
 **blocking client:**
 
 ```toml
-musicbrainz_rs_nova = { version = "0.7.0", default-features = false, features = ["blocking"] }
+musicbrainz_rs_nova = { version = "0.8.0", default-features = false, features = ["blocking"] }
 ```
 
 **If it's a migration from musicbrainz_rs:**
 
 ```toml
-musicbrainz_rs = {version = "0.7.0", package = "musicbrainz_rs_nova"}
+musicbrainz_rs = {version = "0.8.0", package = "musicbrainz_rs_nova"}
 ```
 
 ## Features
@@ -248,6 +248,7 @@ Here is the list of supported feature values. The default features are: `async`,
 - `async`: use an async client
 - `rate_limit`: add a rate limiter for the requests. Require `async`
 - `rustls`: Use rustls instead of the platform's tls
+- `legacy_serialize`: Use an old version of the serializer for compatibility with musicbrainz_rs and musicbrainz_rs < 0.8.0
 
 ## MSRV
 
@@ -255,7 +256,7 @@ The Minimum Supported Rust Version for the crate is `1.70.0`. Any bump to the MS
 
 ## Contributing
 
-All contributions are welcome, if find a bug or have a feature request don't hesitate to open an issue! You can check the documentation folder for more information if needed
+All contributions are welcome, if find a bug or have a feature request don't hesitate to open an issue! You can check the [documentation](https://github.com/RustyNova016/musicbrainz_rs_nova/tree/main/documentation) folder for more information if needed
 
 ## Credits
 

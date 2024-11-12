@@ -2,6 +2,47 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.8.0](https://github.com/RustyNova/musicbrainz_rs_nova/compare/195a6cd51b7f702a4936da578483e5f31fef5bba..0.8.0) - 2024-10-07
+#### Bug Fixes
+- **(cdstub)** Make Barcode field optional - ([cefceb2](https://github.com/RustyNova/musicbrainz_rs_nova/commit/cefceb2f90cc737854520c3636de289a8a94a20c)) - Jan Holthuis
+- **(discid)** Fix serialization for `Disc` and `Discid` - ([286e7f0](https://github.com/RustyNova/musicbrainz_rs_nova/commit/286e7f0b4979d624dd71a3f91a958869ac354a7e)) - Jan Holthuis
+- **(entity)** Fix serialization of `BrowseResult` type - ([1ed0497](https://github.com/RustyNova/musicbrainz_rs_nova/commit/1ed04976347358108e0f5fd85aa11c53ca918b66)) - Jan Holthuis
+- **(event)** Make `time` field optional - ([a89bb6b](https://github.com/RustyNova/musicbrainz_rs_nova/commit/a89bb6bdb57c398918f75d7b7b4e2a8d817b1aab)) - Jan Holthuis
+- **(genre)** Make `count` field optional - ([ab94cb5](https://github.com/RustyNova/musicbrainz_rs_nova/commit/ab94cb56e85ee165a1dcc1c6a55d0652aaf882f4)) - Jan Holthuis
+- **(place)** Fix (de-)serialization of string coordinates - ([96f207f](https://github.com/RustyNova/musicbrainz_rs_nova/commit/96f207f59d7105bdc0a6ac59797b0123f5bcc202)) - Jan Holthuis
+- **(relations)** Use correct case for `RelationContent` - ([6128b64](https://github.com/RustyNova/musicbrainz_rs_nova/commit/6128b6459f637a530b8aece20f5a4e9d34b32fdb)) - Jan Holthuis
+- **(search)** Fix serialization of `SearchResult` type - ([fd1433d](https://github.com/RustyNova/musicbrainz_rs_nova/commit/fd1433d034b9c51d3c16fb7322562317f80f86c4)) - Jan Holthuis
+- **(tag)** Make `count` field optional - ([adf7e8e](https://github.com/RustyNova/musicbrainz_rs_nova/commit/adf7e8e70161595439de1a2cd6671abe52334b6d)) - Jan Holthuis
+- **(work)** Fix serialization of `MusicalKey` - ([2b8d84f](https://github.com/RustyNova/musicbrainz_rs_nova/commit/2b8d84f648c3b7b024a5171898599edf7aa7e1bc)) - Jan Holthuis
+- musicbrainz logo in readme - ([af18ea0](https://github.com/RustyNova/musicbrainz_rs_nova/commit/af18ea0baa0dfe2f8fefb918f44a01c84aa2d71e)) - [@RustyNova](https://github.com/RustyNova)
+- add track offset to media - ([e62d78c](https://github.com/RustyNova/musicbrainz_rs_nova/commit/e62d78c057285cc88a7beb445508e519cc59fc36)) - [@RustyNova](https://github.com/RustyNova)
+- Added artist credits to tracks - ([c547cc1](https://github.com/RustyNova/musicbrainz_rs_nova/commit/c547cc11a125ac9925a9e36cf8443c52d43e4202)) - [@RustyNova](https://github.com/RustyNova)
+- Set track's recording as optional as it can be undefined - ([8845408](https://github.com/RustyNova/musicbrainz_rs_nova/commit/8845408e936d5d19b53b3e03fe39956a3e3e250e)) - [@RustyNova](https://github.com/RustyNova)
+- missing media inc querry - ([378255b](https://github.com/RustyNova/musicbrainz_rs_nova/commit/378255bfdde6a74f5ae49a4a85c720ac048440f2)) - [@RustyNova](https://github.com/RustyNova)
+- Update once_cell for new minimum requirements - ([b81df71](https://github.com/RustyNova/musicbrainz_rs_nova/commit/b81df7199161ea0ea5df3acc9be5eca1e6052625)) - [@RustyNova](https://github.com/RustyNova)
+- Mirror Serialization - ([195a6cd](https://github.com/RustyNova/musicbrainz_rs_nova/commit/195a6cd51b7f702a4936da578483e5f31fef5bba)) - [@RustyNova](https://github.com/RustyNova)
+#### Continuous Integration
+- Add minimum crate version check - ([22dd8d7](https://github.com/RustyNova/musicbrainz_rs_nova/commit/22dd8d71d9b9c0b1e43542f5a510946b69298105)) - [@RustyNova](https://github.com/RustyNova)
+#### Documentation
+- documentation additions - ([6c18b0b](https://github.com/RustyNova/musicbrainz_rs_nova/commit/6c18b0be190123e9d9dd33d5e1a3e9a5d149f03c)) - [@RustyNova](https://github.com/RustyNova)
+- Added contribution documentation - ([5b894cc](https://github.com/RustyNova/musicbrainz_rs_nova/commit/5b894cce313650dbe2f57969dd74ec594e8c9e9e)) - [@RustyNova](https://github.com/RustyNova)
+#### Features
+- **(cdstub)** Add missing disambiguation field for `CDStub` - ([c5974c8](https://github.com/RustyNova/musicbrainz_rs_nova/commit/c5974c8b9453832ca28061529a704541bc1e3971)) - Jan Holthuis
+- **(genre)** Add missing optional fields - ([d7b0f91](https://github.com/RustyNova/musicbrainz_rs_nova/commit/d7b0f91387d3c6b9270d99d93bc1c14b6a10009c)) - Jan Holthuis
+- **(recording)** Add support for `first-release-date` field - ([c228ef3](https://github.com/RustyNova/musicbrainz_rs_nova/commit/c228ef3ee1671615e70475301ffdc1b6b38a46c3)) - Jan Holthuis
+- **(release)** Add helpers to get script/language as name/code strings - ([e1290d3](https://github.com/RustyNova/musicbrainz_rs_nova/commit/e1290d31cc5a4e56d2e4427a14cbfb4136a05e53)) - Jan Holthuis
+- **(release)** Add support for `asin` field - ([c18566c](https://github.com/RustyNova/musicbrainz_rs_nova/commit/c18566ca9bc8b189afd7a20aa22ce6c3a7723f49)) - Jan Holthuis
+- **(release)** Add support for `text-representation` field - ([e9fb639](https://github.com/RustyNova/musicbrainz_rs_nova/commit/e9fb6390aa2834237afa21d29168f381aa09cb34)) - Jan Holthuis
+- **(search)** Implement `Searchable` for `Place`/`Tag`/`Url` - ([4655b9b](https://github.com/RustyNova/musicbrainz_rs_nova/commit/4655b9b1c1c778552ce3cbb5962a4c27e0bb55b6)) - Jan Holthuis
+- **(tag)** Add missing `score` field - ([224bbe5](https://github.com/RustyNova/musicbrainz_rs_nova/commit/224bbe5c1f63dabfd39d8c872ae151d509dd1e8d)) - Jan Holthuis
+#### Miscellaneous Chores
+- add legacy_serialize to readme - ([2daa198](https://github.com/RustyNova/musicbrainz_rs_nova/commit/2daa198b3fccbda9c123f1bc342f3264acc08d2f)) - [@RustyNova](https://github.com/RustyNova)
+- version bump - ([4787002](https://github.com/RustyNova/musicbrainz_rs_nova/commit/4787002c065b1c94a71c206bcf658171e943e0e8)) - [@RustyNova](https://github.com/RustyNova)
+- formating - ([fd0d26d](https://github.com/RustyNova/musicbrainz_rs_nova/commit/fd0d26dc15bf8b243cfd7c7d5d4aebd2e1ffa0bd)) - [@RustyNova](https://github.com/RustyNova)
+- formating - ([ce9a3de](https://github.com/RustyNova/musicbrainz_rs_nova/commit/ce9a3de84315537a2b6c862f4ee814734fb75f64)) - [@RustyNova](https://github.com/RustyNova)
+
+- - -
+
 ## [0.7.0](https://github.com/RustyNova/musicbrainz_rs_nova/compare/64668e301b4782f885091b561e90cd6a4c9f3418..0.7.0) - 2024-09-04
 #### Build system
 - **(deps)** bump softprops/action-gh-release from 1 to 2 - ([8a8903c](https://github.com/RustyNova/musicbrainz_rs_nova/commit/8a8903c5be7728ede59d126bf78b41953c2f8bcc)) - dependabot[bot]
