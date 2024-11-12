@@ -212,8 +212,8 @@ fn main() {
 
 ### Custom user agent
 
-You can set your application user-agent as recommended in the
-[musicbrainz documentation](https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting#User-Agent) :
+By default, the user agent will be set to `musicbrainz_rs_nova/<version>`.
+To comply with [MB's API rules](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification), you should set this to a custom string that identifies your application:
 
 ```rust
 use musicbrainz_rs_nova::entity::artist::Artist;
@@ -232,7 +232,7 @@ fn main() {
 
 ### Rate limit
 
-By default, a rate limiter of 1req/sec is implemented according to MB's policy. This allow to fearlessly send heaps of requests without worrying about DDOSing MusicBrainz. This feature is only available bundled with the `async` feature, as it require an async runtime. But this isn't an issue for `blocking` users, as the api is a bit lenient, and calling requests in a loop rarely achieve 1req/sec
+By default, a rate limiter of 1req/sec is implemented according to [MB's policy](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification). This allows to fearlessly send heaps of requests without worrying about DOS'ing MusicBrainz. This feature is only available bundled with the `async` feature, as it require an async runtime. But this isn't an issue for `blocking` users, as the API is a bit lenient, and calling requests in a loop rarely achieve 1req/sec
 
 ## Examples
 
