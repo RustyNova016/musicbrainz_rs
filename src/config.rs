@@ -11,6 +11,7 @@ use reqwest::blocking::{Client, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use reqwest::{Client, RequestBuilder, Response};
 
+const DEFAULT_USER_AGENT: &str = concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));
 pub(crate) const BASE_URL: &str = "http://musicbrainz.org/ws/2";
 pub(crate) const BASE_COVERART_URL: &str = "http://coverartarchive.org";
 pub(crate) const FMT_JSON: &str = "?fmt=json";
@@ -91,7 +92,7 @@ fn init_http_client() -> MusicBrainzClient {
     let mut headers = header::HeaderMap::new();
     headers.insert(
         header::USER_AGENT,
-        header::HeaderValue::from_static("musicbrainz_rs default"),
+        header::HeaderValue::from_static(DEFAULT_USER_AGENT),
     );
 
     let client = Client::builder()
