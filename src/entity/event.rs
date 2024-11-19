@@ -6,6 +6,7 @@ use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use chrono::NaiveDate;
@@ -180,22 +181,12 @@ Event,
 
 impl_includes!(
     Event,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_place_relations,
-        Include::Relationship(Relationship::Place)
-    ),
-    (
-        with_series_relations,
-        Include::Relationship(Relationship::Series)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_ratings, Include::Subquery(Subquery::Rating)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Event);

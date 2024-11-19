@@ -4,6 +4,7 @@ use crate::entity::genre::Genre;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use lucene_query_builder::QueryBuilder;
@@ -107,9 +108,11 @@ impl_browse!(Instrument, (by_collection, BrowseBy::Collection));
 
 impl_includes!(
     Instrument,
-    (with_url_relations, Include::Relationship(Relationship::Url)),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Instrument);

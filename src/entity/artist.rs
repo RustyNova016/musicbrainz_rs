@@ -11,6 +11,7 @@ use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::work::Work;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};
@@ -232,33 +233,11 @@ impl_includes!(
     ),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_works, Include::Subquery(Subquery::Works)),
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_event_relations,
-        Include::Relationship(Relationship::Event)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (
-        with_work_relations,
-        Include::Relationship(Relationship::Work)
-    ),
-    (
-        with_recording_relations,
-        Include::Relationship(Relationship::Recording)
-    ),
-    (
-        with_release_relations,
-        Include::Relationship(Relationship::Release)
-    ),
-    (
-        with_series_relations,
-        Include::Relationship(Relationship::Series)
-    ),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_rating, Include::Subquery(Subquery::Rating)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Artist);
