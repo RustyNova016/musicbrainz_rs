@@ -6,6 +6,7 @@ use crate::entity::relations::Relation;
 use crate::entity::release::Release;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use lucene_query_builder::QueryBuilder;
@@ -140,23 +141,6 @@ Label,
 
 impl_includes!(
     Label,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_label_relations,
-        Include::Relationship(Relationship::Label)
-    ),
-    (
-        with_recording_relations,
-        Include::Relationship(Relationship::Recording)
-    ),
-    (
-        with_release_relations,
-        Include::Relationship(Relationship::Release)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
     (with_releases, Include::Subquery(Subquery::Releases)),
     (with_medias, Include::Subquery(Subquery::Media)),
     (with_tags, Include::Subquery(Subquery::Tags)),
@@ -165,3 +149,6 @@ impl_includes!(
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Label);

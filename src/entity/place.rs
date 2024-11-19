@@ -6,6 +6,7 @@ use crate::entity::lifespan::LifeSpan;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 use std::borrow::Cow;
 use std::fmt;
@@ -155,20 +156,11 @@ Place,
 
 impl_includes!(
     Place,
-    (
-        with_event_relations,
-        Include::Relationship(Relationship::Event)
-    ),
-    (
-        with_recording_relations,
-        Include::Relationship(Relationship::Recording)
-    ),
-    (
-        with_release_relations,
-        Include::Relationship(Relationship::Release)
-    ),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Place);

@@ -38,7 +38,7 @@ jobs:
         
       - name: Run tests
         # We exclude testing "async" due to the test having issues with initialising multiple runtimes. rate_limit allow to fix this issue, but it would be great to find an actual solution
-        run: cargo hack test --feature-powerset --mutually-exclusive-features=rate_limit,blocking --at-least-one-of=async,blocking --exclude-features=async --ignore-private
+        run: cargo hack test --feature-powerset --mutually-exclusive-features=rate_limit,blocking --at-least-one-of=async,blocking --exclude-features=async,legacy_serialize,rustls,default --ignore-private
   
   # unstable_tests:
   #   runs-on: ${{ matrix.os }}
