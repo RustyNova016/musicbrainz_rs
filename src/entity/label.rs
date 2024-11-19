@@ -90,6 +90,7 @@ pub struct LabelSearchQuery {
     pub label_type: Option<LabelType>,
 }
 
+/// The label information of the release
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 #[cfg_attr(
     feature = "legacy_serialize",
@@ -97,7 +98,10 @@ pub struct LabelSearchQuery {
 )]
 #[cfg_attr(not(feature = "legacy_serialize"), serde(rename_all = "kebab-case"))]
 pub struct LabelInfo {
+    /// The catalog number of the release
     pub catalog_number: Option<String>,
+    /// The label of the release. Note: It is possible to insert a catalog number without setting a label.
+    /// So the option is not safe to unwrap even when fetching all the relations
     pub label: Option<Label>,
 }
 
