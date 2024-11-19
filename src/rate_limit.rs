@@ -32,3 +32,27 @@ pub async fn wait_for_mb_ratelimit() {
 
     rate_limiter.until_ready().await;
 }
+
+#[cfg(test)]
+mod tests {
+    use futures::stream;
+    use futures::StreamExt;
+
+    use crate::entity::recording::Recording;
+    use crate::Fetch;
+
+    #[tokio::test]
+    #[serial_test::serial]
+    async fn should_not_hit_ratelimit() {
+        stream::iter(0..30)
+            .map(|_| async move {
+                Recording::fetch()
+                    .id("5fed738b-1e5c-4a1b-9f66-b3fd15dbc8ef")
+                    .execute()
+                    .await
+            })
+            .buffer_unordered(20)
+            .collect::<Vec<_>>()
+            .await;
+    }
+}
