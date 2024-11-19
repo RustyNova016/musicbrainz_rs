@@ -2052,6 +2052,10 @@ impl_includes!(
         Include::Relationship(Relationship::WorkLevel)
     ),
     (
+        with_release_group_level_relations,
+        Include::Relationship(Relationship::ReleaseGroupLevel)
+    ),
+    (
         with_recording_level_relations,
         Include::Relationship(Relationship::RecordingLevel)
     ),

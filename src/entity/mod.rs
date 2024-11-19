@@ -328,12 +328,14 @@ pub(crate) enum Relationship {
     Url,
     Work,
     RecordingLevel,
+    ReleaseGroupLevel,
     WorkLevel,
 }
 
 impl Relationship {
     pub(crate) fn as_str(&self) -> &'static str {
         match self {
+            // Main entity relations
             Relationship::Area => "area-rels",
             Relationship::Artist => "artist-rels",
             Relationship::Event => "event-rels",
@@ -346,7 +348,10 @@ impl Relationship {
             Relationship::Series => "series-rels",
             Relationship::Url => "url-rels",
             Relationship::Work => "work-rels",
+
+            // Special relations
             Relationship::RecordingLevel => "recording-level-rels",
+            Relationship::ReleaseGroupLevel => "release-group-level-rels",
             Relationship::WorkLevel => "work-level-rels",
         }
     }
