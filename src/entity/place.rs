@@ -6,6 +6,7 @@ use crate::entity::lifespan::LifeSpan;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 use std::borrow::Cow;
@@ -153,6 +154,17 @@ Place,
    (by_area, BrowseBy::Area),
    (by_collection, BrowseBy::Collection)
 }
+
+impl_browse_includes!(
+    Place,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
+);
 
 impl_includes!(
     Place,

@@ -8,6 +8,7 @@ use crate::entity::release::Release;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
 use crate::entity::{Include, Relationship, Subquery};
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
@@ -171,6 +172,18 @@ impl_includes!(
         Include::Relationship(Relationship::WorkLevel)
     ),
     (with_annotations, Include::Subquery(Subquery::Annotations))
+);
+
+impl_browse_includes!(
+    Recording,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_artist_credits, Include::Other("artist-credits")),
+    (with_isrcs, Include::Other("isrcs"))
 );
 
 // Relationships includes

@@ -5,6 +5,7 @@ use crate::entity::lifespan::LifeSpan;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 
 use chrono::NaiveDate;
@@ -128,8 +129,6 @@ pub struct AreaSearchQuery {
     area_type: String,
 }
 
-impl_browse!(Area, (by_collection, BrowseBy::Collection));
-
 // Normal includes
 impl_includes!(
     Area,
@@ -141,3 +140,16 @@ impl_includes!(
 
 // Relationships includes
 impl_relations_includes!(Area);
+
+impl_browse!(Area, (by_collection, BrowseBy::Collection));
+
+impl_browse_includes!(
+    Area,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
+);
