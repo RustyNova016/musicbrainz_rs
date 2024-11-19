@@ -8,6 +8,7 @@ use crate::entity::relations::Relation;
 use crate::entity::release::Release;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};
@@ -166,15 +167,6 @@ ReleaseGroup,
 
 impl_includes!(
     ReleaseGroup,
-    (
-        with_release_group_relations,
-        Include::Relationship(Relationship::ReleaseGroup)
-    ),
-    (
-        with_series_relations,
-        Include::Relationship(Relationship::Series)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
     (with_artists, Include::Subquery(Subquery::Artists)),
     (with_releases, Include::Subquery(Subquery::Releases)),
     (with_medias, Include::Subquery(Subquery::Media)),
@@ -184,3 +176,6 @@ impl_includes!(
     (with_ratings, Include::Subquery(Subquery::Rating)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(ReleaseGroup);

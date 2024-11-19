@@ -56,6 +56,8 @@ pub mod entity;
 /// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
 
+pub mod query;
+
 /// Crate errors;
 pub mod error;
 

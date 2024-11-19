@@ -14,6 +14,7 @@ use crate::entity::relations::Relation;
 use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 
 /// A MusicBrainz release represents the unique release (i.e. issuing) of a product on a specific
 /// date with specific release information such as the country, label, barcode and packaging.
@@ -2039,15 +2040,6 @@ impl_includes!(
     (with_artists, Include::Subquery(Subquery::Artists)),
     (with_labels, Include::Subquery(Subquery::Labels)),
     (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_work_relations,
-        Include::Relationship(Relationship::Work)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (
         with_work_level_relations,
         Include::Relationship(Relationship::WorkLevel)
     ),
@@ -2074,3 +2066,6 @@ impl_includes!(
         Include::Subquery(Subquery::ArtistCredits)
     )
 );
+
+// Relationships includes
+impl_relations_includes!(Release);

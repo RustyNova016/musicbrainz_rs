@@ -27,22 +27,21 @@ use serde::Serializer;
 
 macro_rules! impl_includes {
     ($ty: ty, $(($args:ident, $inc: expr)),+) => {
-        use crate::{FetchQuery, BrowseQuery, SearchQuery};
-        impl FetchQuery<$ty> {
+        impl crate::FetchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.0.include = self.0.include($inc).include.to_owned();
                    self
                })*
             }
 
-        impl BrowseQuery<$ty> {
+        impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.inner.include = self.inner.include($inc).include.to_owned();
                    self
                })*
             }
 
-        impl SearchQuery<$ty> {
+        impl crate::SearchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.inner.include = self.inner.include($inc).include.to_owned();
                    self
@@ -53,7 +52,7 @@ macro_rules! impl_includes {
 
 macro_rules! impl_browse {
     ($ty: ty, $(($args:ident, $browse: expr)),+) => {
-        impl BrowseQuery<$ty> {
+        impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self, id: &str) -> &mut Self  {
                     use std::fmt::Write as _;
                     self.inner.path.push_str(crate::config::FMT_JSON);
@@ -318,6 +317,7 @@ pub(crate) enum Relationship {
     Area,
     Artist,
     Event,
+    Genre,
     Instrument,
     Label,
     Place,
@@ -339,6 +339,7 @@ impl Relationship {
             Relationship::Area => "area-rels",
             Relationship::Artist => "artist-rels",
             Relationship::Event => "event-rels",
+            Relationship::Genre => "genre-rels",
             Relationship::Instrument => "instrument-rels",
             Relationship::Label => "label-rels",
             Relationship::Place => "place-rels",

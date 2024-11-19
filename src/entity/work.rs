@@ -5,6 +5,7 @@ use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use lucene_query_builder::QueryBuilder;
@@ -674,26 +675,12 @@ Work,
 
 impl_includes!(
     Work,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_label_relations,
-        Include::Relationship(Relationship::Label)
-    ),
-    (
-        with_recording_relations,
-        Include::Relationship(Relationship::Recording)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (
-        with_work_relations,
-        Include::Relationship(Relationship::Work)
-    ),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_ratings, Include::Subquery(Subquery::Rating)),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Work);
