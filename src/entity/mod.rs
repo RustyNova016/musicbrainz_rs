@@ -34,13 +34,6 @@ macro_rules! impl_includes {
                })*
             }
 
-        impl crate::BrowseQuery<$ty> {
-               $(pub fn $args(&mut self) -> &mut Self  {
-                     self.inner.include = self.inner.include($inc).include.to_owned();
-                   self
-               })*
-            }
-
         impl crate::SearchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.inner.include = self.inner.include($inc).include.to_owned();
@@ -239,11 +232,17 @@ impl Path<'_> for Discid {
     }
 }
 
+//TODO: This whole `Include` thing is an overly complicated way to get a string. Would be nice to remove it
+
+/// A query parameter that allows adding requested data to the query
 #[derive(Debug, PartialEq, Clone)]
 #[allow(unused)]
 pub(crate) enum Include {
     Subquery(Subquery),
     Relationship(Relationship),
+
+    // Temporary replacement for string passing
+    Other(&'static str),
 }
 
 impl Include {
@@ -251,6 +250,7 @@ impl Include {
         match self {
             Include::Subquery(i) => i.as_str(),
             Include::Relationship(i) => i.as_str(),
+            Include::Other(val) => val,
         }
     }
 }

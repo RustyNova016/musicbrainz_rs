@@ -6,6 +6,7 @@ use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
@@ -171,14 +172,6 @@ pub struct EventSearchQuery {
     pub event_type: String,
 }
 
-impl_browse! {
-Event,
-   (by_area, BrowseBy::Area),
-   (by_collection, BrowseBy::Collection),
-   (by_artist, BrowseBy::Artist),
-   (by_place, BrowseBy::Place)
-}
-
 impl_includes!(
     Event,
     (with_tags, Include::Subquery(Subquery::Tags)),
@@ -190,3 +183,22 @@ impl_includes!(
 
 // Relationships includes
 impl_relations_includes!(Event);
+
+impl_browse! {
+Event,
+   (by_area, BrowseBy::Area),
+   (by_collection, BrowseBy::Collection),
+   (by_artist, BrowseBy::Artist),
+   (by_place, BrowseBy::Place)
+}
+
+impl_browse_includes!(
+    Event,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
+);

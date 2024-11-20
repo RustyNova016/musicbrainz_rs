@@ -14,6 +14,7 @@ use crate::entity::relations::Relation;
 use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 
 /// A MusicBrainz release represents the unique release (i.e. issuing) of a product on a specific
@@ -2034,6 +2035,23 @@ Release,
    (by_release_group, BrowseBy::ReleaseGroup),
    (by_collection, BrowseBy::Collection)
 }
+
+impl_browse_includes!(
+    Release,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_artist_credits, Include::Other("artist-credits")),
+    (with_labels, Include::Other("labels")),
+    (with_recordings, Include::Other("recordings")),
+    (with_release_groups, Include::Other("release-groups")),
+    (with_medias, Include::Other("media")),
+    (with_discids, Include::Other("discids")),
+    (with_isrcs, Include::Other("isrcs"))
+);
 
 impl_includes!(
     Release,

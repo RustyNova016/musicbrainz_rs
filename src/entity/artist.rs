@@ -11,6 +11,7 @@ use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::work::Work;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
 use crate::query::relations::impl_relations_includes;
 use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
@@ -208,16 +209,6 @@ pub struct ArtistSearchQuery {
     pub artist_type: Option<ArtistType>,
 }
 
-impl_browse! {
-Artist,
-   (by_area, BrowseBy::Area),
-   (by_collection, BrowseBy::Collection),
-   (by_recording, BrowseBy::Recording),
-   (by_release, BrowseBy::Release),
-   (by_release_group, BrowseBy::ReleaseGroup),
-   (by_work, BrowseBy::Work)
-}
-
 impl_includes!(
     Artist,
     (with_recordings, Include::Subquery(Subquery::Recordings)),
@@ -241,3 +232,24 @@ impl_includes!(
 
 // Relationships includes
 impl_relations_includes!(Artist);
+
+impl_browse! {
+Artist,
+   (by_area, BrowseBy::Area),
+   (by_collection, BrowseBy::Collection),
+   (by_recording, BrowseBy::Recording),
+   (by_release, BrowseBy::Release),
+   (by_release_group, BrowseBy::ReleaseGroup),
+   (by_work, BrowseBy::Work)
+}
+
+impl_browse_includes!(
+    Artist,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
+);
