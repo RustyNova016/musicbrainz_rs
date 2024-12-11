@@ -36,7 +36,7 @@ where
             {
                 struct FieldVisitor<T>(PhantomData<T>);
 
-                impl<'de, T> Visitor<'de> for FieldVisitor<T>
+                impl<T> Visitor<'_> for FieldVisitor<T>
                 where
                     T: Searchable,
                 {
