@@ -4,6 +4,8 @@ use crate::entity::genre::Genre;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use lucene_query_builder::QueryBuilder;
@@ -111,18 +113,24 @@ pub struct SeriesSearchQuery {
 
 impl_browse!(Series, (by_collection, BrowseBy::Collection));
 
+impl_browse_includes!(
+    Series,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
+);
+
 impl_includes!(
     Series,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_release_group_relations,
-        Include::Relationship(Relationship::ReleaseGroup)
-    ),
     (with_tags, Include::Subquery(Subquery::Tags)),
     (with_aliases, Include::Subquery(Subquery::Aliases)),
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+// Relationships includes
+impl_relations_includes!(Series);

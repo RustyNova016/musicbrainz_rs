@@ -50,11 +50,18 @@ use crate::config::*;
 
 /// Configure the HTTP client global state
 pub mod config;
+
+/// The deserializers for the specific Musicbrainz responces
 mod deserialization;
+
 /// All Musicbrainz entities
 pub mod entity;
+
 /// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
+
+/// The structures to create queries
+pub mod query;
 
 /// Crate errors;
 pub mod error;
@@ -531,11 +538,13 @@ where
 }
 
 impl<T> Query<T> {
+    /// Add an include parameter to the query
     fn include(&mut self, include: Include) -> &mut Self {
         self.include.push(include);
         self
     }
 
+    /// Add the include parameters to the path
     fn include_to_path(&mut self) {
         if !self.include.is_empty() {
             self.path.push_str(PARAM_INC);

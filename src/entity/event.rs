@@ -6,6 +6,8 @@ use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use chrono::NaiveDate;
@@ -170,6 +172,18 @@ pub struct EventSearchQuery {
     pub event_type: String,
 }
 
+impl_includes!(
+    Event,
+    (with_tags, Include::Subquery(Subquery::Tags)),
+    (with_aliases, Include::Subquery(Subquery::Aliases)),
+    (with_ratings, Include::Subquery(Subquery::Rating)),
+    (with_genres, Include::Subquery(Subquery::Genres)),
+    (with_annotations, Include::Subquery(Subquery::Annotations))
+);
+
+// Relationships includes
+impl_relations_includes!(Event);
+
 impl_browse! {
 Event,
    (by_area, BrowseBy::Area),
@@ -178,24 +192,13 @@ Event,
    (by_place, BrowseBy::Place)
 }
 
-impl_includes!(
+impl_browse_includes!(
     Event,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_place_relations,
-        Include::Relationship(Relationship::Place)
-    ),
-    (
-        with_series_relations,
-        Include::Relationship(Relationship::Series)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (with_tags, Include::Subquery(Subquery::Tags)),
-    (with_aliases, Include::Subquery(Subquery::Aliases)),
-    (with_ratings, Include::Subquery(Subquery::Rating)),
-    (with_genres, Include::Subquery(Subquery::Genres)),
-    (with_annotations, Include::Subquery(Subquery::Annotations))
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_aliases, Include::Other("aliases"))
 );

@@ -8,6 +8,8 @@ use crate::entity::release::Release;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
 use crate::entity::{Include, Relationship, Subquery};
+use crate::query::browse::impl_browse_includes;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 use chrono::NaiveDate;
@@ -165,14 +167,24 @@ impl_includes!(
     (with_genres, Include::Subquery(Subquery::Genres)),
     (with_ratings, Include::Subquery(Subquery::Rating)),
     (with_isrcs, Include::Subquery(Subquery::ISRCs)),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (
-        with_work_relations,
-        Include::Relationship(Relationship::Work)
-    ),
     (
         with_work_level_relations,
         Include::Relationship(Relationship::WorkLevel)
     ),
     (with_annotations, Include::Subquery(Subquery::Annotations))
 );
+
+impl_browse_includes!(
+    Recording,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_artist_credits, Include::Other("artist-credits")),
+    (with_isrcs, Include::Other("isrcs"))
+);
+
+// Relationships includes
+impl_relations_includes!(Recording);

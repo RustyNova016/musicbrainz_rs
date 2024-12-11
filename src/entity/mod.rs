@@ -27,22 +27,14 @@ use serde::Serializer;
 
 macro_rules! impl_includes {
     ($ty: ty, $(($args:ident, $inc: expr)),+) => {
-        use crate::{FetchQuery, BrowseQuery, SearchQuery};
-        impl FetchQuery<$ty> {
+        impl crate::FetchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.0.include = self.0.include($inc).include.to_owned();
                    self
                })*
             }
 
-        impl BrowseQuery<$ty> {
-               $(pub fn $args(&mut self) -> &mut Self  {
-                     self.inner.include = self.inner.include($inc).include.to_owned();
-                   self
-               })*
-            }
-
-        impl SearchQuery<$ty> {
+        impl crate::SearchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.inner.include = self.inner.include($inc).include.to_owned();
                    self
@@ -53,7 +45,7 @@ macro_rules! impl_includes {
 
 macro_rules! impl_browse {
     ($ty: ty, $(($args:ident, $browse: expr)),+) => {
-        impl BrowseQuery<$ty> {
+        impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self, id: &str) -> &mut Self  {
                     use std::fmt::Write as _;
                     self.inner.path.push_str(crate::config::FMT_JSON);
@@ -240,11 +232,17 @@ impl Path<'_> for Discid {
     }
 }
 
+//TODO: This whole `Include` thing is an overly complicated way to get a string. Would be nice to remove it
+
+/// A query parameter that allows adding requested data to the query
 #[derive(Debug, PartialEq, Clone)]
 #[allow(unused)]
 pub(crate) enum Include {
     Subquery(Subquery),
     Relationship(Relationship),
+
+    // Temporary replacement for string passing
+    Other(&'static str),
 }
 
 impl Include {
@@ -252,6 +250,7 @@ impl Include {
         match self {
             Include::Subquery(i) => i.as_str(),
             Include::Relationship(i) => i.as_str(),
+            Include::Other(val) => val,
         }
     }
 }
@@ -318,6 +317,7 @@ pub(crate) enum Relationship {
     Area,
     Artist,
     Event,
+    Genre,
     Instrument,
     Label,
     Place,
@@ -328,15 +328,18 @@ pub(crate) enum Relationship {
     Url,
     Work,
     RecordingLevel,
+    ReleaseGroupLevel,
     WorkLevel,
 }
 
 impl Relationship {
     pub(crate) fn as_str(&self) -> &'static str {
         match self {
+            // Main entity relations
             Relationship::Area => "area-rels",
             Relationship::Artist => "artist-rels",
             Relationship::Event => "event-rels",
+            Relationship::Genre => "genre-rels",
             Relationship::Instrument => "instrument-rels",
             Relationship::Label => "label-rels",
             Relationship::Place => "place-rels",
@@ -346,7 +349,10 @@ impl Relationship {
             Relationship::Series => "series-rels",
             Relationship::Url => "url-rels",
             Relationship::Work => "work-rels",
+
+            // Special relations
             Relationship::RecordingLevel => "recording-level-rels",
+            Relationship::ReleaseGroupLevel => "release-group-level-rels",
             Relationship::WorkLevel => "work-level-rels",
         }
     }

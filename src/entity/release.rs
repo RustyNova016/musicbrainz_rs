@@ -14,6 +14,8 @@ use crate::entity::relations::Relation;
 use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
+use crate::query::browse::impl_browse_includes;
+use crate::query::relations::impl_relations_includes;
 
 /// A MusicBrainz release represents the unique release (i.e. issuing) of a product on a specific
 /// date with specific release information such as the country, label, barcode and packaging.
@@ -2034,22 +2036,34 @@ Release,
    (by_collection, BrowseBy::Collection)
 }
 
+impl_browse_includes!(
+    Release,
+    // Common includes.
+    (with_annotation, Include::Other("annotation")),
+    (with_tags, Include::Other("tags")),
+    (with_user_tags, Include::Other("user-tags")),
+    (with_genres, Include::Other("genres")),
+    (with_user_genres, Include::Other("user-genres")),
+    (with_artist_credits, Include::Other("artist-credits")),
+    (with_labels, Include::Other("labels")),
+    (with_recordings, Include::Other("recordings")),
+    (with_release_groups, Include::Other("release-groups")),
+    (with_medias, Include::Other("media")),
+    (with_discids, Include::Other("discids")),
+    (with_isrcs, Include::Other("isrcs"))
+);
+
 impl_includes!(
     Release,
     (with_artists, Include::Subquery(Subquery::Artists)),
     (with_labels, Include::Subquery(Subquery::Labels)),
     (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (
-        with_work_relations,
-        Include::Relationship(Relationship::Work)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url)),
-    (
         with_work_level_relations,
         Include::Relationship(Relationship::WorkLevel)
+    ),
+    (
+        with_release_group_level_relations,
+        Include::Relationship(Relationship::ReleaseGroupLevel)
     ),
     (
         with_recording_level_relations,
@@ -2070,3 +2084,6 @@ impl_includes!(
         Include::Subquery(Subquery::ArtistCredits)
     )
 );
+
+// Relationships includes
+impl_relations_includes!(Release);

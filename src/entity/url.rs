@@ -1,5 +1,6 @@
 use super::{Include, Relationship};
 use crate::entity::tag::Tag;
+use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 /// A URL in MusicBrainz is a specific entity representing a regular internet Uniform Resource Locator.
@@ -16,11 +17,16 @@ pub struct Url {
     pub tags: Option<Vec<Tag>>,
 }
 
-impl_includes!(
-    Url,
-    (
-        with_artist_relations,
-        Include::Relationship(Relationship::Artist)
-    ),
-    (with_url_relations, Include::Relationship(Relationship::Url))
-);
+// Relationships includes
+impl_relations_includes!(Url);
+
+// impl_browse_includes!(
+//     Recording,
+//     // Common includes.
+//     (with_annotation, Include::Other("annotation")),
+//     (with_tags, Include::Other("tags")),
+//     (with_user_tags, Include::Other("user-tags")),
+//     (with_genres, Include::Other("genres")),
+//     (with_user_genres, Include::Other("user-genres")),
+//     (with_aliases, Include::Other("aliases"))
+// );

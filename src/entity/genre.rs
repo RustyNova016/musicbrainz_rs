@@ -15,3 +15,15 @@ pub struct Genre {
     pub name: String,
     pub disambiguation: Option<String>,
 }
+
+// TODO: Genre browsing
+// impl_browse_includes!(
+//     Recording,
+//     // Common includes.
+//     (with_annotation, Include::Other("annotation")),
+//     (with_tags, Include::Other("tags")),
+//     (with_user_tags, Include::Other("user-tags")),
+//     (with_genres, Include::Other("genres")),
+//     (with_user_genres, Include::Other("user-genres")),
+//     (with_aliases, Include::Other("aliases"))
+// );

@@ -11,6 +11,9 @@ use reqwest::blocking::{Client, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use reqwest::{Client, RequestBuilder, Response};
 
+#[cfg(feature = "rate_limit")]
+use crate::rate_limit::wait_for_mb_ratelimit;
+
 const DEFAULT_USER_AGENT: &str = concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));
 pub(crate) const BASE_URL: &str = "http://musicbrainz.org/ws/2";
 pub(crate) const BASE_COVERART_URL: &str = "http://coverartarchive.org";
@@ -70,8 +73,14 @@ impl MusicBrainzClient {
         let mut retries = *HTTP_RETRIES.0.lock().unwrap();
 
         #[cfg(feature = "rate_limit")]
-        super::rate_limit::wait_for_ratelimit().await;
+        wait_for_mb_ratelimit().await;
 
+        // Ignore warning if we are testing the rate limiter
+        #[cfg_attr(
+            all(feature = "rate_limit", test),
+            allow(clippy::never_loop),
+            allow(unused_assignments)
+        )]
         loop {
             let request = request.try_clone().unwrap();
             let response = request.send().await?;
@@ -81,6 +90,9 @@ impl MusicBrainzClient {
                 let duration = Duration::from_secs(retry_secs.parse::<u64>().unwrap() + 1);
                 let _ = Delay::new(duration).await;
                 retries -= 1;
+
+                #[cfg(all(feature = "rate_limit", test))]
+                panic!("Rate limit hit on rate limit feature!");
             } else {
                 break Ok(response);
             }
