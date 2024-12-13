@@ -27,7 +27,7 @@ musicbrainz_rs = "0.5.0"
 
 **blocking client:**
 ```toml
-musicbrainz_rs = { version = "0.5.0", features = ["blocking] }
+musicbrainz_rs = { version = "0.5.0", features = ["blocking"] }
 ```
 
 ## Features
