@@ -69,7 +69,7 @@ impl MusicBrainzClient {
         &self,
         request: RequestBuilder,
     ) -> Result<Response, Error> {
-        use wasm_timer::Delay;
+        use tokio::time::sleep;
         let mut retries = *HTTP_RETRIES.0.lock().unwrap();
 
         #[cfg(feature = "rate_limit")]
@@ -84,13 +84,18 @@ impl MusicBrainzClient {
         loop {
             let request = request.try_clone().unwrap();
             let response = request.send().await?;
+
+            // Let's check if we hit the rate limit
             if response.status().as_u16() == HTTP_RATELIMIT_CODE && retries > 0 {
+                // Oh no. Let's wait the timeout
                 let headers = response.headers();
                 let retry_secs = headers.get("retry-after").unwrap().to_str().unwrap();
                 let duration = Duration::from_secs(retry_secs.parse::<u64>().unwrap() + 1);
-                let _ = Delay::new(duration).await;
+                sleep(duration).await;
                 retries -= 1;
 
+                // Hard crash if the rate limit is hit while testing.
+                // It should be unacceptable to let the users hit it while we got a fancy system for it
                 #[cfg(all(feature = "rate_limit", test))]
                 panic!("Rate limit hit on rate limit feature!");
             } else {
