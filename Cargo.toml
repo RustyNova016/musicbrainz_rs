@@ -11,7 +11,7 @@ description = """
 MusicBrainz Rust is a utility crate for the
 MusicBrainz API.
 """
-rust-version = "1.70.0"
+rust-version = "1.71.1"
 
 [badges]
 travis-ci = { repository = "oknozor/musicbrainz_rs", branch = "master" }

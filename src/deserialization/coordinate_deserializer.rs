@@ -7,7 +7,7 @@ use std::fmt;
 
 struct CoordinateVisitor;
 
-impl<'de> Visitor<'de> for CoordinateVisitor {
+impl Visitor<'_> for CoordinateVisitor {
     type Value = Coordinate;
 
     fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
