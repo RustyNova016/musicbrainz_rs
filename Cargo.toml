@@ -26,6 +26,7 @@ lucene_query_builder = "^0.3.0"
 thiserror = "2.0.3"
 governor = { version = "0.8.0", optional = true }  
 tokio = { version = "1.38.0", optional = true , features = ["macros", "rt", "rt-multi-thread"] }
+regex = { version = "1.11.1", optional = true}
 
 [build-dependencies]
 glob = "0.3.1"
@@ -42,6 +43,7 @@ rustls = ["reqwest/rustls-tls"]
 blocking = ["reqwest/blocking"]
 rate_limit = ["governor", "async"]
 legacy_serialize = []
+extras = ["regex"]
 
 # Alternate default for development
 #default = ["reqwest/default-tls", "blocking"]
