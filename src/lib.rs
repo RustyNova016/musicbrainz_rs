@@ -70,6 +70,10 @@ pub mod query;
 /// Crate errors;
 pub mod error;
 
+/// Extra utilities that aren't strictly related to the API
+#[cfg(feature = "extras")]
+pub mod utils;
+
 use crate::entity::search::{SearchResult, Searchable};
 use client::MusicBrainzClient;
 use client::MUSICBRAINZ_CLIENT;
