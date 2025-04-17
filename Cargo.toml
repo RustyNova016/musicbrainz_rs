@@ -33,8 +33,9 @@ tracing = "0.1.41"
 glob = "0.3.1"
 
 [dev-dependencies]
-tokio = { version = "1.38.0", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.38.0", features = ["full"] }
 serial_test = "3.1.1"
+tokio-shared-rt = "0.1.0"
 futures = "0.3.31"
 
 [features]
