@@ -21,12 +21,15 @@ use musicbrainz_rs::entity::url::*;
 use musicbrainz_rs::entity::work::*;
 use musicbrainz_rs::prelude::*;
 
+use crate::async_tests::artist;
+use crate::test_framework::check_fetch_query;
+
 #[tokio::test]
 #[serial_test::serial]
 async fn should_get_artist_by_id() {
     let nirvana = Artist::fetch()
         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -79,59 +82,29 @@ async fn should_get_artist_relations_from_release() {
     let in_utero = Release::fetch()
         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
         .with_artist_relations()
-        .execute_with_client(&CLIENT)
+        .execute()
         .await
         .unwrap();
 
-    let relations = in_utero.relations.unwrap();
+    check_fetch_query(
+        "release/76df3287-6cda-33eb-8e9a-044b5e15ffdd?inc=artist-rels",
+        in_utero,
+        |artist| {
+            let relations = artist
+                .relations
+                .as_ref()
+                .expect("There should have artist relations");
 
-    assert_eq!(
-        relations,
-        [Relation {
-            end: None,
-            attributes: Some(vec![]),
-            content: RelationContent::Artist(Box::new(Artist {
-                id: "0944a9f5-65be-44b6-9e8e-33732fdfe923".to_string(),
-                name: "Dave McDonald".to_string(),
-                sort_name: "McDonald, Dave".to_string(),
-                disambiguation: "sound engineer for Portishead".to_string(),
-                artist_type: Some(Person),
-                gender: None,
-                area: None,
-                begin_area: None,
-                relations: None,
-                releases: None,
-                works: None,
-                release_groups: None,
-                recordings: None,
-                aliases: None,
-                tags: None,
-                genres: None,
-                rating: None,
-                country: None,
-                annotation: None,
-                life_span: None
-            })),
-            attribute_values: Some(HashMap::new()),
-            attribute_ids: Some(HashMap::new()),
-            target_type: Some("artist".to_string()),
-            target_credit: Some("".to_string()),
-            source_credit: Some("".to_string()),
-            ended: Some(false),
-            type_id: "87e922ba-872e-418a-9f41-0a63aa3c30cc".to_string(),
-            begin: None,
-            direction: "backward".to_string(),
-            relation_type: "engineer".to_string(),
-            ordering_key: None
-        }]
-    );
+            assert!(!relations.is_empty(), "No relations found")
+        },
+    ).await;
 }
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_recording_by_id() {
     let polly = Recording::fetch()
         .id("af40d6b8-58e8-4ca5-9db8-d4fca0b899e2")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await
         .unwrap();
 
@@ -147,7 +120,7 @@ async fn should_get_recording_by_id() {
 async fn should_get_release_group_by_id() {
     let in_utero = ReleaseGroup::fetch()
         .id("2a0981fb-9593-3019-864b-ce934d97a16e")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -177,7 +150,7 @@ async fn should_get_release_group_by_id() {
 async fn should_get_release() {
     let in_utero = Release::fetch()
         .id("18d4e9b4-9247-4b44-914a-8ddec3502103")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -216,7 +189,7 @@ async fn should_get_release() {
 async fn should_get_work_by_id() {
     let hotel_california = Work::fetch()
         .id("22457dc0-ecbf-38f5-9056-11c858530a50")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -275,7 +248,7 @@ async fn should_get_work_by_id() {
 async fn should_get_label_by_id() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -304,7 +277,7 @@ async fn should_get_label_by_id() {
 async fn should_get_area_by_id() {
     let aberdeen = Area::fetch()
         .id("a640b45c-c173-49b1-8030-973603e895b5")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -335,7 +308,7 @@ async fn should_get_area_by_id() {
 async fn should_get_event_by_id() {
     let dour_festival_1989 = Event::fetch()
         .id("73df2f48-383b-4930-bad3-05ba938be578")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -368,7 +341,7 @@ async fn should_get_event_by_id() {
 async fn should_get_instrument() {
     let mandoline = Instrument::fetch()
         .id("37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -393,7 +366,7 @@ async fn should_get_instrument() {
 async fn should_get_place() {
     let blue_note_record = Place::fetch()
         .id("327c29c6-da63-4dc9-a117-1917ee691ce4")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -442,7 +415,7 @@ async fn should_get_place() {
 async fn should_get_series() {
     let la_chanson_du_dimanche = Series::fetch()
         .id("814fb4d5-327f-4e37-8784-f8a707e5f97c")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
@@ -466,7 +439,7 @@ async fn should_get_series() {
 async fn should_get_url() {
     let svinkels_dot_com = Url::fetch()
         .id("9237f6da-fec6-4b8a-9d52-c7c18e0e2630")
-        .execute_with_client(&CLIENT)
+        .execute()
         .await;
 
     assert_eq!(
