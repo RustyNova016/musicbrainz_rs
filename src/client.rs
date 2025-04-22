@@ -6,12 +6,8 @@ use reqwest::header::InvalidHeaderValue;
 use serde::de::DeserializeOwned;
 
 #[cfg(feature = "blocking")]
-use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
-#[cfg(feature = "blocking")]
 use std::thread::sleep;
 
-#[cfg(feature = "async")]
-use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use tokio::time::sleep;
 
@@ -25,6 +21,9 @@ use governor::{
 use std::sync::Arc;
 
 use crate::entity::api::MusicbrainzResult;
+use crate::reqwester::RequestBuilder;
+use crate::reqwester::ReqwestClient;
+use crate::reqwester::Response;
 use crate::BASE_COVERART_URL;
 use crate::BASE_URL;
 use crate::DEFAULT_USER_AGENT;
