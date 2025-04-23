@@ -6,12 +6,8 @@ use reqwest::header::InvalidHeaderValue;
 use serde::de::DeserializeOwned;
 
 #[cfg(feature = "blocking")]
-use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
-#[cfg(feature = "blocking")]
 use std::thread::sleep;
 
-#[cfg(feature = "async")]
-use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
 #[cfg(feature = "async")]
 use tokio::time::sleep;
 
@@ -25,6 +21,9 @@ use governor::{
 use std::sync::Arc;
 
 use crate::entity::api::MusicbrainzResult;
+use crate::reqwester::RequestBuilder;
+use crate::reqwester::ReqwestClient;
+use crate::reqwester::Response;
 use crate::BASE_COVERART_URL;
 use crate::BASE_URL;
 use crate::DEFAULT_USER_AGENT;
@@ -34,9 +33,10 @@ pub static MUSICBRAINZ_CLIENT: Lazy<MusicBrainzClient> = Lazy::new(MusicBrainzCl
 
 #[derive(Debug, Clone)]
 pub struct MusicBrainzClient {
-    pub musicbrainz_url: String,
+    /// Domain of the api. Aka, `https://musicbrainz.org`
+    pub musicbrainz_domain: String,
     pub coverart_archive_url: String,
-    user_agent: String,
+    pub(crate) user_agent: String,
     pub max_retries: u32,
 
     pub(crate) reqwest_client: ReqwestClient,
@@ -88,6 +88,11 @@ impl MusicBrainzClient {
     #[cfg(feature = "rate_limit")]
     pub fn drop_ratelimit(&mut self) {
         self.rate_limit = None;
+    }
+
+    /// Return the reqwest client to allow custom queries
+    pub fn get_reqwest_client(&self) -> &ReqwestClient {
+        &self.reqwest_client
     }
 }
 
@@ -148,7 +153,12 @@ impl MusicBrainzClient {
             }
         }
 
-        Err(crate::Error::MaxRetriesExceeded())
+        Err(crate::Error::MaxRetriesExceeded)
+    }
+
+    /// The api root. For exemple `https://musicbrainz.org/ws/2`
+    pub fn api_root(&self) -> String {
+        format!("{}/ws/2", self.musicbrainz_domain)
     }
 }
 
@@ -171,7 +181,7 @@ impl Default for MusicBrainzClient {
             Quota::per_second(NonZeroU32::new(1).unwrap()).allow_burst(NonZeroU32::new(5).unwrap());
 
         Self {
-            musicbrainz_url: BASE_URL.to_string(),
+            musicbrainz_domain: BASE_URL.to_string(),
             coverart_archive_url: BASE_COVERART_URL.to_string(),
             user_agent: DEFAULT_USER_AGENT.to_owned(),
             max_retries: 10,

@@ -81,6 +81,11 @@ name = "set_user_agent"
 path = "examples/blocking/set_user_agent.rs"
 
 [[example]]
+required-features = ["blocking"]
+name = "oauth"
+path = "examples/blocking/oauth.rs"
+
+[[example]]
 required-features = ["async"]
 name = "fetch_artist_async"
 path = "examples/async/fetch_artist.rs"
@@ -109,6 +114,11 @@ path = "examples/async/fetch_release_coverart.rs"
 required-features = ["async"]
 name = "set_user_agent_async"
 path = "examples/async/set_user_agent.rs"
+
+[[example]]
+required-features = ["async"]
+name = "oauth_async"
+path = "examples/async/oauth.rs"
 
 [[test]]
 name = "all"

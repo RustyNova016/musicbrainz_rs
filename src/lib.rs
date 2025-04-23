@@ -70,6 +70,8 @@ pub mod query;
 /// Crate errors;
 pub mod error;
 
+pub mod extra_endpoints;
+
 /// Extra utilities that aren't strictly related to the API
 #[cfg(feature = "extras")]
 pub mod utils;
@@ -88,6 +90,15 @@ pub use crate::error::Error;
 
 pub mod chrono {
     pub use chrono::*;
+}
+
+#[allow(unused_imports)]
+pub(crate) mod reqwester {
+    #[cfg(feature = "async")]
+    pub use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
+
+    #[cfg(feature = "blocking")]
+    pub use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
 }
 
 /// perform a lookup of an entity when you have the MBID for that entity

@@ -30,7 +30,7 @@ impl<T> Query<T> {
 
     /// Create the full url path of the query
     pub(crate) fn create_url(&self, client: &MusicBrainzClient) -> String {
-        let mut url = format!("{}/{}{}", client.musicbrainz_url, self.path, FMT_JSON);
+        let mut url = format!("http://{}/{}{}", client.api_root(), self.path, FMT_JSON);
 
         // If we don't have includes, let's return early
         if self.include.is_empty() {
