@@ -109,7 +109,7 @@ async fn should_get_artist_relations_from_release() {
                 tags: None,
                 genres: None,
                 rating: None,
-                country: None,
+                country: Some("GB".to_string()),
                 annotation: None,
                 life_span: None
             })),
