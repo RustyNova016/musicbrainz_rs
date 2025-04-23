@@ -414,7 +414,7 @@ where
         let url = format!("{}/{}", client.coverart_archive_url, &self.0.path);
 
         let response = client
-            .send_with_retries(client.reqwest_client.get(&url))
+            .send_with_retries(|| client.reqwest_client.get(&url).send())
             .await?;
         let coverart_response = if self.0.target.img_type.is_some() {
             let url = response.url().clone();
