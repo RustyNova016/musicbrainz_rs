@@ -301,24 +301,7 @@ where
         self
     }
 
-    #[cfg(feature = "blocking")]
-    pub fn execute(&mut self) -> Result<T, Error>
-    where
-        T: Fetch + DeserializeOwned,
-    {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT)
-    }
-
-    /// Execute the query with a specific client
-    #[cfg(feature = "blocking")]
-    pub fn execute_with_client(&mut self, client: &client::MusicBrainzClient) -> Result<T, Error>
-    where
-        T: Fetch + DeserializeOwned,
-    {
-        client.get(&self.0.create_url(client))
-    }
-
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute(&mut self) -> Result<T, Error>
     where
         T: Fetch + DeserializeOwned,
@@ -327,7 +310,7 @@ where
     }
 
     /// Execute the query with a specific client
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute_with_client(
         &mut self,
         client: &client::MusicBrainzClient,
@@ -401,36 +384,12 @@ where
         }
     }
 
-    #[cfg(feature = "blocking")]
-    pub fn execute(&mut self) -> Result<CoverartResponse, Error> {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT)
-    }
-
-    #[cfg(feature = "blocking")]
-    pub fn execute_with_client(
-        &mut self,
-        client: &MusicBrainzClient,
-    ) -> Result<CoverartResponse, Error> {
-        self.validate();
-
-        let url = format!("{}/{}", client.coverart_archive_url, &self.0.path);
-
-        let response = client.send_with_retries(client.reqwest_client.get(&url))?;
-        let coverart_response = if self.0.target.img_type.is_some() {
-            let url = response.url().clone();
-            CoverartResponse::Url(url.to_string())
-        } else {
-            CoverartResponse::Json(response.json()?)
-        };
-        Ok(coverart_response)
-    }
-
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute(&mut self) -> Result<CoverartResponse, Error> {
         self.execute_with_client(&MUSICBRAINZ_CLIENT).await
     }
 
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute_with_client(
         &mut self,
         client: &MusicBrainzClient,
@@ -456,27 +415,7 @@ impl<T> BrowseQuery<T>
 where
     T: Clone,
 {
-    #[cfg(feature = "blocking")]
-    pub fn execute(&mut self) -> Result<BrowseResult<T>, Error>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT)
-    }
-
-    /// Execute the query with a specific client
-    #[cfg(feature = "blocking")]
-    pub fn execute_with_client(
-        &mut self,
-        client: &client::MusicBrainzClient,
-    ) -> Result<BrowseResult<T>, Error>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        client.get(&self.create_url(client))
-    }
-
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute(&mut self) -> Result<BrowseResult<T>, Error>
     where
         T: Fetch + DeserializeOwned + Browsable,
@@ -485,7 +424,7 @@ where
     }
 
     /// Execute the query with a specific client
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute_with_client(
         &mut self,
         client: &client::MusicBrainzClient,
@@ -527,27 +466,7 @@ impl<T> SearchQuery<T>
 where
     T: Search + Clone,
 {
-    #[cfg(feature = "blocking")]
-    pub fn execute(&mut self) -> Result<SearchResult<T>, Error>
-    where
-        T: Search + DeserializeOwned + Searchable,
-    {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT)
-    }
-
-    /// Execute the query with a specific client
-    #[cfg(feature = "blocking")]
-    pub fn execute_with_client(
-        &mut self,
-        client: &client::MusicBrainzClient,
-    ) -> Result<SearchResult<T>, Error>
-    where
-        T: Search + DeserializeOwned + Searchable,
-    {
-        client.get(&self.create_url(client))
-    }
-
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute(&mut self) -> Result<SearchResult<T>, Error>
     where
         T: Search + DeserializeOwned + Searchable,
@@ -556,7 +475,7 @@ where
     }
 
     /// Execute the query with a specific client
-    #[cfg(feature = "async")]
+    #[maybe_async::maybe_async]
     pub async fn execute_with_client(
         &mut self,
         client: &client::MusicBrainzClient,
