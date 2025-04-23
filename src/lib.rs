@@ -86,6 +86,10 @@ use std::fmt::Write as _;
 /// Rexports
 pub use crate::error::Error;
 
+pub mod chrono {
+    pub use chrono::*;
+}
+
 /// perform a lookup of an entity when you have the MBID for that entity
 ///
 /// # Lookups
