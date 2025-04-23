@@ -1,10 +1,9 @@
+use core::future::Future;
 use core::time::Duration;
 
 use once_cell::sync::Lazy;
 use reqwest::header;
 use reqwest::header::InvalidHeaderValue;
-use serde::de::DeserializeOwned;
-
 #[cfg(feature = "blocking")]
 use std::thread::sleep;
 
@@ -20,8 +19,6 @@ use governor::{
 #[cfg(feature = "rate_limit")]
 use std::sync::Arc;
 
-use crate::entity::api::MusicbrainzResult;
-use crate::reqwester::RequestBuilder;
 use crate::reqwester::ReqwestClient;
 use crate::reqwester::Response;
 use crate::BASE_COVERART_URL;
@@ -30,6 +27,9 @@ use crate::DEFAULT_USER_AGENT;
 use crate::HTTP_RATELIMIT_CODE;
 
 pub static MUSICBRAINZ_CLIENT: Lazy<MusicBrainzClient> = Lazy::new(MusicBrainzClient::default);
+
+pub mod get;
+pub mod post;
 
 #[derive(Debug, Clone)]
 pub struct MusicBrainzClient {
@@ -105,33 +105,60 @@ impl MusicBrainzClient {
         }
     }
 
-    /// Send the reqwest as a get, deal with ratelimits, and retries
-    #[maybe_async::maybe_async]
-    pub(crate) async fn get<T>(&self, url: &str) -> Result<T, crate::Error>
+    /// Send the reqwest, deal with ratelimits, and retries
+    #[maybe_async::sync_impl]
+    pub(crate) fn send_with_retries<F, Fu>(&self, send_fn: F) -> Result<Response, crate::Error>
     where
-        T: DeserializeOwned,
+        F: Fn() -> Result<Response, reqwest::Error>,
     {
-        self.send_with_retries(self.reqwest_client.get(url))
-            .await?
-            .json::<MusicbrainzResult<T>>()
-            .await?
-            .into_result(url.to_string())
+        let mut retries = 0;
+
+        self.wait_for_ratelimit();
+
+        while retries != self.max_retries {
+            // Send the query
+            let response = send_fn()?;
+
+            // Let's check if we hit the rate limit
+            if response.status().as_u16() == HTTP_RATELIMIT_CODE {
+                // Oh no. Let's wait the timeout
+                let headers = response.headers();
+                let retry_secs = headers.get("retry-after").unwrap().to_str().unwrap();
+                let duration = Duration::from_secs(retry_secs.parse::<u64>().unwrap() + 1);
+                sleep(duration);
+                retries += 1;
+
+                // Hard crash if the rate limit is hit while testing.
+                // It should be unacceptable to let the users hit it while we got a fancy system for it
+                #[cfg(all(test, feature = "rate_limit"))]
+                if self.rate_limit.is_some() {
+                    panic!("Rate limit hit on rate limit feature!");
+                }
+            } else {
+                return Ok(response);
+            }
+        }
+
+        Err(crate::Error::MaxRetriesExceeded)
     }
 
     /// Send the reqwest, deal with ratelimits, and retries
-    #[maybe_async::maybe_async]
-    pub(crate) async fn send_with_retries(
+    #[maybe_async::async_impl]
+    pub(crate) async fn send_with_retries<F, Fu>(
         &self,
-        request: RequestBuilder,
-    ) -> Result<Response, crate::Error> {
+        send_fn: F,
+    ) -> Result<Response, crate::Error>
+    where
+        F: Fn() -> Fu,
+        Fu: Future<Output = Result<Response, reqwest::Error>>,
+    {
         let mut retries = 0;
 
         self.wait_for_ratelimit().await;
 
         while retries != self.max_retries {
             // Send the query
-            let request = request.try_clone().unwrap();
-            let response = request.send().await?;
+            let response = send_fn().await?;
 
             // Let's check if we hit the rate limit
             if response.status().as_u16() == HTTP_RATELIMIT_CODE {
