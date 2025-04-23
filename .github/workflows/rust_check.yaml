@@ -36,9 +36,9 @@ jobs:
 
       - uses: taiki-e/install-action@cargo-hack
         
-      - name: Run tests
-        # We exclude testing "async" due to the test having issues with initialising multiple runtimes. rate_limit allow to fix this issue, but it would be great to find an actual solution
-        run: cargo hack test --feature-powerset --mutually-exclusive-features=rate_limit,blocking --at-least-one-of=async,blocking --exclude-features=async,legacy_serialize,rustls,default --ignore-private
+      - name: Run async tests
+        # Check only async + ratelimit. Blocking only change reqwest to use the blocking runtime.
+        run: cargo test --no-default-features --features rate_limit,extras,async
   
   # unstable_tests:
   #   runs-on: ${{ matrix.os }}
@@ -83,7 +83,7 @@ jobs:
       - uses: taiki-e/install-action@cargo-hack
 
       - name: Run clippy
-        run: cargo hack clippy --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking --ignore-private -- -D warnings
+        run: cargo hack clippy --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking --include-features=extras, --ignore-private -- -D warnings
 
   docs:
     runs-on: ubuntu-latest
