@@ -1,22 +1,28 @@
-#[cfg(feature = "rate_limit")]
-use core::num::NonZeroU32;
 use core::time::Duration;
-#[cfg(feature = "rate_limit")]
-use std::sync::Arc;
 
 use once_cell::sync::Lazy;
+use reqwest::header;
+use reqwest::header::InvalidHeaderValue;
+use serde::de::DeserializeOwned;
+
 #[cfg(feature = "blocking")]
 use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
-use reqwest::header;
+#[cfg(feature = "blocking")]
+use std::thread::sleep;
 
+#[cfg(feature = "async")]
+use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
+#[cfg(feature = "async")]
+use tokio::time::sleep;
+
+#[cfg(feature = "rate_limit")]
+use core::num::NonZeroU32;
 #[cfg(feature = "rate_limit")]
 use governor::{
     clock, middleware::NoOpMiddleware, state::InMemoryState, state::NotKeyed, Quota, RateLimiter,
 };
-use reqwest::header::InvalidHeaderValue;
-#[cfg(feature = "async")]
-use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
-use serde::de::DeserializeOwned;
+#[cfg(feature = "rate_limit")]
+use std::sync::Arc;
 
 use crate::entity::api::MusicbrainzResult;
 use crate::BASE_COVERART_URL;
@@ -85,50 +91,8 @@ impl MusicBrainzClient {
     }
 }
 
-// Requests
-#[cfg(feature = "blocking")]
 impl MusicBrainzClient {
-    /// Send the reqwest as a get, deal with retries
-    pub(crate) fn get<T>(&self, url: &str) -> Result<T, crate::Error>
-    where
-        T: DeserializeOwned,
-    {
-        self.send_with_retries(self.reqwest_client.get(url))?
-            .json::<MusicbrainzResult<T>>()?
-            .into_result(url.to_string())
-    }
-
-    pub(crate) fn send_with_retries(
-        &self,
-        request: RequestBuilder,
-    ) -> Result<Response, crate::Error> {
-        use std::thread;
-        let mut retries = 0;
-
-        while retries != self.max_retries {
-            // Send the query
-            let request = request.try_clone().unwrap();
-            let response = request.send()?;
-
-            // Let's check if we hit the rate limit
-            if response.status().as_u16() == HTTP_RATELIMIT_CODE {
-                // Oh no. Let's wait the timeout
-                let headers = response.headers();
-                let retry_secs = headers.get("retry-after").unwrap().to_str().unwrap();
-                let duration = Duration::from_secs(retry_secs.parse::<u64>().unwrap() + 1);
-                thread::sleep(duration);
-                retries += 1;
-            } else {
-                return Ok(response);
-            }
-        }
-
-        Err(crate::Error::MaxRetriesExceeded())
-    }
-}
-
-#[cfg(feature = "async")]
-impl MusicBrainzClient {
+    #[maybe_async::maybe_async]
     pub async fn wait_for_ratelimit(&self) {
         #[cfg(feature = "rate_limit")]
         if let Some(val) = &self.rate_limit {
@@ -137,6 +101,7 @@ impl MusicBrainzClient {
     }
 
     /// Send the reqwest as a get, deal with ratelimits, and retries
+    #[maybe_async::maybe_async]
     pub(crate) async fn get<T>(&self, url: &str) -> Result<T, crate::Error>
     where
         T: DeserializeOwned,
@@ -149,11 +114,11 @@ impl MusicBrainzClient {
     }
 
     /// Send the reqwest, deal with ratelimits, and retries
+    #[maybe_async::maybe_async]
     pub(crate) async fn send_with_retries(
         &self,
         request: RequestBuilder,
     ) -> Result<Response, crate::Error> {
-        use tokio::time::sleep;
         let mut retries = 0;
 
         self.wait_for_ratelimit().await;
