@@ -1,6 +1,6 @@
 use core::time::Duration;
+use std::sync::LazyLock;
 
-use once_cell::sync::Lazy;
 use reqwest::header;
 use reqwest::header::InvalidHeaderValue;
 use serde::de::DeserializeOwned;
@@ -29,7 +29,8 @@ use crate::BASE_URL;
 use crate::DEFAULT_USER_AGENT;
 use crate::HTTP_RATELIMIT_CODE;
 
-pub static MUSICBRAINZ_CLIENT: Lazy<MusicBrainzClient> = Lazy::new(MusicBrainzClient::default);
+pub static MUSICBRAINZ_CLIENT: LazyLock<MusicBrainzClient> =
+    LazyLock::new(MusicBrainzClient::default);
 
 #[derive(Debug, Clone)]
 pub struct MusicBrainzClient {
