@@ -419,6 +419,8 @@ pub enum Language {
     Bam,
     /// Basa
     Bas,
+    /// Bashkir
+    Bak,
     /// Basque
     Eus,
     /// Bavarian
@@ -501,18 +503,28 @@ pub enum Language {
     Hrv,
     /// Czech
     Ces,
+    /// Dakota
+    Dak,
     /// Danish
     Dan,
+    /// Dargwa
+    Dar,
     /// Delaware
     Del,
+    /// Dinka
+    Din,
     /// Divehi
     Div,
+    /// Dogri
+    Doi,
     /// Duala
     Dua,
     /// Dutch, Middle (ca.1050-1350)
     Dum,
     /// Dutch
     Nld,
+    /// Dyula
+    Dyu,
     /// Dzongkha
     Dzo,
     /// Eastern Arrernte
@@ -617,6 +629,8 @@ pub enum Language {
     Heb,
     /// Herero
     Her,
+    /// Hiligaynon
+    Hil,
     /// Hindi
     Hin,
     /// Hiri Motu
@@ -651,6 +665,8 @@ pub enum Language {
     Jav,
     /// Jewish Babylonian Aramaic (ca. 200-1200 CE)
     Tmr,
+    /// Judeo-Arabic
+    Jrb,
     /// Kabardian
     Kbd,
     /// Kabuverdianu
@@ -667,6 +683,8 @@ pub enum Language {
     Krl,
     /// Kashmiri
     Kas,
+    /// Kashubian
+    Csb,
     /// Kazakh
     Kaz,
     /// Khanty
@@ -775,6 +793,8 @@ pub enum Language {
     Hna,
     /// Min Nan Chinese
     Nan,
+    /// Mirandese
+    Mwl,
     /// Miyako
     Mvi,
     /// Mohawk
@@ -833,6 +853,8 @@ pub enum Language {
     Osa,
     /// Pahlavi
     Pal,
+    /// Pampanga
+    Pam,
     /// Papiamento
     Pap,
     /// Persian
@@ -909,6 +931,8 @@ pub enum Language {
     Gul,
     /// Serbian
     Srp,
+    /// Serbo-Croatian
+    Hbs,
     /// Serer
     Srr,
     /// Shan
@@ -1439,6 +1463,18 @@ impl Language {
             Self::Zza => "Zaza",
             Self::Zul => "Zulu",
             Self::Zun => "Zuni",
+            Self::Bak => "Bashkir",
+            Self::Dak => "Dakota",
+            Self::Dar => "Dargwa",
+            Self::Din => "Dinka",
+            Self::Doi => "Dogri",
+            Self::Dyu => "Dyula",
+            Self::Hil => "Hiligaynon",
+            Self::Jrb => "Judeo-Arabic",
+            Self::Csb => "Kashubian",
+            Self::Mwl => "Mirandese",
+            Self::Pam => "Pampanga",
+            Self::Hbs => "Serbo-Croatian",
         }
     }
 
@@ -1805,6 +1841,18 @@ impl Language {
             Self::Zza => "zza",
             Self::Zul => "zul",
             Self::Zun => "zun",
+            Self::Bak => "Bak",
+            Self::Dak => "Dak",
+            Self::Din => "Din",
+            Self::Doi => "Doi",
+            Self::Dyu => "Dyu",
+            Self::Hil => "Hil",
+            Self::Jrb => "Jrb",
+            Self::Csb => "Csb",
+            Self::Pam => "Pam",
+            Self::Hbs => "Hbs",
+            Self::Mwl => "Mwl",
+            Self::Dar => "Dar",
         }
     }
 }

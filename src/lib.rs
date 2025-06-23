@@ -40,8 +40,8 @@
 //! Note that you need to either directly to bring the [`Fetch`] trait in scope or use the
 //! [`prelude`] module to make the fetch method accessible.
 //!
-//! [musicbrainz::prelude]: musicbrainz_rs::prelude
-//! [entity]: musicbrainz_rs::entity
+//! [musicbrainz::prelude]: crate::prelude
+//! [entity]: crate::entity
 
 use query::Query;
 use serde::de::DeserializeOwned;
