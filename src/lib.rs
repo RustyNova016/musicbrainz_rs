@@ -72,11 +72,14 @@ pub mod error;
 
 pub mod extra_endpoints;
 
+pub mod fetching;
+
 /// Extra utilities that aren't strictly related to the API
 #[cfg(feature = "extras")]
 pub mod utils;
 
 use crate::entity::search::{SearchResult, Searchable};
+use crate::fetching::ApiRequest;
 use client::MusicBrainzClient;
 use client::MUSICBRAINZ_CLIENT;
 use deserialization::date_format;
@@ -414,7 +417,7 @@ where
         let url = format!("{}/{}", client.coverart_archive_url, &self.0.path);
 
         let response = client
-            .send_with_retries(client.reqwest_client.get(&url))
+            .send_with_retries(ApiRequest::new(url.to_string()))
             .await?;
         let coverart_response = if self.0.target.img_type.is_some() {
             let url = response.url().clone();
