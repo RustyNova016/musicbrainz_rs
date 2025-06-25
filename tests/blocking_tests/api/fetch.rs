@@ -215,6 +215,13 @@ fn should_get_release() {
                 language: Some(Language::Eng),
             }),
             asin: None,
+            cover_art_archive: Some(CoverArtArchiveRelease {
+                artwork: true,
+                back: true,
+                count: 2,
+                darkened: false,
+                front: true
+            })
         }
     );
 }

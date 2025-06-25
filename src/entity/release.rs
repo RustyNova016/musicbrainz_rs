@@ -103,6 +103,8 @@ pub struct Release {
 
     /// The text representation on the release.
     pub text_representation: Option<ReleaseTextRepresentation>,
+
+    pub cover_art_archive: Option<CoverArtArchiveRelease>,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
@@ -1955,6 +1957,15 @@ pub enum ReleasePackaging {
     /// If you ever see a `ReleasePackaging::UnrecognizedReleasePackaging` in the wild, let us know and file an issue/pull request!
     #[serde(other)]
     UnrecognizedReleasePackaging,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
+pub struct CoverArtArchiveRelease {
+    pub artwork: bool,
+    pub back: bool,
+    pub count: u32,
+    pub darkened: bool,
+    pub front: bool,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
