@@ -127,9 +127,9 @@ impl MusicBrainzClient {
     ) -> Result<Response, crate::Error> {
         let mut retries = 0;
 
-        self.wait_for_ratelimit().await;
-
         while retries != self.max_retries {
+            self.wait_for_ratelimit().await;
+
             // Send the query
             let request = request.try_clone().unwrap();
             let response = request.send().await?;
