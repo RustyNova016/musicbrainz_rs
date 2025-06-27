@@ -1,6 +1,10 @@
 use core::time::Duration;
 
+#[cfg(feature = "blocking")]
+use reqwest::blocking::Response;
+#[cfg(feature = "async")]
 use reqwest::Response;
+
 use serde::de::DeserializeOwned;
 #[cfg(feature = "blocking")]
 use std::thread::sleep;
@@ -24,10 +28,7 @@ impl ApiRequest {
     }
 
     #[maybe_async::maybe_async]
-    pub async fn send(
-        &self,
-        client: &MusicBrainzClient,
-    ) -> Result<reqwest::Response, reqwest::Error> {
+    pub async fn send(&self, client: &MusicBrainzClient) -> Result<Response, reqwest::Error> {
         let http_request = client.reqwest_client.get(&self.url);
 
         debug!(

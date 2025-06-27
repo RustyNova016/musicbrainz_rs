@@ -16,8 +16,7 @@ async fn fetch_cd_id() {
     for discid in discids {
         assert!(
             Discid::fetch().id(discid).execute().await.is_ok(),
-            "{} is err",
-            discid
+            "{discid} is err",
         );
     }
 
