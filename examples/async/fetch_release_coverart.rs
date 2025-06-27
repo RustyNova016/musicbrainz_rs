@@ -55,7 +55,7 @@ async fn main() {
         .expect("Unable to get cover art");
 
     if let CoverartResponse::Url(coverart_url) = in_utero_500px_front_coverart {
-        println!("{}", coverart_url);
+        println!("{coverart_url}");
     } else {
         panic!();
     }

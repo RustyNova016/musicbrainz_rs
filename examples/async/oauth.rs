@@ -28,5 +28,5 @@ async fn main() {
         .await
         .unwrap();
 
-    println!("Access token: {:?}", token_string);
+    println!("Access token: {token_string:?}");
 }

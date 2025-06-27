@@ -76,7 +76,7 @@ fn main() {
 
     let out_dir = env::var("OUT_DIR").unwrap();
     let out_dir = Path::new(&out_dir);
-    eprintln!("Writing tests to: {:?}", out_dir);
+    eprintln!("Writing tests to: {out_dir:?}");
 
     write_test!(
         out_dir.join("lookup.rs"),
