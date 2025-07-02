@@ -1,8 +1,6 @@
 name: Rust_Checks
 
 on:
-  push:
-    branches: [ "main", "released" ]
   pull_request:
     branches: [ "main", "released" ]
 
@@ -145,3 +143,10 @@ jobs:
     - uses: taiki-e/install-action@cargo-hack
     - uses: taiki-e/install-action@cargo-minimal-versions
     - run: cargo minimal-versions check --direct
+  
+  semver_checks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check semver
+      uses: obi1kenobi/cargo-semver-checks-action@v2
