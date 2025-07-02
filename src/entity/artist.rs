@@ -54,6 +54,11 @@ pub struct Artist {
     /// identified with. It is often, but not always, its birth/formation country.
     pub area: Option<Area>,
 
+    /// An IPI (interested party information) code is an identifying number assigned by the CISAC database for musical rights management. See [IPI](https://musicbrainz.org/doc/IPI) for more information, including how to find these codes.
+    pub ipis: Option<Vec<String>>,
+    /// The International Standard Name Identifier for the artist. See [ISNI](https://musicbrainz.org/doc/ISNI) for more information.
+    pub isnis: Option<Vec<String>>,
+
     ///The artist begin area, as the name suggests, indicates the area with which an artist started
     /// to perform.
     #[serde(rename = "begin_area")] // Forcing camel_case here since
