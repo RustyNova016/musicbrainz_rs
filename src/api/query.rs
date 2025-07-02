@@ -1,16 +1,13 @@
 use core::marker::PhantomData;
 
 use crate::client::MusicBrainzClient;
+use crate::config::FMT_JSON;
+use crate::config::PARAM_INC;
 use crate::entity::Include;
-use crate::FMT_JSON;
-use crate::PARAM_INC;
-
-pub mod browse;
-pub mod relations;
 
 /// The base element of a query
 #[derive(Clone, Debug)]
-pub(crate) struct Query<T> {
+pub struct Query<T> {
     /// The path of the api to query
     pub(crate) path: String,
 

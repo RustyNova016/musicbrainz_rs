@@ -7,8 +7,11 @@ pub enum Error {
     #[error(transparent)]
     ReqwestError(#[from] reqwest::Error),
 
-    #[error("Musicbrainz returned an unknown error")]
-    MusicbrainzError(MusicbrainzError),
+    #[error(transparent)]
+    SerdeJsonError(#[from] serde_json::Error),
+
+    #[error("Musicbrainz returned an unknown error for query \"{0}\"")]
+    MusicbrainzError(String, MusicbrainzError),
 
     #[error("Musicbrainz returned \"Not found\" for query \"{0}\"")]
     NotFound(String),
