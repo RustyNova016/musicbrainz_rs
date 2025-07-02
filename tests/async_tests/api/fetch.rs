@@ -54,6 +54,11 @@ async fn should_get_artist_by_id() {
                 genres: None,
                 annotation: None,
             }),
+            isnis: Some(vec![
+                "0000000123486830".to_string(),
+                "0000000123487390".to_string()
+            ]),
+            ipis: Some(vec![]),
             begin_area: None,
             life_span: Some(LifeSpan {
                 ended: Some(true),
@@ -99,6 +104,8 @@ async fn should_get_artist_relations_from_release() {
                 artist_type: Some(Person),
                 gender: None,
                 area: None,
+                ipis: None,
+                isnis: None,
                 begin_area: None,
                 relations: None,
                 releases: None,
@@ -312,7 +319,7 @@ async fn should_get_label_by_id() {
             label_type: Some(LabelType::OriginalProduction),
             name: "Ninja Tune".to_string(),
             sort_name: Some("Ninja Tune".to_string()),
-            disambiguation: Some("London-based label".to_string()),
+            disambiguation: Some("London‐based label".to_string()),
             country: Some("GB".to_string()),
             label_code: Some(12885),
             relations: None,
