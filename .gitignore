@@ -4,3 +4,4 @@ Cargo.lock
 api_samples/
 .idea/
 /.direnv
+.envrc
