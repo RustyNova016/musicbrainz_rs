@@ -1,13 +1,12 @@
-use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};
 
 use super::{Include, Relationship, Subquery};
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
-use crate::date_format;
 use crate::entity::alias::Alias;
 use crate::entity::artist_credit::ArtistCredit;
+use crate::entity::date_string::DateString;
 use crate::entity::discid::Disc;
 use crate::entity::genre::Genre;
 use crate::entity::label::LabelInfo;
@@ -53,9 +52,7 @@ pub struct Release {
     pub status: Option<ReleaseStatus>,
 
     /// The date the release was issued.
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    #[serde(default)]
-    pub date: Option<NaiveDate>,
+    pub date: Option<DateString>,
 
     /// The country the release was issued in.
     pub country: Option<String>,
@@ -2030,9 +2027,7 @@ pub struct ReleaseSearchQuery {
     #[query_builder_field = "creditname"]
     credit_name: String,
     /// a release date for the release (e.g. "1980-01-22")
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    #[serde(default)]
-    date: Option<NaiveDate>,
+    date: Option<DateString>,
     /// the total number of disc IDs attached to all mediums on the release
     discids: u32,
     /// the number of disc IDs attached to any one medium on the release

@@ -1,8 +1,8 @@
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
-use crate::date_format;
 use crate::entity::alias::Alias;
 use crate::entity::artist_credit::ArtistCredit;
+use crate::entity::date_string::DateString;
 use crate::entity::genre::Genre;
 use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
@@ -12,7 +12,6 @@ use crate::entity::BrowseBy;
 use crate::entity::{Include, Relationship, Subquery};
 use serde::{Deserialize, Serialize};
 
-use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 
 /// A recording is an entity in MusicBrainz which can be linked to tracks on releases. Each track
@@ -62,9 +61,7 @@ pub struct Recording {
     /// existing artists, labels, recordings, releases, release groups and works.
     pub annotation: Option<String>,
     /// The first release date of the recording.
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    #[serde(default)]
-    pub first_release_date: Option<NaiveDate>,
+    pub first_release_date: Option<DateString>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]
@@ -87,9 +84,7 @@ pub struct RecordingSearchQuery {
     #[query_builder_field = "creditname"]
     pub credit_name: String,
     /// the release date of any release including this recording (e.g. "1980-01-22")
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    #[serde(default)]
-    pub date: Option<NaiveDate>,
+    pub date: Option<DateString>,
     /// the recording duration in milliseconds
     #[query_builder_field = "dur"]
     pub duration: String,
