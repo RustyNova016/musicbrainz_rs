@@ -64,78 +64,20 @@ async fn should_get_recording_by_id() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_release_group_by_id() {
-    let in_utero = ReleaseGroup::fetch()
-        .id("2a0981fb-9593-3019-864b-ce934d97a16e")
-        .execute()
-        .await;
+    let data = ReleaseGroup::fetch()
+    .id("2a0981fb-9593-3019-864b-ce934d97a16e")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        in_utero.unwrap(),
-        ReleaseGroup {
-            id: "2a0981fb-9593-3019-864b-ce934d97a16e".to_string(),
-            primary_type_id: Some("f529b476-6e62-324f-b0aa-1f3e33d313fc".to_string()),
-            primary_type: Some(ReleaseGroupPrimaryType::Album),
-            secondary_type_ids: vec![],
-            secondary_types: vec![],
-            first_release_date: Some(DateString::from("1993-09-21")),
-            title: "In Utero".to_string(),
-            disambiguation: "".to_string(),
-            relations: None,
-            artist_credit: None,
-            releases: None,
-            tags: None,
-            aliases: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "release-group/2a0981fb-9593-3019-864b-ce934d97a16e?", |_: ReleaseGroup| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_release() {
-    let in_utero = Release::fetch()
-        .id("18d4e9b4-9247-4b44-914a-8ddec3502103")
-        .execute()
-        .await;
+    let data = Release::fetch()
+    .id("18d4e9b4-9247-4b44-914a-8ddec3502103")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        in_utero.unwrap(),
-        Release {
-            id: "18d4e9b4-9247-4b44-914a-8ddec3502103".to_string(),
-            title: "In Utero".to_string(),
-            status_id: Some("4e304316-386d-3409-af2e-78857eec5cfe".to_string()),
-            status: Some(ReleaseStatus::Official),
-            date: Some(DateString::from("1993")),
-            country: Some("US".to_string()),
-            quality: Some(ReleaseQuality::Normal),
-            barcode: Some("0208314671259".to_string()),
-            disambiguation: Some("".to_string()),
-            packaging_id: Some("ec27701a-4a22-37f4-bfac-6616e0f9750a".to_string()),
-            packaging: Some(ReleasePackaging::JewelCase),
-            relations: None,
-            artist_credit: None,
-            label_info: None,
-            media: None,
-            release_group: None,
-            tags: None,
-            aliases: None,
-            genres: None,
-            annotation: None,
-            text_representation: Some(ReleaseTextRepresentation {
-                script: Some(ReleaseScript::Latn),
-                language: Some(Language::Eng),
-            }),
-            asin: None,
-            cover_art_archive: Some(CoverArtArchiveRelease {
-                artwork: true,
-                back: true,
-                count: 2,
-                darkened: false,
-                front: true
-            })
-        }
-    );
+    check_fetch_query(data, "release/18d4e9b4-9247-4b44-914a-8ddec3502103?", |_: Release| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
