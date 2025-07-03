@@ -31,38 +31,48 @@ use serde::{Deserialize, Serialize};
 pub struct Artist {
     /// See [MusicBrainz Identifier](https://musicbrainz.org/doc/MusicBrainz_Identifier).
     pub id: String,
+    
     /// The official name of an artist, be it a person or a band.
     pub name: String,
+
     /// The sort name is a variant of the artist name which would be used when sorting artists by
     /// name, such as in record shops or libraries. Among other things, sort names help to ensure
     /// that all the artists that start with "The" don't end up up under "T". The guidelines for
     /// sort names are the best place to check for more specific usage info.
     pub sort_name: String,
+
     /// The disambiguation comments are fields in the database used to help distinguish identically
     /// named artists, labels and other entities.
     pub disambiguation: String,
 
     /// The type is used to state whether an artist is a person, a group, or something else.
+    #[serde(rename = "type-id")]
+    pub artist_type_id: Option<String>,
     #[serde(rename = "type")]
     pub artist_type: Option<ArtistType>,
-
+    
     /// The gender is used to explicitly state whether a person or character identifies as male,
     /// female or neither. Groups do not have genders.
+    pub gender_id: Option<String>,
     pub gender: Option<Gender>,
 
     /// The artist area, as the name suggests, indicates the area with which an artist is primarily
     /// identified with. It is often, but not always, its birth/formation country.
     pub area: Option<Area>,
 
-    /// An IPI (interested party information) code is an identifying number assigned by the CISAC database for musical rights management. See [IPI](https://musicbrainz.org/doc/IPI) for more information, including how to find these codes.
-    pub ipis: Option<Vec<String>>,
-    /// The International Standard Name Identifier for the artist. See [ISNI](https://musicbrainz.org/doc/ISNI) for more information.
-    pub isnis: Option<Vec<String>>,
+    ///The artist begin area, as the name suggests, indicates the area with which an artist started
+    /// to perform.
+    pub begin_area: Option<Area>,
 
     ///The artist begin area, as the name suggests, indicates the area with which an artist started
     /// to perform.
-    #[serde(rename = "begin_area")] // Forcing camel_case here since
-    pub begin_area: Option<Area>, // all other field are deserialized in kebab-case
+    pub end_area: Option<Area>,
+
+    /// An IPI (interested party information) code is an identifying number assigned by the CISAC database for musical rights management. See [IPI](https://musicbrainz.org/doc/IPI) for more information, including how to find these codes.
+    pub ipis: Option<Vec<String>>,
+
+    /// The International Standard Name Identifier for the artist. See [ISNI](https://musicbrainz.org/doc/ISNI) for more information.
+    pub isnis: Option<Vec<String>>,
 
     pub relations: Option<Vec<Relation>>,
     /// release represents the unique release (i.e. issuing) of a product on a specific date with

@@ -1,5 +1,4 @@
-use crate::date_format;
-use chrono::NaiveDate;
+use crate::entity::date_string::DateString;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone, Default)]
@@ -7,9 +6,7 @@ use serde::{Deserialize, Serialize};
 pub struct LifeSpan {
     pub ended: Option<bool>,
     #[serde(default)]
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    pub begin: Option<NaiveDate>,
+    pub begin: Option<DateString>,
     #[serde(default)]
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    pub end: Option<NaiveDate>,
+    pub end: Option<DateString>,
 }

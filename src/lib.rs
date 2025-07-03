@@ -72,8 +72,6 @@ pub mod fetching;
 #[cfg(feature = "extras")]
 pub mod utils;
 
-use deserialization::date_format;
-
 // === Re-exports ===
 pub use crate::api::api_request::ApiRequest;
 pub use crate::api::browse_query::Browse;

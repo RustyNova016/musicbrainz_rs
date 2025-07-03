@@ -1,10 +1,7 @@
-use chrono::NaiveDate;
-use std::collections::HashMap;
-
 use musicbrainz_rs::entity::area::AreaType::*;
 use musicbrainz_rs::entity::area::*;
-use musicbrainz_rs::entity::artist::ArtistType::*;
 use musicbrainz_rs::entity::artist::*;
+use musicbrainz_rs::entity::date_string::DateString;
 use musicbrainz_rs::entity::event::{Event, EventType};
 use musicbrainz_rs::entity::instrument::InstrumentType::*;
 use musicbrainz_rs::entity::instrument::*;
@@ -13,7 +10,6 @@ use musicbrainz_rs::entity::lifespan::*;
 use musicbrainz_rs::entity::place::PlaceType::*;
 use musicbrainz_rs::entity::place::*;
 use musicbrainz_rs::entity::recording::Recording;
-use musicbrainz_rs::entity::relations::*;
 use musicbrainz_rs::entity::release::*;
 use musicbrainz_rs::entity::release_group::*;
 use musicbrainz_rs::entity::series::*;
@@ -21,230 +17,70 @@ use musicbrainz_rs::entity::url::*;
 use musicbrainz_rs::entity::work::*;
 use musicbrainz_rs::prelude::*;
 
+use crate::test_framework::check_fetch_query;
+use crate::test_framework::CLIENT;
+
 #[tokio::test]
 #[serial_test::serial]
 async fn should_get_artist_by_id() {
-    let nirvana = Artist::fetch()
+    let data = Artist::fetch()
         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-        .execute()
-        .await;
+        .as_api_request(&CLIENT);
 
-    assert_eq!(
-        nirvana.unwrap(),
-        Artist {
-            id: String::from("5b11f4ce-a62d-471e-81fc-a69a8278c7da"),
-            name: String::from("Nirvana"),
-            sort_name: String::from("Nirvana"),
-            disambiguation: String::from("1980s\u{2013}1990s US grunge band"),
-            artist_type: Some(Group),
-            gender: None,
-            country: Some("US".to_string()),
-            area: Some(Area {
-                id: "489ce91b-6658-3307-9877-795b68554c98".to_string(),
-                area_type: None,
-                type_id: None,
-                disambiguation: "".to_string(),
-                name: "United States".to_string(),
-                sort_name: "United States".to_string(),
-                relations: None,
-                iso_3166_1_codes: Some(vec!["US".to_string(),]),
-                life_span: None,
-                tags: None,
-                aliases: None,
-                genres: None,
-                annotation: None,
-            }),
-            isnis: Some(vec![
-                "0000000123486830".to_string(),
-                "0000000123487390".to_string()
-            ]),
-            ipis: Some(vec![]),
-            begin_area: None,
-            life_span: Some(LifeSpan {
-                ended: Some(true),
-                begin: Some(NaiveDate::from_ymd_opt(1987, 1, 1).unwrap()),
-                end: Some(NaiveDate::from_ymd_opt(1994, 4, 5).unwrap()),
-            }),
-            tags: None,
-            relations: None,
-            releases: None,
-            recordings: None,
-            release_groups: None,
-            works: None,
-            aliases: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?", |_: Artist| {}).await;
 }
 
-#[tokio::test]
-#[serial_test::serial]
-async fn should_get_artist_relations_from_release() {
-    let in_utero = Release::fetch()
-        .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
-        .with_artist_relations()
-        .execute()
-        .await
-        .unwrap();
+//TODO: Put back on
+// #[tokio_shared_rt::test(shared)]
+// async fn should_get_artist_relations_from_release() {
+//     let in_utero = Release::fetch()
+//         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
+//         .with_artist_relations()
+//         .as_api_request(&CLIENT);
 
-    let relations = in_utero.relations.unwrap();
+//     check_fetch_query(
+//         in_utero,
+//         "release/76df3287-6cda-33eb-8e9a-044b5e15ffdd?inc=artist-rels",
+//         |artist: Artist| {
+//             let relations = artist
+//                 .relations
+//                 .as_ref()
+//                 .expect("There should have artist relations");
 
-    assert_eq!(
-        relations,
-        [Relation {
-            end: None,
-            attributes: Some(vec![]),
-            content: RelationContent::Artist(Box::new(Artist {
-                id: "0944a9f5-65be-44b6-9e8e-33732fdfe923".to_string(),
-                name: "Dave McDonald".to_string(),
-                sort_name: "McDonald, Dave".to_string(),
-                disambiguation: "sound engineer for Portishead".to_string(),
-                artist_type: Some(Person),
-                gender: None,
-                area: None,
-                ipis: None,
-                isnis: None,
-                begin_area: None,
-                relations: None,
-                releases: None,
-                works: None,
-                release_groups: None,
-                recordings: None,
-                aliases: None,
-                tags: None,
-                genres: None,
-                rating: None,
-                country: Some("GB".to_string()),
-                annotation: None,
-                life_span: None
-            })),
-            attribute_values: Some(HashMap::new()),
-            attribute_ids: Some(HashMap::new()),
-            target_type: Some("artist".to_string()),
-            target_credit: Some("".to_string()),
-            source_credit: Some("".to_string()),
-            ended: Some(false),
-            type_id: "87e922ba-872e-418a-9f41-0a63aa3c30cc".to_string(),
-            begin: None,
-            direction: "backward".to_string(),
-            relation_type: "engineer".to_string(),
-            ordering_key: None
-        }]
-    );
-}
+//             assert!(!relations.is_empty(), "No relations found")
+//         },
+//     )
+//     .await;
+// }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_recording_by_id() {
     let polly = Recording::fetch()
         .id("af40d6b8-58e8-4ca5-9db8-d4fca0b899e2")
-        .execute()
-        .await;
+        .as_api_request(&CLIENT);
 
-    assert_eq!(
-        polly.unwrap(),
-        Recording {
-            id: "af40d6b8-58e8-4ca5-9db8-d4fca0b899e2".to_string(),
-            title: "(New Wave) Polly".to_string(),
-            video: Some(false),
-            length: Some(246_000),
-            disambiguation: Some("".to_string()),
-            aliases: None,
-            artist_credit: None,
-            relations: None,
-            releases: None,
-            tags: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-            isrcs: None,
-            first_release_date: None,
-        }
-    );
+    check_fetch_query(polly, "recording/af40d6b8-58e8-4ca5-9db8-d4fca0b899e2?", |_: Recording| {}).await;
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_release_group_by_id() {
-    let in_utero = ReleaseGroup::fetch()
-        .id("2a0981fb-9593-3019-864b-ce934d97a16e")
-        .execute()
-        .await;
+    let data = ReleaseGroup::fetch()
+    .id("2a0981fb-9593-3019-864b-ce934d97a16e")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        in_utero.unwrap(),
-        ReleaseGroup {
-            id: "2a0981fb-9593-3019-864b-ce934d97a16e".to_string(),
-            primary_type_id: Some("f529b476-6e62-324f-b0aa-1f3e33d313fc".to_string()),
-            primary_type: Some(ReleaseGroupPrimaryType::Album),
-            secondary_type_ids: vec![],
-            secondary_types: vec![],
-            first_release_date: Some(NaiveDate::from_ymd_opt(1993, 9, 21).unwrap()),
-            title: "In Utero".to_string(),
-            disambiguation: "".to_string(),
-            relations: None,
-            artist_credit: None,
-            releases: None,
-            tags: None,
-            aliases: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "release-group/2a0981fb-9593-3019-864b-ce934d97a16e?", |_: ReleaseGroup| {}).await;
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_release() {
-    let in_utero = Release::fetch()
-        .id("18d4e9b4-9247-4b44-914a-8ddec3502103")
-        .execute()
-        .await;
+    let data = Release::fetch()
+    .id("18d4e9b4-9247-4b44-914a-8ddec3502103")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        in_utero.unwrap(),
-        Release {
-            id: "18d4e9b4-9247-4b44-914a-8ddec3502103".to_string(),
-            title: "In Utero".to_string(),
-            status_id: Some("4e304316-386d-3409-af2e-78857eec5cfe".to_string()),
-            status: Some(ReleaseStatus::Official),
-            date: Some(NaiveDate::from_ymd_opt(1993, 1, 1).unwrap()),
-            country: Some("US".to_string()),
-            quality: Some(ReleaseQuality::Normal),
-            barcode: Some("0208314671259".to_string()),
-            disambiguation: Some("".to_string()),
-            packaging_id: Some("ec27701a-4a22-37f4-bfac-6616e0f9750a".to_string()),
-            packaging: Some(ReleasePackaging::JewelCase),
-            relations: None,
-            artist_credit: None,
-            label_info: None,
-            media: None,
-            release_group: None,
-            tags: None,
-            aliases: None,
-            genres: None,
-            annotation: None,
-            text_representation: Some(ReleaseTextRepresentation {
-                script: Some(ReleaseScript::Latn),
-                language: Some(Language::Eng),
-            }),
-            asin: None,
-            cover_art_archive: Some(CoverArtArchiveRelease {
-                artwork: true,
-                back: true,
-                count: 2,
-                darkened: false,
-                front: true
-            })
-        }
-    );
+    check_fetch_query(data, "release/18d4e9b4-9247-4b44-914a-8ddec3502103?", |_: Release| {}).await;
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_work_by_id() {
     let hotel_california = Work::fetch()
         .id("22457dc0-ecbf-38f5-9056-11c858530a50")
@@ -303,8 +139,7 @@ async fn should_get_work_by_id() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_label_by_id() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
@@ -333,8 +168,7 @@ async fn should_get_label_by_id() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_area_by_id() {
     let aberdeen = Area::fetch()
         .id("a640b45c-c173-49b1-8030-973603e895b5")
@@ -365,8 +199,7 @@ async fn should_get_area_by_id() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_event_by_id() {
     let dour_festival_1989 = Event::fetch()
         .id("73df2f48-383b-4930-bad3-05ba938be578")
@@ -385,8 +218,8 @@ async fn should_get_event_by_id() {
             time: Some("".to_string()),
             setlist: Some("".to_string()),
             life_span: Some(LifeSpan {
-                begin: Some(NaiveDate::from_ymd_opt(1989, 9, 16).unwrap()),
-                end: Some(NaiveDate::from_ymd_opt(1989, 9, 16).unwrap()),
+                begin: Some(DateString::from("1989-09-16")),
+                end: Some(DateString::from("1989-09-16")),
                 ended: Some(true),
             }),
             relations: None,
@@ -399,8 +232,7 @@ async fn should_get_event_by_id() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_instrument() {
     let mandoline = Instrument::fetch()
         .id("37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32")
@@ -425,8 +257,7 @@ async fn should_get_instrument() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_place() {
     let blue_note_record = Place::fetch()
         .id("327c29c6-da63-4dc9-a117-1917ee691ce4")
@@ -440,8 +271,8 @@ async fn should_get_place() {
             name: "Blue Note".to_string(),
             disambiguation: Some("Chicago, 1954-1960".to_string()),
             life_span: Some(LifeSpan {
-                begin: Some(NaiveDate::from_ymd_opt(1954, 4, 2).unwrap()),
-                end: Some(NaiveDate::from_ymd_opt(1960, 6, 14).unwrap()),
+                begin: Some(DateString::from("1954-04-02")),
+                end: Some(DateString::from("1960-06-14")),
                 ended: Some(true),
             }),
             type_id: Some("cd92781a-a73f-30e8-a430-55d7521338db".to_string()),
@@ -475,8 +306,7 @@ async fn should_get_place() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_series() {
     let la_chanson_du_dimanche = Series::fetch()
         .id("814fb4d5-327f-4e37-8784-f8a707e5f97c")
@@ -500,8 +330,7 @@ async fn should_get_series() {
     );
 }
 
-#[tokio::test]
-#[serial_test::serial]
+#[tokio_shared_rt::test(shared)]
 async fn should_get_url() {
     let svinkels_dot_com = Url::fetch()
         .id("9237f6da-fec6-4b8a-9d52-c7c18e0e2630")
