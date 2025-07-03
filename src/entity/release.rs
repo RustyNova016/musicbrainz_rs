@@ -5,6 +5,7 @@ use super::{Include, Relationship, Subquery};
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
 use crate::entity::alias::Alias;
+use crate::entity::area::Area;
 use crate::entity::artist_credit::ArtistCredit;
 use crate::entity::date_string::DateString;
 use crate::entity::discid::Disc;
@@ -102,9 +103,17 @@ pub struct Release {
     pub text_representation: Option<ReleaseTextRepresentation>,
 
     pub cover_art_archive: Option<CoverArtArchiveRelease>,
+
+    pub release_events: Option<Vec<ReleaseEvent>>
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
+pub struct ReleaseEvent {
+    pub date: Option<DateString>,
+    pub area: Option<Area>,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub struct ReleaseTextRepresentation {
     /// The language a release's track list is written in. The possible values are taken from the ISO
     /// 639-3 standard.
