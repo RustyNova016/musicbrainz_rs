@@ -12,10 +12,10 @@ use governor::{
 #[cfg(feature = "rate_limit")]
 use std::sync::Arc;
 
+use crate::config::BASE_COVERART_URL;
+use crate::config::BASE_URL;
+use crate::config::DEFAULT_USER_AGENT;
 use crate::reqwester::ReqwestClient;
-use crate::BASE_COVERART_URL;
-use crate::BASE_URL;
-use crate::DEFAULT_USER_AGENT;
 
 pub static MUSICBRAINZ_CLIENT: LazyLock<MusicBrainzClient> =
     LazyLock::new(MusicBrainzClient::default);

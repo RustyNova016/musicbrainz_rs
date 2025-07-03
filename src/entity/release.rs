@@ -3,6 +3,8 @@ use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};
 
 use super::{Include, Relationship, Subquery};
+use crate::api::impl_browse_includes::impl_browse_includes;
+use crate::api::impl_relations_includes::impl_relations_includes;
 use crate::date_format;
 use crate::entity::alias::Alias;
 use crate::entity::artist_credit::ArtistCredit;
@@ -14,8 +16,6 @@ use crate::entity::relations::Relation;
 use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
-use crate::query::browse::impl_browse_includes;
-use crate::query::relations::impl_relations_includes;
 
 /// A MusicBrainz release represents the unique release (i.e. issuing) of a product on a specific
 /// date with specific release information such as the country, label, barcode and packaging.

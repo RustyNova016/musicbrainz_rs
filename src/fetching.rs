@@ -5,39 +5,15 @@ use reqwest::blocking::Response;
 #[cfg(feature = "async")]
 use reqwest::Response;
 
-use serde::de::DeserializeOwned;
 #[cfg(feature = "blocking")]
 use std::thread::sleep;
 
 #[cfg(feature = "async")]
 use tokio::time::sleep;
-use tracing::debug;
 
+use crate::api::api_request::ApiRequest;
 use crate::client::MusicBrainzClient;
 use crate::config::HTTP_RATELIMIT_CODE;
-use crate::entity::api::MusicbrainzResult;
-
-pub(crate) struct ApiRequest {
-    url: String,
-    tries: u32,
-}
-
-impl ApiRequest {
-    pub fn new(url: String) -> Self {
-        Self { url, tries: 0 }
-    }
-
-    #[maybe_async::maybe_async]
-    pub async fn send(&self, client: &MusicBrainzClient) -> Result<Response, reqwest::Error> {
-        let http_request = client.reqwest_client.get(&self.url);
-
-        debug!(
-            "Sending api request `{}` (attempt: {})",
-            self.url, self.tries
-        );
-        http_request.send().await
-    }
-}
 
 impl MusicBrainzClient {
     #[maybe_async::maybe_async]
@@ -46,19 +22,6 @@ impl MusicBrainzClient {
         if let Some(val) = &self.rate_limit {
             val.until_ready().await
         }
-    }
-
-    /// Send the reqwest as a get, deal with ratelimits, and retries
-    #[maybe_async::maybe_async]
-    pub(crate) async fn get<T>(&self, url: &str) -> Result<T, crate::Error>
-    where
-        T: DeserializeOwned,
-    {
-        self.send_with_retries(ApiRequest::new(url.to_string()))
-            .await?
-            .json::<MusicbrainzResult<T>>()
-            .await?
-            .into_result(url.to_string())
     }
 
     /// Send the reqwest, deal with ratelimits, and retries
@@ -71,7 +34,7 @@ impl MusicBrainzClient {
             self.wait_for_ratelimit().await;
 
             // Send the query
-            let response = request.send(self).await?;
+            let response = request.send_raw(self).await?;
 
             // Let's check if we hit the rate limit
             if response.status().as_u16() == HTTP_RATELIMIT_CODE {

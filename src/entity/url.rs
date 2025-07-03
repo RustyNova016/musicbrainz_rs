@@ -1,6 +1,6 @@
-use super::{Include, Relationship};
+use super::Include;
+use crate::api::impl_relations_includes::impl_relations_includes;
 use crate::entity::tag::Tag;
-use crate::query::relations::impl_relations_includes;
 use serde::{Deserialize, Serialize};
 
 /// A URL in MusicBrainz is a specific entity representing a regular internet Uniform Resource Locator.

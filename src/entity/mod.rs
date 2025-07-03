@@ -1,4 +1,8 @@
-use std::marker::PhantomData;
+use core::marker::PhantomData;
+
+use serde::Serialize;
+#[cfg(not(feature = "legacy_serialize"))]
+use serde::Serializer;
 
 use crate::entity::annotation::Annotation;
 use crate::entity::area::Area;
@@ -16,13 +20,10 @@ use crate::entity::release_group::ReleaseGroup;
 use crate::entity::series::Series;
 use crate::entity::url::Url;
 use crate::entity::work::Work;
+use crate::APIPath;
+use crate::Browse;
 use crate::Fetch;
-use crate::Path;
-use crate::{Browse, Search};
-use crate::{CoverartQuery, FetchCoverart, FetchCoverartQuery};
-use serde::Serialize;
-#[cfg(not(feature = "legacy_serialize"))]
-use serde::Serializer;
+use crate::Search;
 
 macro_rules! impl_includes {
     ($ty: ty, $(($args:ident, $inc: expr)),+) => {
@@ -56,9 +57,9 @@ macro_rules! impl_browse {
 
 macro_rules! impl_fetchcoverart {
     ($($t: ty), +) => {
-        $(impl FetchCoverart for $t {
-            fn get_coverart(&self) -> FetchCoverartQuery<Self> {
-                let mut coverart_query = FetchCoverartQuery(CoverartQuery {
+        $(impl crate::FetchCoverart for $t {
+            fn get_coverart(&self) -> crate::FetchCoverartQuery<Self> {
+                let mut coverart_query = crate::FetchCoverartQuery(crate::CoverartQuery {
                     path: Self::path().to_string(),
                     phantom: PhantomData,
                     target: CoverartTarget {
@@ -140,91 +141,91 @@ impl Search for Series {}
 impl Search for Work {}
 impl Search for CDStub {}
 
-impl Path for Annotation {
+impl APIPath for Annotation {
     fn path() -> &'static str {
         "annotation"
     }
 }
 
-impl Path for Artist {
+impl APIPath for Artist {
     fn path() -> &'static str {
         "artist"
     }
 }
 
-impl Path for Recording {
+impl APIPath for Recording {
     fn path() -> &'static str {
         "recording"
     }
 }
 
-impl Path for ReleaseGroup {
+impl APIPath for ReleaseGroup {
     fn path() -> &'static str {
         "release-group"
     }
 }
 
-impl Path for Release {
+impl APIPath for Release {
     fn path() -> &'static str {
         "release"
     }
 }
 
-impl Path for Work {
+impl APIPath for Work {
     fn path() -> &'static str {
         "work"
     }
 }
 
-impl Path for Label {
+impl APIPath for Label {
     fn path() -> &'static str {
         "label"
     }
 }
 
-impl Path for Area {
+impl APIPath for Area {
     fn path() -> &'static str {
         "area"
     }
 }
 
-impl Path for Event {
+impl APIPath for Event {
     fn path() -> &'static str {
         "event"
     }
 }
 
-impl Path for Instrument {
+impl APIPath for Instrument {
     fn path() -> &'static str {
         "instrument"
     }
 }
 
-impl Path for Place {
+impl APIPath for Place {
     fn path() -> &'static str {
         "place"
     }
 }
 
-impl Path for Series {
+impl APIPath for Series {
     fn path() -> &'static str {
         "series"
     }
 }
 
-impl Path for Url {
+impl APIPath for Url {
     fn path() -> &'static str {
         "url"
     }
 }
 
-impl Path for CDStub {
+impl APIPath for CDStub {
     fn path() -> &'static str {
         "cdstub"
     }
 }
 
-impl Path for Discid {
+impl APIPath for Discid {
     fn path() -> &'static str {
         "discid"
     }

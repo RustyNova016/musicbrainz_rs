@@ -1,0 +1,61 @@
+macro_rules! impl_relations_includes {
+    ($ty: ty) => {
+        impl_includes!(
+            $ty,
+            (
+                with_area_relations,
+                Include::Relationship(crate::entity::Relationship::Area)
+            ),
+            (
+                with_artist_relations,
+                Include::Relationship(crate::entity::Relationship::Artist)
+            ),
+            (
+                with_event_relations,
+                Include::Relationship(crate::entity::Relationship::Event)
+            ),
+            (
+                with_genre_relations,
+                Include::Relationship(crate::entity::Relationship::Genre)
+            ),
+            (
+                with_instrument_relations,
+                Include::Relationship(crate::entity::Relationship::Instrument)
+            ),
+            (
+                with_label_relations,
+                Include::Relationship(crate::entity::Relationship::Label)
+            ),
+            (
+                with_place_relations,
+                Include::Relationship(crate::entity::Relationship::Place)
+            ),
+            (
+                with_recording_relations,
+                Include::Relationship(crate::entity::Relationship::Recording)
+            ),
+            (
+                with_release_relations,
+                Include::Relationship(crate::entity::Relationship::Release)
+            ),
+            (
+                with_release_group_relations,
+                Include::Relationship(crate::entity::Relationship::ReleaseGroup)
+            ),
+            (
+                with_series_relations,
+                Include::Relationship(crate::entity::Relationship::Series)
+            ),
+            (
+                with_url_relations,
+                Include::Relationship(crate::entity::Relationship::Url)
+            ),
+            (
+                with_work_relations,
+                Include::Relationship(crate::entity::Relationship::Work)
+            )
+        );
+    };
+}
+
+pub(crate) use impl_relations_includes;
