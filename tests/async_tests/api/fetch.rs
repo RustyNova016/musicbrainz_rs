@@ -141,31 +141,11 @@ async fn should_get_work_by_id() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_label_by_id() {
-    let ninja_tune = Label::fetch()
-        .id("dc940013-b8a8-4362-a465-291026c04b42")
-        .execute()
-        .await;
+    let data = Label::fetch()
+    .id("dc940013-b8a8-4362-a465-291026c04b42")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        ninja_tune.unwrap(),
-        Label {
-            id: "dc940013-b8a8-4362-a465-291026c04b42".to_string(),
-            type_id: Some("7aaa37fe-2def-3476-b359-80245850062d".to_string()),
-            label_type: Some(LabelType::OriginalProduction),
-            name: "Ninja Tune".to_string(),
-            sort_name: Some("Ninja Tune".to_string()),
-            disambiguation: Some("London‐based label".to_string()),
-            country: Some("GB".to_string()),
-            label_code: Some(12885),
-            relations: None,
-            releases: None,
-            aliases: None,
-            tags: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "label/dc940013-b8a8-4362-a465-291026c04b42?", |_: Label| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]

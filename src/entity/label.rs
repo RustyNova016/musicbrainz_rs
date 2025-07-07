@@ -2,7 +2,9 @@ use super::{Include, Subquery};
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
 use crate::entity::alias::Alias;
+use crate::entity::area::Area;
 use crate::entity::genre::Genre;
+use crate::entity::lifespan::LifeSpan;
 use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::release::Release;
@@ -48,6 +50,12 @@ pub struct Label {
     /// Annotations are text fields, functioning like a miniature wiki, that can be added to any
     /// existing artists, labels, recordings, releases, release groups and works.
     pub annotation: Option<String>,
+    pub area: Option<Area>,
+    /// An IPI (interested party information) code is an identifying number assigned by the CISAC database for musical rights management. See [IPI](https://musicbrainz.org/doc/IPI) for more information, including how to find these codes.
+    pub ipis: Option<Vec<String>>,
+    /// The International Standard Name Identifier for the label. See [ISNI](https://musicbrainz.org/doc/ISNI) for more information.
+    pub isnis: Option<Vec<String>>,
+    pub life_span: Option<LifeSpan>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]
