@@ -31,7 +31,7 @@ use serde::{Deserialize, Serialize};
 pub struct Artist {
     /// See [MusicBrainz Identifier](https://musicbrainz.org/doc/MusicBrainz_Identifier).
     pub id: String,
-    
+
     /// The official name of an artist, be it a person or a band.
     pub name: String,
 
@@ -50,7 +50,7 @@ pub struct Artist {
     pub artist_type_id: Option<String>,
     #[serde(rename = "type")]
     pub artist_type: Option<ArtistType>,
-    
+
     /// The gender is used to explicitly state whether a person or character identifies as male,
     /// female or neither. Groups do not have genders.
     pub gender_id: Option<String>,

@@ -104,7 +104,7 @@ pub struct Release {
 
     pub cover_art_archive: Option<CoverArtArchiveRelease>,
 
-    pub release_events: Option<Vec<ReleaseEvent>>
+    pub release_events: Option<Vec<ReleaseEvent>>,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
