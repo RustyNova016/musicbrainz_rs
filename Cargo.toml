@@ -39,8 +39,9 @@ tokio-shared-rt = "0.1.0"
 futures = "0.3.31"
 
 [features]
-default = ["reqwest/default-tls", "async", "rate_limit"]
+default = ["default_tls", "async", "rate_limit"]
 async = ["tokio"]
+default_tls = ["reqwest/default-tls"]
 rustls = ["reqwest/rustls-tls"]
 blocking = ["reqwest/blocking", "maybe-async/is_sync"]
 rate_limit = ["governor", "async"]
