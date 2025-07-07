@@ -177,51 +177,11 @@ async fn should_get_instrument() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_place() {
-    let blue_note_record = Place::fetch()
-        .id("327c29c6-da63-4dc9-a117-1917ee691ce4")
-        .execute()
-        .await;
+    let data = Place::fetch()
+    .id("327c29c6-da63-4dc9-a117-1917ee691ce4")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        blue_note_record.unwrap(),
-        Place {
-            id: "327c29c6-da63-4dc9-a117-1917ee691ce4".to_string(),
-            name: "Blue Note".to_string(),
-            disambiguation: Some("Chicago, 1954-1960".to_string()),
-            life_span: Some(LifeSpan {
-                begin: Some(DateString::from("1954-04-02")),
-                end: Some(DateString::from("1960-06-14")),
-                ended: Some(true),
-            }),
-            type_id: Some("cd92781a-a73f-30e8-a430-55d7521338db".to_string()),
-            place_type: Some(Venue),
-            address: Some("3 North Clark Street, Chicago, IL 60602".to_string()),
-            area: Some(Area {
-                id: "29a709d8-0320-493e-8d0c-f2c386662b7f".to_string(),
-                disambiguation: "".to_string(),
-                sort_name: "Chicago".to_string(),
-                name: "Chicago".to_string(),
-                relations: None,
-                area_type: None,
-                type_id: None,
-                iso_3166_1_codes: None,
-                life_span: None,
-                tags: None,
-                aliases: None,
-                genres: None,
-                annotation: None,
-            }),
-            coordinates: Some(Coordinates {
-                latitude: 41.882_059.into(),
-                longitude: (-87.630_881).into()
-            }),
-            relations: None,
-            aliases: None,
-            tags: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "place/327c29c6-da63-4dc9-a117-1917ee691ce4?", |_: Place| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
