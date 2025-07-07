@@ -1,6 +1,6 @@
-use crate::date_format;
 use crate::entity::area::Area;
 use crate::entity::artist::Artist;
+use crate::entity::date_string::DateString;
 use crate::entity::event::Event;
 use crate::entity::label::Label;
 use crate::entity::place::Place;
@@ -12,7 +12,6 @@ use crate::entity::url::Url;
 use crate::entity::work::Work;
 use serde::{Deserialize, Serialize};
 
-use chrono::NaiveDate;
 use std::collections::HashMap;
 
 /// Relationships are a way to represent all the different ways in which entities are connected to
@@ -24,9 +23,7 @@ use std::collections::HashMap;
 )]
 #[cfg_attr(not(feature = "legacy_serialize"), serde(rename_all = "kebab-case"))]
 pub struct Relation {
-    #[serde(default)]
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    pub end: Option<NaiveDate>,
+    pub end: Option<DateString>,
     /// Relationships can have attributes which modify the relationship. There is a
     /// [list of all attributes](https://musicbrainz.org/relationship-attributes), but the
     /// attributes which are available, and how they should be used, depends on the relationship
@@ -46,13 +43,11 @@ pub struct Relation {
     pub source_credit: Option<String>,
     pub ended: Option<bool>,
     pub type_id: String,
-    #[serde(default)]
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
     /// Some relationships have two date fields, a begin date and an end date, to store the period
     /// of time during which the relationship applied. The date can be the year, the year and the
     /// month or the full date. It is optional, so it can also be left blank. As with other attributes,
     /// see the documentation for the relationship types you are using.
-    pub begin: Option<NaiveDate>,
+    pub begin: Option<DateString>,
     pub direction: String,
     #[serde(rename = "type")]
     pub relation_type: String,

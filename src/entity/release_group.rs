@@ -1,16 +1,15 @@
 use super::{Include, Subquery};
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
-use crate::date_format;
 use crate::entity::alias::Alias;
 use crate::entity::artist_credit::ArtistCredit;
+use crate::entity::date_string::DateString;
 use crate::entity::genre::Genre;
 use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::release::Release;
 use crate::entity::tag::Tag;
 use crate::entity::BrowseBy;
-use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};
 
@@ -37,8 +36,7 @@ pub struct ReleaseGroup {
     pub secondary_type_ids: Vec<String>,
     pub secondary_types: Vec<ReleaseGroupSecondaryType>,
 
-    #[serde(deserialize_with = "date_format::deserialize_opt")]
-    pub first_release_date: Option<NaiveDate>,
+    pub first_release_date: Option<DateString>,
 
     /// The title of a release group is usually very similar, if not the same, as the titles of the
     /// releases contained within it.

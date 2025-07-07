@@ -1,6 +1,8 @@
 use musicbrainz_rs::entity::recording::*;
 use musicbrainz_rs::prelude::*;
 
+// use crate::test_framework::check_fetch_query;
+
 #[tokio::test]
 #[serial_test::serial]
 async fn should_get_recording_artists() {
@@ -14,6 +16,20 @@ async fn should_get_recording_artists() {
 
     assert!(artist_credit.iter().any(|credit| credit.name == "TTC"));
     assert!(artist_credit.iter().any(|credit| credit.name == "Svinkels"));
+
+    // let association_de_gens_normal = Recording::fetch()
+    //     .id("f5f10cee-5d84-41d0-805d-3503872c151d")
+    //     .with_artists()
+    //     .execute()
+    //     .await
+    //     .unwrap();
+
+    // check_fetch_query(
+    //     "recording/f5f10cee-5d84-41d0-805d-3503872c151d?inc=artist-credits",
+    //     association_de_gens_normal,
+    //     |rec| assert!(!rec.artist_credit.unwrap().is_empty()),
+    // )
+    // .await;
 }
 
 #[tokio::test]

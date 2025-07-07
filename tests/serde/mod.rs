@@ -27,7 +27,12 @@ mod entity {
         assert_eq!(recording.disambiguation, Some("".to_string()));
         assert_eq!(
             recording.first_release_date,
-            Some(chrono::NaiveDate::from_ymd_opt(2007, 11, 7).unwrap())
+            Some(
+                chrono::NaiveDate::from_ymd_opt(2007, 11, 7)
+                    .unwrap()
+                    .to_string()
+                    .into()
+            )
         );
         assert_eq!(
             recording.id,
