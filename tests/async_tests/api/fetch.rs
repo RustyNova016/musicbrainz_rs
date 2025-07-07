@@ -195,17 +195,9 @@ async fn should_get_series() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_url() {
-    let svinkels_dot_com = Url::fetch()
-        .id("9237f6da-fec6-4b8a-9d52-c7c18e0e2630")
-        .execute()
-        .await;
+    let data = Url::fetch()
+    .id("9237f6da-fec6-4b8a-9d52-c7c18e0e2630")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        svinkels_dot_com.unwrap(),
-        Url {
-            resource: "http://www.svinkels.com/".to_string(),
-            id: "9237f6da-fec6-4b8a-9d52-c7c18e0e2630".to_string(),
-            tags: None,
-        }
-    );
+    check_fetch_query(data, "url/9237f6da-fec6-4b8a-9d52-c7c18e0e2630?", |_: Url| {}).await;
 }
