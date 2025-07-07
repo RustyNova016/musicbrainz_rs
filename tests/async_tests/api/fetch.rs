@@ -150,66 +150,20 @@ async fn should_get_label_by_id() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_area_by_id() {
-    let aberdeen = Area::fetch()
-        .id("a640b45c-c173-49b1-8030-973603e895b5")
-        .execute()
-        .await;
+    let data = Area::fetch()
+    .id("a640b45c-c173-49b1-8030-973603e895b5")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        aberdeen.unwrap(),
-        Area {
-            id: "a640b45c-c173-49b1-8030-973603e895b5".to_string(),
-            area_type: Some(City),
-            type_id: Some("6fd8f29a-3d0a-32fc-980d-ea697b69da78".to_string()),
-            disambiguation: "".to_string(),
-            name: "Aberdeen".to_string(),
-            sort_name: "Aberdeen".to_string(),
-            relations: None,
-            iso_3166_1_codes: None,
-            tags: None,
-            aliases: None,
-            genres: None,
-            annotation: None,
-            life_span: Some(LifeSpan {
-                ended: Some(false),
-                begin: None,
-                end: None,
-            }),
-        }
-    );
+    check_fetch_query(data, "area/a640b45c-c173-49b1-8030-973603e895b5?", |_: Area| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_event_by_id() {
-    let dour_festival_1989 = Event::fetch()
-        .id("73df2f48-383b-4930-bad3-05ba938be578")
-        .execute()
-        .await;
+    let data = Event::fetch()
+    .id("73df2f48-383b-4930-bad3-05ba938be578")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        dour_festival_1989.unwrap(),
-        Event {
-            id: "73df2f48-383b-4930-bad3-05ba938be578".to_string(),
-            name: "Dour 1989".to_string(),
-            cancelled: Some(false),
-            type_id: Some("b6ded574-b592-3f0e-b56e-5b5f06aa0678".to_string()),
-            event_type: Some(EventType::Festival),
-            disambiguation: Some("".to_string()),
-            time: Some("".to_string()),
-            setlist: Some("".to_string()),
-            life_span: Some(LifeSpan {
-                begin: Some(DateString::from("1989-09-16")),
-                end: Some(DateString::from("1989-09-16")),
-                ended: Some(true),
-            }),
-            relations: None,
-            tags: None,
-            aliases: None,
-            rating: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "event/73df2f48-383b-4930-bad3-05ba938be578?", |_: Event| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
