@@ -168,27 +168,11 @@ async fn should_get_event_by_id() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_instrument() {
-    let mandoline = Instrument::fetch()
-        .id("37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32")
-        .execute()
-        .await;
+    let data = Instrument::fetch()
+    .id("37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        mandoline.unwrap(),
-        Instrument {
-            id: "37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32".to_string(),
-            name: "mandolin".to_string(),
-            instrument_type: StringInstrument,
-            type_id: "cc00f97f-cf3d-3ae2-9163-041cb1a0d726".to_string(),
-            description: Some("".to_string()),
-            disambiguation: Some("".to_string()),
-            relations: None,
-            tags: None,
-            aliases: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "instrument/37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32?", |_: Instrument| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
