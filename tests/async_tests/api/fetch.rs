@@ -186,26 +186,11 @@ async fn should_get_place() {
 
 #[tokio_shared_rt::test(shared)]
 async fn should_get_series() {
-    let la_chanson_du_dimanche = Series::fetch()
-        .id("814fb4d5-327f-4e37-8784-f8a707e5f97c")
-        .execute()
-        .await;
+    let data = Series::fetch()
+    .id("814fb4d5-327f-4e37-8784-f8a707e5f97c")
+    .as_api_request(&CLIENT);
 
-    assert_eq!(
-        la_chanson_du_dimanche.unwrap(),
-        Series {
-            id: "814fb4d5-327f-4e37-8784-f8a707e5f97c".to_string(),
-            type_id: "dd968243-7128-30a2-81f0-79843430a8e2".to_string(),
-            series_type: SeriesType::RecordingSeries,
-            disambiguation: "".to_string(),
-            name: "La Chanson du Dimanche — Saison 4".to_string(),
-            relations: None,
-            tags: None,
-            aliases: None,
-            genres: None,
-            annotation: None,
-        }
-    );
+    check_fetch_query(data, "series/814fb4d5-327f-4e37-8784-f8a707e5f97c?", |_: Series| {}).await;
 }
 
 #[tokio_shared_rt::test(shared)]
