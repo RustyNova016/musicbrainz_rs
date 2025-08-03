@@ -25,7 +25,6 @@ pub struct MusicBrainzClient {
     /// Domain of the api. Aka, `https://musicbrainz.org`
     pub musicbrainz_domain: String,
     pub coverart_archive_url: String,
-    pub(crate) user_agent: String,
     pub max_retries: u32,
 
     pub(crate) reqwest_client: ReqwestClient,
@@ -41,6 +40,39 @@ pub struct MusicBrainzClient {
 
 // Common implements
 impl MusicBrainzClient {
+    /// Creates a new [MusicBrainzClient] with the specified user agent.
+    ///
+    /// Each request sent to MusicBrainz needs to include a User-Agent header,
+    /// with enough information in the User-Agent to contact the application maintainers.
+    /// We strongly suggest including your application's version number
+    /// in the User-Agent string too.
+    ///
+    /// For more info see [Rate Limiting](https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting#Provide_meaningful_User-Agent_strings)
+    ///
+    /// ## Example
+    /// ```rust
+    /// # use musicbrainz_rs::client::MusicBrainzClient;
+    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)");
+    /// ```
+    pub fn new(user_agent: &str) -> Self {
+        let mut headers = header::HeaderMap::new();
+        headers.insert(
+            header::USER_AGENT,
+            header::HeaderValue::from_str(user_agent).expect("Unable to set default user agent"),
+        );
+
+        let reqwest_client = ReqwestClient::builder()
+            // see : https://github.com/hyperium/hyper/issues/2136
+            .pool_max_idle_per_host(0)
+            .default_headers(headers)
+            .build().expect("Unable to set default user agent, the following values must be set in Cargo.toml : 'name', 'version', 'authors'");
+
+        Self {
+            reqwest_client,
+            ..Default::default()
+        }
+    }
+
     /// Each request sent to MusicBrainz needs to include a User-Agent header,
     /// with enough information in the User-Agent to contact the application maintainers.
     /// We strongly suggest including your application's version number
@@ -54,14 +86,15 @@ impl MusicBrainzClient {
     /// # let mut client = MusicBrainzClient::default();
     /// client.set_user_agent("MyAwesomeTagger/1.2.0 ( http://myawesometagger.example.com )");
     /// ```
+    ///
+    /// > WARNING : This method will override the [ReqwestClient]
+    #[deprecated(note = "Use `new` instead")]
     pub fn set_user_agent(&mut self, user_agent: &str) -> Result<(), InvalidHeaderValue> {
-        self.user_agent = user_agent.to_string();
-
         let mut headers = header::HeaderMap::new();
 
         headers.insert(
             header::USER_AGENT,
-            header::HeaderValue::from_str(&self.user_agent)?,
+            header::HeaderValue::from_str(user_agent)?,
         );
 
         self.reqwest_client = ReqwestClient::builder()
@@ -106,7 +139,6 @@ impl Default for MusicBrainzClient {
         Self {
             musicbrainz_domain: BASE_URL.to_string(),
             coverart_archive_url: BASE_COVERART_URL.to_string(),
-            user_agent: DEFAULT_USER_AGENT.to_owned(),
             max_retries: 10,
 
             reqwest_client,
