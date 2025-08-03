@@ -73,6 +73,21 @@ impl MusicBrainzClient {
         }
     }
 
+    /// Creates a new [MusicBrainzClient] using an existing [ReqwestClient].
+    ///
+    /// ```rust
+    /// use musicbrainz_rs::client::MusicBrainzClient;
+    /// use reqwest::Client as ReqwestClient;
+    /// let reqwest_client = ReqwestClient::builder().build().unwrap();
+    /// let client = MusicBrainzClient::new_with_reqwest_client(reqwest_client);
+    /// ```
+    pub fn new_with_reqwest_client(reqwest_client: ReqwestClient) -> Self {
+        Self {
+            reqwest_client,
+            ..Default::default()
+        }
+    }
+
     /// Each request sent to MusicBrainz needs to include a User-Agent header,
     /// with enough information in the User-Agent to contact the application maintainers.
     /// We strongly suggest including your application's version number
