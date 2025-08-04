@@ -24,5 +24,5 @@ pub enum Error {
     MissingRetryToken,
 
     #[error("Unable to set default user agent, the following values must be set in Cargo.toml : 'name', 'version', 'authors'")]
-    InvalidUserAgent(InvalidHeaderValue)
+    InvalidUserAgent(InvalidHeaderValue),
 }

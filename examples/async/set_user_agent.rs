@@ -4,7 +4,9 @@ use musicbrainz_rs::prelude::*;
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() {
-    let client = MusicBrainzClient::new("MyAwesomeTagger/1.2.0 ( http://myawesometagger.example.com )").unwrap();
+    let client =
+        MusicBrainzClient::new("MyAwesomeTagger/1.2.0 ( http://myawesometagger.example.com )")
+            .unwrap();
 
     let nirvana = Artist::fetch()
         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
