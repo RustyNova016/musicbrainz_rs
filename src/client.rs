@@ -58,8 +58,7 @@ impl MusicBrainzClient {
         let mut headers = header::HeaderMap::new();
         headers.insert(
             header::USER_AGENT,
-            header::HeaderValue::from_str(user_agent)
-                .map_err(|h| crate::Error::InvalidUserAgent(h))?,
+            header::HeaderValue::from_str(user_agent).map_err(crate::Error::InvalidUserAgent)?,
         );
 
         let reqwest_client = ReqwestClient::builder()
