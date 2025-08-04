@@ -27,7 +27,7 @@ pub struct MusicBrainzClient {
     pub coverart_archive_url: String,
     pub max_retries: u32,
 
-    pub(crate) reqwest_client: ReqwestClient,
+    pub reqwest_client: ReqwestClient,
 
     /// The rate limiter of the API. By default, it has 5 "Cells", and replenish 1 per second in accordance to the MB API guidelines.
     ///
@@ -134,6 +134,7 @@ impl MusicBrainzClient {
     }
 
     /// Return the reqwest client to allow custom queries
+    #[deprecated(note = "Directly call the field")]
     pub fn get_reqwest_client(&self) -> &ReqwestClient {
         &self.reqwest_client
     }
