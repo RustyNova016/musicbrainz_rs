@@ -52,25 +52,26 @@ impl MusicBrainzClient {
     /// ## Example
     /// ```rust
     /// # use musicbrainz_rs::client::MusicBrainzClient;
-    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)");
+    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)").unwrap();
     /// ```
-    pub fn new(user_agent: &str) -> Self {
+    pub fn new(user_agent: &str) -> Result<Self, crate::Error> {
         let mut headers = header::HeaderMap::new();
         headers.insert(
             header::USER_AGENT,
-            header::HeaderValue::from_str(user_agent).expect("Unable to set default user agent"),
+            header::HeaderValue::from_str(user_agent)
+                .map_err(|h| crate::Error::InvalidUserAgent(h))?,
         );
 
         let reqwest_client = ReqwestClient::builder()
             // see : https://github.com/hyperium/hyper/issues/2136
             .pool_max_idle_per_host(0)
             .default_headers(headers)
-            .build().expect("Unable to set default user agent, the following values must be set in Cargo.toml : 'name', 'version', 'authors'");
+            .build()?;
 
-        Self {
+        Ok(Self {
             reqwest_client,
             ..Default::default()
-        }
+        })
     }
 
     /// Creates a new [MusicBrainzClient] using an existing [ReqwestClient].

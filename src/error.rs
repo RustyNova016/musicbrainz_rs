@@ -1,3 +1,4 @@
+use reqwest::header::InvalidHeaderValue;
 use thiserror::Error;
 
 use crate::entity::api::MusicbrainzError;
@@ -21,4 +22,7 @@ pub enum Error {
 
     #[error("No retry token is saved. Check if the user has been authorized first")]
     MissingRetryToken,
+
+    #[error("Unable to set default user agent, the following values must be set in Cargo.toml : 'name', 'version', 'authors'")]
+    InvalidUserAgent(InvalidHeaderValue)
 }
