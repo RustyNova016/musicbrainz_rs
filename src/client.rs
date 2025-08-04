@@ -78,7 +78,13 @@ impl MusicBrainzClient {
     /// ```rust
     /// use musicbrainz_rs::client::MusicBrainzClient;
     /// use reqwest::Client as ReqwestClient;
-    /// let reqwest_client = ReqwestClient::builder().build().unwrap();
+    /// let reqwest_client = ReqwestClient::builder()
+    ///     // Not required, but prevents against random crashes
+    ///     // See: https://github.com/hyperium/hyper/issues/2136
+    ///     .pool_max_idle_per_host(0)
+    ///     // (Don't forget to add your user agent here)
+    ///     .build()
+    ///     .unwrap();
     /// let client = MusicBrainzClient::new_with_reqwest_client(reqwest_client);
     /// ```
     pub fn new_with_reqwest_client(reqwest_client: ReqwestClient) -> Self {
