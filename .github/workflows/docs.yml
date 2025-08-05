@@ -25,4 +25,4 @@ jobs:
       - uses: dtolnay/rust-toolchain@nightly
       - uses: Swatinem/rust-cache@v2
       - uses: dtolnay/install@cargo-docs-rs
-      - run: cargo doc --all-features --no-deps --document-private-items
+      - run: cargo hack doc --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking -- --no-deps --document-private-items

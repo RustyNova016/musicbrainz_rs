@@ -25,4 +25,4 @@ jobs:
     - uses: taiki-e/install-action@cargo-hack
     - uses: taiki-e/install-action@cargo-minimal-versions
     - name: Run cargo-minimal-versions
-      run:  cargo minimal-versions check --direct
+      run: cargo hack minimal-versions --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking -- check --direct
