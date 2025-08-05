@@ -1,0 +1,33 @@
+name: Rust
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [ "master", "main", "develop"]
+  pull_request:
+    branches: [ "master", "main", "develop" ]
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -Dwarnings
+  RUST_BACKTRACE: 1
+
+jobs:
+  msrv:
+    env: 
+      SQLX_OFFLINE: true
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: Swatinem/rust-cache@v2
+
+    - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+
+    - name: Install cargo-msrv
+      run: cargo install cargo-msrv --all-features
+
+    - name: Run cargo-msrv
+      run: cargo msrv verify --all-features

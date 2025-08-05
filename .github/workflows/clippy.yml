@@ -1,0 +1,35 @@
+name: Rust
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [ "master", "main", "develop"]
+  pull_request:
+    branches: [ "master", "main", "develop" ]
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -Dwarnings
+  RUST_BACKTRACE: 1
+
+jobs:
+  clippy:
+    env: 
+      SQLX_OFFLINE: true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install minimal toolchain
+      - name: Install minimal stable toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      - uses: Swatinem/rust-cache@v2
+
+      - uses: taiki-e/install-action@cargo-hack
+
+      - name: Run clippy
+        run: cargo hack clippy --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking -- -D warnings

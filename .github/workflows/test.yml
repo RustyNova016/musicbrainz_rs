@@ -1,0 +1,39 @@
+name: Rust
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [ "master", "main", "develop"]
+  pull_request:
+    branches: [ "master", "main", "develop" ]
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -Dwarnings
+  RUST_BACKTRACE: 1
+
+jobs:
+  tests:
+    env: 
+      SQLX_OFFLINE: true
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: rustup toolchain install stable --profile minimal --no-self-update
+
+      - uses: Swatinem/rust-cache@v2
+        with: 
+          key: "(${{ matrix.os }})"
+
+      - uses: taiki-e/install-action@cargo-hack
+        
+      - name: Run tests
+        # Check only async + ratelimit. Blocking only change reqwest to use the blocking runtime.
+        run: cargo test --no-default-features --features rate_limit,extras,async,default_tls
