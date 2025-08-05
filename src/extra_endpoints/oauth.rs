@@ -1,7 +1,6 @@
 use chrono::DateTime;
 use chrono::Duration;
 use chrono::Utc;
-use reqwest::header::USER_AGENT;
 use serde::Deserialize;
 use serde::Serialize;
 
@@ -31,7 +30,6 @@ impl MusicbrainzOauth {
                         "https://{}/oauth2/token?grant_type=authorization_code&code={}&client_id={}&client_secret={}&redirect_uri={}",
                         client.musicbrainz_domain, auth_code, self.client_id, self.client_secret, self.redirect_uri
                     ))
-                    .header(USER_AGENT, &client.user_agent)
                     .send()
                     .await?
                     .json::<TokenResponse>()
@@ -51,7 +49,6 @@ impl MusicbrainzOauth {
             .post(format!(
                 "https://{}/oauth2/token?grant_type=refresh_token&refresh_token={}&client_id={}&client_secret={}", 
                 client.musicbrainz_domain, refresh_token, self.client_id, self.client_secret))
-            .header(USER_AGENT, &client.user_agent)
             .send()
             .await?
             .json()

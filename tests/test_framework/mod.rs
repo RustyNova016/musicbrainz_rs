@@ -9,14 +9,12 @@ use serde_json::Value;
 
 use crate::test_framework::null_eq::NullEq as _;
 
-pub(crate) static CLIENT: LazyLock<MusicBrainzClient> =
-    LazyLock::new(|| {
-        let mut client = MusicBrainzClient::default();
-        client.set_user_agent(
-            "musicbrainz_rs_test_suite/1.0.0 ( https://github.com/RustyNova016/musicbrainz_rs )",
-        ).unwrap();
-        client
-    });
+pub(crate) static CLIENT: LazyLock<MusicBrainzClient> = LazyLock::new(|| {
+    MusicBrainzClient::new(
+        "musicbrainz_rs_test_suite/1.0.0 ( https://github.com/RustyNova016/musicbrainz_rs )",
+    )
+    .unwrap()
+});
 pub(crate) async fn check_fetch_query<T>(request: ApiRequest, expected_url: &str, extra: impl Fn(T))
 where
     T: Serialize + DeserializeOwned + Clone,

@@ -25,10 +25,9 @@ pub struct MusicBrainzClient {
     /// Domain of the api. Aka, `https://musicbrainz.org`
     pub musicbrainz_domain: String,
     pub coverart_archive_url: String,
-    pub(crate) user_agent: String,
     pub max_retries: u32,
 
-    pub(crate) reqwest_client: ReqwestClient,
+    pub reqwest_client: ReqwestClient,
 
     /// The rate limiter of the API. By default, it has 5 "Cells", and replenish 1 per second in accordance to the MB API guidelines.
     ///
@@ -41,6 +40,60 @@ pub struct MusicBrainzClient {
 
 // Common implements
 impl MusicBrainzClient {
+    /// Creates a new [MusicBrainzClient] with the specified user agent.
+    ///
+    /// Each request sent to MusicBrainz needs to include a User-Agent header,
+    /// with enough information in the User-Agent to contact the application maintainers.
+    /// We strongly suggest including your application's version number
+    /// in the User-Agent string too.
+    ///
+    /// For more info see [Rate Limiting](https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting#Provide_meaningful_User-Agent_strings)
+    ///
+    /// ## Example
+    /// ```rust
+    /// # use musicbrainz_rs::client::MusicBrainzClient;
+    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)").unwrap();
+    /// ```
+    pub fn new(user_agent: &str) -> Result<Self, crate::Error> {
+        let mut headers = header::HeaderMap::new();
+        headers.insert(
+            header::USER_AGENT,
+            header::HeaderValue::from_str(user_agent).map_err(crate::Error::InvalidUserAgent)?,
+        );
+
+        let reqwest_client = ReqwestClient::builder()
+            // see : https://github.com/hyperium/hyper/issues/2136
+            .pool_max_idle_per_host(0)
+            .default_headers(headers)
+            .build()?;
+
+        Ok(Self {
+            reqwest_client,
+            ..Default::default()
+        })
+    }
+
+    /// Creates a new [MusicBrainzClient] using an existing [ReqwestClient].
+    ///
+    /// ```rust
+    /// use musicbrainz_rs::client::MusicBrainzClient;
+    /// use reqwest::Client as ReqwestClient;
+    /// let reqwest_client = ReqwestClient::builder()
+    ///     // Not required, but prevents against random crashes
+    ///     // See: https://github.com/hyperium/hyper/issues/2136
+    ///     .pool_max_idle_per_host(0)
+    ///     // (Don't forget to add your user agent here)
+    ///     .build()
+    ///     .unwrap();
+    /// let client = MusicBrainzClient::new_with_reqwest_client(reqwest_client);
+    /// ```
+    pub fn new_with_reqwest_client(reqwest_client: ReqwestClient) -> Self {
+        Self {
+            reqwest_client,
+            ..Default::default()
+        }
+    }
+
     /// Each request sent to MusicBrainz needs to include a User-Agent header,
     /// with enough information in the User-Agent to contact the application maintainers.
     /// We strongly suggest including your application's version number
@@ -54,14 +107,15 @@ impl MusicBrainzClient {
     /// # let mut client = MusicBrainzClient::default();
     /// client.set_user_agent("MyAwesomeTagger/1.2.0 ( http://myawesometagger.example.com )");
     /// ```
+    ///
+    /// > WARNING : This method will override the [ReqwestClient]
+    #[deprecated(note = "Use `new` instead")]
     pub fn set_user_agent(&mut self, user_agent: &str) -> Result<(), InvalidHeaderValue> {
-        self.user_agent = user_agent.to_string();
-
         let mut headers = header::HeaderMap::new();
 
         headers.insert(
             header::USER_AGENT,
-            header::HeaderValue::from_str(&self.user_agent)?,
+            header::HeaderValue::from_str(user_agent)?,
         );
 
         self.reqwest_client = ReqwestClient::builder()
@@ -80,6 +134,7 @@ impl MusicBrainzClient {
     }
 
     /// Return the reqwest client to allow custom queries
+    #[deprecated(note = "Directly call the field")]
     pub fn get_reqwest_client(&self) -> &ReqwestClient {
         &self.reqwest_client
     }
@@ -106,7 +161,6 @@ impl Default for MusicBrainzClient {
         Self {
             musicbrainz_domain: BASE_URL.to_string(),
             coverart_archive_url: BASE_COVERART_URL.to_string(),
-            user_agent: DEFAULT_USER_AGENT.to_owned(),
             max_retries: 10,
 
             reqwest_client,
