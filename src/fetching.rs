@@ -4,6 +4,7 @@ use core::time::Duration;
 use reqwest::blocking::Response;
 #[cfg(feature = "async")]
 use reqwest::Response;
+use snafu::ResultExt;
 
 #[cfg(feature = "blocking")]
 use std::thread::sleep;
@@ -12,6 +13,7 @@ use std::thread::sleep;
 use tokio::time::sleep;
 
 use crate::api::api_request::ApiRequest;
+use crate::api::api_request::RequestSendError;
 use crate::client::MusicBrainzClient;
 use crate::config::HTTP_RATELIMIT_CODE;
 
@@ -29,12 +31,12 @@ impl MusicBrainzClient {
     pub(crate) async fn send_with_retries(
         &self,
         mut request: ApiRequest,
-    ) -> Result<Response, crate::Error> {
+    ) -> Result<Response, SendWithRetriesError> {
         while request.tries < self.max_retries {
             self.wait_for_ratelimit().await;
 
             // Send the query
-            let response = request.send_raw(self).await?;
+            let response = request.send_raw(self).await.context(RequestSendSnafu)?;
 
             // Let's check if we hit the rate limit
             if response.status().as_u16() == HTTP_RATELIMIT_CODE {
@@ -56,11 +58,26 @@ impl MusicBrainzClient {
             }
         }
 
-        Err(crate::Error::MaxRetriesExceeded)
+        MaxRetriesExceededSnafu.fail()
     }
 
     /// The api root. For exemple `https://musicbrainz.org/ws/2`
     pub fn api_root(&self) -> String {
         format!("{}/ws/2", self.musicbrainz_domain)
     }
+}
+
+#[derive(Debug, snafu::Snafu)]
+pub enum SendWithRetriesError {
+    #[snafu(display("Couldn't successfully send the http request with retries"))]
+    RequestSendError {
+        #[cfg_attr(feature = "backtrace", snafu(backtrace))]
+        source: RequestSendError,
+    },
+
+    #[snafu(display("The max retry count for the request as been exeeded. You may want to check if the correct url is set, musicbrainz is online, or you aren't hitting the ratelimit."))]
+    MaxRetriesExceeded {
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
 }

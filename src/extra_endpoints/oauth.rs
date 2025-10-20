@@ -3,6 +3,7 @@ use chrono::Duration;
 use chrono::Utc;
 use serde::Deserialize;
 use serde::Serialize;
+use snafu::ResultExt;
 
 use crate::client::MusicBrainzClient;
 
@@ -23,7 +24,7 @@ impl MusicbrainzOauth {
         &self,
         client: &MusicBrainzClient,
         auth_code: &str,
-    ) -> Result<MusicbrainzToken, crate::Error> {
+    ) -> Result<MusicbrainzToken, GetTokenError> {
         Ok(
             client.reqwest_client
                     .post(format!(
@@ -31,9 +32,9 @@ impl MusicbrainzOauth {
                         client.musicbrainz_domain, auth_code, self.client_id, self.client_secret, self.redirect_uri
                     ))
                     .send()
-                    .await?
+                    .await.context(RequestSendSnafu)?
                     .json::<TokenResponse>()
-                    .await?
+                    .await.context(RequestParsingSnafu)?
                     .into()
                 )
     }
@@ -44,15 +45,15 @@ impl MusicbrainzOauth {
         &self,
         client: &MusicBrainzClient,
         refresh_token: &str,
-    ) -> Result<TokenResponse, crate::Error> {
-        Ok( client.reqwest_client
+    ) -> Result<TokenResponse, RefreshTokenError> {
+        client.reqwest_client
             .post(format!(
                 "https://{}/oauth2/token?grant_type=refresh_token&refresh_token={}&client_id={}&client_secret={}", 
                 client.musicbrainz_domain, refresh_token, self.client_id, self.client_secret))
             .send()
-            .await?
+            .await.context(RefreshRequestSendSnafu)?
             .json()
-            .await?)
+            .await.context(RefreshRequestParsingSnafu)
     }
 }
 
@@ -79,7 +80,7 @@ impl MusicbrainzToken {
         &mut self,
         client: &MusicBrainzClient,
         oauth: &MusicbrainzOauth,
-    ) -> Result<&str, crate::Error> {
+    ) -> Result<&str, RefreshTokenError> {
         if self.is_token_expired() {
             let token = oauth.refresh_token(client, &self.refresh_token).await?;
             *self = token.into();
@@ -104,4 +105,40 @@ pub struct TokenResponse {
     access_token: String,
     expires_in: i64,
     refresh_token: String,
+}
+
+/// Error for the [`MusicbrainzOauth::get_access_token`] function
+#[derive(Debug, snafu::Snafu)]
+pub enum GetTokenError {
+    #[snafu(display("Couldn't successfully send the http request"))]
+    RequestSendError {
+        source: reqwest::Error,
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
+
+    #[snafu(display("Couldn't parse the api response"))]
+    RequestParsingError {
+        source: reqwest::Error,
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
+}
+
+/// Error for the [`MusicbrainzOauth::refresh_token`] function
+#[derive(Debug, snafu::Snafu)]
+pub enum RefreshTokenError {
+    #[snafu(display("Couldn't successfully send the http request"))]
+    RefreshRequestSendError {
+        source: reqwest::Error,
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
+
+    #[snafu(display("Couldn't parse the api response"))]
+    RefreshRequestParsingError {
+        source: reqwest::Error,
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
 }

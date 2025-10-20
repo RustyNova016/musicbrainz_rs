@@ -3,6 +3,7 @@ use core::marker::PhantomData;
 
 use serde::de::DeserializeOwned;
 
+use crate::api::api_request::GetRequestError;
 use crate::api::query::Query;
 use crate::client::MUSICBRAINZ_CLIENT;
 use crate::APIPath;
@@ -19,7 +20,7 @@ use crate::ApiRequest;
 /// # use musicbrainz_rs::prelude::*;
 /// # #[tokio::main]
 /// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), Error> {
+/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// let nirvana = Artist::fetch()
 ///         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -30,7 +31,7 @@ use crate::ApiRequest;
 /// #   Ok(())
 /// # }
 /// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), Error> {
+/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// let nirvana = Artist::fetch()
 ///         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -59,7 +60,7 @@ where
     }
 
     #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<T, crate::Error>
+    pub async fn execute(&mut self) -> Result<T, GetRequestError>
     where
         T: Fetch + DeserializeOwned,
     {
@@ -71,7 +72,7 @@ where
     pub async fn execute_with_client(
         &mut self,
         client: &crate::MusicBrainzClient,
-    ) -> Result<T, crate::Error>
+    ) -> Result<T, GetRequestError>
     where
         T: Fetch + DeserializeOwned,
     {

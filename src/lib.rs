@@ -15,7 +15,7 @@
 //!
 //! # #[cfg(feature = "async")]
 //! #[tokio::main]
-//! async fn main() -> Result<(), Error> {
+//! async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 //!
 //!     let nirvana = Artist::fetch()
 //!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -26,7 +26,7 @@
 //!     Ok(())
 //! }
 //! # #[cfg(feature = "blocking")]
-//! fn main() -> Result<(), Error> {
+//! fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 //!
 //!     let nirvana = Artist::fetch()
 //!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -43,37 +43,36 @@
 //! [musicbrainz::prelude]: crate::prelude
 //! [entity]: crate::entity
 
+#![allow(clippy::result_large_err)]
+
 /// All the configurations for API queries / fetching
 pub mod api;
 
-/// Configure the HTTP client global state
-pub mod config;
+/// The request clien
+pub mod client;
 
 /// Configure the HTTP client global state
-pub mod client;
+pub mod config;
 
 /// The deserializers for the specific Musicbrainz responses
 mod deserialization;
 
 /// All Musicbrainz entities
 pub mod entity;
+/// Module for error reexports
+pub mod error;
+pub mod extra_endpoints;
+pub mod fetching;
 
 /// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
-
-/// Crate errors;
-pub mod error;
-
-pub mod extra_endpoints;
-
-pub mod fetching;
-
-/// Extra utilities that aren't strictly related to the API
 #[cfg(feature = "extras")]
 pub mod utils;
 
+/// Extra utilities that aren't strictly related to the API
 // === Re-exports ===
 pub use crate::api::api_request::ApiRequest;
+pub use crate::api::api_request::GetRequestError;
 pub use crate::api::browse_query::Browse;
 pub use crate::api::browse_query::BrowseQuery;
 pub use crate::api::coverart_query::FetchCoverart;
@@ -83,7 +82,6 @@ pub use crate::api::fetch_query::FetchQuery;
 pub use crate::api::search_query::Search;
 pub use crate::api::search_query::SearchQuery;
 pub use crate::client::MusicBrainzClient;
-pub use crate::error::Error;
 
 pub(crate) use crate::api::coverart_query::CoverartQuery;
 
