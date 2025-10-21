@@ -2,6 +2,8 @@ use std::sync::LazyLock;
 
 use reqwest::header;
 use reqwest::header::InvalidHeaderValue;
+use snafu::ResultExt;
+use snafu::Snafu;
 
 #[cfg(feature = "rate_limit")]
 use core::num::NonZeroU32;
@@ -54,18 +56,19 @@ impl MusicBrainzClient {
     /// # use musicbrainz_rs::client::MusicBrainzClient;
     /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)").unwrap();
     /// ```
-    pub fn new(user_agent: &str) -> Result<Self, crate::Error> {
+    pub fn new(user_agent: &str) -> Result<Self, ClientBuildError> {
         let mut headers = header::HeaderMap::new();
         headers.insert(
             header::USER_AGENT,
-            header::HeaderValue::from_str(user_agent).map_err(crate::Error::InvalidUserAgent)?,
+            header::HeaderValue::from_str(user_agent).context(InvalidUserAgentSnafu)?,
         );
 
         let reqwest_client = ReqwestClient::builder()
             // see : https://github.com/hyperium/hyper/issues/2136
             .pool_max_idle_per_host(0)
             .default_headers(headers)
-            .build()?;
+            .build()
+            .context(RequestClientBuildSnafu)?;
 
         Ok(Self {
             reqwest_client,
@@ -170,28 +173,21 @@ impl Default for MusicBrainzClient {
     }
 }
 
-// #[cfg(test)]
-// #[cfg(feature = "rate_limit")]
-// mod tests {
-//     use futures::stream;
-//     use futures::StreamExt;
+/// Error for the [`MusicBrainzClient::new`] function
+#[derive(Debug, Snafu)]
+pub enum ClientBuildError {
+    #[snafu(display("Unable to set default user agent, the following values must be set in Cargo.toml : 'name', 'version', 'authors'"))]
+    InvalidUserAgent {
+        source: InvalidHeaderValue,
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
 
-//     use crate::entity::recording::Recording;
-//     use crate::Fetch;
+    #[snafu(display("An error happened while creating a reqwest client"))]
+    RequestClientBuildError {
+        source: reqwest::Error,
 
-//     #[tokio::test]
-//     #[serial_test::serial]
-
-//     async fn should_not_hit_ratelimit() {
-//         stream::iter(0..30)
-//             .map(|_| async move {
-//                 Recording::fetch()
-//                     .id("5fed738b-1e5c-4a1b-9f66-b3fd15dbc8ef")
-//                     .execute()
-//                     .await
-//             })
-//             .buffer_unordered(20)
-//             .collect::<Vec<_>>()
-//             .await;
-//     }
-// }
+        #[cfg(feature = "backtrace")]
+        backtrace: snafu::Backtrace,
+    },
+}

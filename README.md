@@ -242,10 +242,12 @@ Here is the list of supported feature values. The default features are: `async`,
 - `rate_limit`: add a rate limiter for the requests. Require `async`
 - `rustls`: Use rustls instead of the platform's tls
 - `legacy_serialize`: Use an old version of the serializer for compatibility with musicbrainz_rs < 0.8.0 and musicbrainz_rs_nova < 0.8.0
+- `extra`: Add extra utilities that aren't strictly related to the api
+- `backtrace`: Add backtraces to the errors. You may want to use `snafu` to see those backtrace. This may reduce performance a bit on error creation.
 
 ## MSRV
 
-The Minimum Supported Rust Version for the crate is `1.71.1`. Any bump to the MSRV will be considered breaking changes (Until resolver v3 is more widely used).
+The Minimum Supported Rust Version for the crate is `1.82.0`. Any bump to the MSRV will be considered breaking changes (Until the msrv is set to `1.85.0` where resolver v3 will handle it).
 
 ## Contributing
 

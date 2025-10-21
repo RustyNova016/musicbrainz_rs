@@ -2,6 +2,7 @@ use core::marker::PhantomData;
 
 use serde::de::DeserializeOwned;
 
+use crate::api::api_request::GetRequestError;
 use crate::api::fetch_query::Fetch;
 use crate::api::query::Query;
 use crate::client::MUSICBRAINZ_CLIENT;
@@ -24,7 +25,7 @@ use crate::ApiRequest;
 /// # use musicbrainz_rs::prelude::*;
 /// # #[tokio::main]
 /// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), Error> {
+/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// # use musicbrainz_rs::entity::release::Release;
 /// let ubiktune_releases = Release::browse()
@@ -36,7 +37,7 @@ use crate::ApiRequest;
 /// #   Ok(())
 /// # }
 /// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), Error> {
+/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// # use musicbrainz_rs::entity::release::Release;
 /// let ubiktune_releases = Release::browse()
@@ -66,7 +67,7 @@ where
     T: Clone,
 {
     #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<BrowseResult<T>, crate::Error>
+    pub async fn execute(&mut self) -> Result<BrowseResult<T>, GetRequestError>
     where
         T: Fetch + DeserializeOwned + Browsable,
     {
@@ -78,7 +79,7 @@ where
     pub async fn execute_with_client(
         &mut self,
         client: &crate::MusicBrainzClient,
-    ) -> Result<BrowseResult<T>, crate::Error>
+    ) -> Result<BrowseResult<T>, GetRequestError>
     where
         T: Fetch + DeserializeOwned + Browsable,
     {

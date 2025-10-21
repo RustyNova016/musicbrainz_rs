@@ -1,7 +1,7 @@
+use core::fmt::Display;
+
 use serde::Deserialize;
 use serde::Serialize;
-
-use crate::Error;
 
 /// An error given by musicbrainz's API.
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
@@ -11,15 +11,15 @@ pub struct MusicbrainzError {
 }
 
 impl MusicbrainzError {
-    pub fn into_error(self, query: String) -> Error {
-        if self.is_not_found() {
-            return Error::NotFound(query);
-        }
-
-        Error::MusicbrainzError(query, self)
-    }
-
     pub fn is_not_found(&self) -> bool {
         self.error == "Not Found"
     }
 }
+
+impl Display for MusicbrainzError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        writeln!(f, "Error: {}\nHelp: {}", self.error, self.help)
+    }
+}
+
+impl core::error::Error for MusicbrainzError {}
