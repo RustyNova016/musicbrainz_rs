@@ -28,6 +28,8 @@ regex = { version = "1.11.1", optional = true}
 maybe-async = "0.2.10"
 tracing = "0.1.41"
 snafu = { version = "0.8.9", features = ["rust_1_81"]}
+hyper-util = "0.1.17"
+hyper = "1.7.0"
 
 [build-dependencies]
 glob = "0.3.1"

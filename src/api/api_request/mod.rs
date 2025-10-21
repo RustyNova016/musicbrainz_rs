@@ -1,14 +1,11 @@
-#[cfg(feature = "blocking")]
-use reqwest::blocking::Response;
-#[cfg(feature = "async")]
-use reqwest::Response;
+pub mod fetching;
+
 use serde::de::DeserializeOwned;
 use snafu::ResultExt;
-use tracing::debug;
 
+use crate::api::api_request::fetching::SendWithRetriesError;
 use crate::client::MusicBrainzClient;
 use crate::entity::api::MusicbrainzError;
-use crate::fetching::SendWithRetriesError;
 
 /// A raw API request, used to send custom requests to the API
 pub struct ApiRequest {
@@ -24,28 +21,17 @@ impl ApiRequest {
         Self { url, tries: 0 }
     }
 
-    #[maybe_async::maybe_async]
-    /// Send the request and return a raw response
-    pub async fn send_raw(&self, client: &MusicBrainzClient) -> Result<Response, RequestSendError> {
-        let http_request = client.reqwest_client.get(&self.url);
-
-        debug!(
-            "Sending api request `{}` (attempt: {})",
-            self.url, self.tries
-        );
-        http_request.send().await.context(RequestSendSnafu)
-    }
-
     /// Sends a get request to the musicbrainz api. Return a [serde_json::Value]
     #[maybe_async::maybe_async]
     pub async fn get_json(
-        self,
+        mut self,
         client: &MusicBrainzClient,
     ) -> Result<serde_json::Value, RequestJsonError> {
-        let request = client
-            .send_with_retries(self)
+        let request = self
+            .send_with_retries(client)
             .await
             .context(SendWithRetriesSnafu)?;
+
         let text = request.text().await.context(ResponseDataSnafu)?;
         let json: serde_json::Value =
             serde_json::from_str(&text).with_context(|_| JsonParseSnafu {
@@ -91,16 +77,6 @@ impl ApiRequest {
             url: url.to_owned(),
         })
     }
-}
-
-/// Error for the [`ApiRequest::send_raw`] function
-#[derive(Debug, snafu::Snafu)]
-#[snafu(display("Couldn't successfully send the http request"))]
-pub struct RequestSendError {
-    source: reqwest::Error,
-
-    #[cfg(feature = "backtrace")]
-    backtrace: snafu::Backtrace,
 }
 
 /// Error for the [`ApiRequest::get_json`] function

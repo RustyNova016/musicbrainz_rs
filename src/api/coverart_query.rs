@@ -8,7 +8,7 @@ use crate::entity::CoverartResolution;
 use crate::entity::CoverartResponse;
 use crate::entity::CoverartTarget;
 use crate::entity::CoverartType;
-use crate::fetching::SendWithRetriesError;
+use crate::error::SendWithRetriesError;
 use crate::APIPath;
 use crate::ApiRequest;
 use crate::MusicBrainzClient;
@@ -148,8 +148,9 @@ where
         &mut self,
         client: &MusicBrainzClient,
     ) -> Result<CoverartResponse, RequestJsonParsingError> {
-        let response = client
-            .send_with_retries(self.as_api_request(client))
+        let response = self
+            .as_api_request(client)
+            .send_with_retries(client)
             .await
             .context(SendWithRetriesSnafu)?;
 
