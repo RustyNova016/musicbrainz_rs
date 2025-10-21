@@ -2,6 +2,8 @@
 path = "./"
 remote_url = "https://github.com/RustyNova016/musicbrainz_rs"
 
+default_branch="main"
+
     [repository.musicbrainz_rs.rust]
     fmt = true
     sqlx = false

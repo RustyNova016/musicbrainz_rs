@@ -141,6 +141,19 @@ impl MusicBrainzClient {
     pub fn get_reqwest_client(&self) -> &ReqwestClient {
         &self.reqwest_client
     }
+
+    #[maybe_async::maybe_async]
+    pub async fn wait_for_ratelimit(&self) {
+        #[cfg(feature = "rate_limit")]
+        if let Some(val) = &self.rate_limit {
+            val.until_ready().await
+        }
+    }
+
+    /// The api root. For exemple `https://musicbrainz.org/ws/2`
+    pub fn api_root(&self) -> String {
+        format!("{}/ws/2", self.musicbrainz_domain)
+    }
 }
 
 impl Default for MusicBrainzClient {

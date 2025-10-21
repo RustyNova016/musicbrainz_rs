@@ -62,7 +62,6 @@ pub mod entity;
 /// Module for error reexports
 pub mod error;
 pub mod extra_endpoints;
-pub mod fetching;
 
 /// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
