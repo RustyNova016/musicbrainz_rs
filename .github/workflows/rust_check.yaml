@@ -26,7 +26,7 @@ jobs:
           - ubuntu-latest
           #- macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - run: rustup toolchain install stable --profile minimal --no-self-update
 
@@ -52,7 +52,7 @@ jobs:
   #         - ubuntu-latest
   #         - macos-latest
   #   steps:
-  #     - uses: actions/checkout@v4
+  #     - uses: actions/checkout@v5
 
   #     - run: rustup toolchain install stable --profile minimal --no-self-update
 
@@ -68,7 +68,7 @@ jobs:
   clippy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install minimal toolchain
         uses: actions-rs/toolchain@v1
@@ -88,7 +88,7 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install minimal toolchain
         uses: actions-rs/toolchain@v1
@@ -110,7 +110,7 @@ jobs:
   fmt:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install minimal toolchain
         uses: actions-rs/toolchain@v1
@@ -131,7 +131,7 @@ jobs:
   msrv:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - uses: Swatinem/rust-cache@v2
     - uses: taiki-e/install-action@cargo-hack
     - run: cargo hack check --rust-version --workspace --all-targets --ignore-private
@@ -139,7 +139,7 @@ jobs:
   minimum_versions:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - uses: dtolnay/rust-toolchain@nightly
     - uses: Swatinem/rust-cache@v2
     - uses: taiki-e/install-action@cargo-hack
