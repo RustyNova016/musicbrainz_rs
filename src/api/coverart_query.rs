@@ -24,7 +24,7 @@ use crate::MusicBrainzClient;
 /// # use musicbrainz_rs::prelude::*;
 /// # #[tokio::main]
 /// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::error::RequestJsonParsingError> {
+/// # async fn main() -> Result<(), musicbrainz_rs::error::CoverArtRequestParsingError> {
 /// # use musicbrainz_rs::entity::release::Release;
 /// # use musicbrainz_rs::entity::CoverartResponse;
 /// let in_utero_coverart = Release::fetch_coverart()
@@ -41,7 +41,7 @@ use crate::MusicBrainzClient;
 /// #   Ok(())
 /// # }
 /// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), musicbrainz_rs::error::RequestJsonParsingError> {
+/// # fn main() -> Result<(), musicbrainz_rs::error::CoverArtRequestParsingError> {
 /// # use musicbrainz_rs::entity::release::Release;
 /// # use musicbrainz_rs::entity::CoverartResponse;
 /// let in_utero_coverart = Release::fetch_coverart()
@@ -139,7 +139,7 @@ where
     }
 
     #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<CoverartResponse, RequestJsonParsingError> {
+    pub async fn execute(&mut self) -> Result<CoverartResponse, CoverArtRequestParsingError> {
         self.execute_with_client(&MUSICBRAINZ_CLIENT).await
     }
 
@@ -147,7 +147,7 @@ where
     pub async fn execute_with_client(
         &mut self,
         client: &MusicBrainzClient,
-    ) -> Result<CoverartResponse, RequestJsonParsingError> {
+    ) -> Result<CoverartResponse, CoverArtRequestParsingError> {
         let response = self
             .as_api_request(client)
             .send_with_retries(client)
@@ -199,7 +199,7 @@ pub trait FetchCoverart {
 
 /// Error for the [`FetchCoverartQuery::execute_with_client`] function
 #[derive(Debug, snafu::Snafu)]
-pub enum RequestJsonParsingError {
+pub enum CoverArtRequestParsingError {
     #[snafu(display("Couldn't get the data for the request"))]
     SendWithRetriesError {
         source: SendWithRetriesError,
