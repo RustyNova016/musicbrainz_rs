@@ -148,7 +148,7 @@ impl GetRequestError {
     pub fn as_musicbrainz_error(&self) -> Option<&MusicbrainzError> {
         match self {
             Self::ParsingError {
-                source: RequestJsonParsingError::ApiError { source },
+                source: RequestJsonParsingError::ApiError { source, .. },
                 ..
             } => Some(source),
             _ => None,
