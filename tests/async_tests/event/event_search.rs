@@ -10,7 +10,7 @@ async fn should_search_event() {
         .arid("e935d070-004d-405a-8b9d-1d9e51590b55")
         .build();
 
-    let result = Event::search(query).execute().await.unwrap();
+    let result = Event::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

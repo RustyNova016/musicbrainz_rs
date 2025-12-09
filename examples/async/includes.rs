@@ -7,7 +7,7 @@ async fn main() {
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_tags()
         .with_ratings()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 

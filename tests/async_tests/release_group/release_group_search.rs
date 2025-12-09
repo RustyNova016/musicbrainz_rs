@@ -8,7 +8,7 @@ async fn should_search_artist() {
         .release("Tonight")
         .build();
 
-    let result = ReleaseGroup::search(query).execute().await.unwrap();
+    let result = ReleaseGroup::search(query).execute_async().await.unwrap();
 
     assert!(!result.entities.is_empty());
 }

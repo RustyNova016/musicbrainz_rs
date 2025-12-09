@@ -6,7 +6,7 @@ use musicbrainz_rs::prelude::*;
 async fn should_browse_release_group_by_artist() {
     let release_groups_by_svinkels = ReleaseGroup::browse()
         .by_artist("770d490e-c89b-4775-8508-aca7c75142cd")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(release_groups_by_svinkels.is_ok());
@@ -23,7 +23,7 @@ async fn should_browse_release_group_by_artist() {
 async fn should_browse_release_group_by_release() {
     let release_groups_of_we_want_miles = ReleaseGroup::browse()
         .by_release("84928705-cb99-4c49-a820-73cc460c0bd2")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(release_groups_of_we_want_miles.is_ok());
@@ -41,7 +41,7 @@ async fn should_browse_release_group_by_release() {
 async fn should_browse_release_group_by_collection() {
     let releases_group_in_collection = ReleaseGroup::browse()
         .by_collection("91565a03-bce8-47e9-ab70-e4d4e1684d7f")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(releases_group_in_collection.is_ok());

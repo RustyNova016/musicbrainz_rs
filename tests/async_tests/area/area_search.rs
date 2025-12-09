@@ -11,7 +11,7 @@ async fn should_search_area() {
         .tag("place")
         .build();
 
-    let result = Area::search(query).execute().await.unwrap();
+    let result = Area::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

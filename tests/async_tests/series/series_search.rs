@@ -10,7 +10,7 @@ async fn should_search_series() {
         .comment("denmark")
         .build();
 
-    let result = Series::search(query).execute().await.unwrap();
+    let result = Series::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

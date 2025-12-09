@@ -15,7 +15,7 @@ async fn fetch_cd_id() {
 
     for discid in discids {
         assert!(
-            Discid::fetch().id(discid).execute().await.is_ok(),
+            Discid::fetch().id(discid).execute_async().await.is_ok(),
             "{discid} is err",
         );
     }
@@ -23,7 +23,7 @@ async fn fetch_cd_id() {
     assert!(
         Discid::fetch()
             .id("hUbE6HKkLSkkWDvf4WliXO9OLm4-")
-            .execute()
+            .execute_async()
             .await
             .is_err(),
         "The diskid does not exist"

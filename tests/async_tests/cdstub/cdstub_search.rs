@@ -6,7 +6,7 @@ use musicbrainz_rs::Search;
 async fn should_search_cdstub() {
     let query = CDStubSearchQuery::query_builder().title("Dookie").build();
 
-    let result = CDStub::search(query).execute().await.unwrap();
+    let result = CDStub::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

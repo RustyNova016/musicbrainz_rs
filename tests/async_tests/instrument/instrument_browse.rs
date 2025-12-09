@@ -7,7 +7,7 @@ use musicbrainz_rs::Browse as _;
 async fn browse_instrument_by_collection() {
     let instruments = Instrument::browse()
         .by_collection("6b6dc74a-f779-491a-a0eb-7c1d1ed56fe0")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(instruments.is_ok());

@@ -8,7 +8,7 @@ async fn main() {
     // CoverArt Query for a Release.
     let in_utero_coverart = Release::fetch_coverart()
         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
-        .execute()
+        .execute_async()
         .await
         .expect("Unable to get cover art");
 
@@ -24,14 +24,14 @@ async fn main() {
 
     let in_utero = Release::fetch()
         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
-        .execute()
+        .execute_async()
         .await
         .expect("Unable to get release");
 
     // Calling `get_coverart()` method on an already fetched Release entity.
     let in_utero_coverart = in_utero
         .get_coverart()
-        .execute()
+        .execute_async()
         .await
         .expect("Unable to get coverart");
 
@@ -50,7 +50,7 @@ async fn main() {
         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
         .res_500()
         .back()
-        .execute()
+        .execute_async()
         .await
         .expect("Unable to get cover art");
 

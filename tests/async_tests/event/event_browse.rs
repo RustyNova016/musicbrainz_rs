@@ -6,7 +6,7 @@ use musicbrainz_rs::prelude::*;
 async fn should_browse_event_by_place() {
     let events_in_north_stage_woodstock_1994 = Event::browse()
         .by_place("380bad3f-d3d7-4a1c-9e7f-c6ec2661165c")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(events_in_north_stage_woodstock_1994.is_ok());
@@ -23,7 +23,7 @@ async fn should_browse_event_by_place() {
 async fn should_browse_event_by_artist() {
     let events_with_aerosmith = Event::browse()
         .by_artist("3d2b98e5-556f-4451-a3ff-c50ea18d57cb")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(events_with_aerosmith.is_ok());
@@ -40,7 +40,7 @@ async fn should_browse_event_by_artist() {
 async fn should_browse_event_by_area() {
     let events_in_montreux = Event::browse()
         .by_area("d872ed01-edfd-4b39-8ab5-f8b3c84fc001")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(events_in_montreux.is_ok());

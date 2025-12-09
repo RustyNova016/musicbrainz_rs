@@ -12,7 +12,7 @@ async fn should_search_recording() {
         .comment("leeds festival")
         .build();
 
-    let result = Recording::search(query).execute().await.unwrap();
+    let result = Recording::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

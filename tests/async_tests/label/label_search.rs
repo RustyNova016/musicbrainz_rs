@@ -8,7 +8,7 @@ async fn should_search_label() {
         .label("Abbey Road Studios")
         .build();
 
-    let result = Label::search(query).execute().await.unwrap();
+    let result = Label::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

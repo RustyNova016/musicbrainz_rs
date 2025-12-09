@@ -8,7 +8,7 @@ async fn should_search_annotation() {
         .text("Warner Classics International")
         .build();
 
-    let result = Annotation::search(query).execute().await.unwrap();
+    let result = Annotation::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

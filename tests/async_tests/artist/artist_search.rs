@@ -10,7 +10,7 @@ async fn should_search_artist() {
         .artist_type("Group")
         .build();
 
-    let result = Artist::search(query).execute().await.unwrap();
+    let result = Artist::search(query).execute_async().await.unwrap();
 
     assert!(!result.entities.is_empty());
 }

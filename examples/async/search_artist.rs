@@ -9,7 +9,7 @@ async fn main() {
         .country("US")
         .build();
 
-    let query_result = Artist::search(query).execute().await.unwrap();
+    let query_result = Artist::search(query).execute_async().await.unwrap();
     let query_result: Vec<String> = query_result
         .entities
         .iter()

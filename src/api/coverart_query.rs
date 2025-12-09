@@ -1,16 +1,20 @@
 use core::fmt::Write as _;
 use core::marker::PhantomData;
+use core::str::FromStr;
 
-use snafu::ResultExt;
+use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::endpoints::UriBuilderError;
+use api_bindium::ureq::http::Uri;
+use api_bindium::ApiRequest;
 
-use crate::client::MUSICBRAINZ_CLIENT;
+#[cfg(feature = "async")]
+use crate::api::ApiEndpointError;
+use crate::entity::coverart::Coverart;
 use crate::entity::CoverartResolution;
 use crate::entity::CoverartResponse;
 use crate::entity::CoverartTarget;
 use crate::entity::CoverartType;
-use crate::error::SendWithRetriesError;
 use crate::APIPath;
-use crate::ApiRequest;
 use crate::MusicBrainzClient;
 
 /// Perform a lookup of an entity's coverart when you have the MBID for that entity
@@ -130,38 +134,91 @@ where
     }
 
     /// Turn the query into an [`crate::ApiRequest`]
-    pub fn as_api_request(&mut self, client: &crate::MusicBrainzClient) -> ApiRequest {
+    pub fn as_api_request(
+        &mut self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<ApiRequest<JsonParser<Coverart>>, UriBuilderError> {
         self.validate();
 
         let url = format!("{}/{}", client.coverart_archive_url, &self.0.path);
 
-        ApiRequest::new(url)
+        Ok(ApiRequest::builder()
+            .uri(Uri::from_str(&url).unwrap())
+            .verb(api_bindium::HTTPVerb::Get)
+            .build())
     }
 
-    #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<CoverartResponse, CoverArtRequestParsingError> {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT).await
+    #[cfg(feature = "sync")]
+    pub fn execute(&mut self) -> Result<CoverartResponse, ApiEndpointError> {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client(&MUSICBRAINZ_CLIENT)
     }
 
-    #[maybe_async::maybe_async]
-    pub async fn execute_with_client(
+    #[cfg(feature = "sync")]
+    pub fn execute_with_client(
         &mut self,
         client: &MusicBrainzClient,
-    ) -> Result<CoverartResponse, CoverArtRequestParsingError> {
-        let response = self
-            .as_api_request(client)
-            .send_with_retries(client)
-            .await
-            .context(SendWithRetriesSnafu)?;
+    ) -> Result<CoverartResponse, ApiEndpointError> {
+        use snafu::ResultExt;
 
-        let coverart_response = if self.0.target.img_type.is_some() {
-            let url = response.url().clone();
-            CoverartResponse::Url(url.to_string())
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
+
+        let mut response = req
+            .send_with_retries(&client.api_client)
+            .context(ApiRequestSnafu)?;
+
+        // If we requested a specific image, we have a redirect in return
+        if self.0.target.img_type.is_some() {
+            use api_bindium::ureq::ResponseExt;
+
+            let redirect = response.get_uri();
+            Ok(CoverartResponse::Url(redirect.to_string()))
         } else {
-            CoverartResponse::Json(response.json().await.context(JsonParsingSnafu)?)
-        };
+            Ok(CoverartResponse::Json(
+                req.parse_response(&mut response).context(ApiRequestSnafu)?,
+            ))
+        }
+    }
 
-        Ok(coverart_response)
+    #[cfg(feature = "async")]
+    pub async fn execute_async(&mut self) -> Result<CoverartResponse, ApiEndpointError> {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client_async(&MUSICBRAINZ_CLIENT).await
+    }
+
+    #[cfg(feature = "async")]
+    pub async fn execute_with_client_async(
+        &mut self,
+        client: &MusicBrainzClient,
+    ) -> Result<CoverartResponse, ApiEndpointError> {
+        use snafu::ResultExt;
+
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
+
+        let mut response = req
+            .send_with_retries_async(&client.api_client)
+            .await
+            .context(ApiRequestSnafu)?;
+
+        // If we requested a specific image, we have a redirect in return
+        if self.0.target.img_type.is_some() {
+            use api_bindium::ureq::ResponseExt;
+
+            let redirect = response.get_uri();
+            Ok(CoverartResponse::Url(redirect.to_string()))
+        } else {
+            Ok(CoverartResponse::Json(
+                req.parse_response(&mut response).context(ApiRequestSnafu)?,
+            ))
+        }
     }
 }
 
@@ -195,22 +252,4 @@ pub trait FetchCoverart {
             },
         })
     }
-}
-
-/// Error for the [`FetchCoverartQuery::execute_with_client`] function
-#[derive(Debug, snafu::Snafu)]
-pub enum CoverArtRequestParsingError {
-    #[snafu(display("Couldn't get the data for the request"))]
-    SendWithRetriesError {
-        source: SendWithRetriesError,
-        #[cfg(feature = "backtrace")]
-        backtrace: snafu::Backtrace,
-    },
-
-    #[snafu(display("The api's response couldn't be deserialized"))]
-    JsonParsingError {
-        source: reqwest::Error,
-        #[cfg(feature = "backtrace")]
-        backtrace: snafu::Backtrace,
-    },
 }

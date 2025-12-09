@@ -44,34 +44,30 @@
 //! [entity]: crate::entity
 
 #![allow(clippy::result_large_err)]
-
-/// All the configurations for API queries / fetching
 pub mod api;
-
-/// The request clien
 pub mod client;
-
-/// Configure the HTTP client global state
 pub mod config;
-
-/// The deserializers for the specific Musicbrainz responses
 mod deserialization;
-
-/// All Musicbrainz entities
 pub mod entity;
-/// Module for error reexports
-pub mod error;
-pub mod extra_endpoints;
-
-/// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
 #[cfg(feature = "extras")]
 pub mod utils;
 
+/// The request client
+
+/// Configure the HTTP client global state
+
+/// The deserializers for the specific Musicbrainz responses
+
+/// All Musicbrainz entities
+
+/// Module for error reexports
+//pub mod extra_endpoints;
+
+/// Brings trait and type needed to perform any API query in scope
+
 /// Extra utilities that aren't strictly related to the API
 // === Re-exports ===
-pub use crate::api::api_request::ApiRequest;
-pub use crate::api::api_request::GetRequestError;
 pub use crate::api::browse_query::Browse;
 pub use crate::api::browse_query::BrowseQuery;
 pub use crate::api::coverart_query::FetchCoverart;
@@ -84,18 +80,13 @@ pub use crate::client::MusicBrainzClient;
 
 pub(crate) use crate::api::coverart_query::CoverartQuery;
 
+// === Crate Reexports ==
+
+pub use api_bindium;
+
 /// Chrono Re-export
 pub mod chrono {
     pub use chrono::*;
-}
-
-#[allow(unused_imports)]
-pub(crate) mod reqwester {
-    #[cfg(feature = "async")]
-    pub use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
-
-    #[cfg(feature = "blocking")]
-    pub use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
 }
 
 /// Provide the entity HTTP api path, do not use this trait directly

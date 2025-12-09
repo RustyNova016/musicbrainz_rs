@@ -1,17 +1,18 @@
 use core::marker::PhantomData;
 
+use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::endpoints::UriBuilderError;
+use api_bindium::ureq::http::Uri;
+use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
-use crate::api::api_request::GetRequestError;
-use crate::api::fetch_query::Fetch;
 use crate::api::query::Query;
-use crate::client::MUSICBRAINZ_CLIENT;
-use crate::config::PARAM_LIMIT;
-use crate::config::PARAM_OFFSET;
+#[cfg(feature = "async")]
+use crate::api::ApiEndpointError;
+#[cfg(feature = "sync")]
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;
 use crate::APIPath;
-use crate::ApiRequest;
 
 /// Direct lookup of all the entities directly linked to another entity
 ///
@@ -69,42 +70,6 @@ impl<T> BrowseQuery<T>
 where
     T: Clone,
 {
-    #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<BrowseResult<T>, GetRequestError>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT).await
-    }
-
-    /// Execute the query with a specific client
-    #[maybe_async::maybe_async]
-    pub async fn execute_with_client(
-        &mut self,
-        client: &crate::MusicBrainzClient,
-    ) -> Result<BrowseResult<T>, GetRequestError>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        self.as_api_request(client).get(client).await
-    }
-
-    fn create_url(&self, client: &crate::MusicBrainzClient) -> String {
-        let mut url = self.inner.create_url(client);
-        url.push_str(&format!("&{}={}", self.filter_entity, self.filter_mbid));
-
-        if let Some(limit) = self.limit {
-            url.push_str(PARAM_LIMIT);
-            url.push_str(&limit.to_string());
-        }
-        if let Some(offset) = self.offset {
-            url.push_str(PARAM_OFFSET);
-            url.push_str(&offset.to_string());
-        }
-
-        url
-    }
-
     pub fn limit(&mut self, limit: u8) -> &mut Self {
         self.limit = Some(limit);
         self
@@ -115,9 +80,96 @@ where
         self
     }
 
-    /// Turn the query into an [`crate::ApiRequest`]
-    pub fn as_api_request(&self, client: &crate::MusicBrainzClient) -> ApiRequest {
-        ApiRequest::new(self.create_url(client))
+    // === Request Creation ===
+
+    /// Create the request's url
+    fn create_url(&self, client: &crate::MusicBrainzClient) -> Result<Uri, UriBuilderError> {
+        let mut url = self.inner.get_endpoint(client);
+
+        // Add the browse filter
+        url = url.add_parameter(&self.filter_entity, &self.filter_mbid);
+
+        url = url.maybe_add_parameter("limit", self.limit.as_ref());
+        url = url.maybe_add_parameter("offset", self.offset.as_ref());
+
+        url.to_uri()
+    }
+
+    /// Turn the query into an [`api_bindium::ApiRequest`]
+    pub fn as_api_request(
+        &self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<ApiRequest<JsonParser<BrowseResult<T>>>, UriBuilderError>
+    where
+        T: DeserializeOwned + Browsable,
+    {
+        Ok(ApiRequest::builder()
+            .uri(self.create_url(client)?)
+            .verb(api_bindium::HTTPVerb::Get)
+            .build())
+    }
+
+    // === Api Fetching ===
+
+    #[cfg(feature = "sync")]
+    pub fn execute(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client(&MUSICBRAINZ_CLIENT)
+    }
+
+    /// Execute the query with a specific client
+    #[cfg(feature = "sync")]
+    pub fn execute_with_client(
+        &mut self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use snafu::ResultExt;
+
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        self.as_api_request(client)
+            .context(InvalidUriSnafu)?
+            .send(&client.api_client)
+            .context(ApiRequestSnafu)
+    }
+
+    #[cfg(feature = "async")]
+    pub async fn execute_async(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client_async(&MUSICBRAINZ_CLIENT).await
+    }
+
+    /// Execute the query with a specific client
+    #[cfg(feature = "async")]
+    pub async fn execute_with_client_async(
+        &mut self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use snafu::ResultExt;
+
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        self.as_api_request(client)
+            .context(InvalidUriSnafu)?
+            .send_async(&client.api_client)
+            .await
+            .context(ApiRequestSnafu)
     }
 }
 

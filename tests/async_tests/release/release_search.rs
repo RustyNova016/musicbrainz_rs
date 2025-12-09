@@ -8,7 +8,7 @@ async fn should_search_artist() {
         .release("Drivers License")
         .build();
 
-    let result = Release::search(query).execute().await.unwrap();
+    let result = Release::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities

@@ -7,7 +7,7 @@ async fn should_get_label_releases() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_releases()
-        .execute()
+        .execute_async()
         .await;
 
     let releases = ninja_tune.unwrap().releases;
@@ -24,7 +24,7 @@ async fn should_get_label_aliases() {
     let motown = Label::fetch()
         .id("8e479e57-ef44-490c-b75d-cd28df89bf1b")
         .with_aliases()
-        .execute()
+        .execute_async()
         .await;
 
     let aliases = motown.unwrap().aliases;
@@ -41,7 +41,7 @@ async fn should_get_label_tags() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_tags()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -58,7 +58,7 @@ async fn should_get_label_rating() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_ratings()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -71,7 +71,7 @@ async fn should_get_label_genres() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_genres()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -84,7 +84,7 @@ async fn should_get_label_annotation() {
     let tokuma_japan_communications = Label::fetch()
         .id("040439f9-578b-45b6-b07b-d6c97e544859")
         .with_annotations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -97,7 +97,7 @@ async fn should_get_label_artist_relations() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_artist_relations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -114,7 +114,7 @@ async fn should_get_label_label_relations() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_label_relations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -131,7 +131,7 @@ async fn should_get_label_recording_relations() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_recording_relations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -148,7 +148,7 @@ async fn should_get_label_release_relations() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_release_relations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 
@@ -163,7 +163,7 @@ async fn should_get_label_url_relations() {
     let ninja_tune = Label::fetch()
         .id("dc940013-b8a8-4362-a465-291026c04b42")
         .with_url_relations()
-        .execute()
+        .execute_async()
         .await
         .unwrap();
 

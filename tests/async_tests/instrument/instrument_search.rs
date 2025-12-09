@@ -9,7 +9,7 @@ async fn should_search_instrument() {
         .instrument("octobass")
         .build();
 
-    let result = Instrument::search(query).execute().await.unwrap();
+    let result = Instrument::search(query).execute_async().await.unwrap();
 
     assert!(result
         .entities
