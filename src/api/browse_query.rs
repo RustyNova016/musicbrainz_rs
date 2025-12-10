@@ -58,8 +58,11 @@ pub struct BrowseQuery<T> {
     /// The number of results to query
     pub limit: Option<u8>,
 
-    /// The search query
-    pub id: String,
+    /// The type of entity used in the filter
+    pub filter_entity: String,
+
+    /// The mbid of the filtered entity
+    pub filter_mbid: String,
 }
 
 impl<T> BrowseQuery<T>
@@ -88,7 +91,7 @@ where
 
     fn create_url(&self, client: &crate::MusicBrainzClient) -> String {
         let mut url = self.inner.create_url(client);
-        url.push_str(&format!("&{}", self.id));
+        url.push_str(&format!("&{}={}", self.filter_entity, self.filter_mbid));
 
         if let Some(limit) = self.limit {
             url.push_str(PARAM_LIMIT);
@@ -132,7 +135,8 @@ pub trait Browse {
             },
             limit: None,
             offset: None,
-            id: String::new(),
+            filter_entity: String::new(),
+            filter_mbid: String::new(),
         }
     }
 }

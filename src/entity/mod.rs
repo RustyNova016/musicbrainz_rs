@@ -48,8 +48,8 @@ macro_rules! impl_browse {
     ($ty: ty, $(($args:ident, $browse: expr)),+) => {
         impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self, id: &str) -> &mut Self  {
-                    use std::fmt::Write as _;
-                    let _ = write!(self.id, "{}={}", $browse.as_str(), id);
+                    self.filter_entity = $browse.as_str().to_string();
+                    self.filter_mbid = id.to_string();
                     self
                })*
             }
