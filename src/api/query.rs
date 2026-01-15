@@ -53,8 +53,6 @@ impl<T> Query<T> {
             }
         }
 
-        let url = url.add_parameter("inc", incl);
-
-        url
+        url.add_parameter("inc", incl)
     }
 }

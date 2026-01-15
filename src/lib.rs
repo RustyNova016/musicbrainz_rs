@@ -44,28 +44,21 @@
 //! [entity]: crate::entity
 
 #![allow(clippy::result_large_err)]
+
+/// The api endpoint makers
 pub mod api;
+/// The request client
 pub mod client;
+/// The deserializers for the specific Musicbrainz responses
 mod deserialization;
+/// All Musicbrainz entities
 pub mod entity;
+/// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
+/// Extra utilities that aren't strictly related to the API
 #[cfg(feature = "extras")]
 pub mod utils;
 
-/// The request client
-
-/// Configure the HTTP client global state
-
-/// The deserializers for the specific Musicbrainz responses
-
-/// All Musicbrainz entities
-
-/// Module for error reexports
-//pub mod extra_endpoints;
-
-/// Brings trait and type needed to perform any API query in scope
-
-/// Extra utilities that aren't strictly related to the API
 // === Re-exports ===
 pub use crate::api::browse_query::Browse;
 pub use crate::api::browse_query::BrowseQuery;

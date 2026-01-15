@@ -7,7 +7,7 @@ use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
 use crate::api::query::Query;
-#[cfg(feature = "async")]
+#[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
 use crate::APIPath;
 
@@ -77,6 +77,8 @@ where
     where
         T: Fetch + DeserializeOwned + Sync,
     {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
         self.execute_with_client(&MUSICBRAINZ_CLIENT)
     }
 
@@ -105,6 +107,8 @@ where
     where
         T: Fetch + DeserializeOwned + Sync,
     {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
         self.execute_with_client_async(&MUSICBRAINZ_CLIENT).await
     }
 

@@ -7,7 +7,7 @@ use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
 use crate::api::query::Query;
-#[cfg(feature = "async")]
+#[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;

@@ -83,7 +83,7 @@ jobs:
       - uses: taiki-e/install-action@cargo-hack
 
       - name: Run clippy
-        run: cargo hack clippy --feature-powerset --mutually-exclusive-features=async,blocking --at-least-one-of=async,blocking --skip extras --skip backtrace -- -D warnings
+        run: cargo hack clippy --feature-powerset --skip tracing --skip default --skip backtrace --skip rate_limit --skip hotpath --skip native_tls --skip rustls --skip legacy_serialize --skip hotpath-alloc --skip hotpath-off -- -D warnings
 
   docs:
     runs-on: ubuntu-latest

@@ -7,8 +7,12 @@ use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
 use api_bindium::ApiRequest;
 
-#[cfg(feature = "async")]
+#[cfg(any(feature = "sync", feature = "async"))]
+use crate::MusicBrainzClient;
+#[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
+#[cfg(any(feature = "sync", feature = "async"))]
+use crate::entity::CoverartResponse;
 use crate::entity::coverart::Coverart;
 use crate::entity::CoverartResolution;
 use crate::entity::CoverartTarget;
