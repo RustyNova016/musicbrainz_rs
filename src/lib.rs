@@ -46,7 +46,6 @@
 #![allow(clippy::result_large_err)]
 pub mod api;
 pub mod client;
-pub mod config;
 mod deserialization;
 pub mod entity;
 pub mod prelude;
