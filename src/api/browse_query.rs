@@ -9,7 +9,6 @@ use serde::de::DeserializeOwned;
 use crate::api::query::Query;
 #[cfg(feature = "async")]
 use crate::api::ApiEndpointError;
-#[cfg(feature = "sync")]
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;
 use crate::APIPath;

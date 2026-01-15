@@ -203,29 +203,13 @@ fn main() {
 ### Custom user agent
 
 By default, the user agent will be set to `musicbrainz_rs/<version>`.
-To comply with [MB's API rules](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification), you should set this to a custom string that identifies your application:
+To comply with [MB's API rules](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification), you should set this to a custom string that identifies your application.
 
-```rust
-use musicbrainz_rs::entity::artist::Artist;
-use musicbrainz_rs::prelude::*;
-
-fn main() {
-    let mut client = MusicBrainzClient::default();
-    client
-        .set_user_agent("MyAwesomeTagger/1.2.0 ( http://myawesometagger.example.com )")
-        .unwrap();
-
-    let nirvana = Artist::fetch()
-        .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-        .execute_with_client(&client);
-
-    assert_eq!(nirvana.unwrap().name, "Nirvana".to_string());
-}
-```
+You can see how [here](./examples/blocking/set_user_agent.rs)
 
 ### Rate limit
 
-By default, a rate limiter of 1req/sec is implemented according to [MB's policy](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification). This allows to fearlessly send heaps of requests without worrying about DOS'ing MusicBrainz. This feature is only available bundled with the `async` feature, as it require an async runtime. But this isn't an issue for `blocking` users, as the API is a bit lenient, and calling requests in a loop rarely achieve 1req/sec
+By default, a rate limiter of 1req/sec is implemented according to [MB's policy](https://musicbrainz.org/doc/MusicBrainz_API#Application_rate_limiting_and_identification). This allows to fearlessly send heaps of requests without worrying about DOS'ing MusicBrainz. This feature is only available bundled with the `async` feature, as it require an async runtime.
 
 ## Examples
 
@@ -235,15 +219,23 @@ You can run examples with `cargo run --example example_name`
 
 ## Cargo Features
 
-Here is the list of supported feature values. The default features are: `async`, `rate_limit` and `reqwest/default-tls`
+Async: 
+- `sync`: Enable the sync api
+- `async`: Enable the async api (Sync and Async aren't mutually exclusive)
 
-- `blocking`: use a blocking client
-- `async`: use an async client
-- `rate_limit`: add a rate limiter for the requests. Require `async`
-- `rustls`: Use rustls instead of the platform's tls
-- `legacy_serialize`: Use an old version of the serializer for compatibility with musicbrainz_rs < 0.8.0 and musicbrainz_rs_nova < 0.8.0
-- `extra`: Add extra utilities that aren't strictly related to the api
-- `backtrace`: Add backtraces to the errors. You may want to use `snafu` to see those backtrace. This may reduce performance a bit on error creation.
+Fetching:
+- `native_tls`: Use the system's native TLS. By default, Rustls is used to not have to depend on the system's tls
+- `rustls` (default): Use rustls as tls provider.
+- `rate_limit`: Add a rate limiter to the requests, using the `governor` crate. Please note that it only affect `async` variants of functions, as `governor` is made to work in async functions only. If you know a ratelimit crate that does both sync and async, feel free to submit an issue 
+
+Debuging:
+- `backtrace`: Enable error backtraces
+- `tracing`: Enable tracing
+- `hotpath`, `hotpath-alloc`, `hotpath-off`: Enable [`hotpath`](https://github.com/pawurb/hotpath-rs) debuging / perf analysis.
+
+Others:
+- `extras`: Extra non api related utilities that still fits musicbrainz
+- `legacy_serialize`: Enable legacy model serialization. Use an old version of the serializer for compatibility with musicbrainz_rs < 0.8.0. 
 
 ## MSRV
 

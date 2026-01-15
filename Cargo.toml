@@ -52,7 +52,7 @@ futures = "0.3.31"
 api_bindium = {git = "https://github.com/RustyNova016/api_bindium"}
 
 [features]
-default = ["native_tls", "sync", "async", "rate_limit"]
+default = []
 
 # Schema
 legacy_serialize = []
@@ -76,31 +76,37 @@ hotpath-off = ["hotpath/hotpath-off", "api_bindium/hotpath-off"]
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "fetch_artist"
 path = "examples/blocking/fetch_artist.rs"
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "includes"
 path = "examples/blocking/includes.rs"
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "browse"
 path = "examples/blocking/browse.rs"
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "search"
 path = "examples/blocking/search_artist.rs"
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "fetch_release_coverart"
 path = "examples/blocking/fetch_release_coverart.rs"
 
 [[example]]
 required-features = ["sync"]
+doc-scrape-examples = true
 name = "set_user_agent"
 path = "examples/blocking/set_user_agent.rs"
 
@@ -111,31 +117,37 @@ path = "examples/blocking/set_user_agent.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "fetch_artist_async"
 path = "examples/async/fetch_artist.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "includes_async"
 path = "examples/async/includes.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "browse_async"
 path = "examples/async/browse.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "search_async"
 path = "examples/async/search_artist.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "fetch_release_coverart_async"
 path = "examples/async/fetch_release_coverart.rs"
 
 [[example]]
 required-features = ["async"]
+doc-scrape-examples = true
 name = "set_user_agent_async"
 path = "examples/async/set_user_agent.rs"
 
