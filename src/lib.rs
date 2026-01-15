@@ -83,11 +83,7 @@ pub(crate) use crate::api::coverart_query::CoverartQuery;
 // === Crate Reexports ==
 
 pub use api_bindium;
-
-/// Chrono Re-export
-pub mod chrono {
-    pub use chrono::*;
-}
+pub use chrono;
 
 /// Provide the entity HTTP api path, do not use this trait directly
 pub trait APIPath {
