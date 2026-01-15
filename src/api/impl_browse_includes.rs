@@ -1,5 +1,5 @@
 macro_rules! impl_browse_includes {
-    ($ty: ty, $(($args:ident, $inc: expr)),+) => {
+    ($ty: ty, $(($args:ident, $inc: expr_2021)),+) => {
         impl crate::BrowseQuery<$ty> {
                $(crate::api::impl_browse_includes::impl_browse_includes_inner!($args, $inc);)*
 
@@ -72,7 +72,7 @@ macro_rules! impl_browse_relationships_includes {
 pub(crate) use impl_browse_relationships_includes;
 
 macro_rules! impl_browse_includes_inner {
-    ($args:ident, $inc: expr) => {
+    ($args:ident, $inc: expr_2021) => {
         pub fn $args(&mut self) -> &mut Self {
             self.inner.include($inc);
             self

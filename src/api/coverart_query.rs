@@ -11,11 +11,9 @@ use api_bindium::ApiRequest;
 use crate::api::ApiEndpointError;
 use crate::entity::coverart::Coverart;
 use crate::entity::CoverartResolution;
-use crate::entity::CoverartResponse;
 use crate::entity::CoverartTarget;
 use crate::entity::CoverartType;
 use crate::APIPath;
-use crate::MusicBrainzClient;
 
 /// Perform a lookup of an entity's coverart when you have the MBID for that entity
 ///

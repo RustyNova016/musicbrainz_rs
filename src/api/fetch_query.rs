@@ -9,7 +9,6 @@ use serde::de::DeserializeOwned;
 use crate::api::query::Query;
 #[cfg(feature = "async")]
 use crate::api::ApiEndpointError;
-use crate::client::MUSICBRAINZ_CLIENT;
 use crate::APIPath;
 
 /// Perform a lookup of an entity when you have the MBID for that entity

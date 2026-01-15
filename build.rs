@@ -6,7 +6,7 @@ use std::io::Write;
 use std::path::Path;
 
 macro_rules! write_test {
-    ($output_filepath:expr, $glob_pattern:literal, $template_path:literal) => {
+    ($output_filepath:expr_2021, $glob_pattern:literal, $template_path:literal) => {
         let mut output_file = File::create($output_filepath).expect("failed to write test file");
 
         glob($glob_pattern)

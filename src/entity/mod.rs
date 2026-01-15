@@ -27,7 +27,7 @@ use crate::Fetch;
 use crate::Search;
 
 macro_rules! impl_includes {
-    ($ty: ty, $(($args:ident, $inc: expr)),+) => {
+    ($ty: ty, $(($args:ident, $inc: expr_2021)),+) => {
         impl crate::FetchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.0.include = self.0.include($inc).include.to_owned();
@@ -45,7 +45,7 @@ macro_rules! impl_includes {
 }
 
 macro_rules! impl_browse {
-    ($ty: ty, $(($args:ident, $browse: expr)),+) => {
+    ($ty: ty, $(($args:ident, $browse: expr_2021)),+) => {
         impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self, id: &str) -> &mut Self  {
                     self.filter_entity = $browse.as_str().to_string();
