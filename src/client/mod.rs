@@ -1,8 +1,8 @@
 use std::sync::LazyLock;
 
-use api_bindium::ureq::config::Config;
-use api_bindium::ureq::Agent;
 use api_bindium::ApiClient;
+use api_bindium::ureq::Agent;
+use api_bindium::ureq::config::Config;
 
 pub(crate) const DEFAULT_USER_AGENT: &str =
     concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));

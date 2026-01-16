@@ -78,9 +78,11 @@ async fn should_get_event_artist_relations() {
 
     let relations = dour_festival_1989.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "main performer"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "main performer")
+    );
 }
 
 #[tokio::test]

@@ -1,7 +1,7 @@
 use core::marker::PhantomData;
 
-use api_bindium::endpoints::query::EndpointUriBuilderQuery;
 use api_bindium::endpoints::EndpointUriBuilder;
+use api_bindium::endpoints::query::EndpointUriBuilderQuery;
 
 use crate::client::MusicBrainzClient;
 use crate::entity::Include;

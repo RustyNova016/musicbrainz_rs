@@ -95,9 +95,11 @@ async fn should_get_area_recording_relations() {
 
     let relations = ontario.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "recorded in"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "recorded in")
+    );
 }
 
 #[tokio::test]
@@ -112,9 +114,11 @@ async fn should_get_area_release_relations() {
 
     let relations = london.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "engineered in"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "engineered in")
+    );
 }
 
 #[tokio::test]

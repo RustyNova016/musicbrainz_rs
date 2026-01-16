@@ -24,11 +24,13 @@ async fn should_get_instrument_aliases() {
         .await
         .unwrap();
 
-    assert!(guitar
-        .aliases
-        .unwrap()
-        .iter()
-        .any(|alias| alias.name == "guitarras"));
+    assert!(
+        guitar
+            .aliases
+            .unwrap()
+            .iter()
+            .any(|alias| alias.name == "guitarras")
+    );
 }
 
 #[tokio::test]

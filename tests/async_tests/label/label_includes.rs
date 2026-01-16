@@ -12,10 +12,12 @@ async fn should_get_label_releases() {
 
     let releases = ninja_tune.unwrap().releases;
 
-    assert!(releases
-        .unwrap()
-        .iter()
-        .any(|release| release.title == "Zen Brakes, Volume 1"));
+    assert!(
+        releases
+            .unwrap()
+            .iter()
+            .any(|release| release.title == "Zen Brakes, Volume 1")
+    );
 }
 
 #[tokio::test]
@@ -29,10 +31,12 @@ async fn should_get_label_aliases() {
 
     let aliases = motown.unwrap().aliases;
 
-    assert!(aliases
-        .unwrap()
-        .iter()
-        .any(|alias| alias.name == "Motown Records"));
+    assert!(
+        aliases
+            .unwrap()
+            .iter()
+            .any(|alias| alias.name == "Motown Records")
+    );
 }
 
 #[tokio::test]
@@ -45,11 +49,13 @@ async fn should_get_label_tags() {
         .await
         .unwrap();
 
-    assert!(ninja_tune
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "independent"));
+    assert!(
+        ninja_tune
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "independent")
+    );
 }
 
 #[tokio::test]
@@ -103,9 +109,11 @@ async fn should_get_label_artist_relations() {
 
     let relations = ninja_tune.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "label founder"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "label founder")
+    );
 }
 
 #[tokio::test]
@@ -120,9 +128,11 @@ async fn should_get_label_label_relations() {
 
     let relations = ninja_tune.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "label distribution"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "label distribution")
+    );
 }
 
 #[tokio::test]
@@ -137,9 +147,11 @@ async fn should_get_label_recording_relations() {
 
     let relations = ninja_tune.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "phonographic copyright"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "phonographic copyright")
+    );
 }
 
 #[tokio::test]

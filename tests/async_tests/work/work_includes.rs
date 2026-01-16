@@ -11,11 +11,13 @@ async fn should_get_work_tags() {
         .await
         .unwrap();
 
-    assert!(hotel_california
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "ripped off"));
+    assert!(
+        hotel_california
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "ripped off")
+    );
 }
 
 #[tokio::test]
@@ -97,9 +99,11 @@ async fn should_get_work_label_relations() {
 
     let relations = hotel_california.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "publishing"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "publishing")
+    );
 }
 
 #[tokio::test]
@@ -114,9 +118,11 @@ async fn should_get_work_recording_relations() {
 
     let relations = hotel_california.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "performance"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "performance")
+    );
 }
 
 #[tokio::test]

@@ -2,22 +2,22 @@ use core::fmt::Write as _;
 use core::marker::PhantomData;
 use core::str::FromStr;
 
+use api_bindium::ApiRequest;
 use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
-use api_bindium::ApiRequest;
 
+use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::MusicBrainzClient;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
+use crate::entity::CoverartResolution;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::entity::CoverartResponse;
-use crate::entity::coverart::Coverart;
-use crate::entity::CoverartResolution;
 use crate::entity::CoverartTarget;
 use crate::entity::CoverartType;
-use crate::APIPath;
+use crate::entity::coverart::Coverart;
 
 /// Perform a lookup of an entity's coverart when you have the MBID for that entity
 ///
@@ -135,7 +135,7 @@ where
         }
     }
 
-    /// Turn the query into an [`crate::ApiRequest`]
+    /// Turn the query into an [`api_bindium::ApiRequest`]
     pub fn as_api_request(
         &mut self,
         client: &crate::MusicBrainzClient,

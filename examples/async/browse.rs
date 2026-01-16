@@ -1,6 +1,6 @@
+use musicbrainz_rs::MusicBrainzClient;
 use musicbrainz_rs::entity::artist::Artist;
 use musicbrainz_rs::prelude::*;
-use musicbrainz_rs::MusicBrainzClient;
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() {

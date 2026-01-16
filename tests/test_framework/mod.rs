@@ -2,12 +2,12 @@ pub mod null_eq;
 use core::str::FromStr;
 use std::sync::LazyLock;
 
+use api_bindium::ApiRequest;
 use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::ureq::http::Uri;
-use api_bindium::ApiRequest;
 use musicbrainz_rs::client::MusicBrainzClient;
-use serde::de::DeserializeOwned;
 use serde::Serialize;
+use serde::de::DeserializeOwned;
 use serde_json::Value;
 
 use crate::test_framework::null_eq::NullEq as _;

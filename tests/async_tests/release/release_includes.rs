@@ -27,11 +27,13 @@ async fn should_get_release_media() {
         .await
         .unwrap();
 
-    assert!(justice_cross
-        .media
-        .unwrap()
-        .iter()
-        .any(|media| media.format.as_ref().unwrap() == "CD"));
+    assert!(
+        justice_cross
+            .media
+            .unwrap()
+            .iter()
+            .any(|media| media.format.as_ref().unwrap() == "CD")
+    );
 }
 
 #[tokio::test]
@@ -47,12 +49,13 @@ async fn should_get_release_discids() {
     let medias: Vec<Media> = justice_cross.media.unwrap();
     let cd = medias.first().unwrap();
 
-    assert!(cd
-        .discs
-        .as_ref()
-        .unwrap()
-        .iter()
-        .any(|disc| disc.id == "TNLYkkUzaFr9BejILb6fsUaDjcg-"));
+    assert!(
+        cd.discs
+            .as_ref()
+            .unwrap()
+            .iter()
+            .any(|disc| disc.id == "TNLYkkUzaFr9BejILb6fsUaDjcg-")
+    );
 }
 
 #[tokio::test]
@@ -68,12 +71,13 @@ async fn should_get_release_recordings() {
     let medias: Vec<Media> = justice_cross.media.unwrap();
     let cd = medias.first().unwrap();
 
-    assert!(cd
-        .tracks
-        .as_ref()
-        .unwrap()
-        .iter()
-        .any(|track| track.title == "D.A.N.C.E."));
+    assert!(
+        cd.tracks
+            .as_ref()
+            .unwrap()
+            .iter()
+            .any(|track| track.title == "D.A.N.C.E.")
+    );
 }
 
 #[tokio::test]
@@ -99,11 +103,13 @@ async fn should_get_release_label() {
         .await
         .unwrap();
 
-    assert!(justice_cross
-        .label_info
-        .unwrap()
-        .iter()
-        .any(|label_info| label_info.label.as_ref().unwrap().name == "Ed Banger Records"));
+    assert!(
+        justice_cross
+            .label_info
+            .unwrap()
+            .iter()
+            .any(|label_info| label_info.label.as_ref().unwrap().name == "Ed Banger Records")
+    );
 }
 
 #[tokio::test]
@@ -116,11 +122,13 @@ async fn should_get_release_tags() {
         .await
         .unwrap();
 
-    assert!(l_ecole_du_micro_d_argent
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "hip hop"));
+    assert!(
+        l_ecole_du_micro_d_argent
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "hip hop")
+    );
 }
 
 #[tokio::test]

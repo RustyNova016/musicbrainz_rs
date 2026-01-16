@@ -1,6 +1,7 @@
 use super::{Include, Subquery};
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
+use crate::entity::BrowseBy;
 use crate::entity::alias::Alias;
 use crate::entity::area::Area;
 use crate::entity::genre::Genre;
@@ -12,7 +13,6 @@ use crate::entity::release::Release;
 use crate::entity::release_group::ReleaseGroup;
 use crate::entity::tag::Tag;
 use crate::entity::work::Work;
-use crate::entity::BrowseBy;
 use chrono::NaiveDate;
 use lucene_query_builder::QueryBuilder;
 use serde::{Deserialize, Serialize};

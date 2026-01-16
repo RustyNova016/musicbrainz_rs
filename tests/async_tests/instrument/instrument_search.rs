@@ -1,6 +1,6 @@
+use musicbrainz_rs::Search;
 use musicbrainz_rs::entity::instrument::InstrumentType::*;
 use musicbrainz_rs::entity::instrument::*;
-use musicbrainz_rs::Search;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -11,8 +11,10 @@ async fn should_search_instrument() {
 
     let result = Instrument::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|instrument| instrument.instrument_type == StringInstrument));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|instrument| instrument.instrument_type == StringInstrument)
+    );
 }

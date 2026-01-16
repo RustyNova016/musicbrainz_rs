@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::work::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::work::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -12,8 +12,10 @@ async fn should_search_work() {
 
     let result = Work::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|work| work.title == "Vater unser im Himmelreich"));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|work| work.title == "Vater unser im Himmelreich")
+    );
 }

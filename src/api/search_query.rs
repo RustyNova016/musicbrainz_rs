@@ -1,18 +1,18 @@
 use core::marker::PhantomData;
 
+use api_bindium::ApiRequest;
 use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
-use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
-use crate::api::query::Query;
-#[cfg(any(feature = "sync", feature = "async"))]
-use crate::api::ApiEndpointError;
-use crate::entity::search::SearchResult;
-use crate::entity::search::Searchable;
 use crate::APIPath;
 use crate::MusicBrainzClient;
+#[cfg(any(feature = "sync", feature = "async"))]
+use crate::api::ApiEndpointError;
+use crate::api::query::Query;
+use crate::entity::search::SearchResult;
+use crate::entity::search::Searchable;
 
 /// Search requests provide a way to search for MusicBrainz entities based on different
 /// sorts of queries.

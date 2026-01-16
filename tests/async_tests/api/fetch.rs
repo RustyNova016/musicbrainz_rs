@@ -12,8 +12,8 @@ use musicbrainz_rs::entity::url::*;
 use musicbrainz_rs::entity::work::*;
 use musicbrainz_rs::prelude::*;
 
-use crate::test_framework::check_fetch_query;
 use crate::test_framework::CLIENT;
+use crate::test_framework::check_fetch_query;
 
 #[tokio::test]
 #[serial_test::serial]

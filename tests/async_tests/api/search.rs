@@ -1,6 +1,6 @@
+use musicbrainz_rs::Search;
 use musicbrainz_rs::entity::recording::Recording;
 use musicbrainz_rs::entity::recording::RecordingSearchQuery;
-use musicbrainz_rs::Search;
 
 #[tokio::test]
 #[serial_test::serial]

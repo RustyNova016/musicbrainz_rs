@@ -1,5 +1,5 @@
-use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ApiRequestError;
+use api_bindium::endpoints::UriBuilderError;
 use snafu::Snafu;
 
 pub mod browse_query;

@@ -1,15 +1,15 @@
 use core::fmt::Write as _;
 use core::marker::PhantomData;
 
+use api_bindium::ApiRequest;
 use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
-use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
-use crate::api::query::Query;
+use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
-use crate::APIPath;
+use crate::api::query::Query;
 
 /// Perform a lookup of an entity when you have the MBID for that entity
 ///

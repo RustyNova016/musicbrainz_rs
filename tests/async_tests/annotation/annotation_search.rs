@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::annotation::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::annotation::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -10,8 +10,10 @@ async fn should_search_annotation() {
 
     let result = Annotation::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|annotation| annotation.name == "Warner Classics"));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|annotation| annotation.name == "Warner Classics")
+    );
 }

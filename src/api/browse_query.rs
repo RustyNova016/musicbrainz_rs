@@ -1,17 +1,17 @@
 use core::marker::PhantomData;
 
+use api_bindium::ApiRequest;
 use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
-use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
-use crate::api::query::Query;
+use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
+use crate::api::query::Query;
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;
-use crate::APIPath;
 
 /// Direct lookup of all the entities directly linked to another entity
 ///

@@ -1,5 +1,6 @@
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
+use crate::entity::BrowseBy;
 use crate::entity::alias::Alias;
 use crate::entity::artist_credit::ArtistCredit;
 use crate::entity::date_string::DateString;
@@ -8,7 +9,6 @@ use crate::entity::rating::Rating;
 use crate::entity::relations::Relation;
 use crate::entity::release::Release;
 use crate::entity::tag::Tag;
-use crate::entity::BrowseBy;
 use crate::entity::{Include, Relationship, Subquery};
 use serde::{Deserialize, Serialize};
 

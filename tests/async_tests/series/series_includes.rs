@@ -11,11 +11,13 @@ async fn should_get_series_tags() {
         .await
         .unwrap();
 
-    assert!(breaks_loop_n_edits
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "breakbeat"));
+    assert!(
+        breaks_loop_n_edits
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "breakbeat")
+    );
 }
 
 #[tokio::test]

@@ -10,12 +10,14 @@ async fn should_get_release_group_artists() {
         .execute_async()
         .await;
 
-    assert!(harvest
-        .unwrap()
-        .artist_credit
-        .unwrap()
-        .iter()
-        .any(|credit| credit.artist.name == "Neil Young"));
+    assert!(
+        harvest
+            .unwrap()
+            .artist_credit
+            .unwrap()
+            .iter()
+            .any(|credit| credit.artist.name == "Neil Young")
+    );
 }
 
 #[tokio::test]
@@ -27,12 +29,14 @@ async fn should_get_release_group_releases() {
         .execute_async()
         .await;
 
-    assert!(harvest
-        .unwrap()
-        .releases
-        .unwrap()
-        .iter()
-        .any(|release| release.title == "Harvest" && release.country == Some("CA".to_string())));
+    assert!(
+        harvest
+            .unwrap()
+            .releases
+            .unwrap()
+            .iter()
+            .any(|release| release.title == "Harvest" && release.country == Some("CA".to_string()))
+    );
 }
 
 #[tokio::test]
@@ -45,11 +49,13 @@ async fn should_get_release_group_tags() {
         .await
         .unwrap();
 
-    assert!(in_utero
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "noise rock"));
+    assert!(
+        in_utero
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "noise rock")
+    );
 }
 
 #[tokio::test]

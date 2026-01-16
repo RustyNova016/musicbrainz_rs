@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::discid::Discid;
 use musicbrainz_rs::Fetch;
+use musicbrainz_rs::entity::discid::Discid;
 
 #[tokio::test]
 #[serial_test::serial]

@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::label::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::label::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -10,8 +10,10 @@ async fn should_search_label() {
 
     let result = Label::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|label| label.label_type.as_ref().unwrap() == &LabelType::Production));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|label| label.label_type.as_ref().unwrap() == &LabelType::Production)
+    );
 }

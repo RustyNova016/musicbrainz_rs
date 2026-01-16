@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::event::*;
 use musicbrainz_rs::Search as _;
+use musicbrainz_rs::entity::event::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -12,8 +12,10 @@ async fn should_search_event() {
 
     let result = Event::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|event| event.name == "KISS at Huntington Center"));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|event| event.name == "KISS at Huntington Center")
+    );
 }

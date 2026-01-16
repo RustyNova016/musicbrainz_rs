@@ -1,7 +1,7 @@
-use musicbrainz_rs::entity::release::*;
-use musicbrainz_rs::entity::CoverartResponse;
-use musicbrainz_rs::prelude::*;
 use musicbrainz_rs::FetchCoverart;
+use musicbrainz_rs::entity::CoverartResponse;
+use musicbrainz_rs::entity::release::*;
+use musicbrainz_rs::prelude::*;
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() {

@@ -239,7 +239,7 @@ Others:
 
 ## MSRV
 
-The Minimum Supported Rust Version for the crate is `1.82.0`. Any bump to the MSRV will be considered breaking changes (Until the msrv is set to `1.85.0` where resolver v3 will handle it).
+The Minimum Supported Rust Version for the crate is `1.85.0`. Bumps to the msrv are not considered breaking as cargo won't pull the new version (thanks resolver v3).
 
 ## Contributing
 

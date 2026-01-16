@@ -13,9 +13,11 @@ async fn should_get_artist_releases() {
 
     let releases = john_lee_hooker.releases.unwrap();
 
-    assert!(releases
-        .iter()
-        .any(|release| release.title == "Sally Mae / Boogie Chillen’"));
+    assert!(
+        releases
+            .iter()
+            .any(|release| release.title == "Sally Mae / Boogie Chillen’")
+    );
 }
 
 #[tokio::test]
@@ -30,9 +32,11 @@ async fn should_get_artist_works() {
 
     let works = john_lee_hooker.works.unwrap();
 
-    assert!(works
-        .iter()
-        .any(|work| work.title == "Baby Please Don't Go"));
+    assert!(
+        works
+            .iter()
+            .any(|work| work.title == "Baby Please Don't Go")
+    );
 }
 
 #[tokio::test]
@@ -47,9 +51,11 @@ async fn should_get_artist_release_groups() {
 
     let release_groups = john_lee_hooker.release_groups.unwrap();
 
-    assert!(release_groups
-        .iter()
-        .any(|group| group.title == "Travelin’"));
+    assert!(
+        release_groups
+            .iter()
+            .any(|group| group.title == "Travelin’")
+    );
 }
 
 #[tokio::test]
@@ -64,9 +70,11 @@ async fn should_get_artist_recordings() {
 
     let recordings = john_lee_hooker.recordings.unwrap();
 
-    assert!(recordings
-        .iter()
-        .any(|recording| recording.title == "(Blues Is) The Healer"));
+    assert!(
+        recordings
+            .iter()
+            .any(|recording| recording.title == "(Blues Is) The Healer")
+    );
 }
 
 #[tokio::test]
@@ -81,10 +89,12 @@ async fn should_get_artist_aliases() {
 
     let aliases = john_lee_hooker.aliases;
 
-    assert!(aliases
-        .unwrap()
-        .iter()
-        .any(|alias| alias.name == "Delta John"));
+    assert!(
+        aliases
+            .unwrap()
+            .iter()
+            .any(|alias| alias.name == "Delta John")
+    );
 }
 
 #[tokio::test]
@@ -114,9 +124,11 @@ async fn should_get_artist_event_relations() {
 
     let relations = john_lee_hooker.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "main performer"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "main performer")
+    );
 }
 
 #[tokio::test]
@@ -131,9 +143,11 @@ async fn should_get_artist_url_relations() {
 
     let relations = john_lee_hooker.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "BBC Music page"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "BBC Music page")
+    );
 }
 
 #[tokio::test]
@@ -224,9 +238,11 @@ async fn should_get_artist_artist_releases_with_disc_ids() {
 
     let releases_with_disc_ids = nirvana.releases.unwrap();
 
-    assert!(releases_with_disc_ids
-        .iter()
-        .any(|release| release.title == "Smells Like Teen Spirit"));
+    assert!(
+        releases_with_disc_ids
+            .iter()
+            .any(|release| release.title == "Smells Like Teen Spirit")
+    );
 }
 
 #[tokio::test]
@@ -239,11 +255,13 @@ async fn should_get_artist_tags() {
         .await
         .unwrap();
 
-    assert!(john_lee_hooker
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "detroit blues"));
+    assert!(
+        john_lee_hooker
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "detroit blues")
+    );
 }
 
 #[tokio::test]
@@ -269,11 +287,13 @@ async fn should_get_artist_genres() {
         .await
         .unwrap();
 
-    assert!(john_lee_hooker
-        .genres
-        .unwrap()
-        .iter()
-        .any(|genre| genre.name == "blues"));
+    assert!(
+        john_lee_hooker
+            .genres
+            .unwrap()
+            .iter()
+            .any(|genre| genre.name == "blues")
+    );
 }
 
 #[tokio::test]

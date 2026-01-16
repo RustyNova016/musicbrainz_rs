@@ -79,9 +79,11 @@ async fn should_get_place_recording_relations() {
 
     let relations = olympia.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "engineered at"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "engineered at")
+    );
 }
 
 // FIXME: Haven't looked at this carefully but this is currently panicking with:

@@ -11,11 +11,13 @@ async fn main() {
         .await
         .unwrap();
 
-    assert!(ninja_tune
-        .tags
-        .unwrap()
-        .iter()
-        .any(|tag| tag.name == "independent"));
+    assert!(
+        ninja_tune
+            .tags
+            .unwrap()
+            .iter()
+            .any(|tag| tag.name == "independent")
+    );
 
     assert!(ninja_tune.rating.is_some());
 }

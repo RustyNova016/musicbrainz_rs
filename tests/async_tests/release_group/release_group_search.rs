@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::release_group::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::release_group::*;
 
 #[tokio::test]
 #[serial_test::serial]

@@ -1,7 +1,7 @@
-use musicbrainz_rs::entity::release_group::*;
-use musicbrainz_rs::entity::CoverartResponse;
 use musicbrainz_rs::Fetch;
 use musicbrainz_rs::FetchCoverart;
+use musicbrainz_rs::entity::CoverartResponse;
+use musicbrainz_rs::entity::release_group::*;
 
 #[tokio::test]
 #[serial_test::serial]

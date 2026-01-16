@@ -43,10 +43,12 @@ async fn should_get_recording_releases() {
 
     let releases = you_talk_too_much.unwrap().releases;
 
-    assert!(releases
-        .unwrap()
-        .iter()
-        .any(|release| release.title == "Hooker ’n Heat"));
+    assert!(
+        releases
+            .unwrap()
+            .iter()
+            .any(|release| release.title == "Hooker ’n Heat")
+    );
 }
 
 #[tokio::test]
@@ -61,10 +63,12 @@ async fn should_get_recording_medias() {
 
     let releases = you_talk_too_much.unwrap().releases;
 
-    assert!(releases
-        .unwrap()
-        .iter()
-        .any(|release| release.title == "Hooker ’n Heat"));
+    assert!(
+        releases
+            .unwrap()
+            .iter()
+            .any(|release| release.title == "Hooker ’n Heat")
+    );
 }
 
 #[tokio::test]
@@ -158,9 +162,11 @@ async fn should_get_recording_url_relations() {
 
     let relations = senorita.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "free streaming")); // FIXME: didn't find a recording containing actual aliases (yet)
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "free streaming")
+    ); // FIXME: didn't find a recording containing actual aliases (yet)
 }
 
 #[tokio::test]
@@ -175,9 +181,11 @@ async fn should_get_recording_work_relations() {
 
     let relations = senorita.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.relation_type == "performance")); // FIXME: didn't find a recording containing actual aliases (yet)
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.relation_type == "performance")
+    ); // FIXME: didn't find a recording containing actual aliases (yet)
 }
 
 #[tokio::test]
@@ -193,7 +201,9 @@ async fn should_get_recording_level_relations() {
 
     let relations = polly.relations.unwrap();
 
-    assert!(relations
-        .iter()
-        .any(|rel| rel.target_type.as_ref().unwrap() == "work"));
+    assert!(
+        relations
+            .iter()
+            .any(|rel| rel.target_type.as_ref().unwrap() == "work")
+    );
 }
