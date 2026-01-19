@@ -11,7 +11,7 @@ impl Visitor<'_> for CoordinateVisitor {
     type Value = Coordinate;
 
     fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
-        formatter.write_str("a floating point number or a string")
+        formatter.write_str("a floating point number, integer, or a string")
     }
 
     fn visit_f64<E>(self, value: f64) -> Result<Self::Value, E>
@@ -34,6 +34,13 @@ impl Visitor<'_> for CoordinateVisitor {
     {
         Ok(Coordinate::from(value))
     }
+
+    fn visit_u64<E>(self, value: u64) -> Result<Self::Value, E>
+    where
+        E: de::Error,
+    {
+        Ok(Coordinate::from(value))
+    }
 }
 
 impl Serialize for Coordinate {
@@ -44,6 +51,7 @@ impl Serialize for Coordinate {
         match &self {
             Self::StringCoordinate(value) => serializer.serialize_str(value),
             Self::FloatCoordinate(value) => serializer.serialize_f64(*value),
+            Self::IntCoordinate(value) => serializer.serialize_u64(*value)
         }
     }
 }

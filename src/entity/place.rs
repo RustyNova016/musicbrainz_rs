@@ -65,6 +65,7 @@ pub struct Coordinates {
 pub enum Coordinate {
     StringCoordinate(String),
     FloatCoordinate(f64),
+    IntCoordinate(u64),
 }
 
 impl Coordinate {
@@ -72,6 +73,7 @@ impl Coordinate {
         match &self {
             Self::StringCoordinate(value) => Cow::from(value.as_str()),
             Self::FloatCoordinate(value) => Cow::from(value.to_string()),
+            Self::IntCoordinate(value) => Cow::from(value.to_string()),
         }
     }
 
@@ -79,6 +81,7 @@ impl Coordinate {
         match &self {
             Self::StringCoordinate(value) => value.as_str().parse::<f64>().ok(),
             Self::FloatCoordinate(value) => (*value).into(),
+            Self::IntCoordinate(value) => Some((*value) as f64),
         }
     }
 }
@@ -88,6 +91,7 @@ impl fmt::Display for Coordinate {
         match &self {
             Self::StringCoordinate(value) => value.fmt(f),
             Self::FloatCoordinate(value) => value.fmt(f),
+            Self::IntCoordinate(value) => value.fmt(f),
         }
     }
 }
@@ -107,6 +111,12 @@ impl From<&str> for Coordinate {
 impl From<f64> for Coordinate {
     fn from(value: f64) -> Self {
         Self::FloatCoordinate(value)
+    }
+}
+
+impl From<u64> for Coordinate {
+    fn from(value: u64) -> Self {
+        Self::IntCoordinate(value)
     }
 }
 
