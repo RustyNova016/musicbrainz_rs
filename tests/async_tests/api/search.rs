@@ -1,6 +1,6 @@
+use musicbrainz_rs::Search;
 use musicbrainz_rs::entity::recording::Recording;
 use musicbrainz_rs::entity::recording::RecordingSearchQuery;
-use musicbrainz_rs::Search;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -12,7 +12,7 @@ async fn should_paginate_search() {
     let result = Recording::search(query.clone())
         .offset(0)
         .limit(10)
-        .execute()
+        .execute_async()
         .await
         .unwrap();
     assert!(result.count > 0);
@@ -21,7 +21,7 @@ async fn should_paginate_search() {
     let result_next = Recording::search(query)
         .offset(10)
         .limit(10)
-        .execute()
+        .execute_async()
         .await
         .unwrap();
     assert!(result_next.count > 0);

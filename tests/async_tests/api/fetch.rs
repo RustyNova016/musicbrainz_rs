@@ -12,15 +12,16 @@ use musicbrainz_rs::entity::url::*;
 use musicbrainz_rs::entity::work::*;
 use musicbrainz_rs::prelude::*;
 
-use crate::test_framework::check_fetch_query;
 use crate::test_framework::CLIENT;
+use crate::test_framework::check_fetch_query;
 
 #[tokio::test]
 #[serial_test::serial]
 async fn should_get_artist_by_id() {
     let data = Artist::fetch()
         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-        .as_api_request(&CLIENT);
+        .as_api_request(&CLIENT)
+        .unwrap();
 
     check_fetch_query(
         data,
@@ -60,7 +61,7 @@ async fn should_get_recording_by_id() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        polly,
+        polly.unwrap(),
         "recording/af40d6b8-58e8-4ca5-9db8-d4fca0b899e2?",
         |_: Recording| {},
     )
@@ -74,7 +75,7 @@ async fn should_get_release_group_by_id() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "release-group/2a0981fb-9593-3019-864b-ce934d97a16e?",
         |_: ReleaseGroup| {},
     )
@@ -88,7 +89,7 @@ async fn should_get_release() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "release/18d4e9b4-9247-4b44-914a-8ddec3502103?",
         |_: Release| {},
     )
@@ -99,7 +100,7 @@ async fn should_get_release() {
 async fn should_get_work_by_id() {
     let hotel_california = Work::fetch()
         .id("22457dc0-ecbf-38f5-9056-11c858530a50")
-        .execute()
+        .execute_async()
         .await;
 
     assert_eq!(
@@ -161,7 +162,7 @@ async fn should_get_label_by_id() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "label/dc940013-b8a8-4362-a465-291026c04b42?",
         |_: Label| {},
     )
@@ -175,7 +176,7 @@ async fn should_get_area_by_id() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "area/a640b45c-c173-49b1-8030-973603e895b5?",
         |_: Area| {},
     )
@@ -189,7 +190,7 @@ async fn should_get_event_by_id() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "event/73df2f48-383b-4930-bad3-05ba938be578?",
         |_: Event| {},
     )
@@ -203,7 +204,7 @@ async fn should_get_instrument() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "instrument/37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32?",
         |_: Instrument| {},
     )
@@ -217,7 +218,7 @@ async fn should_get_place() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "place/327c29c6-da63-4dc9-a117-1917ee691ce4?",
         |_: Place| {},
     )
@@ -231,7 +232,7 @@ async fn should_get_series() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "series/814fb4d5-327f-4e37-8784-f8a707e5f97c?",
         |_: Series| {},
     )
@@ -245,7 +246,7 @@ async fn should_get_url() {
         .as_api_request(&CLIENT);
 
     check_fetch_query(
-        data,
+        data.unwrap(),
         "url/9237f6da-fec6-4b8a-9d52-c7c18e0e2630?",
         |_: Url| {},
     )

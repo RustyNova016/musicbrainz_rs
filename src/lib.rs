@@ -13,20 +13,8 @@
 //! use musicbrainz_rs::entity::artist::Artist;
 //! use musicbrainz_rs::prelude::*;
 //!
-//! # #[cfg(feature = "async")]
-//! #[tokio::main]
-//! async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-//!
-//!     let nirvana = Artist::fetch()
-//!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-//!         .execute()
-//!          .await;
-//!
-//!     assert_eq!(nirvana?.name, "Nirvana".to_string());
-//!     Ok(())
-//! }
-//! # #[cfg(feature = "blocking")]
-//! fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+//! # #[cfg(feature = "sync")]
+//! fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 //!
 //!     let nirvana = Artist::fetch()
 //!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -45,35 +33,25 @@
 
 #![allow(clippy::result_large_err)]
 
-/// All the configurations for API queries / fetching
+/// The api endpoint makers
 pub mod api;
-
-/// The request clien
+/// The request client
 pub mod client;
-
-/// Configure the HTTP client global state
-pub mod config;
-
 /// The deserializers for the specific Musicbrainz responses
 mod deserialization;
-
 /// All Musicbrainz entities
 pub mod entity;
-/// Module for error reexports
-pub mod error;
-pub mod extra_endpoints;
-
 /// Brings trait and type needed to perform any API query in scope
 pub mod prelude;
+/// Extra utilities that aren't strictly related to the API
 #[cfg(feature = "extras")]
 pub mod utils;
 
-/// Extra utilities that aren't strictly related to the API
 // === Re-exports ===
-pub use crate::api::api_request::ApiRequest;
-pub use crate::api::api_request::GetRequestError;
+pub use crate::api::ApiEndpointError;
 pub use crate::api::browse_query::Browse;
 pub use crate::api::browse_query::BrowseQuery;
+pub use crate::api::coverart_query::CoverartQuery;
 pub use crate::api::coverart_query::FetchCoverart;
 pub use crate::api::coverart_query::FetchCoverartQuery;
 pub use crate::api::fetch_query::Fetch;
@@ -82,21 +60,10 @@ pub use crate::api::search_query::Search;
 pub use crate::api::search_query::SearchQuery;
 pub use crate::client::MusicBrainzClient;
 
-pub(crate) use crate::api::coverart_query::CoverartQuery;
+// === Crate Reexports ==
 
-/// Chrono Re-export
-pub mod chrono {
-    pub use chrono::*;
-}
-
-#[allow(unused_imports)]
-pub(crate) mod reqwester {
-    #[cfg(feature = "async")]
-    pub use reqwest::{Client as ReqwestClient, RequestBuilder, Response};
-
-    #[cfg(feature = "blocking")]
-    pub use reqwest::blocking::{Client as ReqwestClient, RequestBuilder, Response};
-}
+pub use api_bindium;
+pub use chrono;
 
 /// Provide the entity HTTP api path, do not use this trait directly
 pub trait APIPath {

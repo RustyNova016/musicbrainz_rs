@@ -6,7 +6,7 @@ use musicbrainz_rs::prelude::*;
 async fn should_browse_recording_by_artist() {
     let recording_by_svinkels = Recording::browse()
         .by_artist("770d490e-c89b-4775-8508-aca7c75142cd")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(recording_by_svinkels.is_ok());
@@ -23,7 +23,7 @@ async fn should_browse_recording_by_artist() {
 async fn should_browse_recording_work() {
     let la_javanaise_recordings = Recording::browse()
         .by_work("578eab03-84d3-374f-a7c5-03c3a685a9a5")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(la_javanaise_recordings.is_ok());
@@ -40,7 +40,7 @@ async fn should_browse_recording_work() {
 async fn should_browse_recording_by_release() {
     let recording_on_hooker_n_heat = Recording::browse()
         .by_release("38860ba5-6b40-3e19-83ae-a560737a3f6f")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(recording_on_hooker_n_heat.is_ok());

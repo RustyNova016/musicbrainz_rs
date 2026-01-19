@@ -6,7 +6,7 @@ use musicbrainz_rs::prelude::*;
 async fn should_browse_work_by_artist() {
     let work_by_svinkels = Work::browse()
         .by_artist("770d490e-c89b-4775-8508-aca7c75142cd")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(work_by_svinkels.is_ok());
@@ -24,7 +24,7 @@ async fn should_browse_work_by_artist() {
 async fn should_browse_work_by_collection() {
     let work_in_collection = Work::browse()
         .by_collection("91565a03-bce8-47e9-ab70-e4d4e1684d7f")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(work_in_collection.is_ok());

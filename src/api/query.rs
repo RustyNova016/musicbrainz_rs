@@ -1,8 +1,9 @@
 use core::marker::PhantomData;
 
+use api_bindium::endpoints::EndpointUriBuilder;
+use api_bindium::endpoints::query::EndpointUriBuilderQuery;
+
 use crate::client::MusicBrainzClient;
-use crate::config::FMT_JSON;
-use crate::config::PARAM_INC;
 use crate::entity::Include;
 
 /// The base element of a query
@@ -26,23 +27,32 @@ impl<T> Query<T> {
     }
 
     /// Create the full url path of the query
-    pub(crate) fn create_url(&self, client: &MusicBrainzClient) -> String {
-        let mut url = format!("http://{}/{}{}", client.api_root(), self.path, FMT_JSON);
+    pub(crate) fn get_endpoint(
+        &self,
+        client: &MusicBrainzClient,
+    ) -> EndpointUriBuilder<EndpointUriBuilderQuery> {
+        let url = EndpointUriBuilder::new()
+            .http()
+            .set_authority(&client.musicbrainz_domain)
+            .add_path_fragment("ws/2")
+            .add_path_fragment(&self.path)
+            .query()
+            .add_parameter("fmt", "json");
 
         // If we don't have includes, let's return early
         if self.include.is_empty() {
             return url;
         }
 
-        url.push_str(PARAM_INC);
+        let mut incl = String::new();
 
         for inc in &self.include {
-            url.push_str(inc.as_str());
+            incl.push_str(inc.as_str());
             if Some(inc) != self.include.last() {
-                url.push('+');
+                incl.push('+');
             }
         }
 
-        url
+        url.add_parameter("inc", incl)
     }
 }

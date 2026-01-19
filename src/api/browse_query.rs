@@ -1,17 +1,17 @@
 use core::marker::PhantomData;
 
+use api_bindium::ApiRequest;
+use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::endpoints::UriBuilderError;
+use api_bindium::ureq::http::Uri;
 use serde::de::DeserializeOwned;
 
-use crate::api::api_request::GetRequestError;
-use crate::api::fetch_query::Fetch;
+use crate::APIPath;
+#[cfg(any(feature = "sync", feature = "async"))]
+use crate::api::ApiEndpointError;
 use crate::api::query::Query;
-use crate::client::MUSICBRAINZ_CLIENT;
-use crate::config::PARAM_LIMIT;
-use crate::config::PARAM_OFFSET;
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;
-use crate::APIPath;
-use crate::ApiRequest;
 
 /// Direct lookup of all the entities directly linked to another entity
 ///
@@ -23,21 +23,8 @@ use crate::ApiRequest;
 /// ## Example
 /// ```rust
 /// # use musicbrainz_rs::prelude::*;
-/// # #[tokio::main]
-/// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-/// # use musicbrainz_rs::entity::artist::Artist;
-/// # use musicbrainz_rs::entity::release::Release;
-/// let ubiktune_releases = Release::browse()
-///         .by_label("47e718e1-7ee4-460c-b1cc-1192a841c6e5")
-///         .execute()
-///         .await;
-///
-/// assert!(!ubiktune_releases?.entities.is_empty());
-/// #   Ok(())
-/// # }
-/// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+/// # #[cfg(feature = "sync")]
+/// # fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// # use musicbrainz_rs::entity::release::Release;
 /// let ubiktune_releases = Release::browse()
@@ -58,50 +45,17 @@ pub struct BrowseQuery<T> {
     /// The number of results to query
     pub limit: Option<u8>,
 
-    /// The search query
-    pub id: String,
+    /// The type of entity used in the filter
+    pub filter_entity: String,
+
+    /// The mbid of the filtered entity
+    pub filter_mbid: String,
 }
 
 impl<T> BrowseQuery<T>
 where
     T: Clone,
 {
-    #[maybe_async::maybe_async]
-    pub async fn execute(&mut self) -> Result<BrowseResult<T>, GetRequestError>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        self.execute_with_client(&MUSICBRAINZ_CLIENT).await
-    }
-
-    /// Execute the query with a specific client
-    #[maybe_async::maybe_async]
-    pub async fn execute_with_client(
-        &mut self,
-        client: &crate::MusicBrainzClient,
-    ) -> Result<BrowseResult<T>, GetRequestError>
-    where
-        T: Fetch + DeserializeOwned + Browsable,
-    {
-        self.as_api_request(client).get(client).await
-    }
-
-    fn create_url(&self, client: &crate::MusicBrainzClient) -> String {
-        let mut url = self.inner.create_url(client);
-        url.push_str(&format!("&{}", self.id));
-
-        if let Some(limit) = self.limit {
-            url.push_str(PARAM_LIMIT);
-            url.push_str(&limit.to_string());
-        }
-        if let Some(offset) = self.offset {
-            url.push_str(PARAM_OFFSET);
-            url.push_str(&offset.to_string());
-        }
-
-        url
-    }
-
     pub fn limit(&mut self, limit: u8) -> &mut Self {
         self.limit = Some(limit);
         self
@@ -112,9 +66,96 @@ where
         self
     }
 
-    /// Turn the query into an [`crate::ApiRequest`]
-    pub fn as_api_request(&self, client: &crate::MusicBrainzClient) -> ApiRequest {
-        ApiRequest::new(self.create_url(client))
+    // === Request Creation ===
+
+    /// Create the request's url
+    fn create_url(&self, client: &crate::MusicBrainzClient) -> Result<Uri, UriBuilderError> {
+        let mut url = self.inner.get_endpoint(client);
+
+        // Add the browse filter
+        url = url.add_parameter(&self.filter_entity, &self.filter_mbid);
+
+        url = url.maybe_add_parameter("limit", self.limit.as_ref());
+        url = url.maybe_add_parameter("offset", self.offset.as_ref());
+
+        url.to_uri()
+    }
+
+    /// Turn the query into an [`api_bindium::ApiRequest`]
+    pub fn as_api_request(
+        &self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<ApiRequest<JsonParser<BrowseResult<T>>>, UriBuilderError>
+    where
+        T: DeserializeOwned + Browsable,
+    {
+        Ok(ApiRequest::builder()
+            .uri(self.create_url(client)?)
+            .verb(api_bindium::HTTPVerb::Get)
+            .build())
+    }
+
+    // === Api Fetching ===
+
+    #[cfg(feature = "sync")]
+    pub fn execute(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client(&MUSICBRAINZ_CLIENT)
+    }
+
+    /// Execute the query with a specific client
+    #[cfg(feature = "sync")]
+    pub fn execute_with_client(
+        &mut self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use snafu::ResultExt;
+
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        self.as_api_request(client)
+            .context(InvalidUriSnafu)?
+            .send(&client.api_client)
+            .context(ApiRequestSnafu)
+    }
+
+    #[cfg(feature = "async")]
+    pub async fn execute_async(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use crate::client::MUSICBRAINZ_CLIENT;
+
+        self.execute_with_client_async(&MUSICBRAINZ_CLIENT).await
+    }
+
+    /// Execute the query with a specific client
+    #[cfg(feature = "async")]
+    pub async fn execute_with_client_async(
+        &mut self,
+        client: &crate::MusicBrainzClient,
+    ) -> Result<BrowseResult<T>, ApiEndpointError>
+    where
+        T: Browse + Browsable + DeserializeOwned + Sync,
+    {
+        use snafu::ResultExt;
+
+        use crate::api::ApiRequestSnafu;
+        use crate::api::InvalidUriSnafu;
+
+        self.as_api_request(client)
+            .context(InvalidUriSnafu)?
+            .send_async(&client.api_client)
+            .await
+            .context(ApiRequestSnafu)
     }
 }
 
@@ -132,7 +173,8 @@ pub trait Browse {
             },
             limit: None,
             offset: None,
-            id: String::new(),
+            filter_entity: String::new(),
+            filter_mbid: String::new(),
         }
     }
 }

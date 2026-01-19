@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::recording::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::recording::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -12,10 +12,12 @@ async fn should_search_recording() {
         .comment("leeds festival")
         .build();
 
-    let result = Recording::search(query).execute().await.unwrap();
+    let result = Recording::search(query).execute_async().await.unwrap();
 
-    assert!(result
-        .entities
-        .iter()
-        .any(|recording| recording.length.unwrap() == 182000));
+    assert!(
+        result
+            .entities
+            .iter()
+            .any(|recording| recording.length.unwrap() == 182000)
+    );
 }

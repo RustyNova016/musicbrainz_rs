@@ -1,10 +1,13 @@
 pub mod null_eq;
+use core::str::FromStr;
 use std::sync::LazyLock;
 
+use api_bindium::ApiRequest;
+use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::ureq::http::Uri;
 use musicbrainz_rs::client::MusicBrainzClient;
-use musicbrainz_rs::ApiRequest;
-use serde::de::DeserializeOwned;
 use serde::Serialize;
+use serde::de::DeserializeOwned;
 use serde_json::Value;
 
 use crate::test_framework::null_eq::NullEq as _;
@@ -13,26 +16,36 @@ pub(crate) static CLIENT: LazyLock<MusicBrainzClient> = LazyLock::new(|| {
     MusicBrainzClient::new(
         "musicbrainz_rs_test_suite/1.0.0 ( https://github.com/RustyNova016/musicbrainz_rs )",
     )
-    .unwrap()
 });
-pub(crate) async fn check_fetch_query<T>(request: ApiRequest, expected_url: &str, extra: impl Fn(T))
-where
-    T: Serialize + DeserializeOwned + Clone,
+pub(crate) async fn check_fetch_query<T>(
+    mut request: ApiRequest<JsonParser<T>>,
+    expected_url: &str,
+    extra: impl Fn(T),
+) where
+    T: Serialize + DeserializeOwned + Clone + Sync,
 {
-    let test_json = request.get_json(&CLIENT).await.unwrap();
-    assert_equal_return(test_json.clone(), expected_url.to_string()).await;
-    assert_round_trip::<T>(test_json.clone());
+    let test_json = request.send_async(&CLIENT.api_client).await.unwrap();
+    let test_json_val = serde_json::to_value(test_json).unwrap();
+    assert_equal_return(test_json_val.clone(), expected_url.to_string()).await;
+    assert_round_trip::<T>(test_json_val.clone());
 
-    let value: T = serde_json::from_value(test_json).unwrap();
+    let value: T = serde_json::from_value(test_json_val).unwrap();
     extra(value);
 }
 
 /// Check if the returned value from the api fetch is the same as expected
 pub(crate) async fn assert_equal_return(test_json: Value, expected_url: String) {
-    let request = ApiRequest::new(format!(
-        "https://musicbrainz.org/ws/2/{expected_url}&fmt=json"
-    ));
-    let expected_json = request.get_json(&CLIENT).await.unwrap();
+    let mut request: ApiRequest<JsonParser<serde_json::Value>> = ApiRequest::builder()
+        .uri(
+            Uri::from_str(&format!(
+                "https://musicbrainz.org/ws/2/{expected_url}&fmt=json"
+            ))
+            .unwrap(),
+        )
+        .verb(api_bindium::HTTPVerb::Get)
+        .build();
+
+    let expected_json = request.send_async(&CLIENT.api_client).await.unwrap();
 
     if !expected_json.null_eq(&test_json) {
         eprintln!();

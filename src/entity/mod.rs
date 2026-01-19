@@ -5,6 +5,10 @@ use serde::Serialize;
 #[cfg(not(feature = "legacy_serialize"))]
 use serde::Serializer;
 
+use crate::APIPath;
+use crate::Browse;
+use crate::Fetch;
+use crate::Search;
 use crate::entity::annotation::Annotation;
 use crate::entity::area::Area;
 use crate::entity::artist::Artist;
@@ -21,13 +25,9 @@ use crate::entity::release_group::ReleaseGroup;
 use crate::entity::series::Series;
 use crate::entity::url::Url;
 use crate::entity::work::Work;
-use crate::APIPath;
-use crate::Browse;
-use crate::Fetch;
-use crate::Search;
 
 macro_rules! impl_includes {
-    ($ty: ty, $(($args:ident, $inc: expr)),+) => {
+    ($ty: ty, $(($args:ident, $inc: expr_2021)),+) => {
         impl crate::FetchQuery<$ty> {
                $(pub fn $args(&mut self) -> &mut Self  {
                      self.0.include = self.0.include($inc).include.to_owned();
@@ -45,11 +45,11 @@ macro_rules! impl_includes {
 }
 
 macro_rules! impl_browse {
-    ($ty: ty, $(($args:ident, $browse: expr)),+) => {
+    ($ty: ty, $(($args:ident, $browse: expr_2021)),+) => {
         impl crate::BrowseQuery<$ty> {
                $(pub fn $args(&mut self, id: &str) -> &mut Self  {
-                    use std::fmt::Write as _;
-                    let _ = write!(self.id, "{}={}", $browse.as_str(), id);
+                    self.filter_entity = $browse.as_str().to_string();
+                    self.filter_mbid = id.to_string();
                     self
                })*
             }

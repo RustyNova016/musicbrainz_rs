@@ -1,5 +1,5 @@
-use musicbrainz_rs::entity::artist::*;
 use musicbrainz_rs::Search;
+use musicbrainz_rs::entity::artist::*;
 
 #[tokio::test]
 #[serial_test::serial]
@@ -10,7 +10,7 @@ async fn should_search_artist() {
         .artist_type("Group")
         .build();
 
-    let result = Artist::search(query).execute().await.unwrap();
+    let result = Artist::search(query).execute_async().await.unwrap();
 
     assert!(!result.entities.is_empty());
 }

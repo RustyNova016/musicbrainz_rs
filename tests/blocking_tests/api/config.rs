@@ -5,7 +5,6 @@ use musicbrainz_rs::prelude::*;
 #[test]
 fn set_user_agent_should_work() {
     let mut client = MusicBrainzClient::default();
-    client.set_user_agent("musicbrainz_rs_testing/0.9").unwrap();
 
     let nirvana = Artist::fetch()
         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")

@@ -6,7 +6,7 @@ use musicbrainz_rs::prelude::*;
 async fn should_browse_artist_by_release_groups() {
     let artistss_on_in_rainbows_rg = Artist::browse()
         .by_release_group("6e335887-60ba-38f0-95af-fae7774336bf")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(artistss_on_in_rainbows_rg.is_ok());
@@ -23,7 +23,7 @@ async fn should_browse_artist_by_release_groups() {
 async fn should_browse_artist_by_release() {
     let artists_on_in_utero_release = Artist::browse()
         .by_release("18d4e9b4-9247-4b44-914a-8ddec3502103")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(artists_on_in_utero_release.is_ok());
@@ -40,7 +40,7 @@ async fn should_browse_artist_by_release() {
 async fn should_browse_artist_by_area() {
     let artistss_in_aberdeen_area = Artist::browse()
         .by_area("a640b45c-c173-49b1-8030-973603e895b5")
-        .execute()
+        .execute_async()
         .await;
 
     assert!(artistss_in_aberdeen_area.is_ok());
@@ -57,7 +57,7 @@ async fn should_browse_artist_by_area() {
 async fn should_browse_artist_by_work() {
     let artists_on_hotel_california = Artist::browse()
         .by_work("22457dc0-ecbf-38f5-9056-11c858530a50")
-        .execute()
+        .execute_async()
         .await;
 
     let artists_on_hotel_california = artists_on_hotel_california.unwrap();
@@ -72,7 +72,7 @@ async fn should_browse_artist_by_work() {
 async fn should_browse_artist_by_recording() {
     let artists_on_polly = Artist::browse()
         .by_recording("af40d6b8-58e8-4ca5-9db8-d4fca0b899e2")
-        .execute()
+        .execute_async()
         .await;
 
     let artists_on_polly = artists_on_polly.unwrap();

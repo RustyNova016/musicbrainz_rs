@@ -1,7 +1,7 @@
 use musicbrainz_rs::entity::artist::{Artist, ArtistSearchQuery};
 use musicbrainz_rs::prelude::*;
 
-#[tokio::main(flavor = "current_thread")]
+#[macro_rules_attribute::apply(smol_macros::main!)]
 async fn main() {
     let query = ArtistSearchQuery::query_builder()
         .artist("Miles Davis")
@@ -9,7 +9,7 @@ async fn main() {
         .country("US")
         .build();
 
-    let query_result = Artist::search(query).execute().await.unwrap();
+    let query_result = Artist::search(query).execute_async().await.unwrap();
     let query_result: Vec<String> = query_result
         .entities
         .iter()
