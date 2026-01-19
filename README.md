@@ -237,6 +237,10 @@ Others:
 - `extras`: Extra non api related utilities that still fits musicbrainz
 - `legacy_serialize`: Enable legacy model serialization. Use an old version of the serializer for compatibility with musicbrainz_rs < 0.8.0. 
 
+## API changes and versioning
+
+Versioning is based on rust poilicy, and independant of api changes. This means if the bindings need a breaking changes, the major version will be bumped. Otherwise, the patch version will be bumped
+
 ## MSRV
 
 The Minimum Supported Rust Version for the crate is `1.85.0`. Bumps to the msrv are not considered breaking as cargo won't pull the new version (thanks resolver v3).

@@ -38,7 +38,7 @@ jobs:
         
       - name: Run async tests
         # Check only async + ratelimit. Blocking only change reqwest to use the blocking runtime.
-        run: cargo test --no-default-features --features rate_limit,async,extra
+        run: cargo test --no-default-features --features rate_limit,async,extras
   
   # unstable_tests:
   #   runs-on: ${{ matrix.os }}
