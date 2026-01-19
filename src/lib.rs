@@ -13,20 +13,8 @@
 //! use musicbrainz_rs::entity::artist::Artist;
 //! use musicbrainz_rs::prelude::*;
 //!
-//! # #[cfg(feature = "async")]
-//! #[tokio::main]
-//! async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-//!
-//!     let nirvana = Artist::fetch()
-//!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-//!         .execute()
-//!          .await;
-//!
-//!     assert_eq!(nirvana?.name, "Nirvana".to_string());
-//!     Ok(())
-//! }
-//! # #[cfg(feature = "blocking")]
-//! fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+//! # #[cfg(feature = "sync")]
+//! fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 //!
 //!     let nirvana = Artist::fetch()
 //!         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
@@ -60,8 +48,10 @@ pub mod prelude;
 pub mod utils;
 
 // === Re-exports ===
+pub use crate::api::ApiEndpointError;
 pub use crate::api::browse_query::Browse;
 pub use crate::api::browse_query::BrowseQuery;
+pub use crate::api::coverart_query::CoverartQuery;
 pub use crate::api::coverart_query::FetchCoverart;
 pub use crate::api::coverart_query::FetchCoverartQuery;
 pub use crate::api::fetch_query::Fetch;
@@ -69,8 +59,6 @@ pub use crate::api::fetch_query::FetchQuery;
 pub use crate::api::search_query::Search;
 pub use crate::api::search_query::SearchQuery;
 pub use crate::client::MusicBrainzClient;
-
-pub(crate) use crate::api::coverart_query::CoverartQuery;
 
 // === Crate Reexports ==
 

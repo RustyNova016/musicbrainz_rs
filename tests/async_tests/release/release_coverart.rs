@@ -7,7 +7,7 @@ use musicbrainz_rs::entity::release::*;
 #[serial_test::serial]
 async fn should_get_release_coverart() {
     let in_utero_coverart = Release::fetch_coverart()
-        .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
+        .id("ee1be6eb-a435-49f8-9053-5117f60e83c2")
         .execute_async()
         .await
         .expect("Unable to get cover art");

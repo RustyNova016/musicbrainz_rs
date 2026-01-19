@@ -28,30 +28,12 @@ use crate::entity::coverart::Coverart;
 /// ## Example
 /// ```rust
 /// # use musicbrainz_rs::prelude::*;
-/// # #[tokio::main]
-/// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::error::CoverArtRequestParsingError> {
+/// # #[cfg(feature = "sync")]
+/// # fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 /// # use musicbrainz_rs::entity::release::Release;
 /// # use musicbrainz_rs::entity::CoverartResponse;
 /// let in_utero_coverart = Release::fetch_coverart()
-///         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
-///         .execute()
-///         .await?;
-///
-/// if let CoverartResponse::Json(coverart) = in_utero_coverart {
-///     assert_eq!(coverart.images[0].front, true);
-///     assert_eq!(coverart.images[0].back, false);
-/// } else {
-///     assert!(false);
-/// }
-/// #   Ok(())
-/// # }
-/// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), musicbrainz_rs::error::CoverArtRequestParsingError> {
-/// # use musicbrainz_rs::entity::release::Release;
-/// # use musicbrainz_rs::entity::CoverartResponse;
-/// let in_utero_coverart = Release::fetch_coverart()
-///         .id("76df3287-6cda-33eb-8e9a-044b5e15ffdd")
+///         .id("ee1be6eb-a435-49f8-9053-5117f60e83c2")
 ///         .execute()?;
 ///
 /// if let CoverartResponse::Json(coverart) = in_utero_coverart {

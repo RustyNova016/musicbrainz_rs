@@ -3,7 +3,7 @@ use musicbrainz_rs::entity::CoverartResponse;
 use musicbrainz_rs::entity::release::*;
 use musicbrainz_rs::prelude::*;
 
-#[tokio::main(flavor = "current_thread")]
+#[macro_rules_attribute::apply(smol_macros::main!)]
 async fn main() {
     // CoverArt Query for a Release.
     let in_utero_coverart = Release::fetch_coverart()

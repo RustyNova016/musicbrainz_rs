@@ -47,6 +47,8 @@ serial_test = "3.1.1"
 tokio-shared-rt = "0.1.0"
 futures = "0.3.31"
 serde_json = "1.0.117"
+macro_rules_attribute = "0.2.2"
+smol-macros = "0.1.1"
 
 [features]
 default = []
@@ -72,86 +74,45 @@ hotpath-alloc = ["hotpath/hotpath-alloc", "api_bindium/hotpath-alloc"]
 hotpath-off = ["hotpath/hotpath-off", "api_bindium/hotpath-off"]
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "fetch_artist"
-path = "examples/blocking/fetch_artist.rs"
+path = "examples/fetch_artist.rs"
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "includes"
-path = "examples/blocking/includes.rs"
+path = "examples/includes.rs"
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "browse"
-path = "examples/blocking/browse.rs"
+path = "examples/browse.rs"
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "search"
-path = "examples/blocking/search_artist.rs"
+path = "examples/search_artist.rs"
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "fetch_release_coverart"
-path = "examples/blocking/fetch_release_coverart.rs"
+path = "examples/fetch_release_coverart.rs"
 
 [[example]]
-required-features = ["sync"]
+required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "set_user_agent"
-path = "examples/blocking/set_user_agent.rs"
+path = "examples/set_user_agent.rs"
 
 # [[example]]
 # required-features = ["blocking"]
 # name = "oauth"
 # path = "examples/blocking/oauth.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "fetch_artist_async"
-path = "examples/async/fetch_artist.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "includes_async"
-path = "examples/async/includes.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "browse_async"
-path = "examples/async/browse.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "search_async"
-path = "examples/async/search_artist.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "fetch_release_coverart_async"
-path = "examples/async/fetch_release_coverart.rs"
-
-[[example]]
-required-features = ["async"]
-doc-scrape-examples = true
-name = "set_user_agent_async"
-path = "examples/async/set_user_agent.rs"
-
-# [[example]]
-# required-features = ["async"]
-# name = "oauth_async"
-# path = "examples/async/oauth.rs"
 
 [[test]]
 name = "all"

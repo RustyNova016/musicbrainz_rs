@@ -20,20 +20,8 @@ use crate::api::query::Query;
 /// ## Example
 /// ```rust
 /// # use musicbrainz_rs::prelude::*;
-/// # #[tokio::main]
-/// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-/// # use musicbrainz_rs::entity::artist::Artist;
-/// let nirvana = Artist::fetch()
-///         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")
-///         .execute()
-///         .await;
-///
-/// assert_eq!(nirvana?.name, "Nirvana".to_string());
-/// #   Ok(())
-/// # }
 /// # #[cfg(feature = "sync")]
-/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+/// # fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// let nirvana = Artist::fetch()
 ///         .id("5b11f4ce-a62d-471e-81fc-a69a8278c7da")

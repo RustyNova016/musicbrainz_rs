@@ -2,7 +2,7 @@ use musicbrainz_rs::MusicBrainzClient;
 use musicbrainz_rs::entity::artist::Artist;
 use musicbrainz_rs::prelude::*;
 
-#[tokio::main(flavor = "current_thread")]
+#[macro_rules_attribute::apply(smol_macros::main!)]
 async fn main() {
     let client = MusicBrainzClient::default();
 

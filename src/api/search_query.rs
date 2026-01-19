@@ -25,29 +25,8 @@ use crate::entity::search::Searchable;
 ///
 ///```rust
 /// # use musicbrainz_rs::prelude::*;
-/// # #[tokio::main]
-/// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-/// # use musicbrainz_rs::entity::artist::{Artist, ArtistSearchQuery};
-/// let query = ArtistSearchQuery::query_builder()
-///         .artist("Miles Davis")
-///         .and()
-///         .country("US")
-///         .build();
-///
-///     let query_result = Artist::search(query).execute_async().await?;
-///     let query_result: Vec<String> = query_result
-///         .entities
-///         .iter()
-///         .map(|artist| artist.name.clone())
-///         .collect();
-///
-///     assert!(query_result.contains(&"Miles Davis".to_string()));
-///     assert!(query_result.contains(&"Miles Davis Quintet".to_string()));
-/// #   Ok(())
-/// # }
-/// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+/// # #[cfg(feature = "sync")]
+/// # fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 /// # use musicbrainz_rs::entity::artist::{Artist, ArtistSearchQuery};
 /// let query = ArtistSearchQuery::query_builder()
 ///         .artist("Miles Davis")

@@ -48,7 +48,7 @@ impl MusicBrainzClient {
     /// ## Example
     /// ```rust
     /// # use musicbrainz_rs::client::MusicBrainzClient;
-    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)").unwrap();
+    /// let client = MusicBrainzClient::new("MyApp/1.0.0 (http://myapp.example.com)");
     /// ```
     pub fn new(user_agent: &str) -> Self {
         let agent_conf = Config::builder().user_agent(user_agent).build();

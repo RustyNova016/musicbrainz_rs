@@ -1,14 +1,15 @@
 use musicbrainz_rs::entity::artist::{Artist, ArtistSearchQuery};
 use musicbrainz_rs::prelude::*;
 
-fn main() {
+#[macro_rules_attribute::apply(smol_macros::main!)]
+async fn main() {
     let query = ArtistSearchQuery::query_builder()
         .artist("Miles Davis")
         .and()
         .country("US")
         .build();
 
-    let query_result = Artist::search(query).execute().unwrap();
+    let query_result = Artist::search(query).execute_async().await.unwrap();
     let query_result: Vec<String> = query_result
         .entities
         .iter()

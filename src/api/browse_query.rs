@@ -23,21 +23,8 @@ use crate::entity::BrowseResult;
 /// ## Example
 /// ```rust
 /// # use musicbrainz_rs::prelude::*;
-/// # #[tokio::main]
-/// # #[cfg(feature = "async")]
-/// # async fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
-/// # use musicbrainz_rs::entity::artist::Artist;
-/// # use musicbrainz_rs::entity::release::Release;
-/// let ubiktune_releases = Release::browse()
-///         .by_label("47e718e1-7ee4-460c-b1cc-1192a841c6e5")
-///         .execute()
-///         .await;
-///
-/// assert!(!ubiktune_releases?.entities.is_empty());
-/// #   Ok(())
-/// # }
-/// # #[cfg(feature = "blocking")]
-/// # fn main() -> Result<(), musicbrainz_rs::GetRequestError> {
+/// # #[cfg(feature = "sync")]
+/// # fn main() -> Result<(), musicbrainz_rs::ApiEndpointError> {
 /// # use musicbrainz_rs::entity::artist::Artist;
 /// # use musicbrainz_rs::entity::release::Release;
 /// let ubiktune_releases = Release::browse()
