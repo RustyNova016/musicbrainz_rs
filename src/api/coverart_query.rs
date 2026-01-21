@@ -151,7 +151,7 @@ where
 
         let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
 
-        let mut response = req
+        let response = req
             .send_with_retries(&client.api_client)
             .context(ApiRequestSnafu)?;
 
@@ -163,7 +163,7 @@ where
             Ok(CoverartResponse::Url(redirect.to_string()))
         } else {
             Ok(CoverartResponse::Json(
-                req.parse_response(&mut response).context(ApiRequestSnafu)?,
+                req.parse_response(response).context(ApiRequestSnafu)?,
             ))
         }
     }
@@ -187,7 +187,7 @@ where
 
         let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
 
-        let mut response = req
+        let response = req
             .send_with_retries_async(&client.api_client)
             .await
             .context(ApiRequestSnafu)?;
@@ -200,7 +200,7 @@ where
             Ok(CoverartResponse::Url(redirect.to_string()))
         } else {
             Ok(CoverartResponse::Json(
-                req.parse_response(&mut response).context(ApiRequestSnafu)?,
+                req.parse_response(response).context(ApiRequestSnafu)?,
             ))
         }
     }

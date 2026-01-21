@@ -18,7 +18,7 @@ travis-ci = { repository = "RustyNova016/musicbrainz_rs", branch = "master" }
 
 [dependencies]
 # Api core
-api_bindium = { version = "0.2.1" }
+api_bindium = { version = "0.3.0" }
 
 # Schema deserialization
 serde = { version = "1.0.220", features = ["derive"] }

@@ -5,3 +5,5 @@ api_samples/
 .idea/
 /.direnv
 .envrc
+mutants.out/
+mutants.out.old/
