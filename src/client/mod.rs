@@ -4,6 +4,8 @@ use api_bindium::ApiClient;
 use api_bindium::ureq::Agent;
 use api_bindium::ureq::config::Config;
 
+use crate::api::endpoints::MusicBrainzAPIEnpoints;
+
 pub(crate) const DEFAULT_USER_AGENT: &str =
     concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));
 
@@ -64,6 +66,13 @@ impl MusicBrainzClient {
         let agent = Agent::new_with_config(agent_conf);
 
         ApiClient::builder().agent(agent).build()
+    }
+
+    /// Return a struct with the endpoints of the api
+    pub fn endpoints(&self) -> MusicBrainzAPIEnpoints {
+        MusicBrainzAPIEnpoints::builder()
+            .domain(self.musicbrainz_domain.clone())
+            .build()
     }
 }
 

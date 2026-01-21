@@ -41,3 +41,11 @@ impl_relations_includes!(Url);
 //     (with_user_genres, Include::Other("user-genres")),
 //     (with_aliases, Include::Other("aliases"))
 // );
+
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
+#[serde(rename_all = "kebab-case")]
+pub struct MultiUrlResponse {
+    pub urls: Vec<Url>,
+    pub url_count: u64,
+    pub url_offset: u64,
+}
