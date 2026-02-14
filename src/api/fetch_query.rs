@@ -1,15 +1,20 @@
 use core::fmt::Write as _;
 use core::marker::PhantomData;
-
-use api_bindium::ApiRequest;
+#[cfg(feature = "basic_auth")]
+use std::collections::HashMap;
 use api_bindium::endpoints::UriBuilderError;
+use api_bindium::ApiRequest;
 use serde::de::DeserializeOwned;
 
-use crate::APIPath;
-#[cfg(any(feature = "sync", feature = "async"))]
-use crate::api::ApiEndpointError;
 use crate::api::parser::MusicBrainzParser;
 use crate::api::query::Query;
+#[cfg(any(feature = "sync", feature = "async"))]
+use crate::api::ApiEndpointError;
+use crate::APIPath;
+#[cfg(feature = "basic_auth")]
+use base64::engine::general_purpose::STANDARD;
+#[cfg(feature = "basic_auth")]
+use base64::Engine;
 
 /// Perform a lookup of an entity when you have the MBID for that entity
 ///
@@ -46,7 +51,7 @@ where
 
     // === Request Creation ===
 
-    /// Turn the query into an [`api_bindium::ApiRequest`]    
+    /// Turn the query into an [`api_bindium::ApiRequest`]
     pub fn as_api_request(
         &self,
         client: &crate::MusicBrainzClient,
@@ -56,9 +61,33 @@ where
     {
         Ok(ApiRequest::builder()
             .uri(self.0.get_endpoint(client).to_uri()?)
+            .maybe_headers(Self::auth_headers(client))
             .verb(api_bindium::HTTPVerb::Get)
             .parser(MusicBrainzParser::default())
             .build())
+    }
+
+    #[cfg(feature = "basic_auth")]
+    fn auth_headers(client: &crate::MusicBrainzClient) -> Option<HashMap<String, String>> {
+        client
+            .basic_auth_credentials
+            .as_ref()
+            .map(|(username, password)| {
+                let mut headers = HashMap::new();
+                headers.insert(
+                    "Authorization".to_string(),
+                    format!(
+                        "Basic {}",
+                        STANDARD.encode(format!("{}:{}", username, password))
+                    ),
+                );
+                headers
+            })
+    }
+
+    #[cfg(not(feature = "basic_auth"))]
+    fn auth_headers() -> Option<HashMap<String, String>> {
+        None
     }
 
     #[cfg(feature = "sync")]
