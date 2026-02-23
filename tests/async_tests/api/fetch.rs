@@ -151,6 +151,7 @@ async fn should_get_work_by_id() {
             rating: None,
             genres: None,
             annotation: None,
+            score: None,
         }
     );
 }

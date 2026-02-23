@@ -122,6 +122,8 @@ pub struct Artist {
     ///    There are no clear indications about how to use dates for artists of the type Other at
     ///    the moment.
     pub life_span: Option<LifeSpan>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 /// The type of a MusicBrainz artist entity.

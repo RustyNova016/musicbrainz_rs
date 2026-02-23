@@ -47,6 +47,8 @@ pub struct Area {
     pub life_span: Option<LifeSpan>,
     pub tags: Option<Vec<Tag>>,
     pub genres: Option<Vec<Genre>>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 /// The type of a MusicBrainz area entity.

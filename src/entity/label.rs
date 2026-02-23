@@ -56,6 +56,8 @@ pub struct Label {
     /// The International Standard Name Identifier for the label. See [ISNI](https://musicbrainz.org/doc/ISNI) for more information.
     pub isnis: Option<Vec<String>>,
     pub life_span: Option<LifeSpan>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]

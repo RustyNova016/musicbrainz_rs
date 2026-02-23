@@ -21,6 +21,8 @@ pub struct CDStub {
     pub barcode: Option<String>,
     /// the disambiguation string set on the CD stub
     pub disambiguation: Option<String>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]

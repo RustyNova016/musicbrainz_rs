@@ -25,6 +25,8 @@ pub struct Annotation {
     /// the annotated entity's entity type
     #[serde(rename = "type")]
     pub annotation_type: String,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]

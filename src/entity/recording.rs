@@ -62,6 +62,8 @@ pub struct Recording {
     pub annotation: Option<String>,
     /// The first release date of the recording.
     pub first_release_date: Option<DateString>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]
