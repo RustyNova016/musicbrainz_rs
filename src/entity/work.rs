@@ -635,6 +635,8 @@ pub struct Work {
     /// Annotations are text fields, functioning like a miniature wiki, that can be added to any
     /// existing artists, labels, recordings, releases, release groups and works.
     pub annotation: Option<String>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]

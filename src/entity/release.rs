@@ -105,6 +105,8 @@ pub struct Release {
     pub cover_art_archive: Option<CoverArtArchiveRelease>,
 
     pub release_events: Option<Vec<ReleaseEvent>>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]

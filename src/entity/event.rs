@@ -132,6 +132,8 @@ pub struct Event {
     pub disambiguation: Option<String>,
 
     pub type_id: Option<String>,
+    /// Relevance score of this entity (0–100). Present only in search querys.
+    pub score: Option<u8>,
 }
 
 #[derive(Debug, Default, Serialize, Deserialize, QueryBuilder)]
