@@ -265,7 +265,7 @@ fn update_fixtures(x: Vec<Fixture>) {
         let body = agent
             .get(url)
             .query_pairs(query.params)
-            .header("User-Agent", "dgkf/musicbrainz_rs (dev fixtures)")
+            .header("User-Agent", "musicbrainz_rs (dev fixtures)")
             .header("Accept", "application/json")
             .call()
             .and_then(|resp| resp.into_body().read_to_string());
