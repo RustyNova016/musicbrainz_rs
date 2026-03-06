@@ -1,1 +1,726 @@
-{"artist-credit":[{"joinphrase":" feat. ","name":"倖田來未","artist":{"sort-name":"Koda, Kumi","name":"倖田來未","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":""}},{"joinphrase":"","name":"東方神起","artist":{"name":"東方神起","sort-name":"Tohoshinki","type":"Group","id":"05cbaf37-6dc2-4f71-a0ce-d633447d90c3","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","disambiguation":""}}],"isrcs":["JPB600760301"],"title":"LAST ANGEL","video":false,"releases":[{"status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","artist-credit":[{"name":"倖田來未","artist":{"sort-name":"Koda, Kumi","name":"倖田來未","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac"},"joinphrase":" feat. "},{"name":"東方神起","artist":{"name":"東方神起","sort-name":"Tohoshinki","disambiguation":"","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","id":"05cbaf37-6dc2-4f71-a0ce-d633447d90c3","type":"Group"},"joinphrase":""}],"release-events":[{"date":"2007-11-07","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"disambiguation":"","type-id":null,"iso-3166-1-codes":["JP"],"sort-name":"Japan","name":"Japan"}}],"date":"2007-11-07","id":"9c7a7669-b43a-3323-906b-c3f0bedc10c9","text-representation":{"language":"jpn","script":"Jpan"},"title":"LAST ANGEL","barcode":"4988064457663","country":"JP","quality":"normal","packaging":null,"disambiguation":"","packaging-id":null},{"release-events":[{"date":"2007-11-07","area":{"type":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type-id":null,"disambiguation":"","name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"artist-credit":[{"joinphrase":" feat. ","artist":{"id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person","disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","name":"倖田來未","sort-name":"Koda, Kumi"},"name":"倖田來未"},{"joinphrase":"","artist":{"disambiguation":"","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","id":"05cbaf37-6dc2-4f71-a0ce-d633447d90c3","type":"Group","sort-name":"Tohoshinki","name":"東方神起"},"name":"東方神起"}],"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official","text-representation":{"language":"jpn","script":"Jpan"},"date":"2007-11-07","id":"c33dee6a-e053-4272-84ad-dfeef3f48c8a","title":"LAST ANGEL","packaging-id":null,"disambiguation":"","quality":"normal","packaging":null,"country":"JP","barcode":"4988064457670"},{"status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","artist-credit":[{"artist":{"type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","sort-name":"Koda, Kumi","name":"倖田來未"},"name":"Koda Kumi","joinphrase":""}],"release-events":[{"date":"2008-01-30","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"disambiguation":"","type-id":null,"name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"id":"4c22e383-4792-4b09-a383-4b64e6a453cb","date":"2008-01-30","text-representation":{"language":"jpn","script":"Jpan"},"title":"Kingdom","barcode":null,"country":"JP","quality":"normal","packaging":null,"disambiguation":"","packaging-id":null},{"title":"Kingdom","barcode":"4988064458295","country":"JP","quality":"normal","packaging":null,"disambiguation":"完全生産限定盤A","packaging-id":null,"status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","release-events":[{"area":{"iso-3166-1-codes":["JP"],"sort-name":"Japan","name":"Japan","type":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type-id":null,"disambiguation":""},"date":"2008-01-30"}],"artist-credit":[{"name":"Koda Kumi","artist":{"name":"倖田來未","sort-name":"Koda, Kumi","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac"},"joinphrase":""}],"date":"2008-01-30","id":"56b1246a-7ff4-4183-b2f6-4e3f6cfacd05","text-representation":{"language":"jpn","script":"Jpan"}},{"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official","artist-credit":[{"joinphrase":"","artist":{"disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person","name":"倖田來未","sort-name":"Koda, Kumi"},"name":"Koda Kumi"}],"release-events":[{"date":"2008-01-30","area":{"name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"],"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"disambiguation":"","type-id":null}}],"text-representation":{"script":"Jpan","language":"jpn"},"date":"2008-01-30","id":"149aabbf-a54c-4156-a83b-47e0e1ab1069","title":"Kingdom","country":"JP","barcode":"4988064458301","packaging-id":null,"disambiguation":"","packaging":null,"quality":"normal"},{"release-events":[{"area":{"type":null,"id":"b9f7d640-46e8-313e-b158-ded6d18593b3","type-id":null,"disambiguation":"","name":"South Korea","sort-name":"South Korea","iso-3166-1-codes":["KR"]},"date":"2008-01-31"}],"artist-credit":[{"name":"Koda Kumi","artist":{"type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","name":"倖田來未","sort-name":"Koda, Kumi"},"joinphrase":""}],"status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","text-representation":{"language":"jpn","script":"Jpan"},"date":"2008-01-31","id":"abcd76db-7d5f-3eb7-b386-051c97bfe2e4","title":"Kingdom","quality":"normal","packaging":null,"packaging-id":null,"disambiguation":"","country":"KR","barcode":"8809049753128"},{"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official","release-events":[{"date":"2009-03-25","area":{"disambiguation":"","type-id":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"sort-name":"Japan","name":"Japan","iso-3166-1-codes":["JP"]}}],"artist-credit":[{"joinphrase":"","name":"Koda Kumi","artist":{"sort-name":"Koda, Kumi","name":"倖田來未","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":""}}],"text-representation":{"language":"eng","script":"Latn"},"id":"d8d9f73f-9b47-4c1f-bb35-574ca52ebcb9","date":"2009-03-25","title":"Out Works & Collaboration Best","country":"JP","barcode":null,"packaging-id":null,"disambiguation":"","packaging":null,"quality":"normal"},{"disambiguation":"通常出荷仕様","packaging-id":null,"quality":"normal","packaging":null,"barcode":"4988064464937","country":"JP","title":"BEST〜third universe〜 & 8th AL “UNIVERSE”","id":"d9ae73d9-e14d-4839-98df-f5b9c6b103e8","date":"2010-02-03","text-representation":{"script":"Jpan","language":"jpn"},"artist-credit":[{"artist":{"type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","sort-name":"Koda, Kumi","name":"倖田來未"},"name":"倖田來未","joinphrase":""}],"release-events":[{"area":{"disambiguation":"","type-id":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"sort-name":"Japan","iso-3166-1-codes":["JP"],"name":"Japan"},"date":"2010-02-03"}],"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official"},{"artist-credit":[{"joinphrase":"","artist":{"disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person","name":"倖田來未","sort-name":"Koda, Kumi"},"name":"倖田來未"}],"release-events":[{"date":"2010-02-03","area":{"name":"Japan","iso-3166-1-codes":["JP"],"sort-name":"Japan","type":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type-id":null,"disambiguation":""}}],"status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","date":"2010-02-03","id":"1f1abca4-1c4c-4b62-b504-2a09aca3df00","text-representation":{"language":"jpn","script":"Jpan"},"title":"BEST〜third universe〜 & 8th AL “UNIVERSE”","packaging":null,"quality":"normal","disambiguation":"","packaging-id":null,"barcode":"4988064464951","country":"JP"},{"text-representation":{"language":"jpn","script":"Jpan"},"date":"2010-02-03","id":"531e4086-d716-318d-af46-057b56021b42","status":"Official","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","release-events":[{"area":{"name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"],"id":"2db42837-c832-3c27-b4a3-08198f75693c","type":null,"disambiguation":"","type-id":null},"date":"2010-02-03"}],"artist-credit":[{"name":"倖田來未","artist":{"sort-name":"Koda, Kumi","name":"倖田來未","disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person"},"joinphrase":""}],"country":"JP","barcode":"4988064464913","quality":"normal","packaging":null,"packaging-id":null,"disambiguation":"初回仕様","title":"BEST〜third universe〜 & 8th AL “UNIVERSE”"},{"text-representation":{"language":"jpn","script":"Jpan"},"id":"c7221267-14ec-305b-95aa-69c3111f885f","date":"2010-02-03","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official","artist-credit":[{"joinphrase":"","artist":{"type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","sort-name":"Koda, Kumi","name":"倖田來未"},"name":"倖田來未"}],"release-events":[{"date":"2010-02-03","area":{"iso-3166-1-codes":["JP"],"name":"Japan","sort-name":"Japan","type":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type-id":null,"disambiguation":""}}],"country":"JP","barcode":"4988064464937","packaging-id":null,"disambiguation":"初回仕様","quality":"normal","packaging":null,"title":"BEST〜third universe〜 & 8th AL “UNIVERSE”"},{"disambiguation":"通常出荷仕様","packaging-id":null,"packaging":null,"quality":"normal","barcode":"4988064464913","country":"JP","title":"BEST〜third universe〜 & 8th AL “UNIVERSE”","date":"2010-02-03","id":"edf598cb-3be6-406a-a894-cd821cb50f7e","text-representation":{"language":"jpn","script":"Jpan"},"release-events":[{"date":"2010-02-03","area":{"type":null,"id":"2db42837-c832-3c27-b4a3-08198f75693c","type-id":null,"disambiguation":"","iso-3166-1-codes":["JP"],"sort-name":"Japan","name":"Japan"}}],"artist-credit":[{"artist":{"type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","name":"倖田來未","sort-name":"Koda, Kumi"},"name":"倖田來未","joinphrase":""}],"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","status":"Official"},{"quality":"normal","packaging":null,"packaging-id":null,"disambiguation":"","barcode":null,"title":"BEST ~third universe~","text-representation":{"language":"jpn","script":"Latn"},"id":"17c85a9c-5810-4bf3-9d4b-a54407e1a5f8","artist-credit":[{"joinphrase":"","name":"Koda Kumi","artist":{"type":"Person","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","disambiguation":"","sort-name":"Koda, Kumi","name":"倖田來未"}}],"status":"Pseudo-Release","status-id":"41121bb9-3413-3818-8a9a-9742318349aa"},{"status-id":"41121bb9-3413-3818-8a9a-9742318349aa","status":"Pseudo-Release","artist-credit":[{"name":"Koda Kumi","artist":{"id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person","disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","sort-name":"Koda, Kumi","name":"倖田來未"},"joinphrase":""}],"text-representation":{"language":"jpn","script":"Latn"},"id":"601a4558-e416-410b-a64c-857fc133b75c","title":"Kingdom","barcode":null,"packaging-id":null,"disambiguation":"","quality":"normal","packaging":null},{"id":"c32bea7c-37a4-4d3a-b2b6-f4f13e5480ac","text-representation":{"language":"jpn","script":"Latn"},"artist-credit":[{"joinphrase":" feat. ","name":"Koda Kumi","artist":{"sort-name":"Koda, Kumi","name":"倖田來未","id":"455641ea-fff4-49f6-8fb4-49f961d8f1ac","type":"Person","disambiguation":"","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df"}},{"joinphrase":"","name":"Tohoshinki","artist":{"name":"東方神起","sort-name":"Tohoshinki","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","disambiguation":"","type":"Group","id":"05cbaf37-6dc2-4f71-a0ce-d633447d90c3"}}],"status-id":"41121bb9-3413-3818-8a9a-9742318349aa","status":"Pseudo-Release","disambiguation":"","packaging-id":null,"quality":"normal","packaging":null,"barcode":null,"title":"LAST ANGEL"}],"disambiguation":"","first-release-date":"2007-11-07","id":"b9ad642e-b012-41c7-b72a-42cf4911f9ff","length":230240}
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "disambiguation": "",
+        "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+        "name": "\u5016\u7530\u4f86\u672a",
+        "sort-name": "Koda, Kumi",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " feat. ",
+      "name": "\u5016\u7530\u4f86\u672a"
+    },
+    {
+      "artist": {
+        "disambiguation": "",
+        "id": "05cbaf37-6dc2-4f71-a0ce-d633447d90c3",
+        "name": "\u6771\u65b9\u795e\u8d77",
+        "sort-name": "Tohoshinki",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "\u6771\u65b9\u795e\u8d77"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2007-11-07",
+  "id": "b9ad642e-b012-41c7-b72a-42cf4911f9ff",
+  "isrcs": [
+    "JPB600760301"
+  ],
+  "length": 230240,
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "\u5016\u7530\u4f86\u672a"
+        },
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "05cbaf37-6dc2-4f71-a0ce-d633447d90c3",
+            "name": "\u6771\u65b9\u795e\u8d77",
+            "sort-name": "Tohoshinki",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "\u6771\u65b9\u795e\u8d77"
+        }
+      ],
+      "barcode": "4988064457663",
+      "country": "JP",
+      "date": "2007-11-07",
+      "disambiguation": "",
+      "id": "9c7a7669-b43a-3323-906b-c3f0bedc10c9",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2007-11-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "LAST ANGEL"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "\u5016\u7530\u4f86\u672a"
+        },
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "05cbaf37-6dc2-4f71-a0ce-d633447d90c3",
+            "name": "\u6771\u65b9\u795e\u8d77",
+            "sort-name": "Tohoshinki",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "\u6771\u65b9\u795e\u8d77"
+        }
+      ],
+      "barcode": "4988064457670",
+      "country": "JP",
+      "date": "2007-11-07",
+      "disambiguation": "",
+      "id": "c33dee6a-e053-4272-84ad-dfeef3f48c8a",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2007-11-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "LAST ANGEL"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": null,
+      "country": "JP",
+      "date": "2008-01-30",
+      "disambiguation": "",
+      "id": "4c22e383-4792-4b09-a383-4b64e6a453cb",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-01-30"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "Kingdom"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": "4988064458295",
+      "country": "JP",
+      "date": "2008-01-30",
+      "disambiguation": "\u5b8c\u5168\u751f\u7523\u9650\u5b9a\u76e4A",
+      "id": "56b1246a-7ff4-4183-b2f6-4e3f6cfacd05",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-01-30"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "Kingdom"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": "4988064458301",
+      "country": "JP",
+      "date": "2008-01-30",
+      "disambiguation": "",
+      "id": "149aabbf-a54c-4156-a83b-47e0e1ab1069",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-01-30"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "Kingdom"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": "8809049753128",
+      "country": "KR",
+      "date": "2008-01-31",
+      "disambiguation": "",
+      "id": "abcd76db-7d5f-3eb7-b386-051c97bfe2e4",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+            "iso-3166-1-codes": [
+              "KR"
+            ],
+            "name": "South Korea",
+            "sort-name": "South Korea",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-01-31"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "Kingdom"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": null,
+      "country": "JP",
+      "date": "2009-03-25",
+      "disambiguation": "",
+      "id": "d8d9f73f-9b47-4c1f-bb35-574ca52ebcb9",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2009-03-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Out Works & Collaboration Best"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "\u5016\u7530\u4f86\u672a"
+        }
+      ],
+      "barcode": "4988064464937",
+      "country": "JP",
+      "date": "2010-02-03",
+      "disambiguation": "\u901a\u5e38\u51fa\u8377\u4ed5\u69d8",
+      "id": "d9ae73d9-e14d-4839-98df-f5b9c6b103e8",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-02-03"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "BEST\u301cthird universe\u301c & 8th AL \u201cUNIVERSE\u201d"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "\u5016\u7530\u4f86\u672a"
+        }
+      ],
+      "barcode": "4988064464951",
+      "country": "JP",
+      "date": "2010-02-03",
+      "disambiguation": "",
+      "id": "1f1abca4-1c4c-4b62-b504-2a09aca3df00",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-02-03"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "BEST\u301cthird universe\u301c & 8th AL \u201cUNIVERSE\u201d"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "\u5016\u7530\u4f86\u672a"
+        }
+      ],
+      "barcode": "4988064464913",
+      "country": "JP",
+      "date": "2010-02-03",
+      "disambiguation": "\u521d\u56de\u4ed5\u69d8",
+      "id": "531e4086-d716-318d-af46-057b56021b42",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-02-03"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "BEST\u301cthird universe\u301c & 8th AL \u201cUNIVERSE\u201d"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "\u5016\u7530\u4f86\u672a"
+        }
+      ],
+      "barcode": "4988064464937",
+      "country": "JP",
+      "date": "2010-02-03",
+      "disambiguation": "\u521d\u56de\u4ed5\u69d8",
+      "id": "c7221267-14ec-305b-95aa-69c3111f885f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-02-03"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "BEST\u301cthird universe\u301c & 8th AL \u201cUNIVERSE\u201d"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "\u5016\u7530\u4f86\u672a"
+        }
+      ],
+      "barcode": "4988064464913",
+      "country": "JP",
+      "date": "2010-02-03",
+      "disambiguation": "\u901a\u5e38\u51fa\u8377\u4ed5\u69d8",
+      "id": "edf598cb-3be6-406a-a894-cd821cb50f7e",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-02-03"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Jpan"
+      },
+      "title": "BEST\u301cthird universe\u301c & 8th AL \u201cUNIVERSE\u201d"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": null,
+      "disambiguation": "",
+      "id": "17c85a9c-5810-4bf3-9d4b-a54407e1a5f8",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "status": "Pseudo-Release",
+      "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Latn"
+      },
+      "title": "BEST ~third universe~"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Koda Kumi"
+        }
+      ],
+      "barcode": null,
+      "disambiguation": "",
+      "id": "601a4558-e416-410b-a64c-857fc133b75c",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "status": "Pseudo-Release",
+      "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Latn"
+      },
+      "title": "Kingdom"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+            "name": "\u5016\u7530\u4f86\u672a",
+            "sort-name": "Koda, Kumi",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "Koda Kumi"
+        },
+        {
+          "artist": {
+            "disambiguation": "",
+            "id": "05cbaf37-6dc2-4f71-a0ce-d633447d90c3",
+            "name": "\u6771\u65b9\u795e\u8d77",
+            "sort-name": "Tohoshinki",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Tohoshinki"
+        }
+      ],
+      "barcode": null,
+      "disambiguation": "",
+      "id": "c32bea7c-37a4-4d3a-b2b6-f4f13e5480ac",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "status": "Pseudo-Release",
+      "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+      "text-representation": {
+        "language": "jpn",
+        "script": "Latn"
+      },
+      "title": "LAST ANGEL"
+    }
+  ],
+  "title": "LAST ANGEL",
+  "video": false
+}

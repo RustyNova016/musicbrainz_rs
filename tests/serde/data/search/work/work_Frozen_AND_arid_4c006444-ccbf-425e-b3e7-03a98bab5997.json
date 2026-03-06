@@ -1,1 +1,39 @@
-{"created":"2024-10-03T17:52:10.151Z","count":1,"offset":0,"works":[{"id":"10c1a66a-8166-32ec-a00f-540f111ce7a3","type":"Song","score":100,"title":"Frozen Fred","language":"eng","relations":[{"type":"composer","type-id":"d59d99ea-23d4-4a80-b066-edca32ee158f","direction":"backward","artist":{"id":"4c006444-ccbf-425e-b3e7-03a98bab5997","name":"Michiel Peters","sort-name":"Peters, Michiel"}},{"type":"performance","type-id":"a3005666-a872-32c3-ad06-98af558e99b0","direction":"backward","recording":{"id":"a3cf4e67-be7f-4db1-99d0-e074eb4afbe5","title":"Frozen Fred","video":null}}],"languages":["eng"]}]}
+{
+  "count": 1,
+  "created": "2024-10-03T17:52:10.151Z",
+  "offset": 0,
+  "works": [
+    {
+      "id": "10c1a66a-8166-32ec-a00f-540f111ce7a3",
+      "language": "eng",
+      "languages": [
+        "eng"
+      ],
+      "relations": [
+        {
+          "artist": {
+            "id": "4c006444-ccbf-425e-b3e7-03a98bab5997",
+            "name": "Michiel Peters",
+            "sort-name": "Peters, Michiel"
+          },
+          "direction": "backward",
+          "type": "composer",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+        },
+        {
+          "direction": "backward",
+          "recording": {
+            "id": "a3cf4e67-be7f-4db1-99d0-e074eb4afbe5",
+            "title": "Frozen Fred",
+            "video": null
+          },
+          "type": "performance",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+        }
+      ],
+      "score": 100,
+      "title": "Frozen Fred",
+      "type": "Song"
+    }
+  ]
+}

@@ -1,1 +1,486 @@
-{"name":"impulse! Originals","relations":[{"type":"publishes series","source-credit":"","target-type":"label","type-id":"1cd0342c-69a1-4f97-8471-46748f8ecde1","end":null,"attribute-ids":{},"attributes":[],"direction":"backward","ended":false,"target-credit":"","attribute-values":{},"label":{"id":"93c3b044-2b4e-4239-a73b-8fb76f3e6ca9","name":"impulse!","sort-name":"impulse!","type":"Original Production","label-code":236,"disambiguation":"jazz label active during the 60s‐70s, now property of Universal Music Group, mainly used as a reissue label","type-id":"7aaa37fe-2def-3476-b359-80245850062d"},"begin":null},{"direction":"backward","ended":false,"target-credit":"","attribute-values":{},"begin":null,"ordering-key":1,"type":"part of","target-type":"release","source-credit":"","attribute-ids":{},"attributes":[],"end":null,"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","release":{"country":"XE","date":"","status":null,"text-representation":{"script":"Latn","language":"eng"},"status-id":null,"barcode":"602517649033","packaging-id":null,"title":"A Love Supreme","disambiguation":"Reissue, Sony DADC glass master","quality":"normal","release-events":[{"date":"","area":{"type-id":null,"disambiguation":"","type":null,"iso-3166-1-codes":["XE"],"sort-name":"Europe","id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe"}}],"packaging":null,"id":"73d064c3-1e5d-4887-a1ec-99113a095f3d"}},{"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","end":null,"release":{"id":"15c4eb4e-46f4-3b56-9db0-7092dfb73eb4","packaging":null,"release-events":[{"area":{"sort-name":"United States","type":null,"iso-3166-1-codes":["US"],"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","type-id":null,"disambiguation":""},"date":"2008-06-10"}],"quality":"normal","packaging-id":null,"title":"A Love Supreme","disambiguation":"","barcode":"602517649033","text-representation":{"script":"Latn","language":"eng"},"status-id":null,"status":null,"country":"US","date":"2008-06-10"},"attributes":[],"attribute-ids":{},"type":"part of","target-type":"release","source-credit":"","attribute-values":{},"ordering-key":7,"begin":null,"ended":false,"direction":"backward","target-credit":""},{"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","end":null,"release":{"quality":"normal","barcode":"602517649033","title":"A Love Supreme","packaging-id":null,"disambiguation":"made by EDC, Germany","text-representation":{"language":"eng","script":"Latn"},"status-id":null,"packaging":null,"id":"319c592d-e081-4a67-8ede-39941dc480f1","release-events":[{"date":"2008-06-10","area":{"name":"Europe","id":"89a675c2-3e37-3518-b83c-418bad59a85a","iso-3166-1-codes":["XE"],"type":null,"sort-name":"Europe","disambiguation":"","type-id":null}}],"status":null,"country":"XE","date":"2008-06-10"},"attribute-ids":{},"attributes":[],"type":"part of","source-credit":"","target-type":"release","attribute-values":{},"begin":null,"ordering-key":6,"direction":"backward","ended":false,"target-credit":""},{"type":"part of","source-credit":"","target-type":"release","type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","end":null,"release":{"date":"2007","country":"XE","status":null,"packaging-id":null,"title":"Ballads","disambiguation":"","barcode":"602517486201","quality":"normal","text-representation":{"language":"eng","script":"Latn"},"status-id":null,"id":"6b4957e6-bc34-4da2-9320-b9c79a328636","packaging":null,"release-events":[{"date":"2007","area":{"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","type":null,"iso-3166-1-codes":["XE"],"sort-name":"Europe","disambiguation":"","type-id":null}}]},"attributes":[],"attribute-ids":{},"ended":false,"direction":"backward","target-credit":"","attribute-values":{},"ordering-key":2,"begin":null},{"attribute-ids":{},"attributes":[],"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","end":null,"release":{"release-events":[{"area":{"type-id":null,"disambiguation":"","sort-name":"Europe","iso-3166-1-codes":["XE"],"type":null,"name":"Europe","id":"89a675c2-3e37-3518-b83c-418bad59a85a"},"date":"2008-02-19"}],"id":"99339654-4020-3854-8c4d-525e3df09f58","packaging":null,"status-id":null,"text-representation":{"script":"Latn","language":"eng"},"packaging-id":null,"title":"Coltrane","disambiguation":"","barcode":"602517486287","quality":"normal","date":"2008-02-19","country":"XE","status":null},"type":"part of","target-type":"release","source-credit":"","attribute-values":{},"begin":null,"ordering-key":4,"direction":"backward","ended":false,"target-credit":""},{"target-credit":"","direction":"backward","ended":false,"begin":null,"ordering-key":3,"attribute-values":{},"target-type":"release","source-credit":"","type":"part of","attribute-ids":{},"attributes":[],"release":{"packaging":null,"id":"3611f1a5-a9b6-395b-bfea-c5d71aa7d812","release-events":[{"date":"2008-02-19","area":{"sort-name":"Europe","iso-3166-1-codes":["XE"],"type":null,"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","type-id":null,"disambiguation":""}}],"quality":"normal","barcode":"602517486270","packaging-id":null,"title":"Duke Ellington & John Coltrane","disambiguation":"","text-representation":{"language":"eng","script":"Latn"},"status-id":null,"status":null,"date":"2008-02-19","country":"XE"},"end":null,"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"},{"target-credit":"","direction":"backward","ended":false,"begin":null,"ordering-key":9,"attribute-values":{},"source-credit":"","target-type":"release","type":"part of","attribute-ids":{},"attributes":[],"release":{"status-id":null,"text-representation":{"script":"Latn","language":null},"quality":"normal","packaging-id":null,"disambiguation":"","title":"Expression","barcode":"602527768274","release-events":[{"area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","type":null,"iso-3166-1-codes":["US"],"sort-name":"United States","disambiguation":"","type-id":null},"date":"2011"}],"id":"57e687c0-8653-4d88-accd-48df6e35ae97","packaging":null,"status":null,"country":"US","date":"2011"},"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","end":null},{"target-credit":"","ended":false,"direction":"backward","ordering-key":5,"begin":null,"attribute-values":{},"target-type":"release","source-credit":"","type":"part of","release":{"status-id":null,"text-representation":{"script":"Latn","language":"eng"},"quality":"normal","packaging-id":null,"title":"John Coltrane and Johnny Hartman","disambiguation":"","barcode":"602517648975","release-events":[{"area":{"iso-3166-1-codes":["XE"],"type":null,"sort-name":"Europe","id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","type-id":null,"disambiguation":""},"date":"2008-04-08"}],"id":"4810b382-88c4-31b4-852e-017dc83bf96a","packaging":null,"status":null,"date":"2008-04-08","country":"XE"},"end":null,"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","attributes":[],"attribute-ids":{}},{"direction":"backward","ended":false,"target-credit":"","attribute-values":{},"begin":null,"ordering-key":8,"type":"part of","target-type":"release","source-credit":"","attribute-ids":{},"attributes":[],"end":null,"type-id":"3fa29f01-8e13-3e49-9b0a-ad212aa2f81d","release":{"status":null,"date":"2009-04-14","country":"XE","release-events":[{"area":{"name":"Europe","id":"89a675c2-3e37-3518-b83c-418bad59a85a","sort-name":"Europe","iso-3166-1-codes":["XE"],"type":null,"disambiguation":"","type-id":null},"date":"2009-04-14"}],"id":"5765992b-7f72-45b7-a8c0-2f960f8c2875","packaging":null,"text-representation":{"script":"Latn","language":"eng"},"status-id":null,"quality":"normal","packaging-id":null,"title":"The Artistry of Freddie Hubbard","disambiguation":"","barcode":"602517984479"}},{"attribute-values":{},"begin":null,"ended":false,"direction":"forward","target-credit":"","type-id":"338811ef-b1a9-449d-954e-115846f33a44","end":null,"attributes":[],"attribute-ids":{},"type":"discogs","target-type":"url","source-credit":"","url":{"id":"2ab7732a-12ad-4638-9dd9-02353ee4e0e0","resource":"https://www.discogs.com/label/593432"}}],"genres":[],"id":"c5dd4f78-4160-458a-9edc-f87c5ebbc700","aliases":[],"type":"Release series","disambiguation":"remastered CDs of acclaimed Jazz albums","tags":[],"type-id":"52b90f1e-ff62-3bd0-b254-5d91ced5d757","annotation":"Started about 2005 with an equal layout of the CD label showing the cat# of the original release (in general LP from the '60s or '70s) in bold print. '''Please do not add this in the label section.''' The actual release cat# is found on cover and CD rim and differs for US and European releases while the barcode is identical."}
+{
+  "aliases": [],
+  "annotation": "Started about 2005 with an equal layout of the CD label showing the cat# of the original release (in general LP from the '60s or '70s) in bold print. '''Please do not add this in the label section.''' The actual release cat# is found on cover and CD rim and differs for US and European releases while the barcode is identical.",
+  "disambiguation": "remastered CDs of acclaimed Jazz albums",
+  "genres": [],
+  "id": "c5dd4f78-4160-458a-9edc-f87c5ebbc700",
+  "name": "impulse! Originals",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "label": {
+        "disambiguation": "jazz label active during the 60s\u201070s, now property of Universal Music Group, mainly used as a reissue label",
+        "id": "93c3b044-2b4e-4239-a73b-8fb76f3e6ca9",
+        "label-code": 236,
+        "name": "impulse!",
+        "sort-name": "impulse!",
+        "type": "Original Production",
+        "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "label",
+      "type": "publishes series",
+      "type-id": "1cd0342c-69a1-4f97-8471-46748f8ecde1"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 1,
+      "release": {
+        "barcode": "602517649033",
+        "country": "XE",
+        "date": "",
+        "disambiguation": "Reissue, Sony DADC glass master",
+        "id": "73d064c3-1e5d-4887-a1ec-99113a095f3d",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": ""
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "A Love Supreme"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 7,
+      "release": {
+        "barcode": "602517649033",
+        "country": "US",
+        "date": "2008-06-10",
+        "disambiguation": "",
+        "id": "15c4eb4e-46f4-3b56-9db0-7092dfb73eb4",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "sort-name": "United States",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2008-06-10"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "A Love Supreme"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 6,
+      "release": {
+        "barcode": "602517649033",
+        "country": "XE",
+        "date": "2008-06-10",
+        "disambiguation": "made by EDC, Germany",
+        "id": "319c592d-e081-4a67-8ede-39941dc480f1",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2008-06-10"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "A Love Supreme"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 2,
+      "release": {
+        "barcode": "602517486201",
+        "country": "XE",
+        "date": "2007",
+        "disambiguation": "",
+        "id": "6b4957e6-bc34-4da2-9320-b9c79a328636",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2007"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "Ballads"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 4,
+      "release": {
+        "barcode": "602517486287",
+        "country": "XE",
+        "date": "2008-02-19",
+        "disambiguation": "",
+        "id": "99339654-4020-3854-8c4d-525e3df09f58",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2008-02-19"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "Coltrane"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 3,
+      "release": {
+        "barcode": "602517486270",
+        "country": "XE",
+        "date": "2008-02-19",
+        "disambiguation": "",
+        "id": "3611f1a5-a9b6-395b-bfea-c5d71aa7d812",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2008-02-19"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "Duke Ellington & John Coltrane"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 9,
+      "release": {
+        "barcode": "602527768274",
+        "country": "US",
+        "date": "2011",
+        "disambiguation": "",
+        "id": "57e687c0-8653-4d88-accd-48df6e35ae97",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "sort-name": "United States",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2011"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": null,
+          "script": "Latn"
+        },
+        "title": "Expression"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 5,
+      "release": {
+        "barcode": "602517648975",
+        "country": "XE",
+        "date": "2008-04-08",
+        "disambiguation": "",
+        "id": "4810b382-88c4-31b4-852e-017dc83bf96a",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2008-04-08"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "John Coltrane and Johnny Hartman"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 8,
+      "release": {
+        "barcode": "602517984479",
+        "country": "XE",
+        "date": "2009-04-14",
+        "disambiguation": "",
+        "id": "5765992b-7f72-45b7-a8c0-2f960f8c2875",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2009-04-14"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "The Artistry of Freddie Hubbard"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "url",
+      "type": "discogs",
+      "type-id": "338811ef-b1a9-449d-954e-115846f33a44",
+      "url": {
+        "id": "2ab7732a-12ad-4638-9dd9-02353ee4e0e0",
+        "resource": "https://www.discogs.com/label/593432"
+      }
+    }
+  ],
+  "tags": [],
+  "type": "Release series",
+  "type-id": "52b90f1e-ff62-3bd0-b254-5d91ced5d757"
+}

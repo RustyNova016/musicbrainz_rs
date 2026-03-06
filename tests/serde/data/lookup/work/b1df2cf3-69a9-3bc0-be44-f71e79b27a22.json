@@ -1,1 +1,67 @@
-{"languages":["jpn"],"relations":[{"artist":{"name":"つんく♂","id":"d997d399-355e-4c49-9c7b-75a93d76bc0e","disambiguation":"","sort-name":"Tsunku","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","type":"Person"},"type-id":"d59d99ea-23d4-4a80-b066-edca32ee158f","type":"composer","attribute-ids":{},"attributes":[],"attribute-values":{},"target-credit":"","source-credit":"","target-type":"artist","begin":null,"direction":"backward","ended":false,"end":null},{"target-type":"artist","direction":"backward","begin":null,"ended":false,"end":null,"type-id":"3e48faba-ec01-47fd-8e89-30e81161661c","attribute-ids":{},"type":"lyricist","artist":{"type":"Person","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","sort-name":"Tsunku","disambiguation":"","name":"つんく♂","id":"d997d399-355e-4c49-9c7b-75a93d76bc0e"},"attributes":[],"attribute-values":{},"source-credit":"","target-credit":""}],"title":"HELLO!また会おうね","language":"jpn","type-id":"f061270a-2fd6-32f1-a641-f0f8676d14e6","type":"Song","id":"b1df2cf3-69a9-3bc0-be44-f71e79b27a22","iswcs":["T-101.690.320-9"],"disambiguation":"","attributes":[{"type":"JASRAC ID","type-id":"31048fcc-3dbb-3979-8f85-805afb933e0c","value":"089-5005-9"}]}
+{
+  "attributes": [
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "089-5005-9"
+    }
+  ],
+  "disambiguation": "",
+  "id": "b1df2cf3-69a9-3bc0-be44-f71e79b27a22",
+  "iswcs": [
+    "T-101.690.320-9"
+  ],
+  "language": "jpn",
+  "languages": [
+    "jpn"
+  ],
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "",
+        "id": "d997d399-355e-4c49-9c7b-75a93d76bc0e",
+        "name": "\u3064\u3093\u304f\u2642",
+        "sort-name": "Tsunku",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "artist": {
+        "disambiguation": "",
+        "id": "d997d399-355e-4c49-9c7b-75a93d76bc0e",
+        "name": "\u3064\u3093\u304f\u2642",
+        "sort-name": "Tsunku",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "title": "HELLO!\u307e\u305f\u4f1a\u304a\u3046\u306d",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

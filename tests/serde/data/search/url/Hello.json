@@ -1,1 +1,416 @@
-{"created":"2024-10-03T17:52:08.944Z","count":2878,"offset":0,"urls":[{"id":"9d04051f-ed8f-4672-a538-8dae21f0c075","score":100,"resource":"https://helloworldhello.bandcamp.com/album/hello-world-data032","relation-list":[{"relations":[{"type":"free streaming","type-id":"08445ccf-7b99-4438-9f9a-fb9ac18099ee","direction":"backward","release":{"id":"5b76b777-36d7-4084-a3ef-64f2463fa04f","title":"Hello World","disambiguation":"bandcamp digital download"}},{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"5b76b777-36d7-4084-a3ef-64f2463fa04f","title":"Hello World","disambiguation":"bandcamp digital download"}}]}]},{"id":"c70c832f-36b4-4372-bf2d-e40ee2fc7c64","score":100,"resource":"https://helloworldhello.bandcamp.com/album/hello-world-ii-data037","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"7fd5cb05-12a9-441f-9e09-25f357497ab7","title":"Hello World II"}}]}]},{"id":"2c1617ce-cdbf-4bb2-8eed-95f734d3fd36","score":99,"resource":"https://genius.com/Remi-wolf-hello-hello-hello-lyrics"},{"id":"1acbe6af-4e2b-4e40-ab80-972b9dcf8502","score":96,"resource":"https://helloworldhello.bandcamp.com/","relation-list":[{"relations":[{"type":"bandcamp","type-id":"c550166e-0548-4a18-b1d4-e2ae423a3e88","direction":"backward","artist":{"id":"866956fd-21f5-4124-bc9f-d62edf3cb781","name":"Hello World","sort-name":"Hello World","disambiguation":"chiptunes"}}]}]},{"id":"c06a6068-3237-4180-a95c-88ac4ee844ca","score":96,"resource":"http://www.helloproject.com/helloprokenshuseihokkaido/","relation-list":[{"relations":[{"type":"official homepage","type-id":"fe33d22f-c3b0-4d68-bd53-a856badf2b15","direction":"backward","artist":{"id":"f7f34aa4-62c9-40f0-8308-fe1493771058","name":"ハロプロ研修生北海道","sort-name":"Hello! Project Kenshūsei Hokkaido"}}]}]},{"id":"63b521ac-7e64-48c4-80d9-2271367593c3","score":96,"resource":"https://store.hellola-hellola.com/"},{"id":"c3618394-3bd5-4e5c-8303-de9789d2e5a4","score":95,"resource":"https://k-141.bandcamp.com/track/hello-hello","relation-list":[{"relations":[{"type":"free streaming","type-id":"08445ccf-7b99-4438-9f9a-fb9ac18099ee","direction":"backward","release":{"id":"73105440-44a8-435d-a6ca-58f4430e0a88","title":"Hell'O Hell'O"}},{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"73105440-44a8-435d-a6ca-58f4430e0a88","title":"Hell'O Hell'O"}},{"type":"download for free","type-id":"9896ecd0-6d29-482d-a21e-bd5d1b5e3425","direction":"backward","release":{"id":"73105440-44a8-435d-a6ca-58f4430e0a88","title":"Hell'O Hell'O"}}]}]},{"id":"da78a595-2d2a-43b4-8de4-d8a25eb7edae","score":95,"resource":"https://genius.com/albums/Helloween/Helloween"},{"id":"1ac8ac78-15ef-42e2-a6a6-6befbfe3736b","score":95,"resource":"https://www.laut.de/Helloween/Alben/Helloween-50214"},{"id":"1ff61550-e8f1-46b7-b382-d392aac7263c","score":95,"resource":"https://utaten.com/lyric/%E6%96%B0%E8%B0%B7%E8%89%AF%E5%AD%90/Hello!!+Hello!!"},{"id":"b651b68e-a29e-49ba-b2ae-fe75cba995e5","score":95,"resource":"http://theohhellos.com/album/the-oh-hellos","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"bc925c0d-5e95-4586-b502-50e6d4435b14","title":"The Oh Hellos"}}]}]},{"id":"4df40ac7-e265-472e-a86b-b169c477256e","score":94,"resource":"https://helloworldhello.bandcamp.com/album/2182-khz-data064","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"5651f910-53a0-4a12-827d-a7ea20c9c4c2","title":"2182 kHz"}}]}]},{"id":"e83ee131-da3a-48a1-9076-e8447d935f98","score":94,"resource":"https://emorej.bandcamp.com/album/hellofanatic-hellofanattic-2010","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"b9763964-9347-4aa4-a85a-efb0d3c4d238","title":"hellofanatic, hellofanattic"}}]}]},{"id":"c77466f0-9f46-4d0e-a45b-3074a0421844","score":94,"resource":"https://ghosthello.bandcamp.com/album/ghost-hello","relation-list":[{"relations":[{"type":"free streaming","type-id":"08445ccf-7b99-4438-9f9a-fb9ac18099ee","direction":"backward","release":{"id":"6475c087-9193-4d01-bbe8-e6bc00090499","title":"Ghost:Hello"}},{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"6475c087-9193-4d01-bbe8-e6bc00090499","title":"Ghost:Hello"}},{"type":"download for free","type-id":"9896ecd0-6d29-482d-a21e-bd5d1b5e3425","direction":"backward","release":{"id":"6475c087-9193-4d01-bbe8-e6bc00090499","title":"Ghost:Hello"}}]}]},{"id":"3a055002-39d2-4736-80c3-35514632a85a","score":94,"resource":"https://rateyourmusic.com/release/album/helloween/helloween/"},{"id":"20478fbc-60b2-4aa7-be1e-8951f87d4e4c","score":94,"resource":"http://www.cdstarts.de/musikreview/133362-Helloween-Helloween.html"},{"id":"9bc683b1-9d37-40b6-8407-fab1a2b4faa8","score":94,"resource":"https://www.musixmatch.com/lyrics/%E6%96%B0%E8%B0%B7%E8%89%AF%E5%AD%90/Hello-Hello"},{"id":"9d67e5f5-80ef-4425-9bee-b6b85fb05d5c","score":94,"resource":"https://hellodarknessco.bandcamp.com/album/hello-demo-3","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"3baada69-8f04-4a2c-99ad-071873f37838","title":"hello demo"}}]}]},{"id":"0fb1d700-a343-47af-b185-609ca592c006","score":94,"resource":"https://www.last.fm/music/Parque+En+El+Espacio/HELLOHELLO"},{"id":"9e952173-ce6d-4bc9-8b2d-24f04d1bb8f8","score":94,"resource":"https://www.musixmatch.com/lyrics/%E5%B0%8F%E7%94%B0-%E5%92%8C%E6%AD%A3/hello-hello"},{"id":"461a7def-41b9-40b9-9506-cbe98659fdbc","score":94,"resource":"https://vk.gy/releases/evill-berry/39895/hello-hello-balance/","relation-list":[{"relations":[{"type":"other databases","type-id":"c74dee45-3c85-41e9-a804-92ab1c654446","direction":"backward","release":{"id":"4ee01166-36fe-4149-910b-3907b7fa7ab1","title":"Hello, Hello/バランス"}}]}]},{"id":"c4ca2d24-bbed-48b9-b3e4-cf85be7a2ed8","score":94,"resource":"https://soundcloud.com/richello/richello-elation-original","relation-list":[{"relations":[{"type":"free streaming","type-id":"08445ccf-7b99-4438-9f9a-fb9ac18099ee","direction":"backward","release":{"id":"2b069605-4d7b-4fee-9619-9fd5fec7ac74","title":"Elation"}}]}]},{"id":"592ad41f-6fc9-48d7-83dd-9e07167fb32f","score":94,"resource":"https://www.beatport.com/release/hello-hello/1772509","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"89169d40-8701-4c0b-8281-2ba82d393921","title":"Hello, Hello"}}]}]},{"id":"1745e0d1-65da-41d0-a0d2-be153bbd1a18","score":94,"resource":"https://theeverybodyknows.bandcamp.com/album/hello-hello-ep","relation-list":[{"relations":[{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"f3f10c9f-d60c-4106-ba95-fe9b1802dab2","title":"Hello Hello EP"}}]}]},{"id":"e15442d6-804b-4da9-a7ba-8a0deb028bd9","score":94,"resource":"https://hellostrange.bandcamp.com/album/hello-strange-story-7","relation-list":[{"relations":[{"type":"free streaming","type-id":"08445ccf-7b99-4438-9f9a-fb9ac18099ee","direction":"backward","release":{"id":"5f5dfbb3-a02f-4e68-b185-46f7f1726956","title":"hello strange story #7"}},{"type":"purchase for download","type-id":"98e08c20-8402-4163-8970-53504bb6a1e4","direction":"backward","release":{"id":"5f5dfbb3-a02f-4e68-b185-46f7f1726956","title":"hello strange story #7"}}]}]}]}
+{
+  "count": 2878,
+  "created": "2024-10-03T17:52:08.944Z",
+  "offset": 0,
+  "urls": [
+    {
+      "id": "9d04051f-ed8f-4672-a538-8dae21f0c075",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "disambiguation": "bandcamp digital download",
+                "id": "5b76b777-36d7-4084-a3ef-64f2463fa04f",
+                "title": "Hello World"
+              },
+              "type": "free streaming",
+              "type-id": "08445ccf-7b99-4438-9f9a-fb9ac18099ee"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "disambiguation": "bandcamp digital download",
+                "id": "5b76b777-36d7-4084-a3ef-64f2463fa04f",
+                "title": "Hello World"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://helloworldhello.bandcamp.com/album/hello-world-data032",
+      "score": 100
+    },
+    {
+      "id": "c70c832f-36b4-4372-bf2d-e40ee2fc7c64",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "7fd5cb05-12a9-441f-9e09-25f357497ab7",
+                "title": "Hello World II"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://helloworldhello.bandcamp.com/album/hello-world-ii-data037",
+      "score": 100
+    },
+    {
+      "id": "2c1617ce-cdbf-4bb2-8eed-95f734d3fd36",
+      "resource": "https://genius.com/Remi-wolf-hello-hello-hello-lyrics",
+      "score": 99
+    },
+    {
+      "id": "1acbe6af-4e2b-4e40-ab80-972b9dcf8502",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "artist": {
+                "disambiguation": "chiptunes",
+                "id": "866956fd-21f5-4124-bc9f-d62edf3cb781",
+                "name": "Hello World",
+                "sort-name": "Hello World"
+              },
+              "direction": "backward",
+              "type": "bandcamp",
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88"
+            }
+          ]
+        }
+      ],
+      "resource": "https://helloworldhello.bandcamp.com/",
+      "score": 96
+    },
+    {
+      "id": "c06a6068-3237-4180-a95c-88ac4ee844ca",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "artist": {
+                "id": "f7f34aa4-62c9-40f0-8308-fe1493771058",
+                "name": "\u30cf\u30ed\u30d7\u30ed\u7814\u4fee\u751f\u5317\u6d77\u9053",
+                "sort-name": "Hello! Project Kensh\u016bsei Hokkaido"
+              },
+              "direction": "backward",
+              "type": "official homepage",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+            }
+          ]
+        }
+      ],
+      "resource": "http://www.helloproject.com/helloprokenshuseihokkaido/",
+      "score": 96
+    },
+    {
+      "id": "63b521ac-7e64-48c4-80d9-2271367593c3",
+      "resource": "https://store.hellola-hellola.com/",
+      "score": 96
+    },
+    {
+      "id": "c3618394-3bd5-4e5c-8303-de9789d2e5a4",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "73105440-44a8-435d-a6ca-58f4430e0a88",
+                "title": "Hell'O Hell'O"
+              },
+              "type": "free streaming",
+              "type-id": "08445ccf-7b99-4438-9f9a-fb9ac18099ee"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "id": "73105440-44a8-435d-a6ca-58f4430e0a88",
+                "title": "Hell'O Hell'O"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "id": "73105440-44a8-435d-a6ca-58f4430e0a88",
+                "title": "Hell'O Hell'O"
+              },
+              "type": "download for free",
+              "type-id": "9896ecd0-6d29-482d-a21e-bd5d1b5e3425"
+            }
+          ]
+        }
+      ],
+      "resource": "https://k-141.bandcamp.com/track/hello-hello",
+      "score": 95
+    },
+    {
+      "id": "da78a595-2d2a-43b4-8de4-d8a25eb7edae",
+      "resource": "https://genius.com/albums/Helloween/Helloween",
+      "score": 95
+    },
+    {
+      "id": "1ac8ac78-15ef-42e2-a6a6-6befbfe3736b",
+      "resource": "https://www.laut.de/Helloween/Alben/Helloween-50214",
+      "score": 95
+    },
+    {
+      "id": "1ff61550-e8f1-46b7-b382-d392aac7263c",
+      "resource": "https://utaten.com/lyric/%E6%96%B0%E8%B0%B7%E8%89%AF%E5%AD%90/Hello!!+Hello!!",
+      "score": 95
+    },
+    {
+      "id": "b651b68e-a29e-49ba-b2ae-fe75cba995e5",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "bc925c0d-5e95-4586-b502-50e6d4435b14",
+                "title": "The Oh Hellos"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "http://theohhellos.com/album/the-oh-hellos",
+      "score": 95
+    },
+    {
+      "id": "4df40ac7-e265-472e-a86b-b169c477256e",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "5651f910-53a0-4a12-827d-a7ea20c9c4c2",
+                "title": "2182 kHz"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://helloworldhello.bandcamp.com/album/2182-khz-data064",
+      "score": 94
+    },
+    {
+      "id": "e83ee131-da3a-48a1-9076-e8447d935f98",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "b9763964-9347-4aa4-a85a-efb0d3c4d238",
+                "title": "hellofanatic, hellofanattic"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://emorej.bandcamp.com/album/hellofanatic-hellofanattic-2010",
+      "score": 94
+    },
+    {
+      "id": "c77466f0-9f46-4d0e-a45b-3074a0421844",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "6475c087-9193-4d01-bbe8-e6bc00090499",
+                "title": "Ghost:Hello"
+              },
+              "type": "free streaming",
+              "type-id": "08445ccf-7b99-4438-9f9a-fb9ac18099ee"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "id": "6475c087-9193-4d01-bbe8-e6bc00090499",
+                "title": "Ghost:Hello"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "id": "6475c087-9193-4d01-bbe8-e6bc00090499",
+                "title": "Ghost:Hello"
+              },
+              "type": "download for free",
+              "type-id": "9896ecd0-6d29-482d-a21e-bd5d1b5e3425"
+            }
+          ]
+        }
+      ],
+      "resource": "https://ghosthello.bandcamp.com/album/ghost-hello",
+      "score": 94
+    },
+    {
+      "id": "3a055002-39d2-4736-80c3-35514632a85a",
+      "resource": "https://rateyourmusic.com/release/album/helloween/helloween/",
+      "score": 94
+    },
+    {
+      "id": "20478fbc-60b2-4aa7-be1e-8951f87d4e4c",
+      "resource": "http://www.cdstarts.de/musikreview/133362-Helloween-Helloween.html",
+      "score": 94
+    },
+    {
+      "id": "9bc683b1-9d37-40b6-8407-fab1a2b4faa8",
+      "resource": "https://www.musixmatch.com/lyrics/%E6%96%B0%E8%B0%B7%E8%89%AF%E5%AD%90/Hello-Hello",
+      "score": 94
+    },
+    {
+      "id": "9d67e5f5-80ef-4425-9bee-b6b85fb05d5c",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "3baada69-8f04-4a2c-99ad-071873f37838",
+                "title": "hello demo"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://hellodarknessco.bandcamp.com/album/hello-demo-3",
+      "score": 94
+    },
+    {
+      "id": "0fb1d700-a343-47af-b185-609ca592c006",
+      "resource": "https://www.last.fm/music/Parque+En+El+Espacio/HELLOHELLO",
+      "score": 94
+    },
+    {
+      "id": "9e952173-ce6d-4bc9-8b2d-24f04d1bb8f8",
+      "resource": "https://www.musixmatch.com/lyrics/%E5%B0%8F%E7%94%B0-%E5%92%8C%E6%AD%A3/hello-hello",
+      "score": 94
+    },
+    {
+      "id": "461a7def-41b9-40b9-9506-cbe98659fdbc",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "4ee01166-36fe-4149-910b-3907b7fa7ab1",
+                "title": "Hello, Hello/\u30d0\u30e9\u30f3\u30b9"
+              },
+              "type": "other databases",
+              "type-id": "c74dee45-3c85-41e9-a804-92ab1c654446"
+            }
+          ]
+        }
+      ],
+      "resource": "https://vk.gy/releases/evill-berry/39895/hello-hello-balance/",
+      "score": 94
+    },
+    {
+      "id": "c4ca2d24-bbed-48b9-b3e4-cf85be7a2ed8",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "2b069605-4d7b-4fee-9619-9fd5fec7ac74",
+                "title": "Elation"
+              },
+              "type": "free streaming",
+              "type-id": "08445ccf-7b99-4438-9f9a-fb9ac18099ee"
+            }
+          ]
+        }
+      ],
+      "resource": "https://soundcloud.com/richello/richello-elation-original",
+      "score": 94
+    },
+    {
+      "id": "592ad41f-6fc9-48d7-83dd-9e07167fb32f",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "89169d40-8701-4c0b-8281-2ba82d393921",
+                "title": "Hello, Hello"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://www.beatport.com/release/hello-hello/1772509",
+      "score": 94
+    },
+    {
+      "id": "1745e0d1-65da-41d0-a0d2-be153bbd1a18",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "f3f10c9f-d60c-4106-ba95-fe9b1802dab2",
+                "title": "Hello Hello EP"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://theeverybodyknows.bandcamp.com/album/hello-hello-ep",
+      "score": 94
+    },
+    {
+      "id": "e15442d6-804b-4da9-a7ba-8a0deb028bd9",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "direction": "backward",
+              "release": {
+                "id": "5f5dfbb3-a02f-4e68-b185-46f7f1726956",
+                "title": "hello strange story #7"
+              },
+              "type": "free streaming",
+              "type-id": "08445ccf-7b99-4438-9f9a-fb9ac18099ee"
+            },
+            {
+              "direction": "backward",
+              "release": {
+                "id": "5f5dfbb3-a02f-4e68-b185-46f7f1726956",
+                "title": "hello strange story #7"
+              },
+              "type": "purchase for download",
+              "type-id": "98e08c20-8402-4163-8970-53504bb6a1e4"
+            }
+          ]
+        }
+      ],
+      "resource": "https://hellostrange.bandcamp.com/album/hello-strange-story-7",
+      "score": 94
+    }
+  ]
+}

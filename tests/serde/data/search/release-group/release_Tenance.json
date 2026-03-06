@@ -1,1 +1,80 @@
-{"created":"2024-10-03T17:52:04.310Z","count":1,"offset":0,"release-groups":[{"id":"70664047-2545-4e46-b75f-4556f2a7b83e","type-id":"d6038452-8ee0-3f68-affc-2de9a1ede0b9","score":100,"primary-type-id":"d6038452-8ee0-3f68-affc-2de9a1ede0b9","count":1,"title":"Main Tenance","first-release-date":"1998","primary-type":"Single","artist-credit":[{"name":"Fred Giannelli","artist":{"id":"a8fa58d8-f60b-4b83-be7c-aea1af11596b","name":"Fred Giannelli","sort-name":"Giannelli, Fred","disambiguation":"US electronic artist","aliases":[{"sort-name":"Giannelli, Fred Domenic, II","type-id":"d4dcd0c0-b341-3612-a332-c0ce797b25cf","name":"Fred Domenic Giannelli II","locale":null,"type":"Legal name","primary":null,"begin-date":null,"end-date":null},{"sort-name":"Fred Gianelli","name":"Fred Gianelli","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Fred","name":"Fred","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}}],"releases":[{"id":"9168f4cc-a852-4ba5-bf85-602996625651","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","title":"Main Tenance","status":"Official"}],"tags":[{"count":1,"name":"electronic"},{"count":1,"name":"tech house"},{"count":1,"name":"deep house"}]}]}
+{
+  "count": 1,
+  "created": "2024-10-03T17:52:04.310Z",
+  "offset": 0,
+  "release-groups": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": null,
+                "name": "Fred Domenic Giannelli II",
+                "primary": null,
+                "sort-name": "Giannelli, Fred Domenic, II",
+                "type": "Legal name",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": null,
+                "name": "Fred Gianelli",
+                "primary": null,
+                "sort-name": "Fred Gianelli",
+                "type": null
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": null,
+                "name": "Fred",
+                "primary": null,
+                "sort-name": "Fred",
+                "type": null
+              }
+            ],
+            "disambiguation": "US electronic artist",
+            "id": "a8fa58d8-f60b-4b83-be7c-aea1af11596b",
+            "name": "Fred Giannelli",
+            "sort-name": "Giannelli, Fred"
+          },
+          "name": "Fred Giannelli"
+        }
+      ],
+      "count": 1,
+      "first-release-date": "1998",
+      "id": "70664047-2545-4e46-b75f-4556f2a7b83e",
+      "primary-type": "Single",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "releases": [
+        {
+          "id": "9168f4cc-a852-4ba5-bf85-602996625651",
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Main Tenance"
+        }
+      ],
+      "score": 100,
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "tech house"
+        },
+        {
+          "count": 1,
+          "name": "deep house"
+        }
+      ],
+      "title": "Main Tenance",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+    }
+  ]
+}

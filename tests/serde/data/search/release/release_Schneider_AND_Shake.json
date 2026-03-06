@@ -1,1 +1,72 @@
-{"created":"2024-10-03T17:52:05.464Z","count":1,"offset":0,"releases":[{"id":"62d1c4ef-fc00-37af-8df7-485f6a31fcc4","score":100,"status-id":"4e304316-386d-3409-af2e-78857eec5cfe","packaging-id":"f7101ce3-0384-39ce-9fde-fbbd0044d35f","count":1,"title":"Fred Schneider & The Shake Society","status":"Official","packaging":"Cardboard/Paper Sleeve","text-representation":{"language":"eng","script":"Latn"},"artist-credit":[{"name":"Fred Schneider","artist":{"id":"43bcca8b-9edc-4997-8343-122350e790bf","name":"Fred Schneider","sort-name":"Schneider, Fred","disambiguation":"US singer-songwriter, frontman of The B-52s"}}],"release-group":{"id":"0ef97d52-3f00-31bf-8413-f83ccb362675","type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Fred Schneider & The Shake Society","primary-type":"Album"},"date":"1984","country":"US","release-events":[{"date":"1984","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"barcode":"07599251581","label-info":[{"catalog-number":"1-25158","label":{"id":"c595c289-47ce-4fba-b999-b87503e8cb71","name":"Warner Bros. Records"}}],"track-count":9,"media":[{"format":"12\" Vinyl","disc-count":0,"track-count":9}]}]}
+{
+  "count": 1,
+  "created": "2024-10-03T17:52:05.464Z",
+  "offset": 0,
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "US singer-songwriter, frontman of The B-52s",
+            "id": "43bcca8b-9edc-4997-8343-122350e790bf",
+            "name": "Fred Schneider",
+            "sort-name": "Schneider, Fred"
+          },
+          "name": "Fred Schneider"
+        }
+      ],
+      "barcode": "07599251581",
+      "count": 1,
+      "country": "US",
+      "date": "1984",
+      "id": "62d1c4ef-fc00-37af-8df7-485f6a31fcc4",
+      "label-info": [
+        {
+          "catalog-number": "1-25158",
+          "label": {
+            "id": "c595c289-47ce-4fba-b999-b87503e8cb71",
+            "name": "Warner Bros. Records"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "12\" Vinyl",
+          "track-count": 9
+        }
+      ],
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States"
+          },
+          "date": "1984"
+        }
+      ],
+      "release-group": {
+        "id": "0ef97d52-3f00-31bf-8413-f83ccb362675",
+        "primary-type": "Album",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "Fred Schneider & The Shake Society",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Fred Schneider & The Shake Society",
+      "track-count": 9
+    }
+  ]
+}

@@ -1,1 +1,76 @@
-{"isnis":["0000000123486830","0000000123487390"],"area":{"disambiguation":"","type-id":null,"iso-3166-1-codes":["US"],"sort-name":"United States","name":"United States","type":null,"id":"489ce91b-6658-3307-9877-795b68554c98"},"life-span":{"begin":"1987","ended":true,"end":"1994-04-05"},"disambiguation":"1980s~1990s US grunge band","name":"Nirvana","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","aliases":[{"locale":"en","primary":true,"type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","sort-name":"Nirvana","begin":null,"type":"Artist name","ended":false,"name":"Nirvana","end":null},{"type-id":null,"locale":null,"primary":null,"end":null,"begin":null,"sort-name":"Nirvana US","type":null,"ended":false,"name":"Nirvana US"},{"locale":"ja","primary":true,"type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","begin":null,"sort-name":"ニルヴァーナ","ended":false,"type":"Artist name","name":"ニルヴァーナ","end":null}],"gender":null,"begin-area":{"id":"a640b45c-c173-49b1-8030-973603e895b5","type-id":null,"sort-name":"Aberdeen","type":null,"disambiguation":"","name":"Aberdeen"},"gender-id":null,"ipis":[],"country":"US","id":"5b11f4ce-a62d-471e-81fc-a69a8278c7da","type":"Group","end-area":null,"sort-name":"Nirvana"}
+{
+  "aliases": [
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "en",
+      "name": "Nirvana",
+      "primary": true,
+      "sort-name": "Nirvana",
+      "type": "Artist name",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "Nirvana US",
+      "primary": null,
+      "sort-name": "Nirvana US",
+      "type": null,
+      "type-id": null
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "ja",
+      "name": "\u30cb\u30eb\u30f4\u30a1\u30fc\u30ca",
+      "primary": true,
+      "sort-name": "\u30cb\u30eb\u30f4\u30a1\u30fc\u30ca",
+      "type": "Artist name",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+    }
+  ],
+  "area": {
+    "disambiguation": "",
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "iso-3166-1-codes": [
+      "US"
+    ],
+    "name": "United States",
+    "sort-name": "United States",
+    "type": null,
+    "type-id": null
+  },
+  "begin-area": {
+    "disambiguation": "",
+    "id": "a640b45c-c173-49b1-8030-973603e895b5",
+    "name": "Aberdeen",
+    "sort-name": "Aberdeen",
+    "type": null,
+    "type-id": null
+  },
+  "country": "US",
+  "disambiguation": "1980s~1990s US grunge band",
+  "end-area": null,
+  "gender": null,
+  "gender-id": null,
+  "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+  "ipis": [],
+  "isnis": [
+    "0000000123486830",
+    "0000000123487390"
+  ],
+  "life-span": {
+    "begin": "1987",
+    "end": "1994-04-05",
+    "ended": true
+  },
+  "name": "Nirvana",
+  "sort-name": "Nirvana",
+  "type": "Group",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}
