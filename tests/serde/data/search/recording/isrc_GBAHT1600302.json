@@ -1,6 +1,6 @@
 {
   "count": 1,
-  "created": "2024-10-03T17:52:03.114Z",
+  "created": "2026-03-06T19:39:22.423Z",
   "offset": 0,
   "recordings": [
     {
@@ -65,15 +65,790 @@
           "name": "Dua Lipa"
         }
       ],
+      "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
       "disambiguation": "explicit",
       "first-release-date": "2016-08-26",
       "id": "026fa041-3917-4c73-9079-ed16e36f20f8",
       "isrcs": [
+        "GBAHT1600318",
         "GBAHT1600302",
         "DEUM71601954"
       ],
-      "length": 179000,
+      "length": 178583,
       "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "CZ",
+          "date": "2024-11-09",
+          "id": "4b72388b-4c8f-4470-b04b-2a9dba543753",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "6abe1fa3-5a8f-3f9c-b708-0fdbf7be3343",
+              "position": 1,
+              "track": [
+                {
+                  "id": "3a19a0c1-c746-40d0-844a-f7f210ff4af8",
+                  "length": 178583,
+                  "number": "13",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 12
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+                "iso-3166-1-codes": [
+                  "CZ"
+                ],
+                "name": "Czechia",
+                "sort-name": "Czechia"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 \u010cesk\u00e1 Republika",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "ES",
+          "date": "2024-11-09",
+          "id": "13d08982-35dd-4eea-8f86-673e1c607c6a",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "78451dcb-292c-39b8-828d-a3ae6949928a",
+              "position": 1,
+              "track": [
+                {
+                  "id": "d62146be-3953-4dbd-a01b-d897c636e346",
+                  "length": 178583,
+                  "number": "16",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 15
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+                "iso-3166-1-codes": [
+                  "ES"
+                ],
+                "name": "Spain",
+                "sort-name": "Spain"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 Espa\u00f1a",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "GB",
+          "date": "2024-11-09",
+          "id": "1b02622c-bc01-4972-b787-d478b6687023",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "b2d67f8a-4180-3fb7-9c19-3e3ead3d6ac4",
+              "position": 1,
+              "track": [
+                {
+                  "id": "b275b4a7-d77e-4d39-a9f5-5adbd6d15b1d",
+                  "length": 178583,
+                  "number": "16",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 15
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour - UK",
+          "track-count": 20
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "IT",
+          "date": "2024-11-09",
+          "id": "edf86f23-a89a-46ef-bc98-b590c0f7fdd1",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "456615dc-4224-39a4-8ff8-36e47a592c23",
+              "position": 1,
+              "track": [
+                {
+                  "id": "5bfad682-b8cb-412a-bf16-24c17f0068fa",
+                  "length": 178583,
+                  "number": "15",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 14
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                "iso-3166-1-codes": [
+                  "IT"
+                ],
+                "name": "Italy",
+                "sort-name": "Italy"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 Italia",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "IE",
+          "date": "2024-11-09",
+          "id": "e57511d3-1b6b-4bf1-a524-62da986ba137",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "5f467ba6-a1b7-3753-b39f-0cc0a8133f44",
+              "position": 1,
+              "track": [
+                {
+                  "id": "92b4a70d-894c-4974-96b1-02413976ae79",
+                  "length": 178583,
+                  "number": "15",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 14
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+                "iso-3166-1-codes": [
+                  "IE"
+                ],
+                "name": "Ireland",
+                "sort-name": "Ireland"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 \u00c9ire",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "DE",
+          "date": "2024-11-09",
+          "id": "d3af3b27-e703-4383-ab4e-46031d3ea08e",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "0d4cc820-5965-3143-9fbb-1c4d6783f180",
+              "position": 1,
+              "track": [
+                {
+                  "id": "2ad2e677-94a7-46d7-a7db-6175cc2d5a99",
+                  "length": 179386,
+                  "number": "16",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 15
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 Deutschland",
+          "track-count": 20
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "CA",
+          "date": "2024-11-09",
+          "id": "13ef2d04-f80d-4061-99aa-a3ac885e63cb",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "c2d78433-4303-3919-a0c2-3fc65de0c982",
+              "position": 1,
+              "track": [
+                {
+                  "id": "a5dec10a-9d11-492c-b495-dbe22212e3a9",
+                  "length": 178583,
+                  "number": "16",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 15
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                "iso-3166-1-codes": [
+                  "CA"
+                ],
+                "name": "Canada",
+                "sort-name": "Canada"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 Canada",
+          "track-count": 20
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "BE",
+          "date": "2024-11-09",
+          "id": "19e658cc-da58-4b7f-ae8b-a500521055ac",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "a9c1cd84-f9e0-355f-b91d-205fae416b95",
+              "position": 1,
+              "track": [
+                {
+                  "id": "ed713ebc-e1c3-4e0e-aaf4-2529d60a9c4b",
+                  "length": 178583,
+                  "number": "17",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 16
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+                "iso-3166-1-codes": [
+                  "BE"
+                ],
+                "name": "Belgium",
+                "sort-name": "Belgium"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 Belgien, Belgi\u00eb, Belgique",
+          "track-count": 20
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "NL",
+          "date": "2024-11-09",
+          "id": "d20ed323-8187-44cf-9182-be1198126002",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "c11cc5ec-fb7f-305e-9f1f-6ad8d7664ac7",
+              "position": 1,
+              "track": [
+                {
+                  "id": "b8d219d6-f69e-49dc-899c-8ce60f3c42d9",
+                  "length": 178583,
+                  "number": "17",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 16
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+                "iso-3166-1-codes": [
+                  "NL"
+                ],
+                "name": "Netherlands",
+                "sort-name": "Netherlands"
+              },
+              "date": "2024-11-09"
+            },
+            {
+              "area": {
+                "id": "53ccc8be-1551-3e28-965b-7f95465f2093",
+                "iso-3166-1-codes": [
+                  "CW"
+                ],
+                "name": "Cura\u00e7ao",
+                "sort-name": "Cura\u00e7ao"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour - Nederland",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "FR",
+          "date": "2024-11-09",
+          "id": "709c3758-849a-4ed6-981c-e174fb5d8dc1",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "c81c13a6-c2b4-3c76-937d-f0f9a29c5d3b",
+              "position": 1,
+              "track": [
+                {
+                  "id": "a0952d43-9ed5-49c6-ac31-4a1c4da2fdaf",
+                  "length": 178583,
+                  "number": "15",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 14
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "iso-3166-1-codes": [
+                  "FR"
+                ],
+                "name": "France",
+                "sort-name": "France"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 France",
+          "track-count": 19
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 1,
+          "country": "US",
+          "date": "2024-11-09",
+          "id": "12f6af15-24b2-4098-a56b-dff83afb81b5",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "f8c00752-6fc2-3a05-b251-aff551c44041",
+              "position": 1,
+              "track": [
+                {
+                  "id": "c861fb0f-c329-4cbf-8ed3-5f41e17d71f9",
+                  "length": 178583,
+                  "number": "17",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 16
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "iso-3166-1-codes": [
+                  "US"
+                ],
+                "name": "United States",
+                "sort-name": "United States"
+              },
+              "date": "2024-11-09"
+            }
+          ],
+          "release-group": {
+            "id": "5c678d03-9aef-46db-9ecf-831efbd6d040",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Dua Lipa Radical Optimism Tour",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radical Optimism Tour \u2013 USA",
+          "track-count": 20
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 2,
+          "country": "JP",
+          "date": "2018-10-19",
+          "id": "304e079f-feb0-419f-a3d9-7a01b5214149",
+          "media": [
+            {
+              "format": "CD",
+              "id": "f2b32262-094e-35e8-9fc8-a9ba6d1c7863",
+              "position": 1,
+              "track": [
+                {
+                  "id": "1761ccfa-4c30-4190-97b7-9a29f6d495a8",
+                  "length": 179386,
+                  "number": "6",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 22,
+              "track-offset": 5
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "iso-3166-1-codes": [
+                  "JP"
+                ],
+                "name": "Japan",
+                "sort-name": "Japan"
+              },
+              "date": "2018-10-19"
+            }
+          ],
+          "release-group": {
+            "id": "93747376-b698-4610-a023-d256de075460",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Dua Lipa",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dua Lipa (complete edition)",
+          "track-count": 30
+        },
         {
           "artist-credit": [
             {
@@ -86,11 +861,137 @@
               "name": "Various Artists"
             }
           ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 3,
+          "country": "DE",
+          "date": "2016-10-28",
+          "disambiguation": "XXL Fan Edition",
+          "id": "b9427042-b63f-445b-9e48-65953283fcab",
+          "media": [
+            {
+              "format": "CD",
+              "id": "cbf9d573-55dc-37a0-bbbd-3a38de623821",
+              "position": 2,
+              "track": [
+                {
+                  "id": "18b7476a-be81-4fc9-a078-cd8a2da5ae3b",
+                  "length": 178805,
+                  "number": "9",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 21,
+              "track-offset": 8
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "2016-10-28"
+            }
+          ],
+          "release-group": {
+            "id": "3f246446-a71f-44eb-b14a-7287dc7e9c27",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Ballermann Hits Party 2017",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Ballermann Hits Party 2017",
+          "track-count": 63
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+                "name": "Dua Lipa",
+                "sort-name": "Lipa, Dua"
+              },
+              "name": "Dua Lipa"
+            }
+          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
+          "count": 2,
+          "country": "DE",
+          "date": "2018-10-19",
+          "id": "6dd44772-ef54-4a89-b9ea-65fa7a6bef52",
+          "media": [
+            {
+              "format": "CD",
+              "id": "b4addafe-c495-3c55-9771-642bc8ca93fa",
+              "position": 1,
+              "track": [
+                {
+                  "id": "646f9048-b40e-4201-b884-36c6cd5ce50b",
+                  "length": 179386,
+                  "number": "6",
+                  "title": "Blow Your Mind (Mwah)"
+                }
+              ],
+              "track-count": 17,
+              "track-offset": 5
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "2018-10-19"
+            }
+          ],
+          "release-group": {
+            "id": "93747376-b698-4610-a023-d256de075460",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Dua Lipa",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dua Lipa (complete edition)",
+          "track-count": 25
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
           "count": 1,
           "id": "15705c91-0d9e-41e8-bfb9-98a72c1f14cb",
           "media": [
             {
               "format": "Digital Media",
+              "id": "f9fc26f4-50ff-34f9-89ae-4dc11778931a",
               "position": 1,
               "track": [
                 {
@@ -133,12 +1034,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "explicit",
           "id": "2a355e68-9c0c-4389-acae-d390836c11ed",
           "media": [
             {
               "format": "Digital Media",
+              "id": "84cc7f46-5ed9-39e1-a838-eb55e5b90a7e",
               "position": 1,
               "track": [
                 {
@@ -175,6 +1078,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "CA",
           "date": "",
@@ -182,6 +1086,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "5127d8ee-cbc3-30f4-9a98-f741686db829",
               "position": 1,
               "track": [
                 {
@@ -243,11 +1148,13 @@
               "name": "Various Artists"
             }
           ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
           "count": 1,
           "id": "8b95136f-9edd-4f25-9b69-a72bca1c682e",
           "media": [
             {
               "format": "Digital Media",
+              "id": "be44ddd2-b9ec-343e-bb25-62d8119f5d8f",
               "position": 1,
               "track": [
                 {
@@ -290,12 +1197,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "hi\u2010res, explicit",
           "id": "95f78576-664d-45ff-9254-5e98938f50ac",
           "media": [
             {
               "format": "Digital Media",
+              "id": "4001a328-d20b-33b4-b5f7-d3936fdb0263",
               "position": 1,
               "track": [
                 {
@@ -332,14 +1241,16 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
-          "country": "DE",
+          "country": "AT",
           "date": "2023-10-11",
           "disambiguation": "complete edition, kaleidoscope cover, explicit",
           "id": "394eca12-a71b-4356-b072-17860883f99f",
           "media": [
             {
               "format": "Digital Media",
+              "id": "4612f588-12bd-3bd7-90c8-b5b30f596c12",
               "position": 1,
               "track": [
                 {
@@ -356,23 +1267,23 @@
           "release-events": [
             {
               "area": {
-                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-                "iso-3166-1-codes": [
-                  "DE"
-                ],
-                "name": "Germany",
-                "sort-name": "Germany"
-              },
-              "date": "2023-10-11"
-            },
-            {
-              "area": {
                 "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
                 "iso-3166-1-codes": [
                   "AT"
                 ],
                 "name": "Austria",
                 "sort-name": "Austria"
+              },
+              "date": "2023-10-11"
+            },
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
               },
               "date": "2023-10-11"
             },
@@ -411,6 +1322,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "AT",
           "date": "2023-10-11",
@@ -419,6 +1331,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "e3e18890-aee1-3a52-bd9f-cf0c1df559ac",
               "position": 1,
               "track": [
                 {
@@ -446,23 +1359,23 @@
             },
             {
               "area": {
-                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
-                "iso-3166-1-codes": [
-                  "CH"
-                ],
-                "name": "Switzerland",
-                "sort-name": "Switzerland"
-              },
-              "date": "2023-10-11"
-            },
-            {
-              "area": {
                 "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
                 "iso-3166-1-codes": [
                   "DE"
                 ],
                 "name": "Germany",
                 "sort-name": "Germany"
+              },
+              "date": "2023-10-11"
+            },
+            {
+              "area": {
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "iso-3166-1-codes": [
+                  "CH"
+                ],
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
               },
               "date": "2023-10-11"
             }
@@ -490,14 +1403,16 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
-          "country": "CH",
+          "country": "AT",
           "date": "2018-10-19",
           "disambiguation": "explicit",
           "id": "a9070ade-743e-476e-b35d-34e3f88cc4d8",
           "media": [
             {
               "format": "Digital Media",
+              "id": "dd5ded46-7fae-3bc3-8dc1-14457bedef93",
               "position": 1,
               "track": [
                 {
@@ -514,12 +1429,12 @@
           "release-events": [
             {
               "area": {
-                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
                 "iso-3166-1-codes": [
-                  "CH"
+                  "AT"
                 ],
-                "name": "Switzerland",
-                "sort-name": "Switzerland"
+                "name": "Austria",
+                "sort-name": "Austria"
               },
               "date": "2018-10-19"
             },
@@ -536,12 +1451,12 @@
             },
             {
               "area": {
-                "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
                 "iso-3166-1-codes": [
-                  "AT"
+                  "CH"
                 ],
-                "name": "Austria",
-                "sort-name": "Austria"
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
               },
               "date": "2018-10-19"
             }
@@ -569,14 +1484,16 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
-          "country": "CH",
+          "country": "AT",
           "date": "2023-10-11",
           "disambiguation": "complete edition, kaleidoscope cover, explicit",
           "id": "01b450a5-2e28-4cab-966c-1741436db865",
           "media": [
             {
               "format": "Digital Media",
+              "id": "d11fcae0-7034-39f9-9fee-14e1e563b703",
               "position": 1,
               "track": [
                 {
@@ -591,17 +1508,6 @@
             }
           ],
           "release-events": [
-            {
-              "area": {
-                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
-                "iso-3166-1-codes": [
-                  "CH"
-                ],
-                "name": "Switzerland",
-                "sort-name": "Switzerland"
-              },
-              "date": "2023-10-11"
-            },
             {
               "area": {
                 "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
@@ -621,6 +1527,17 @@
                 ],
                 "name": "Germany",
                 "sort-name": "Germany"
+              },
+              "date": "2023-10-11"
+            },
+            {
+              "area": {
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "iso-3166-1-codes": [
+                  "CH"
+                ],
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
               },
               "date": "2023-10-11"
             }
@@ -648,6 +1565,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "AT",
           "date": "2018-10-19",
@@ -656,6 +1574,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "305eafcb-0035-3a40-b50f-129cf3f7651d",
               "position": 1,
               "track": [
                 {
@@ -683,23 +1602,23 @@
             },
             {
               "area": {
-                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
-                "iso-3166-1-codes": [
-                  "CH"
-                ],
-                "name": "Switzerland",
-                "sort-name": "Switzerland"
-              },
-              "date": "2018-10-19"
-            },
-            {
-              "area": {
                 "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
                 "iso-3166-1-codes": [
                   "DE"
                 ],
                 "name": "Germany",
                 "sort-name": "Germany"
+              },
+              "date": "2018-10-19"
+            },
+            {
+              "area": {
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "iso-3166-1-codes": [
+                  "CH"
+                ],
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
               },
               "date": "2018-10-19"
             }
@@ -727,12 +1646,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "complete edition, kaleidoscope cover, explicit",
           "id": "bbaff9a7-0f39-4dd0-be90-684387ec367e",
           "media": [
             {
               "format": "Digital Media",
+              "id": "78dbddb1-94ce-3e6e-8e68-49d73195a2d3",
               "position": 1,
               "track": [
                 {
@@ -769,6 +1690,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 2,
           "country": "MX",
           "date": "2018",
@@ -776,6 +1698,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "5db7617d-6786-3487-9ce2-70218c440beb",
               "position": 1,
               "track": [
                 {
@@ -825,12 +1748,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "deluxe, kaleidoscope cover, hi\u2010res, explicit",
           "id": "3a68ec2c-536e-4827-944d-d40b0113dcc2",
           "media": [
             {
               "format": "Digital Media",
+              "id": "60b86bd3-c4e5-3232-b508-3bf6cb96406a",
               "position": 1,
               "track": [
                 {
@@ -867,12 +1792,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "kaleidoscope cover, hi\u2010res, explicit",
           "id": "ddf00a75-4e94-411a-855d-8b244dda359f",
           "media": [
             {
               "format": "Digital Media",
+              "id": "f4104753-36f5-3fc9-b9fd-30e41b540220",
               "position": 1,
               "track": [
                 {
@@ -909,12 +1836,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "hi\u2010res, explicit",
           "id": "a7d21b7f-688b-4e57-ab3e-cede6889931d",
           "media": [
             {
               "format": "Digital Media",
+              "id": "d3e921df-073d-3b4f-b000-36a5008397ef",
               "position": 1,
               "track": [
                 {
@@ -951,12 +1880,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "kaleidoscope cover, explicit",
           "id": "f0cfeae5-1aaf-43c8-82b0-075c5dd44344",
           "media": [
             {
               "format": "Digital Media",
+              "id": "e152b5d7-fe89-38e3-8987-697c8b4d33db",
               "position": 1,
               "track": [
                 {
@@ -993,12 +1924,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "explicit",
           "id": "88c57ec1-7b04-4cad-92ad-aa967d7fd11e",
           "media": [
             {
               "format": "Digital Media",
+              "id": "bf5e074a-98c3-3348-8efe-0c3745ad2116",
               "position": 1,
               "track": [
                 {
@@ -1035,12 +1968,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "deluxe, kaleidoscope cover, explicit",
           "id": "6807631d-1a4a-4887-969f-0c9f834e69bd",
           "media": [
             {
               "format": "Digital Media",
+              "id": "0beb9f7c-e000-3ed8-80d7-31d82f34d0bf",
               "position": 1,
               "track": [
                 {
@@ -1077,6 +2012,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "RU",
           "date": "2017",
@@ -1084,6 +2020,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "42f09056-aedc-394b-9105-f23514fa9cc7",
               "position": 1,
               "track": [
                 {
@@ -1133,62 +2070,7 @@
               "name": "Dua Lipa"
             }
           ],
-          "count": 2,
-          "country": "DE",
-          "date": "2018",
-          "id": "6dd44772-ef54-4a89-b9ea-65fa7a6bef52",
-          "media": [
-            {
-              "format": "CD",
-              "position": 1,
-              "track": [
-                {
-                  "id": "646f9048-b40e-4201-b884-36c6cd5ce50b",
-                  "length": 179386,
-                  "number": "6",
-                  "title": "Blow Your Mind (Mwah)"
-                }
-              ],
-              "track-count": 17,
-              "track-offset": 5
-            }
-          ],
-          "release-events": [
-            {
-              "area": {
-                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-                "iso-3166-1-codes": [
-                  "DE"
-                ],
-                "name": "Germany",
-                "sort-name": "Germany"
-              },
-              "date": "2018"
-            }
-          ],
-          "release-group": {
-            "id": "93747376-b698-4610-a023-d256de075460",
-            "primary-type": "Album",
-            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-            "title": "Dua Lipa",
-            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
-          },
-          "status": "Official",
-          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-          "title": "Dua Lipa (complete edition)",
-          "track-count": 25
-        },
-        {
-          "artist-credit": [
-            {
-              "artist": {
-                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
-                "name": "Dua Lipa",
-                "sort-name": "Lipa, Dua"
-              },
-              "name": "Dua Lipa"
-            }
-          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 2,
           "country": "XE",
           "date": "2018-10-19",
@@ -1196,6 +2078,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "068c41d2-d73f-38a4-adad-3508837e98f3",
               "position": 1,
               "track": [
                 {
@@ -1245,6 +2128,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "JP",
           "date": "2018-04-25",
@@ -1253,6 +2137,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "d08d9935-3221-36fe-9439-7e73c71319f9",
               "position": 1,
               "track": [
                 {
@@ -1302,6 +2187,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "IT",
           "date": "2017-10-20",
@@ -1310,6 +2196,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "36a783f2-8869-3f4c-8b01-df4e4ae17735",
               "position": 1,
               "track": [
                 {
@@ -1359,6 +2246,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "DE",
           "date": "2017-06-02",
@@ -1366,6 +2254,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "5870050d-e199-336f-b102-0db0c63ba2cf",
               "position": 1,
               "track": [
                 {
@@ -1415,6 +2304,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "AU",
           "date": "2017-06-02",
@@ -1422,6 +2312,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "452eb524-b7b1-31af-92a3-f3bdf17ef672",
               "position": 1,
               "track": [
                 {
@@ -1472,6 +2363,7 @@
               "name": "Various Artists"
             }
           ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
           "count": 2,
           "country": "BE",
           "date": "2016-12-02",
@@ -1479,6 +2371,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "1f50a739-63d0-3891-8007-dbcdc44c08b6",
               "position": 1,
               "track": [
                 {
@@ -1534,12 +2427,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "hi\u2010res, explicit",
           "id": "701fd060-1e01-4c06-b802-65c678127822",
           "media": [
             {
               "format": "Digital Media",
+              "id": "32458217-1e8a-334f-a2f8-8ed49e0807f8",
               "position": 1,
               "track": [
                 {
@@ -1576,6 +2471,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "XE",
           "date": "2019",
@@ -1583,6 +2479,7 @@
           "media": [
             {
               "format": "12\" Vinyl",
+              "id": "9e69d2df-6195-3110-a977-30ea95b42279",
               "position": 1,
               "track": [
                 {
@@ -1632,6 +2529,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 2,
           "country": "US",
           "date": "2018-10-19",
@@ -1639,6 +2537,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "988feaaf-1839-377e-9a1a-61e0cbfbfc69",
               "position": 1,
               "track": [
                 {
@@ -1688,14 +2587,16 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
-          "country": "CH",
+          "country": "AT",
           "date": "2018-10-19",
           "disambiguation": "explicit",
           "id": "014450e4-d022-483e-a85e-a4761a57da51",
           "media": [
             {
               "format": "Digital Media",
+              "id": "9c71c978-9bfe-350d-9774-6325fe89df8c",
               "position": 1,
               "track": [
                 {
@@ -1710,17 +2611,6 @@
             }
           ],
           "release-events": [
-            {
-              "area": {
-                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
-                "iso-3166-1-codes": [
-                  "CH"
-                ],
-                "name": "Switzerland",
-                "sort-name": "Switzerland"
-              },
-              "date": "2018-10-19"
-            },
             {
               "area": {
                 "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
@@ -1740,6 +2630,17 @@
                 ],
                 "name": "Germany",
                 "sort-name": "Germany"
+              },
+              "date": "2018-10-19"
+            },
+            {
+              "area": {
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "iso-3166-1-codes": [
+                  "CH"
+                ],
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
               },
               "date": "2018-10-19"
             }
@@ -1767,14 +2668,16 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
-          "country": "GB",
+          "country": "IE",
           "date": "2017-06-02",
           "disambiguation": "explicit",
           "id": "13dc2824-3efd-4459-9987-51bd4e263f5c",
           "media": [
             {
               "format": "Digital Media",
+              "id": "02cdfb51-2d3f-3ad8-b5f2-4e7203cc0bb6",
               "position": 1,
               "track": [
                 {
@@ -1791,23 +2694,23 @@
           "release-events": [
             {
               "area": {
-                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
-                "iso-3166-1-codes": [
-                  "GB"
-                ],
-                "name": "United Kingdom",
-                "sort-name": "United Kingdom"
-              },
-              "date": "2017-06-02"
-            },
-            {
-              "area": {
                 "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
                 "iso-3166-1-codes": [
                   "IE"
                 ],
                 "name": "Ireland",
                 "sort-name": "Ireland"
+              },
+              "date": "2017-06-02"
+            },
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
               },
               "date": "2017-06-02"
             }
@@ -1835,62 +2738,7 @@
               "name": "Dua Lipa"
             }
           ],
-          "count": 2,
-          "country": "JP",
-          "date": "2018-10-19",
-          "id": "304e079f-feb0-419f-a3d9-7a01b5214149",
-          "media": [
-            {
-              "format": "CD",
-              "position": 1,
-              "track": [
-                {
-                  "id": "1761ccfa-4c30-4190-97b7-9a29f6d495a8",
-                  "length": 179000,
-                  "number": "6",
-                  "title": "Blow Your Mind (Mwah)"
-                }
-              ],
-              "track-count": 22,
-              "track-offset": 5
-            }
-          ],
-          "release-events": [
-            {
-              "area": {
-                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
-                "iso-3166-1-codes": [
-                  "JP"
-                ],
-                "name": "Japan",
-                "sort-name": "Japan"
-              },
-              "date": "2018-10-19"
-            }
-          ],
-          "release-group": {
-            "id": "93747376-b698-4610-a023-d256de075460",
-            "primary-type": "Album",
-            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-            "title": "Dua Lipa",
-            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
-          },
-          "status": "Official",
-          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-          "title": "Dua Lipa (complete edition)",
-          "track-count": 30
-        },
-        {
-          "artist-credit": [
-            {
-              "artist": {
-                "id": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
-                "name": "Dua Lipa",
-                "sort-name": "Lipa, Dua"
-              },
-              "name": "Dua Lipa"
-            }
-          ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "XE",
           "date": "2017-06-02",
@@ -1899,6 +2747,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "1aefb853-b040-3d4c-a77d-dc1cacde53fb",
               "position": 1,
               "track": [
                 {
@@ -1948,6 +2797,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "GB",
           "date": "2017-06-02",
@@ -1955,6 +2805,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "e9a57355-4e97-385a-8d75-3043a7655c9a",
               "position": 1,
               "track": [
                 {
@@ -2004,6 +2855,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "JP",
           "date": "2017-06-02",
@@ -2012,6 +2864,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "90551b74-ad7d-3274-89a2-e9e8236d4724",
               "position": 1,
               "track": [
                 {
@@ -2061,6 +2914,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "DE",
           "date": "2017-06-02",
@@ -2069,6 +2923,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "0164f514-c6a2-325e-95fc-0a7fea94515a",
               "position": 1,
               "track": [
                 {
@@ -2118,6 +2973,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "BR",
           "date": "2017-06-02",
@@ -2125,6 +2981,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "cb56de1c-417b-3225-a162-04cc50e39f5d",
               "position": 1,
               "track": [
                 {
@@ -2174,6 +3031,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 2,
           "country": "GB",
           "date": "2018-10-19",
@@ -2181,6 +3039,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "0b4c6890-2767-3f07-ac1b-4671686623eb",
               "position": 1,
               "track": [
                 {
@@ -2231,6 +3090,7 @@
               "name": "Various Artists"
             }
           ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
           "count": 2,
           "country": "BE",
           "date": "2016-12-02",
@@ -2238,6 +3098,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "14161609-c1cc-33b4-ad2d-1a78f1fe57eb",
               "position": 1,
               "track": [
                 {
@@ -2293,6 +3154,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "XE",
           "date": "2017-06-02",
@@ -2300,6 +3162,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "aa188b4d-9219-3ff3-a53a-a3f8d6c9dd6a",
               "position": 1,
               "track": [
                 {
@@ -2349,6 +3212,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "XE",
           "date": "2017-06-02",
@@ -2357,6 +3221,7 @@
           "media": [
             {
               "format": "CD",
+              "id": "9e90ac02-d05f-3f7c-b846-15f18d3fa81a",
               "position": 1,
               "track": [
                 {
@@ -2406,12 +3271,14 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "disambiguation": "explicit",
           "id": "5084de65-a2f6-4b2f-91c3-4ff50dffaf8b",
           "media": [
             {
               "format": "Digital Media",
+              "id": "47a5b8ec-849e-3221-acba-5feed2dddf6e",
               "position": 1,
               "track": [
                 {
@@ -2448,6 +3315,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "US",
           "date": "2017-04-21",
@@ -2455,6 +3323,7 @@
           "media": [
             {
               "format": "Vinyl",
+              "id": "140ba9f3-a98d-33aa-b77a-789130311557",
               "position": 1,
               "track": [
                 {
@@ -2504,6 +3373,7 @@
               "name": "Dua Lipa"
             }
           ],
+          "artist-credit-id": "4af83e24-f886-35c8-831f-5dde0163a6a0",
           "count": 1,
           "country": "XW",
           "date": "2016-08-26",
@@ -2511,6 +3381,7 @@
           "media": [
             {
               "format": "Digital Media",
+              "id": "2aaa147b-04ee-31df-8a8f-3ee9ddb9bd12",
               "position": 1,
               "track": [
                 {

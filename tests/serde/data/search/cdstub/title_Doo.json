@@ -19,14 +19,6 @@
       "title": "Doo- Be - Doo"
     },
     {
-      "artist": "Miles Davis",
-      "barcode": "",
-      "count": 9,
-      "id": "flDSWKyB3ldU0HGjcW8NY9m4Vd8-",
-      "score": 91,
-      "title": "Doo-Bop"
-    },
-    {
       "artist": "President's Breakfast",
       "barcode": "",
       "count": 10,
@@ -34,6 +26,14 @@
       "id": "N.BqSgPSx5fr9u23FZt8YoVDqYs-",
       "score": 91,
       "title": "Doo Process"
+    },
+    {
+      "artist": "Miles Davis",
+      "barcode": "",
+      "count": 9,
+      "id": "flDSWKyB3ldU0HGjcW8NY9m4Vd8-",
+      "score": 91,
+      "title": "Doo-Bop"
     },
     {
       "artist": "Various Artists",
@@ -44,21 +44,13 @@
       "title": "Shoo Be Doo Be Doo Wop"
     },
     {
-      "artist": "Datura",
-      "barcode": "",
-      "count": 6,
-      "id": "kGyRx6nvQdbO3s3byVZZLnBQWJE-",
+      "artist": "Jerome Alexander",
+      "barcode": "837101203517",
+      "count": 18,
+      "disambiguation": "CD Baby id:jeromealexander",
+      "id": "b8VHftxXCjMHs2_jtLyxgtpF1oI-",
       "score": 80,
-      "title": "Voo-Doo Believe?"
-    },
-    {
-      "artist": "",
-      "barcode": "62861239726",
-      "count": 10,
-      "disambiguation": "Disc 1 of 3",
-      "id": "toaLKU994oAzNFrbLBDbI6_dDiA-",
-      "score": 80,
-      "title": "Doo Wop Favorites"
+      "title": "Sacred Doo-Wop"
     },
     {
       "artist": "Gradoux",
@@ -70,13 +62,12 @@
       "title": "Pronounced (Gra-Doo)"
     },
     {
-      "artist": "Jerome Alexander",
-      "barcode": "837101203517",
-      "count": 18,
-      "disambiguation": "CD Baby id:jeromealexander",
-      "id": "b8VHftxXCjMHs2_jtLyxgtpF1oI-",
+      "artist": "Datura",
+      "barcode": "",
+      "count": 6,
+      "id": "kGyRx6nvQdbO3s3byVZZLnBQWJE-",
       "score": 80,
-      "title": "Sacred Doo-Wop"
+      "title": "Voo-Doo Believe?"
     },
     {
       "artist": "The Manhattan Transfer",
@@ -103,21 +94,13 @@
       "title": "Daddy-Doo-A-Rama"
     },
     {
-      "artist": "Doo-Wah Riders",
-      "barcode": "613505256324",
-      "count": 10,
-      "disambiguation": "CD Baby id:doowahriders5",
-      "id": "2RFR2hBHBCCz.Bd_7vaN3iQtuZY-",
+      "artist": "",
+      "barcode": "029667157926",
+      "count": 28,
+      "disambiguation": "ACE CDCHD579",
+      "id": "oymj9AEhHcY_f4QcPXxXzA0VPN8-",
       "score": 71,
-      "title": "The Doo-Wah Riders"
-    },
-    {
-      "artist": "Bruno Mars",
-      "barcode": "",
-      "count": 12,
-      "id": "bD5_9gTn_E.eXRA.uyBK4oebDkY-",
-      "score": 71,
-      "title": "Doo-Wops & Hooligans"
+      "title": "Doo Wop volume 1"
     },
     {
       "artist": "Sam Stray And The Unique Kings",
@@ -129,28 +112,20 @@
       "title": "Doo-Wops Are Forever"
     },
     {
-      "artist": "Bruno Mars",
-      "barcode": "",
-      "count": 10,
-      "id": "ALHIT9CWfQUoc6QeAhFbHgWPKHM-",
-      "score": 71,
-      "title": "Doo Wops & Hooligans"
-    },
-    {
-      "artist": "",
-      "barcode": "803151007726",
-      "count": 12,
-      "id": "KKJY2OtBmgxv_zihpnrnV6lAj1Y-",
-      "score": 71,
-      "title": "Best Of Doo Wop"
-    },
-    {
       "artist": "Shat",
       "barcode": "",
       "count": 50,
       "id": "EdYyxsTJ_CJd87Siu0B4OiIzUCc-",
       "score": 71,
       "title": "Cunt-A-Doodle-Doo"
+    },
+    {
+      "artist": "Bruno Mars",
+      "barcode": "",
+      "count": 10,
+      "id": "ALHIT9CWfQUoc6QeAhFbHgWPKHM-",
+      "score": 71,
+      "title": "Doo Wops & Hooligans"
     },
     {
       "artist": "",
@@ -161,29 +136,47 @@
       "title": "Doo Wop volume 8"
     },
     {
-      "artist": "",
-      "barcode": "029667157926",
-      "count": 28,
-      "disambiguation": "ACE CDCHD579",
-      "id": "oymj9AEhHcY_f4QcPXxXzA0VPN8-",
-      "score": 71,
-      "title": "Doo Wop volume 1"
-    },
-    {
-      "artist": "",
-      "barcode": "056775398125",
-      "count": 20,
-      "id": "k2XBSwNxPdx77yYldullgubZ0Pg-",
-      "score": 63,
-      "title": "20 Best of Doo Wop"
-    },
-    {
-      "artist": "",
+      "artist": "Bruno Mars",
       "barcode": "",
-      "count": 10,
-      "id": "rEu56QFr7GdQhygEqz_bCwpkLoU-",
+      "count": 12,
+      "id": "bD5_9gTn_E.eXRA.uyBK4oebDkY-",
+      "score": 71,
+      "title": "Doo-Wops & Hooligans"
+    },
+    {
+      "artist": "",
+      "barcode": "803151007726",
+      "count": 12,
+      "id": "KKJY2OtBmgxv_zihpnrnV6lAj1Y-",
+      "score": 71,
+      "title": "Best Of Doo Wop"
+    },
+    {
+      "artist": "The Doo-Wah Riders",
+      "barcode": "613505111227",
+      "count": 13,
+      "disambiguation": "CD Baby id:doowahriders2",
+      "id": "HMuDvcKE8qsrbzgNvoHWR8YT8as-",
       "score": 63,
-      "title": "Doo Wop Favorites (disc 2)"
+      "title": "The Doo-Wah Riders Live"
+    },
+    {
+      "artist": "Flosy & the Music Man",
+      "barcode": "616892892823",
+      "count": 22,
+      "disambiguation": "CD Baby id:flosymusicman",
+      "id": "xcdRIDQM2eziVDpZAX7tAbCXdgY-",
+      "score": 63,
+      "title": "Doo-zees and Don't-zees"
+    },
+    {
+      "artist": "Aaron Usher",
+      "barcode": "634479219900",
+      "count": 6,
+      "disambiguation": "CD Baby id:aaronusher",
+      "id": "GsDl1n94qcKKTYhn68M14xf7EzE-",
+      "score": 63,
+      "title": "Doo-Wop (Karaoke Tracks Included)"
     },
     {
       "artist": "The Mighty Echoes",
@@ -193,6 +186,14 @@
       "id": "vNXR27NTZoB7IFgoJpGN2AdU4LE-",
       "score": 63,
       "title": "Doo Wop Til You Drop"
+    },
+    {
+      "artist": "",
+      "barcode": "056775398125",
+      "count": 20,
+      "id": "k2XBSwNxPdx77yYldullgubZ0Pg-",
+      "score": 63,
+      "title": "20 Best of Doo Wop"
     },
     {
       "artist": "The Tones",
@@ -205,14 +206,13 @@
     },
     {
       "artist": "",
-      "barcode": "093624868422",
-      "count": 13,
-      "id": ".qXrsJ6kQ5TH.Edb2Wwpqc3UtUI-",
+      "count": 20,
+      "id": "3DvtYBBsugjpw8Upzw8E1cCmuzM-",
       "score": 63,
-      "title": "Scooby-Doo 2: Monsters Unleashed"
+      "title": "Rock, Pop & Doo Wop"
     }
   ],
-  "count": 52,
-  "created": "2024-10-03T17:51:26.405Z",
+  "count": 47,
+  "created": "2026-03-06T19:39:16.158Z",
   "offset": 0
 }

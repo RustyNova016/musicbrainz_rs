@@ -17,6 +17,7 @@
             "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
           }
         ],
+        "country": "NL",
         "disambiguation": "",
         "genres": [
           {
@@ -209,6 +210,7 @@
             "type-id": null
           }
         ],
+        "country": "US",
         "disambiguation": "",
         "genres": [
           {
@@ -230,7 +232,7 @@
             "name": "bebop"
           },
           {
-            "count": 4,
+            "count": 5,
             "disambiguation": "",
             "id": "8c083468-2dce-4a31-ae77-433af3deafd3",
             "name": "hard bop"
@@ -259,7 +261,7 @@
             "name": "bebop"
           },
           {
-            "count": 4,
+            "count": 5,
             "name": "hard bop"
           },
           {
@@ -276,6 +278,7 @@
     {
       "artist": {
         "aliases": [],
+        "country": "US",
         "disambiguation": "",
         "genres": [
           {
@@ -327,6 +330,7 @@
       "discs": [],
       "format": "CD",
       "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "593b6260-d564-3460-89a7-0c371d330f85",
       "position": 1,
       "title": "",
       "track-count": 12,
@@ -349,6 +353,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -521,6 +526,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -538,6 +544,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -562,6 +569,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -578,6 +586,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -603,575 +612,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "9d22a626-a5f6-4547-882c-a1ebddbc064b",
-                  "name": "Dick Bezemer",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bezemer, Dick",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d5057a75-1399-43e8-a0ff-dd4f3710cd9e",
-                  "name": "Rob Madna",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Madna, Rob",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "b8c478ee-71a3-42ef-8b4b-38fd347ec6eb",
-                  "name": "Herman Schoonderwalt",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Schoonderwalt, Herman",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              },
-              {
-                "attribute-ids": {
-                  "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "cover"
-                ],
-                "begin": null,
-                "direction": "forward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "work",
-                "type": "performance",
-                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
-                "work": {
-                  "attributes": [],
-                  "disambiguation": "Can\u2010Can musical",
-                  "id": "131b165f-b881-4f87-9366-6eddd1e74348",
-                  "iswcs": [
-                    "T-072.106.554-8"
-                  ],
-                  "language": "eng",
-                  "languages": [
-                    "eng"
-                  ],
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "relations": [
-                    {
-                      "artist": {
-                        "disambiguation": "composer",
-                        "id": "4a94a6cb-e70a-418b-bb53-a37897b950ce",
-                        "name": "Cole Porter",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Porter, Cole",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1953",
-                      "direction": "backward",
-                      "end": "1953",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "composer",
-                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
-                    },
-                    {
-                      "artist": {
-                        "disambiguation": "composer",
-                        "id": "4a94a6cb-e70a-418b-bb53-a37897b950ce",
-                        "name": "Cole Porter",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Porter, Cole",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1953",
-                      "direction": "backward",
-                      "end": "1953",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "lyricist",
-                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "USA",
-                        "id": "290938d3-d2b1-494c-b64b-fd7fd509b6cf",
-                        "label-code": null,
-                        "name": "Chappell & Co., Inc.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Chappell & Co., Inc.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "other databases",
-                      "type-id": "190ea031-4355-405d-a43e-53eb4c5c4ada",
-                      "url": {
-                        "id": "c9ebd552-134c-4603-9ae4-cfc952da3674",
-                        "resource": "https://castalbums.org/songs/Its-All-Right-with-Me/853/"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "2d46e38a-87e4-4d4d-ad29-a11208869e69",
-                        "resource": "https://secondhandsongs.com/work/4820"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "c0777d99-a2ab-48dd-9e1e-c31dcc72dc78",
-                        "resource": "https://www.wikidata.org/wiki/Q241580"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "based on",
-                      "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "de1d3aff-a9d0-4cee-97c6-d797c7534598",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "27\u756a\u8857\u30b7\u30e3\u30c3\u30d5\u30eb\u301c\u3055\u3089\u308f\u308c\u3066\u7a81\u7136",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "9d732991-0133-4140-861b-e0bfc74d181c",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Das isch g\u00fc\u00e4t so f\u00e4r mich",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "4977d363-e8f0-465e-b75a-b0afc2ef507b",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "\u3042\u308b\u65e5\u3075\u3063\u3068\"IT'S ALL RIGHT WITH ME\"",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "1960 musical film",
-                        "id": "b3b788b9-01dd-4700-910c-9ee555c8a9f7",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Can\u2010Can",
-                        "type": "Soundtrack",
-                        "type-id": "66d7962b-6377-364f-a0b4-b200febc510e"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "stage musical",
-                        "id": "4a79fde3-cbed-4c36-b001-2a880ab17d79",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "High Society",
-                        "type": "Musical",
-                        "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
-                      }
-                    }
-                  ],
-                  "title": "It\u2019s All Right with Me",
-                  "type": "Song",
-                  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                }
-              }
-            ],
             "tags": [],
             "title": "It\u2019s All Right With Me",
             "video": false
@@ -1195,6 +635,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -1367,6 +808,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -1384,6 +826,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -1408,6 +851,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -1424,6 +868,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -1449,250 +894,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "9d22a626-a5f6-4547-882c-a1ebddbc064b",
-                  "name": "Dick Bezemer",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bezemer, Dick",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d5057a75-1399-43e8-a0ff-dd4f3710cd9e",
-                  "name": "Rob Madna",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Madna, Rob",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "b8c478ee-71a3-42ef-8b4b-38fd347ec6eb",
-                  "name": "Herman Schoonderwalt",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Schoonderwalt, Herman",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              }
-            ],
             "tags": [],
             "title": "Gone With the Wind",
             "video": false
@@ -1716,6 +917,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -1888,6 +1090,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -1905,6 +1108,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -1929,6 +1133,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -1945,6 +1150,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -1970,250 +1176,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "jazz bassist",
-                  "id": "513e7387-73ca-4b5f-bf31-9b57b39b779a",
-                  "name": "Chris Bender",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bender, Chris",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "b8c478ee-71a3-42ef-8b4b-38fd347ec6eb",
-                  "name": "Herman Schoonderwalt",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Schoonderwalt, Herman",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "1824c559-5d53-4aea-8f4f-5a3b3ce792e1",
-                  "name": "Toon van Vliet",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Vliet, Toon van",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-01-17",
-                "direction": "backward",
-                "end": "1955-01-17",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              }
-            ],
             "tags": [],
             "title": "My Funny Valentine",
             "video": false
@@ -2237,6 +1199,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -2409,6 +1372,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -2426,6 +1390,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -2450,6 +1415,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -2466,6 +1432,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -2491,737 +1458,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "9d22a626-a5f6-4547-882c-a1ebddbc064b",
-                  "name": "Dick Bezemer",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bezemer, Dick",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d5057a75-1399-43e8-a0ff-dd4f3710cd9e",
-                  "name": "Rob Madna",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Madna, Rob",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "b8c478ee-71a3-42ef-8b4b-38fd347ec6eb",
-                  "name": "Herman Schoonderwalt",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Schoonderwalt, Herman",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-02-16",
-                "direction": "backward",
-                "end": "1956-02-16",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              },
-              {
-                "attribute-ids": {
-                  "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "cover"
-                ],
-                "begin": null,
-                "direction": "forward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "work",
-                "type": "performance",
-                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
-                "work": {
-                  "attributes": [],
-                  "disambiguation": "",
-                  "id": "f53d7dd0-fdbd-3901-adf8-9b1ab3121e9e",
-                  "iswcs": [
-                    "T-010.433.984-5",
-                    "T-070.012.886-4",
-                    "T-901.103.868-9"
-                  ],
-                  "language": "eng",
-                  "languages": [
-                    "eng"
-                  ],
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "relations": [
-                    {
-                      "artist": {
-                        "disambiguation": "composer",
-                        "id": "65744963-191a-44ef-a3c7-b693a808a158",
-                        "name": "George Gershwin",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Gershwin, George",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1930",
-                      "direction": "backward",
-                      "end": "1930",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "composer",
-                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
-                    },
-                    {
-                      "artist": {
-                        "disambiguation": "",
-                        "id": "509086c2-9cc8-4e77-89e9-322e34240ffc",
-                        "name": "Ira Gershwin",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Gershwin, Ira",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1930",
-                      "direction": "backward",
-                      "end": "1930",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "lyricist",
-                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1930",
-                      "direction": "backward",
-                      "end": "1930",
-                      "ended": true,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "2e0e6202-946c-49c3-9ee9-11ec43e429c0",
-                        "label-code": null,
-                        "name": "New World Music Corp.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "New World Music Corp.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "New World Music Co.",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "2019-05-28",
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "bbc798f0-73ea-493e-a99a-2a6837f61676",
-                        "label-code": null,
-                        "name": "WC Music Corp.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "WC Music Corp.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": "2019-05-28",
-                      "ended": true,
-                      "label": {
-                        "disambiguation": "1929\u20132019",
-                        "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
-                        "label-code": null,
-                        "name": "WB Music Corp.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "WB Music Corp.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {
-                        "sub": "4521ce8e-3d24-4b64-9805-59df6f3a4740"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "sub"
-                      ],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "holding company \u2013 do not use as release label",
-                        "id": "198ab15b-1078-44d1-8b45-993c24383602",
-                        "label-code": null,
-                        "name": "\u30e4\u30de\u30cf\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "\u30e4\u30de\u30cf\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
-                        "type": "Holding",
-                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {
-                        "sub": "4521ce8e-3d24-4b64-9805-59df6f3a4740"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "sub"
-                      ],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "4e7c6713-0ff5-4dfa-9285-63cb50694380",
-                        "label-code": null,
-                        "name": "\u30ef\u30fc\u30ca\u30fc\u30fb\u30c1\u30e3\u30da\u30eb\u97f3\u697d\u51fa\u7248 Synch\u4e8b\u696d\u90e8",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "\u30ef\u30fc\u30ca\u30fc\u30fb\u30c1\u30e3\u30da\u30eb\u97f3\u697d\u51fa\u7248 Synch\u4e8b\u696d\u90e8",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "5c86d7bb-22ff-4b79-b3de-0fa6b2bb4bb3",
-                        "resource": "https://secondhandsongs.com/work/4692"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "f3b0446b-e953-4033-a832-95d4ce555b74",
-                        "resource": "https://www.wikidata.org/wiki/Q4352751"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "e20c2a34-1a25-44fd-8250-0fe2d56de40f",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Nua ned fia mi",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "ceea77cf-b073-400c-8468-c1ae70d956db",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Det gjeld'kje meg",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "d32df79a-6c12-4a2b-b35a-6164b063af16",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Niks voor mij",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "2015 Broadway musical",
-                        "id": "c54e2be5-2d61-4c93-bf64-93ed4f4629f6",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "An American in Paris",
-                        "type": "Musical",
-                        "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "1992 musical",
-                        "id": "ae045f98-4072-4b16-8f3c-152c9cde0a62",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Crazy for You",
-                        "type": "Musical",
-                        "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "1930 Musical",
-                        "id": "ce5721a0-fdb9-4405-9519-24a037758d22",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Girl Crazy",
-                        "type": "Musical",
-                        "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "parts",
-                      "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "1965 film",
-                        "id": "6504f554-7a27-4185-b473-c24e9cc65e93",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "When the Boys Meet the Girls",
-                        "type": "Musical",
-                        "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
-                      }
-                    }
-                  ],
-                  "title": "But Not for Me",
-                  "type": "Song",
-                  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                }
-              }
-            ],
             "tags": [],
             "title": "But Not for Me",
             "video": false
@@ -3245,6 +1481,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -3417,6 +1654,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -3434,6 +1672,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -3458,6 +1697,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -3474,6 +1714,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -3499,250 +1740,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "9d22a626-a5f6-4547-882c-a1ebddbc064b",
-                  "name": "Dick Bezemer",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bezemer, Dick",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d5057a75-1399-43e8-a0ff-dd4f3710cd9e",
-                  "name": "Rob Madna",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Madna, Rob",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "1824c559-5d53-4aea-8f4f-5a3b3ce792e1",
-                  "name": "Toon van Vliet",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Vliet, Toon van",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              }
-            ],
             "tags": [],
             "title": "I Should Care",
             "video": false
@@ -3766,6 +1763,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -3938,6 +1936,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -3955,6 +1954,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -3979,6 +1979,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -3995,6 +1996,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                   "name": "Wessel Ilcken Combo",
@@ -4020,250 +2022,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "9d22a626-a5f6-4547-882c-a1ebddbc064b",
-                  "name": "Dick Bezemer",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Bezemer, Dick",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "3c21a80a-32ff-49e7-985d-d68298479c10",
-                  "name": "Wessel Ilcken",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Ilcken, Wessel",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d5057a75-1399-43e8-a0ff-dd4f3710cd9e",
-                  "name": "Rob Madna",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Madna, Rob",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "a3d2d636-cbaa-4ee1-87b8-4badd7bdb2ec",
-                  "name": "Jerry van Rooyen",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Rooyen, van, Jerry",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "1824c559-5d53-4aea-8f4f-5a3b3ce792e1",
-                  "name": "Toon van Vliet",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Vliet, Toon van",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1955-08-16",
-                "direction": "backward",
-                "end": "1955-08-16",
-                "ended": true,
-                "place": {
-                  "address": "Honingstraat 14A, Hilversum, Netherlands",
-                  "area": {
-                    "disambiguation": "",
-                    "id": "19c7f0b4-24b7-4e07-a6c6-b8eafa8dd070",
-                    "name": "Hilversum",
-                    "sort-name": "Hilversum",
-                    "type": "Municipality",
-                    "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20"
-                  },
-                  "coordinates": null,
-                  "disambiguation": "",
-                  "id": "fe4cc70e-d084-4b20-9fa8-259894f1e188",
-                  "name": "Phonogram Studios",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "type": "Studio",
-                  "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "place",
-                "type": "recorded at",
-                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
-              }
-            ],
             "tags": [],
             "title": "There Will Never Be Another You",
             "video": false
@@ -4287,6 +2045,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -4459,6 +2218,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -4476,6 +2236,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -4500,6 +2261,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -4516,6 +2278,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -4541,237 +2304,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US jazz tenor saxophonist",
-                  "id": "026b096e-e024-42ab-82f3-107bddae77c2",
-                  "name": "Hank Mobley",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Mobley, Hank",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d185d986-ee96-4fd3-bd61-8c848a4765b6",
-                  "name": "Horace Silver",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Silver, Horace",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "ebd504b0-7644-4887-9e4e-7d625f52fd07",
-                  "name": "Doug Watkins",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Watkins, Doug",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              }
-            ],
             "tags": [],
             "title": "I Cried for You",
             "video": false
@@ -4795,6 +2327,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -4967,6 +2500,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -4984,6 +2518,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -5008,6 +2543,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -5024,6 +2560,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -5049,237 +2586,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US jazz tenor saxophonist",
-                  "id": "026b096e-e024-42ab-82f3-107bddae77c2",
-                  "name": "Hank Mobley",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Mobley, Hank",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d185d986-ee96-4fd3-bd61-8c848a4765b6",
-                  "name": "Horace Silver",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Silver, Horace",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "ebd504b0-7644-4887-9e4e-7d625f52fd07",
-                  "name": "Doug Watkins",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Watkins, Doug",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              }
-            ],
             "tags": [],
             "title": "You\u2019d Be So Nice to Come Home With Me",
             "video": false
@@ -5303,6 +2609,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -5475,6 +2782,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -5492,6 +2800,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -5516,6 +2825,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -5532,6 +2842,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -5557,237 +2868,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "99122661-412b-46bd-9cf4-ab52d41559b8",
-                  "name": "Kenny Drew",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Drew, Kenny",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "1c6ef3f5-a5b8-4cb5-a9fc-9026fc4bb557",
-                  "name": "Ira Sullivan",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Sullivan, Ira",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d8718343-cdc1-49bb-b8cb-d241e5d16b79",
-                  "name": "Wilbur Ware",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Wilbur Ware",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              }
-            ],
             "tags": [],
             "title": "My One and Only Love",
             "video": false
@@ -5811,6 +2891,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -5983,6 +3064,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -6000,6 +3082,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -6024,6 +3107,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -6040,6 +3124,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -6065,562 +3150,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US jazz tenor saxophonist",
-                  "id": "026b096e-e024-42ab-82f3-107bddae77c2",
-                  "name": "Hank Mobley",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Mobley, Hank",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d185d986-ee96-4fd3-bd61-8c848a4765b6",
-                  "name": "Horace Silver",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Silver, Horace",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "ebd504b0-7644-4887-9e4e-7d625f52fd07",
-                  "name": "Doug Watkins",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Watkins, Doug",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "forward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "work",
-                "type": "performance",
-                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
-                "work": {
-                  "attributes": [],
-                  "disambiguation": "",
-                  "id": "3ed0d951-d66c-3731-a37b-30d985234108",
-                  "iswcs": [
-                    "T-070.178.689-1"
-                  ],
-                  "language": "eng",
-                  "languages": [
-                    "eng"
-                  ],
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "relations": [
-                    {
-                      "artist": {
-                        "disambiguation": "",
-                        "id": "3508f3fd-3b18-493c-a362-376736bb6cde",
-                        "name": "Harold Arlen",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Arlen, Harold",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1942",
-                      "direction": "backward",
-                      "end": "1942",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "composer",
-                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
-                    },
-                    {
-                      "artist": {
-                        "disambiguation": "",
-                        "id": "b342d50e-401c-4c77-b7e4-2b3e7beaf00a",
-                        "name": "Johnny Mercer",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Mercer, Johnny",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": "1942",
-                      "direction": "backward",
-                      "end": "1942",
-                      "ended": true,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "lyricist",
-                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "47d8e51f-b644-4205-95e5-1cc52c341360",
-                        "label-code": null,
-                        "name": "Famous Chappell",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Famous Chappell",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "renamed since 2007\u201005 as Sony/ATV Harmony/Melody",
-                        "id": "4f55a23c-37e1-4137-905e-1063a8e8e74b",
-                        "label-code": null,
-                        "name": "Famous Music Corporation",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Famous Music Corporation",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "Famous Music Corporation",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {
-                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
-                      },
-                      "attribute-values": {
-                        "number": "2"
-                      },
-                      "attributes": [
-                        "number"
-                      ],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "ordering-key": 7,
-                      "series": {
-                        "disambiguation": "",
-                        "id": "f33ba31d-9de2-4648-a089-813d2844ebc2",
-                        "name": "The 16th Academy Award for Best Original Song",
-                        "type": "Work award",
-                        "type-id": "2b446390-880b-4f58-814c-d51c79575823"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "series",
-                      "type": "part of",
-                      "type-id": "b0d44366-cdf0-3acb-bee6-0f65a77a6ef0"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "ffbbf0ec-208a-49f0-b9b3-5921570a9a85",
-                        "resource": "https://secondhandsongs.com/work/13875"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "7070615c-ab08-40f9-b225-f22286171014",
-                        "resource": "https://www.wikidata.org/wiki/Q1405967"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "arrangement",
-                      "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "e50bd341-c7d1-4bc5-ac04-2c9c8cf72f9f",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "That Old Black Magic",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "based on",
-                      "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "37bdb297-024d-4441-aefd-8838625f31ab",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Der alte Zauber",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "10cb0266-f0a4-4d27-a144-c70abaecdb54",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Magia negra",
-                        "type": null,
-                        "type-id": null
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "",
-                        "id": "d8625049-8cfe-4729-b414-70093bc7483a",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Ce diable noir",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    }
-                  ],
-                  "title": "That Old Black Magic",
-                  "type": "Song",
-                  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                }
-              }
-            ],
             "tags": [],
             "title": "That Old Black Magic",
             "video": false
@@ -6644,6 +3173,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -6816,6 +3346,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -6833,6 +3364,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -6857,6 +3389,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -6873,6 +3406,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -6898,237 +3432,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "99122661-412b-46bd-9cf4-ab52d41559b8",
-                  "name": "Kenny Drew",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Drew, Kenny",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "1c6ef3f5-a5b8-4cb5-a9fc-9026fc4bb557",
-                  "name": "Ira Sullivan",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Sullivan, Ira",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d8718343-cdc1-49bb-b8cb-d241e5d16b79",
-                  "name": "Wilbur Ware",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Wilbur Ware",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-06-25",
-                "direction": "backward",
-                "end": "1956-06-25",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              }
-            ],
             "tags": [],
             "title": "Spring Will Be a Little Late This Year",
             "video": false
@@ -7152,6 +3455,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "NL",
                 "disambiguation": "",
                 "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                 "name": "Rita Reys",
@@ -7324,6 +3628,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                 "name": "Art Blakey & The Jazz Messengers",
@@ -7341,6 +3646,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "",
                 "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
                 "name": "Wessel Ilcken Combo",
@@ -7365,6 +3671,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "NL",
                   "disambiguation": "",
                   "id": "40c112f9-f256-4078-8da5-905260c4d83a",
                   "name": "Rita Reys",
@@ -7381,6 +3688,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
                   "name": "Art Blakey & The Jazz Messengers",
@@ -7406,237 +3714,6 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [
-              {
-                "area": {
-                  "disambiguation": "",
-                  "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
-                  "name": "New York",
-                  "sort-name": "New York",
-                  "type": "City",
-                  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "area",
-                "type": "recorded in",
-                "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "601e7466-eaf5-4a91-9909-ffd770b7e04a",
-                  "name": "Art Blakey",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Blakey, Art",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "drums (drum set)"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "American jazz trumpeter",
-                  "id": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
-                  "name": "Donald Byrd",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Byrd, Donald",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "trumpet"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US jazz tenor saxophonist",
-                  "id": "026b096e-e024-42ab-82f3-107bddae77c2",
-                  "name": "Hank Mobley",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Mobley, Hank",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "tenor saxophone": "ef7382cf-d5b4-4923-8b9e-3c482ed84b5e"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "tenor saxophone"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "d185d986-ee96-4fd3-bd61-8c848a4765b6",
-                  "name": "Horace Silver",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Silver, Horace",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "piano"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "ebd504b0-7644-4887-9e4e-7d625f52fd07",
-                  "name": "Doug Watkins",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Watkins, Doug",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-credits": {},
-                "attribute-ids": {
-                  "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
-                },
-                "attribute-values": {},
-                "attributes": [
-                  "bass"
-                ],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "instrument",
-                "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
-              },
-              {
-                "artist": {
-                  "disambiguation": "US 1940-90s record producer",
-                  "id": "a4f7c16a-77bf-433a-be6d-d91ae3b9a13f",
-                  "name": "George Avakian",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Avakian, George",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "backward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "producer",
-                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
-              },
-              {
-                "artist": {
-                  "disambiguation": "",
-                  "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-                  "name": "Rita Reys",
-                  "rating": {
-                    "value": null,
-                    "votes-count": 0
-                  },
-                  "sort-name": "Reys, Rita",
-                  "type": "Person",
-                  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                },
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": "1956-05-03",
-                "direction": "backward",
-                "end": "1956-05-03",
-                "ended": true,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "artist",
-                "type": "vocal",
-                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
-              }
-            ],
             "tags": [],
             "title": "Taking a Chance on Love",
             "video": false
@@ -7649,7 +3726,6 @@
   "packaging": "Jewel Case",
   "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
   "quality": "normal",
-  "relations": [],
   "release-events": [
     {
       "area": {
@@ -7666,303 +3742,6 @@
       "date": "2003"
     }
   ],
-  "release-group": {
-    "aliases": [],
-    "artist-credit": [
-      {
-        "artist": {
-          "aliases": [
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Maria Everdina Reijs",
-              "primary": null,
-              "sort-name": "Reijs, Maria Everdina",
-              "type": "Legal name",
-              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
-            }
-          ],
-          "disambiguation": "",
-          "id": "40c112f9-f256-4078-8da5-905260c4d83a",
-          "name": "Rita Reys",
-          "rating": {
-            "value": null,
-            "votes-count": 0
-          },
-          "sort-name": "Reys, Rita",
-          "type": "Person",
-          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-        },
-        "joinphrase": " with ",
-        "name": "Rita Reys"
-      },
-      {
-        "artist": {
-          "aliases": [
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakely And The Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blakely And The Jazz Messengers",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakely and His Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blakely and His Jazz Messengers",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey & The Jazz Messenge",
-              "primary": null,
-              "sort-name": "Art Blakey & The Jazz Messenge",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey & The Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey & The Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey And His Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey And His Jazz Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey And The Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey And The Jazz Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey and The Jazz Messen",
-              "primary": null,
-              "sort-name": "Art Blakey and The Jazz Messen",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey and the Messangers",
-              "primary": null,
-              "sort-name": "Art Blakey and the Messangers",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey and the Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey and the Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey's Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey's Jazz Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blakey's Messengers",
-              "primary": null,
-              "sort-name": "Art Blakey's Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Art Blankey's Jazz Messengers",
-              "primary": null,
-              "sort-name": "Art Blankey's Jazz Messengers",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "Jazz Messengers",
-              "primary": null,
-              "sort-name": "Jazz Messengers",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "The Jazz Messengers",
-              "primary": null,
-              "sort-name": "Jazz Messengers, The",
-              "type": null,
-              "type-id": null
-            }
-          ],
-          "disambiguation": "",
-          "id": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
-          "name": "Art Blakey & The Jazz Messengers",
-          "rating": {
-            "value": 3.5,
-            "votes-count": 2
-          },
-          "sort-name": "Blakey, Art & The Jazz Messengers",
-          "type": "Group",
-          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
-        },
-        "joinphrase": " and ",
-        "name": "the Jazz Messengers"
-      },
-      {
-        "artist": {
-          "aliases": [],
-          "disambiguation": "",
-          "id": "251fea3f-26a5-48b7-bf0b-23aedfc628d5",
-          "name": "Wessel Ilcken Combo",
-          "rating": {
-            "value": null,
-            "votes-count": 0
-          },
-          "sort-name": "Wessel Ilcken Combo",
-          "type": "Group",
-          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
-        },
-        "joinphrase": "",
-        "name": "Wessel Ilcken Combo"
-      }
-    ],
-    "disambiguation": "",
-    "first-release-date": "1957",
-    "genres": [
-      {
-        "count": 1,
-        "disambiguation": "",
-        "id": "8c083468-2dce-4a31-ae77-433af3deafd3",
-        "name": "hard bop"
-      },
-      {
-        "count": 2,
-        "disambiguation": "",
-        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
-        "name": "jazz"
-      }
-    ],
-    "id": "413d059c-7cf0-418f-8078-61042aeca1da",
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "rating": {
-      "value": null,
-      "votes-count": 0
-    },
-    "relations": [
-      {
-        "attribute-ids": {},
-        "attribute-values": {},
-        "attributes": [],
-        "begin": null,
-        "direction": "forward",
-        "end": null,
-        "ended": false,
-        "source-credit": "",
-        "target-credit": "",
-        "target-type": "url",
-        "type": "discogs",
-        "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
-        "url": {
-          "id": "8ba521cc-94e8-4a6a-883f-2e23b89b2a2c",
-          "resource": "https://www.discogs.com/master/271717"
-        }
-      },
-      {
-        "attribute-ids": {},
-        "attribute-values": {},
-        "attributes": [],
-        "begin": null,
-        "direction": "forward",
-        "end": null,
-        "ended": false,
-        "source-credit": "",
-        "target-credit": "",
-        "target-type": "url",
-        "type": "wikidata",
-        "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
-        "url": {
-          "id": "c5347a5e-20ac-4adc-a82e-e3e8e87f3686",
-          "resource": "https://www.wikidata.org/wiki/Q17048940"
-        }
-      }
-    ],
-    "secondary-type-ids": [],
-    "secondary-types": [],
-    "tags": [
-      {
-        "count": 1,
-        "name": "hard bop"
-      },
-      {
-        "count": 2,
-        "name": "jazz"
-      }
-    ],
-    "title": "The Cool Voice of Rita Reys"
-  },
   "status": "Official",
   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
   "tags": [],

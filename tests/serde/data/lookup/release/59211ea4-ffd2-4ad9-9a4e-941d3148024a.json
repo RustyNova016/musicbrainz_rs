@@ -2,6 +2,7 @@
   "artist-credit": [
     {
       "artist": {
+        "country": "GB",
         "disambiguation": "electronic music duo",
         "id": "410c9baf-5469-44f6-9852-826524b80c61",
         "name": "Autechre",
@@ -14,6 +15,7 @@
     },
     {
       "artist": {
+        "country": "GB",
         "disambiguation": "",
         "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
         "name": "The Hafler Trio",
@@ -66,6 +68,7 @@
       ],
       "format": "CD",
       "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "a474fe64-9ca4-30fd-9653-dd135e1c50ae",
       "position": 1,
       "title": "\u00e6\u00b3o",
       "track-count": 1,
@@ -75,6 +78,7 @@
           "artist-credit": [
             {
               "artist": {
+                "country": "GB",
                 "disambiguation": "electronic music duo",
                 "id": "410c9baf-5469-44f6-9852-826524b80c61",
                 "name": "Autechre",
@@ -87,6 +91,7 @@
             },
             {
               "artist": {
+                "country": "GB",
                 "disambiguation": "",
                 "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
                 "name": "The Hafler Trio",
@@ -106,6 +111,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "GB",
                   "disambiguation": "electronic music duo",
                   "id": "410c9baf-5469-44f6-9852-826524b80c61",
                   "name": "Autechre",
@@ -118,6 +124,7 @@
               },
               {
                 "artist": {
+                  "country": "GB",
                   "disambiguation": "",
                   "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
                   "name": "The Hafler Trio",
@@ -153,6 +160,7 @@
       ],
       "format": "CD",
       "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "a5181503-48f0-30f6-884c-e02f1a9205dd",
       "position": 2,
       "title": "h\u00b3\u00e6",
       "track-count": 1,
@@ -162,6 +170,7 @@
           "artist-credit": [
             {
               "artist": {
+                "country": "GB",
                 "disambiguation": "electronic music duo",
                 "id": "410c9baf-5469-44f6-9852-826524b80c61",
                 "name": "Autechre",
@@ -174,6 +183,7 @@
             },
             {
               "artist": {
+                "country": "GB",
                 "disambiguation": "",
                 "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
                 "name": "The Hafler Trio",
@@ -193,6 +203,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "GB",
                   "disambiguation": "electronic music duo",
                   "id": "410c9baf-5469-44f6-9852-826524b80c61",
                   "name": "Autechre",
@@ -205,6 +216,7 @@
               },
               {
                 "artist": {
+                  "country": "GB",
                   "disambiguation": "",
                   "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
                   "name": "The Hafler Trio",

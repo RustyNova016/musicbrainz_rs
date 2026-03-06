@@ -102,6 +102,20 @@
       "name": "Fred Waring & His Pennsylvanians",
       "score": 100,
       "sort-name": "Waring, Fred & His Pennsylvanians",
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "easy listening"
+        },
+        {
+          "count": 1,
+          "name": "big band"
+        }
+      ],
       "type": "Group",
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
     },
@@ -302,7 +316,7 @@
         },
         {
           "count": 1,
-          "name": "bubblegum"
+          "name": "pop rock"
         },
         {
           "count": 1,
@@ -310,7 +324,7 @@
         },
         {
           "count": 1,
-          "name": "pop rock"
+          "name": "bubblegum"
         }
       ],
       "type": "Group",
@@ -380,6 +394,9 @@
       },
       "country": "US",
       "id": "28b020fa-d9b8-4d92-805c-54cd1b0197b7",
+      "isnis": [
+        "0000000098945053"
+      ],
       "life-span": {
         "begin": "1994",
         "ended": null
@@ -446,20 +463,20 @@
         "ended": true
       },
       "name": "Fred",
-      "score": 95,
+      "score": 94,
       "sort-name": "Fred",
       "tags": [
         {
-          "count": 2,
-          "name": "progressive rock"
+          "count": 1,
+          "name": "progressive folk"
         },
         {
           "count": 0,
           "name": "psychedelic rock"
         },
         {
-          "count": 1,
-          "name": "progressive folk"
+          "count": 2,
+          "name": "progressive rock"
         }
       ],
       "type": "Group",
@@ -488,11 +505,11 @@
       "tags": [
         {
           "count": 1,
-          "name": "rock"
+          "name": "power pop"
         },
         {
           "count": 1,
-          "name": "power pop"
+          "name": "rock"
         }
       ],
       "type": "Group",
@@ -515,7 +532,7 @@
         "ended": null
       },
       "name": "The Fred Hersch Trio",
-      "score": 93,
+      "score": 92,
       "sort-name": "Hersch, Fred, Trio, The",
       "tags": [
         {
@@ -579,6 +596,57 @@
       "name": "A Halo Called Fred",
       "score": 91,
       "sort-name": "Halo Called Fred, A",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Hammond, Fred & Radical For Christ",
+          "primary": null,
+          "sort-name": "Hammond, Fred & Radical For Christ",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Fred Hammond & RFC",
+          "primary": null,
+          "sort-name": "Fred Hammond & RFC",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Fred Hammond & Radical For Christ",
+          "primary": null,
+          "sort-name": "Fred Hammond & Radical For Christ",
+          "type": null
+        }
+      ],
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "id": "6a122d69-3a18-4e6b-9275-74da59c97aa1",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Fred Hammond & Radical for Christ",
+      "score": 88,
+      "sort-name": "Hammond, Fred & Radical for Christ",
       "type": "Group",
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
     },
@@ -674,7 +742,7 @@
         "ended": null
       },
       "name": "The Fred Hersch Group",
-      "score": 82,
+      "score": 81,
       "sort-name": "Hersch, Fred, The, Group",
       "type": "Group",
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
@@ -749,7 +817,7 @@
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
     }
   ],
-  "count": 16,
-  "created": "2024-10-03T17:51:25.234Z",
+  "count": 17,
+  "created": "2026-03-06T19:39:14.877Z",
   "offset": 0
 }

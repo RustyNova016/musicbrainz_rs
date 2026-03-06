@@ -1,6 +1,6 @@
 {
-  "count": 34,
-  "created": "2024-10-03T17:52:00.794Z",
+  "count": 37,
+  "created": "2026-03-06T19:39:20.065Z",
   "labels": [
     {
       "aliases": [
@@ -54,10 +54,6 @@
       "score": 96,
       "sort-name": "God Devil Records",
       "tags": [
-        {
-          "count": 1,
-          "name": "nu metal"
-        },
         {
           "count": 1,
           "name": "rap"
@@ -132,6 +128,10 @@
         },
         {
           "count": 1,
+          "name": "nu metal"
+        },
+        {
+          "count": 1,
           "name": "dark rock"
         },
         {
@@ -173,7 +173,7 @@
         "ended": null
       },
       "name": "Devil Records",
-      "score": 95,
+      "score": 96,
       "sort-name": "Devil Records"
     },
     {
@@ -258,7 +258,7 @@
         "ended": null
       },
       "name": "Whiskey Devil Records",
-      "score": 84,
+      "score": 85,
       "sort-name": "Whiskey Devil Records"
     },
     {
@@ -290,7 +290,19 @@
       },
       "name": "Jersey Devil Records",
       "score": 81,
-      "sort-name": "Jersey Devil Records"
+      "sort-name": "Jersey Devil Records",
+      "type": "Bootleg Production",
+      "type-id": "fdac9b96-359b-3488-9322-ad99c2473636"
+    },
+    {
+      "disambiguation": "reissue label",
+      "id": "8a3f18ee-9997-4b3b-90c8-52fdae5b48ba",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Red Devil Records",
+      "score": 81,
+      "sort-name": "Red Devil Records"
     },
     {
       "area": {
@@ -316,18 +328,17 @@
       "type-id": "fdac9b96-359b-3488-9322-ad99c2473636"
     },
     {
-      "disambiguation": "bootleg label",
-      "id": "eeedba3b-b061-4bbd-ad66-10c516a7486c",
+      "id": "6c5f139d-5b89-48a2-a38b-5e91e5e01031",
       "life-span": {
         "ended": null
       },
-      "name": "Red Devil Records",
+      "name": "White Devil Records",
       "score": 78,
-      "sort-name": "Red Devil Records"
+      "sort-name": "White Devil Records"
     },
     {
-      "disambiguation": "reissue label",
-      "id": "8a3f18ee-9997-4b3b-90c8-52fdae5b48ba",
+      "disambiguation": "bootleg label",
+      "id": "eeedba3b-b061-4bbd-ad66-10c516a7486c",
       "life-span": {
         "ended": null
       },
@@ -345,24 +356,15 @@
       "sort-name": "Romantic Devil Records"
     },
     {
-      "area": {
-        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
-        "life-span": {
-          "ended": null
-        },
-        "name": "United Kingdom",
-        "sort-name": "United Kingdom",
-        "type": "Country",
-        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
-      },
-      "country": "GB",
-      "id": "04e828ef-5760-4648-a3a2-a337d275c865",
+      "id": "aad8fdd7-c3a0-414a-a6ce-2d2e72f57533",
       "life-span": {
         "ended": null
       },
-      "name": "Better the Devil Records",
+      "name": "Devilspit Records",
       "score": 76,
-      "sort-name": "Better the Devil Records"
+      "sort-name": "Devilspit Records",
+      "type": "Imprint",
+      "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded"
     },
     {
       "area": {
@@ -387,24 +389,45 @@
       "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
     },
     {
-      "id": "6c5f139d-5b89-48a2-a38b-5e91e5e01031",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "GB",
+      "id": "04e828ef-5760-4648-a3a2-a337d275c865",
       "life-span": {
         "ended": null
       },
-      "name": "White Devil Records",
+      "name": "Better the Devil Records",
       "score": 76,
-      "sort-name": "White Devil Records"
+      "sort-name": "Better the Devil Records"
     },
     {
-      "id": "aad8fdd7-c3a0-414a-a6ce-2d2e72f57533",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "disambiguation": "Indie Record Label",
+      "id": "68f6e3dc-bfef-48e7-acef-e6119be1bd00",
       "life-span": {
         "ended": null
       },
-      "name": "Devilspit Records",
-      "score": 75,
-      "sort-name": "Devilspit Records",
-      "type": "Imprint",
-      "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded"
+      "name": "Lucky Devil Records",
+      "score": 73,
+      "sort-name": "Lucky Devil Records"
     },
     {
       "area": {
@@ -482,34 +505,13 @@
       "sort-name": "Sea Devil Records"
     },
     {
-      "area": {
-        "id": "489ce91b-6658-3307-9877-795b68554c98",
-        "life-span": {
-          "ended": null
-        },
-        "name": "United States",
-        "sort-name": "United States",
-        "type": "Country",
-        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
-      },
-      "country": "US",
-      "disambiguation": "Indie Record Label",
-      "id": "68f6e3dc-bfef-48e7-acef-e6119be1bd00",
+      "id": "536a670d-de6c-4d78-bf40-ef237f83f6f9",
       "life-span": {
         "ended": null
       },
-      "name": "Lucky Devil Records",
+      "name": "Devil Records (7)",
       "score": 73,
-      "sort-name": "Lucky Devil Records"
-    },
-    {
-      "id": "076b30e9-e6fd-4699-abdf-6f0dcdf53a2f",
-      "life-span": {
-        "ended": null
-      },
-      "name": "SheDevil Records",
-      "score": 68,
-      "sort-name": "SheDevil Records"
+      "sort-name": "Devil Records (7)"
     },
     {
       "area": {
@@ -523,14 +525,13 @@
         "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
       },
       "country": "US",
-      "id": "ae854b9c-b714-4558-acba-b7b0bf8cb484",
+      "id": "122a2d61-6c5f-4118-a13a-1f357db53897",
       "life-span": {
-        "begin": "1998",
-        "ended": true
+        "ended": null
       },
-      "name": "Up Jumps The Devil Records",
-      "score": 67,
-      "sort-name": "Up Jumps The Devil Records",
+      "name": "DeVille Records",
+      "score": 70,
+      "sort-name": "DeVille Records",
       "type": "Original Production",
       "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
     }

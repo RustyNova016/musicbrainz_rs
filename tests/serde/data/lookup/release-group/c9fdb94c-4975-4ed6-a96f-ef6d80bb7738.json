@@ -2,6 +2,7 @@
   "artist-credit": [
     {
       "artist": {
+        "country": "US",
         "disambiguation": "",
         "id": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
         "name": "50 Cent",
@@ -14,6 +15,7 @@
     },
     {
       "artist": {
+        "country": "US",
         "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
         "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
         "name": "DJ Drama",
@@ -35,6 +37,7 @@
       "artist-credit": [
         {
           "artist": {
+            "country": "US",
             "disambiguation": "",
             "id": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
             "name": "50 Cent",
@@ -47,6 +50,7 @@
         },
         {
           "artist": {
+            "country": "US",
             "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
             "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
             "name": "DJ Drama",

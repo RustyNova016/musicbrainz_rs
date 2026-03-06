@@ -1,5 +1,4 @@
 {
-  "aliases": [],
   "cancelled": false,
   "disambiguation": "",
   "id": "fe39727a-3d21-4066-9345-3970cbd6cca4",
@@ -12,6 +11,7 @@
   "relations": [
     {
       "artist": {
+        "country": "US",
         "disambiguation": "",
         "id": "b7ffd2af-418f-4be2-bdd1-22f8b48613da",
         "name": "Nine Inch Nails",
@@ -34,6 +34,7 @@
     },
     {
       "artist": {
+        "country": "US",
         "disambiguation": "",
         "id": "f7f32d93-0801-45cb-9f5a-e68f640649f4",
         "name": "Cold Cave",

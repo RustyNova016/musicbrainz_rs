@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "created": "2024-10-03T17:51:28.738Z",
+  "created": "2026-03-06T19:39:18.599Z",
   "instruments": [
     {
       "aliases": [
@@ -186,9 +186,9 @@
           "begin-date": null,
           "end-date": null,
           "locale": null,
-          "name": "k\u00f6auau ponga ihu",
+          "name": "koauau ponga ihu",
           "primary": null,
-          "sort-name": "k\u00f6auau ponga ihu",
+          "sort-name": "koauau ponga ihu",
           "type": "Search hint",
           "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
         },
@@ -196,9 +196,9 @@
           "begin-date": null,
           "end-date": null,
           "locale": null,
-          "name": "koauau ponga ihu",
+          "name": "k\u00f6auau ponga ihu",
           "primary": null,
-          "sort-name": "koauau ponga ihu",
+          "sort-name": "k\u00f6auau ponga ihu",
           "type": "Search hint",
           "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
         }
@@ -207,16 +207,8 @@
       "disambiguation": "M\u0101ori taonga p\u016boro tiny gourd nose flute",
       "id": "a4f10af3-d440-4ee7-9093-c60a121df41a",
       "name": "k\u014dauau ponga ihu",
-      "score": 46,
+      "score": 45,
       "tags": [
-        {
-          "count": 1,
-          "name": "traditional"
-        },
-        {
-          "count": 1,
-          "name": "flute"
-        },
         {
           "count": 1,
           "name": "m\u0101ori"
@@ -227,15 +219,23 @@
         },
         {
           "count": 1,
-          "name": "taonga p\u016boro"
-        },
-        {
-          "count": 1,
           "name": "nose flute"
         },
         {
           "count": 1,
+          "name": "taonga p\u016boro"
+        },
+        {
+          "count": 1,
+          "name": "traditional"
+        },
+        {
+          "count": 1,
           "name": "k\u014dauau"
+        },
+        {
+          "count": 1,
+          "name": "flute"
         },
         {
           "count": 1,
@@ -254,11 +254,7 @@
       "tags": [
         {
           "count": 1,
-          "name": "traditional"
-        },
-        {
-          "count": 1,
-          "name": "stone"
+          "name": "vessel flute"
         },
         {
           "count": 1,
@@ -266,15 +262,11 @@
         },
         {
           "count": 1,
-          "name": "vessel flute"
+          "name": "traditional"
         },
         {
           "count": 1,
-          "name": "wood"
-        },
-        {
-          "count": 1,
-          "name": "gourd"
+          "name": "bone"
         },
         {
           "count": 1,
@@ -282,11 +274,19 @@
         },
         {
           "count": 1,
+          "name": "gourd"
+        },
+        {
+          "count": 1,
           "name": "taonga p\u016boro"
         },
         {
           "count": 1,
-          "name": "bone"
+          "name": "wood"
+        },
+        {
+          "count": 1,
+          "name": "stone"
         }
       ],
       "type": "Wind instrument",

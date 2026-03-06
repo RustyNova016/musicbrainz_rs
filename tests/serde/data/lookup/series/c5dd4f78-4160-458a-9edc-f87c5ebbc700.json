@@ -15,7 +15,7 @@
       "end": null,
       "ended": false,
       "label": {
-        "disambiguation": "jazz label active during the 60s\u201070s, now property of Universal Music Group, mainly used as a reissue label",
+        "disambiguation": "jazz label active during the 60s\u201370s, now property of Universal Music Group, mainly used as a reissue label",
         "id": "93c3b044-2b4e-4239-a73b-8fb76f3e6ca9",
         "label-code": 236,
         "name": "impulse!",
@@ -37,55 +37,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 1,
-      "release": {
-        "barcode": "602517649033",
-        "country": "XE",
-        "date": "",
-        "disambiguation": "Reissue, Sony DADC glass master",
-        "id": "73d064c3-1e5d-4887-a1ec-99113a095f3d",
-        "packaging": null,
-        "packaging-id": null,
-        "quality": "normal",
-        "release-events": [
-          {
-            "area": {
-              "disambiguation": "",
-              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
-              "iso-3166-1-codes": [
-                "XE"
-              ],
-              "name": "Europe",
-              "sort-name": "Europe",
-              "type": null,
-              "type-id": null
-            },
-            "date": ""
-          }
-        ],
-        "status": null,
-        "status-id": null,
-        "text-representation": {
-          "language": "eng",
-          "script": "Latn"
-        },
-        "title": "A Love Supreme"
-      },
-      "source-credit": "",
-      "target-credit": "",
-      "target-type": "release",
-      "type": "part of",
-      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
-    },
-    {
-      "attribute-ids": {},
-      "attribute-values": {},
-      "attributes": [],
-      "begin": null,
-      "direction": "backward",
-      "end": null,
-      "ended": false,
-      "ordering-key": 7,
+      "ordering-key": 8,
       "release": {
         "barcode": "602517649033",
         "country": "US",
@@ -133,7 +85,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 6,
+      "ordering-key": 7,
       "release": {
         "barcode": "602517649033",
         "country": "XE",
@@ -181,7 +133,55 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 2,
+      "ordering-key": 1,
+      "release": {
+        "barcode": "602517649033",
+        "country": "XE",
+        "date": "",
+        "disambiguation": "reissue, Sony DADC glass master",
+        "id": "73d064c3-1e5d-4887-a1ec-99113a095f3d",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": ""
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "A Love Supreme"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 3,
       "release": {
         "barcode": "602517486201",
         "country": "XE",
@@ -229,7 +229,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 4,
+      "ordering-key": 5,
       "release": {
         "barcode": "602517486287",
         "country": "XE",
@@ -277,7 +277,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 3,
+      "ordering-key": 4,
       "release": {
         "barcode": "602517486270",
         "country": "XE",
@@ -325,7 +325,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 9,
+      "ordering-key": 10,
       "release": {
         "barcode": "602527768274",
         "country": "US",
@@ -373,7 +373,7 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 5,
+      "ordering-key": 6,
       "release": {
         "barcode": "602517648975",
         "country": "XE",
@@ -421,7 +421,55 @@
       "direction": "backward",
       "end": null,
       "ended": false,
-      "ordering-key": 8,
+      "ordering-key": 2,
+      "release": {
+        "barcode": "602498842201",
+        "country": "XE",
+        "date": "2005",
+        "disambiguation": "",
+        "id": "50a35253-fd13-4c74-a79c-3d3b2f858d76",
+        "packaging": null,
+        "packaging-id": null,
+        "quality": "normal",
+        "release-events": [
+          {
+            "area": {
+              "disambiguation": "",
+              "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+              "iso-3166-1-codes": [
+                "XE"
+              ],
+              "name": "Europe",
+              "sort-name": "Europe",
+              "type": null,
+              "type-id": null
+            },
+            "date": "2005"
+          }
+        ],
+        "status": null,
+        "status-id": null,
+        "text-representation": {
+          "language": "eng",
+          "script": "Latn"
+        },
+        "title": "Psychicemotus"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "release",
+      "type": "part of",
+      "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 9,
       "release": {
         "barcode": "602517984479",
         "country": "XE",

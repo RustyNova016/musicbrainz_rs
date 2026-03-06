@@ -155,7 +155,7 @@
             "ended": false,
             "locale": "fr",
             "name": "Artistes vari\u00e9s",
-            "primary": true,
+            "primary": false,
             "sort-name": "Artistes vari\u00e9s",
             "type": null,
             "type-id": null
@@ -242,6 +242,17 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "Bassrush",
+            "primary": null,
+            "sort-name": "Bassrush",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "Battle of the Bits",
             "primary": null,
             "sort-name": "Battle of the Bits",
@@ -308,9 +319,31 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "Christmas Karma",
+            "primary": null,
+            "sort-name": "Christmas Karma",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "Circus Records",
             "primary": null,
             "sort-name": "Records, Circus",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Coala.Records",
+            "primary": null,
+            "sort-name": "Coala Records",
             "type": null,
             "type-id": null
           },
@@ -560,12 +593,34 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": null,
+            "name": "EXIT TUNES/PONY CANYON",
+            "primary": null,
+            "sort-name": "EXIT TUNES/PONY CANYON",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Encrypted Audio",
+            "primary": null,
+            "sort-name": "Encrypted Audio",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "fi",
             "name": "Eri esitt\u00e4ji\u00e4",
             "primary": true,
             "sort-name": "Eri esitt\u00e4ji\u00e4",
-            "type": null,
-            "type-id": null
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -594,9 +649,75 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "Ferkels grosses Abenteuer",
+            "primary": null,
+            "sort-name": "Ferkels grosee Abenteuer",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "Fitness Workout Music",
             "primary": null,
             "sort-name": "Fitness Workout Music",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Goths For Palestine",
+            "primary": null,
+            "sort-name": "Goths For Palestine",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": "eu",
+            "name": "Hainbat artista",
+            "primary": true,
+            "sort-name": "Hainbat artista",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Hazbin Hotel",
+            "primary": null,
+            "sort-name": "Hazbin Hotel",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Helluva Boss",
+            "primary": null,
+            "sort-name": "Helluva Boss",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Hitradio \u00d63",
+            "primary": null,
+            "sort-name": "Hitradio \u00d63",
             "type": null,
             "type-id": null
           },
@@ -660,6 +781,28 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "KC101\u2014Connecticut's #1 Hit Music Station",
+            "primary": null,
+            "sort-name": "KC101",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "KZOK 102.5FM",
+            "primary": null,
+            "sort-name": "KZOK 102.5 FM",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "La Historia de la Fania",
             "primary": null,
             "sort-name": "Historia de la Fania, La",
@@ -676,6 +819,17 @@
             "sort-name": "MDB",
             "type": "Search hint",
             "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "MUSIC STUDY PROJECT",
+            "primary": null,
+            "sort-name": "MUSIC STUDY PROJECT",
+            "type": null,
+            "type-id": null
           },
           {
             "begin": null,
@@ -760,10 +914,10 @@
             "ended": false,
             "locale": "fr",
             "name": "Multi\u2010interpr\u00e8tes",
-            "primary": false,
+            "primary": true,
             "sort-name": "Multi\u2010interpr\u00e8tes",
-            "type": null,
-            "type-id": null
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -786,6 +940,17 @@
             "sort-name": "Multi\u2010interpr\u00e8tes",
             "type": "Search hint",
             "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Nhi\u1ec1u Ngh\u1ec7 S\u0129",
+            "primary": null,
+            "sort-name": "Nhi\u1ec1u Ngh\u1ec7 S\u0129",
+            "type": null,
+            "type-id": null
           },
           {
             "begin": null,
@@ -825,17 +990,6 @@
             "end": null,
             "ended": false,
             "locale": null,
-            "name": "OST",
-            "primary": null,
-            "sort-name": "OST",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
             "name": "Omnibus",
             "primary": null,
             "sort-name": "Omnibus",
@@ -846,12 +1000,12 @@
             "begin": null,
             "end": null,
             "ended": false,
-            "locale": null,
-            "name": "Planets Of The Universe",
-            "primary": null,
-            "sort-name": "Planets Of The Universe",
-            "type": null,
-            "type-id": null
+            "locale": "eo",
+            "name": "Pluraj artistoj",
+            "primary": true,
+            "sort-name": "Pluraj artistoj",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -945,6 +1099,17 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": null,
+            "name": "Rossmann",
+            "primary": null,
+            "sort-name": "Rossmann",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "pl",
             "name": "R\u00f3\u017cni",
             "primary": false,
@@ -978,6 +1143,17 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": "cs",
+            "name": "R\u016fzn\u00ed interpreti",
+            "primary": true,
+            "sort-name": "R\u016fzn\u00ed interpreti",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "en",
             "name": "Sampler",
             "primary": false,
@@ -993,6 +1169,17 @@
             "name": "Siren Cues",
             "primary": null,
             "sort-name": "Siren Cues",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "Skratch 'N Sniff",
+            "primary": null,
+            "sort-name": "Skratch 'N Sniff",
             "type": null,
             "type-id": null
           },
@@ -1114,28 +1301,6 @@
             "name": "V/a",
             "primary": null,
             "sort-name": "V/a",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": "en",
-            "name": "VA",
-            "primary": false,
-            "sort-name": "VA",
-            "type": "Artist name",
-            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "VA",
-            "primary": null,
-            "sort-name": "VA",
             "type": "Search hint",
             "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
           },
@@ -1402,17 +1567,6 @@
             "sort-name": "Various Artists",
             "type": null,
             "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": "he",
-            "name": "Various Artists",
-            "primary": true,
-            "sort-name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
-            "type": "Artist name",
-            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -1727,6 +1881,17 @@
             "end": null,
             "ended": false,
             "locale": "de",
+            "name": "Verschiedene Interpret:innen",
+            "primary": false,
+            "sort-name": "Verschiedene Interpret:innen",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": "de",
             "name": "Verschiedene Interpreten",
             "primary": false,
             "sort-name": "Verschiedene Interpreten",
@@ -1793,9 +1958,31 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "War Child Records",
+            "primary": null,
+            "sort-name": "War Child Records",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "WiddFam",
             "primary": null,
             "sort-name": "WiddFam",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "WitChoirRecords",
+            "primary": null,
+            "sort-name": "WitChoirRecords",
             "type": null,
             "type-id": null
           },
@@ -1853,6 +2040,17 @@
             "sort-name": "div.",
             "type": "Search hint",
             "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": "ca",
+            "name": "diversos artistes",
+            "primary": true,
+            "sort-name": "diversos artistes",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -1958,6 +2156,17 @@
             "end": null,
             "ended": false,
             "locale": null,
+            "name": "\u015awiatowe Przeboje",
+            "primary": null,
+            "sort-name": "Przeboje, \u015awiatowe",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
             "name": "\u038c\u03bb\u03bf\u03b9",
             "primary": null,
             "sort-name": "\u038c\u03bb\u03bf\u03b9",
@@ -1979,6 +2188,17 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": "bg",
+            "name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0438\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
+            "primary": true,
+            "sort-name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0438\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "ru",
             "name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
             "primary": false,
@@ -1990,10 +2210,21 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": "mk",
+            "name": "\u0420\u0430\u0437\u043d\u0438 \u0438\u0437\u0432\u0435\u0434\u0443\u0432\u0430\u0447\u0438",
+            "primary": false,
+            "sort-name": "Razni izveduva\u010di",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "ru",
             "name": "\u0420\u0430\u0437\u043d\u044b\u0435 \u0430\u0440\u0442\u0438\u0441\u0442\u044b",
             "primary": true,
-            "sort-name": "Raznye artisty",
+            "sort-name": "\u0420\u0430\u0437\u043d\u044b\u0435 \u0430\u0440\u0442\u0438\u0441\u0442\u044b",
             "type": null,
             "type-id": null
           },
@@ -2023,10 +2254,54 @@
             "begin": null,
             "end": null,
             "ended": false,
+            "locale": "be",
+            "name": "\u0440\u043e\u0437\u043d\u044b\u044f \u0432\u044b\u043a\u0430\u043d\u0430\u045e\u0446\u044b",
+            "primary": true,
+            "sort-name": "\u0440\u043e\u0437\u043d\u044b\u044f \u0432\u044b\u043a\u0430\u043d\u0430\u045e\u0446\u044b",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
             "locale": "uk",
             "name": "\u0440\u0456\u0437\u043d\u0438\u0445 \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0446\u0456\u0432",
             "primary": false,
             "sort-name": "\u0440\u0456\u0437\u043d\u0438\u0445 \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0446\u0456\u0432",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": "he",
+            "name": "\u05d0\u05d5\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+            "primary": false,
+            "sort-name": "\u05d0\u05d5\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+            "type": null,
+            "type-id": null
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": "he",
+            "name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+            "primary": true,
+            "sort-name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+          },
+          {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "locale": null,
+            "name": "\u05db\u05dc \u05d4\u05de\u05e9\u05ea\u05ea\u05e4\u05d9\u05dd",
+            "primary": null,
+            "sort-name": "\u05d4\u05de\u05e9\u05ea\u05ea\u05e4\u05d9\u05dd, \u05db\u05dc",
             "type": null,
             "type-id": null
           },
@@ -2049,8 +2324,8 @@
             "name": "\u0647\u0646\u0631\u0645\u0646\u062f\u0627\u0646 \u0645\u062e\u062a\u0644\u0641",
             "primary": true,
             "sort-name": "\u0647\u0646\u0631\u0645\u0646\u062f\u0627\u0646 \u0645\u062e\u062a\u0644\u0641",
-            "type": null,
-            "type-id": null
+            "type": "Artist name",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
           },
           {
             "begin": null,
@@ -2133,166 +2408,12 @@
             "begin": null,
             "end": null,
             "ended": false,
-            "locale": null,
-            "name": "\u4e16\u754c\u5c0f\u59d0",
-            "primary": null,
-            "sort-name": "\u4e16\u754c\u5c0f\u59d0",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u539f\u58f0\u5e26",
-            "primary": null,
-            "sort-name": "\u539f\u58f0\u5e26",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": "zh",
-            "name": "\u5408\u8f2f",
-            "primary": false,
-            "sort-name": "\u5408\u8f2f",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-            "primary": null,
-            "sort-name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-            "primary": null,
-            "sort-name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u591a\u4f4d\u85dd\u8853\u5bb6",
-            "primary": null,
-            "sort-name": "\u591a\u4f4d\u85dd\u8853\u5bb6",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u5929\u5a31\u7fa4\u661f",
-            "primary": null,
-            "sort-name": "Various Artists from TianYu",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u5bf6\u9e97\u91d1\u53f0\u7063\u7fa4\u661f",
-            "primary": null,
-            "sort-name": "Various Artists from Polygram Taiwan",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u5bf6\u9e97\u91d1\u7fa4\u661f",
-            "primary": null,
-            "sort-name": "Various Artists from Polygram",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u5f71\u89c6\u539f\u58f0",
-            "primary": null,
-            "sort-name": "\u5f71\u89c6\u539f\u58f0",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u6b4c\u624b",
-            "primary": null,
-            "sort-name": "\u6b4c\u624b",
-            "type": "Search hint",
-            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u74b0\u7403\u7fa4\u661f",
-            "primary": null,
-            "sort-name": "\u74b0\u7403\u7fa4\u661f",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
             "locale": "zh",
             "name": "\u7fa4\u661f",
             "primary": true,
-            "sort-name": "Qun xing",
-            "type": null,
-            "type-id": null
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": "zh_Hans",
-            "name": "\u7fa4\u661f",
-            "primary": true,
-            "sort-name": "Qun Xing",
+            "sort-name": "\u7fa4\u661f",
             "type": "Artist name",
             "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
-          },
-          {
-            "begin": null,
-            "end": null,
-            "ended": false,
-            "locale": null,
-            "name": "\u83ef\u7d0d\u7fa4\u661f",
-            "primary": null,
-            "sort-name": "Various Artists from WEA",
-            "type": null,
-            "type-id": null
           },
           {
             "begin": null,
@@ -2317,6 +2438,7 @@
             "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
           }
         ],
+        "country": null,
         "disambiguation": "add compilations to this artist",
         "genres": [],
         "id": "89ad4ac3-39f7-470e-963a-56509c546377",
@@ -2328,11 +2450,15 @@
             "name": "compilation"
           },
           {
-            "count": 8,
+            "count": 1,
+            "name": "country dreams"
+          },
+          {
+            "count": 7,
             "name": "special purpose"
           },
           {
-            "count": 45,
+            "count": 64,
             "name": "special purpose artist"
           }
         ],
@@ -2396,6 +2522,7 @@
       ],
       "format": "CD",
       "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "5db2bd01-75e9-31c7-8b5a-86fac39ed56d",
       "position": 1,
       "title": "",
       "track-count": 10,
@@ -2427,9 +2554,21 @@
                     "sort-name": "Freddy \"Boom Boom\" Cannon",
                     "type": null,
                     "type-id": null
+                  },
+                  {
+                    "begin": null,
+                    "end": null,
+                    "ended": false,
+                    "locale": null,
+                    "name": "Frederick Anthony Picariello Jr.",
+                    "primary": null,
+                    "sort-name": "Jr., Frederick Anthony Picariello",
+                    "type": "Legal name",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
-                "disambiguation": "",
+                "country": "US",
+                "disambiguation": "rock and roll singer and rhythm guitarist",
                 "genres": [
                   {
                     "count": 1,
@@ -2467,7 +2606,8 @@
             "artist-credit": [
               {
                 "artist": {
-                  "disambiguation": "",
+                  "country": "US",
+                  "disambiguation": "rock and roll singer and rhythm guitarist",
                   "id": "48c723b1-5044-4063-a934-b6a7602181b1",
                   "name": "Freddy Cannon",
                   "rating": {
@@ -2491,7 +2631,186 @@
               "value": null,
               "votes-count": 0
             },
-            "relations": [],
+            "relations": [
+              {
+                "attribute-ids": {},
+                "attribute-values": {},
+                "attributes": [],
+                "begin": null,
+                "direction": "forward",
+                "end": null,
+                "ended": false,
+                "source-credit": "",
+                "target-credit": "",
+                "target-type": "work",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "work": {
+                  "attributes": [],
+                  "disambiguation": "",
+                  "id": "4a3abff8-4604-3c9c-88c7-55762e11eacd",
+                  "iswcs": [
+                    "T-070.244.211-2"
+                  ],
+                  "language": "eng",
+                  "languages": [
+                    "eng"
+                  ],
+                  "rating": {
+                    "value": null,
+                    "votes-count": 0
+                  },
+                  "relations": [
+                    {
+                      "artist": {
+                        "country": "US",
+                        "disambiguation": "rock and roll singer and rhythm guitarist",
+                        "id": "48c723b1-5044-4063-a934-b6a7602181b1",
+                        "name": "Freddy Cannon",
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "sort-name": "Cannon, Freddy",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "attributes": [],
+                      "begin": null,
+                      "direction": "backward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "artist",
+                      "type": "premiere",
+                      "type-id": "5cc8cfb5-cca0-4395-a44b-b7d3c1777608"
+                    },
+                    {
+                      "artist": {
+                        "country": "US",
+                        "disambiguation": "",
+                        "id": "d1eb5e45-843d-448d-9e93-2bad8116e70d",
+                        "name": "Bob Crewe",
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "sort-name": "Crewe, Bob",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "attributes": [],
+                      "begin": null,
+                      "direction": "backward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "artist",
+                      "type": "writer",
+                      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                    },
+                    {
+                      "artist": {
+                        "country": null,
+                        "disambiguation": "",
+                        "id": "d077d870-c07b-4b8b-9ac3-8dd518365239",
+                        "name": "Frederick Picariello",
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "sort-name": "Picariello, Frederick",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "attributes": [],
+                      "begin": null,
+                      "direction": "backward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "Frederick A. Picariello",
+                      "target-type": "artist",
+                      "type": "writer",
+                      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                    },
+                    {
+                      "artist": {
+                        "country": "US",
+                        "disambiguation": "",
+                        "id": "b4987360-ee7f-417a-b585-3fa36afdd4d9",
+                        "name": "Frank Slay Jr.",
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "sort-name": "Slay, Frank, Jr.",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "attributes": [],
+                      "begin": null,
+                      "direction": "backward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "Frank C. Slay Jr.",
+                      "target-type": "artist",
+                      "type": "writer",
+                      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                    },
+                    {
+                      "attribute-ids": {
+                        "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                      },
+                      "attribute-values": {},
+                      "attributes": [
+                        "parody",
+                        "translated"
+                      ],
+                      "begin": null,
+                      "direction": "forward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "work",
+                      "type": "other version",
+                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                      "work": {
+                        "attributes": [],
+                        "disambiguation": "",
+                        "id": "9d47c2df-2ff6-44fa-8975-fe5f0dea1a33",
+                        "iswcs": [],
+                        "language": null,
+                        "languages": [],
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "title": "T\u00e4\u00e4ll\u00e4h\u00e4n on tanssit",
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                      }
+                    }
+                  ],
+                  "title": "Tallahassee Lassie",
+                  "type": "Song",
+                  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                }
+              }
+            ],
             "tags": [],
             "title": "Tallahassie Lassie",
             "video": false
@@ -2526,6 +2845,7 @@
                     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
                   }
                 ],
+                "country": "US",
                 "disambiguation": "US singer and songwriter, author of \"Sea of Love\"",
                 "genres": [
                   {
@@ -2564,6 +2884,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "US singer and songwriter, author of \"Sea of Love\"",
                   "id": "5092dda9-9f6a-4b62-8773-35e96ae199b3",
                   "name": "Phil Phillips",
@@ -2619,138 +2940,6 @@
                     "votes-count": 0
                   },
                   "relations": [
-                    {
-                      "artist": {
-                        "disambiguation": "",
-                        "id": "b1d7af09-bfda-4783-9ce5-0757498658c4",
-                        "name": "George Khoury",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Khoury, George",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "artist",
-                      "type": "composer",
-                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
-                    },
-                    {
-                      "artist": {
-                        "disambiguation": "US singer and songwriter, author of \"Sea of Love\"",
-                        "id": "5092dda9-9f6a-4b62-8773-35e96ae199b3",
-                        "name": "Phil Phillips",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Phillips, Phil",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "Philip Baptiste",
-                      "target-type": "artist",
-                      "type": "composer",
-                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
-                    },
-                    {
-                      "artist": {
-                        "disambiguation": "US singer and songwriter, author of \"Sea of Love\"",
-                        "id": "5092dda9-9f6a-4b62-8773-35e96ae199b3",
-                        "name": "Phil Phillips",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Phillips, Phil",
-                        "type": "Person",
-                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
-                      },
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "Philip Baptiste",
-                      "target-type": "artist",
-                      "type": "lyricist",
-                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "d1d3a052-e497-4e57-a6d9-bc0692cc4dff",
-                        "resource": "https://secondhandsongs.com/work/4612"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "songfacts",
-                      "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
-                      "url": {
-                        "id": "06a47c92-4b96-4b95-85f5-69ceb2557041",
-                        "resource": "http://www.songfacts.com/detail.php?id=21958"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "6e91855e-c683-4cd8-9d2c-10f36e929e52",
-                        "resource": "https://www.wikidata.org/wiki/Q7440100"
-                      }
-                    },
                     {
                       "attribute-ids": {},
                       "attribute-values": {},
@@ -2814,9 +3003,13 @@
                       }
                     },
                     {
-                      "attribute-ids": {},
+                      "attribute-ids": {
+                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                      },
                       "attribute-values": {},
-                      "attributes": [],
+                      "attributes": [
+                        "translated"
+                      ],
                       "begin": null,
                       "direction": "forward",
                       "end": null,
@@ -2860,8 +3053,16 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "50s/60s pop vocal quartet from Pittsburgh, PA",
-                "genres": [],
+                "genres": [
+                  {
+                    "count": 1,
+                    "disambiguation": "",
+                    "id": "1696f12e-9f01-4309-be9d-116e31ac65b7",
+                    "name": "doo-wop"
+                  }
+                ],
                 "id": "a3eafe8d-664f-4fd6-87ca-696408b62001",
                 "name": "The Tempos",
                 "rating": {
@@ -2869,7 +3070,12 @@
                   "votes-count": 0
                 },
                 "sort-name": "Tempos, The",
-                "tags": [],
+                "tags": [
+                  {
+                    "count": 1,
+                    "name": "doo-wop"
+                  }
+                ],
                 "type": "Group",
                 "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
               },
@@ -2886,6 +3092,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "50s/60s pop vocal quartet from Pittsburgh, PA",
                   "id": "a3eafe8d-664f-4fd6-87ca-696408b62001",
                   "name": "The Tempos",
@@ -2942,6 +3149,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "55b98ea0-48f3-4a50-afcd-154312457463",
                         "name": "Sherman Edwards",
@@ -2968,6 +3176,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "03f7aa9a-0172-4968-9248-0bc75405ce9f",
                         "name": "Sid Wayne",
@@ -2991,69 +3200,6 @@
                       "target-type": "artist",
                       "type": "writer",
                       "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "f21a859e-170e-4f61-9c20-55a8e5a4835b",
-                        "label-code": null,
-                        "name": "Vibar Music",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Vibar Music",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "86f3c62a-e2de-4900-82ce-d375b3609900",
-                        "resource": "https://secondhandsongs.com/work/80276"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "524451e9-cdaa-4017-a23a-7aab03f5a04d",
-                        "resource": "https://www.wikidata.org/wiki/Q62063155"
-                      }
                     }
                   ],
                   "title": "See You in September",
@@ -3085,6 +3231,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "50s/60s US doo wop vocal group from Brooklyn, New York",
                 "genres": [
                   {
@@ -3097,8 +3244,8 @@
                 "id": "27d3633f-4f92-46b4-9c57-24de456ded94",
                 "name": "The Mystics",
                 "rating": {
-                  "value": null,
-                  "votes-count": 0
+                  "value": 5,
+                  "votes-count": 1
                 },
                 "sort-name": "Mystics, The",
                 "tags": [
@@ -3135,12 +3282,13 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "50s/60s US doo wop vocal group from Brooklyn, New York",
                   "id": "27d3633f-4f92-46b4-9c57-24de456ded94",
                   "name": "The Mystics",
                   "rating": {
-                    "value": null,
-                    "votes-count": 0
+                    "value": 5,
+                    "votes-count": 1
                   },
                   "sort-name": "Mystics, The",
                   "type": "Group",
@@ -3200,58 +3348,12 @@
             "isrcs": [
               "USESM9700003"
             ],
-            "length": 152960,
+            "length": 152880,
             "rating": {
               "value": null,
               "votes-count": 0
             },
             "relations": [
-              {
-                "attribute-ids": {
-                  "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
-                },
-                "attribute-values": {
-                  "number": "13"
-                },
-                "attributes": [
-                  "number"
-                ],
-                "begin": null,
-                "direction": "forward",
-                "end": null,
-                "ended": false,
-                "ordering-key": 13,
-                "series": {
-                  "disambiguation": "",
-                  "id": "f1a59c05-78d3-48ad-b898-b23c746c0203",
-                  "name": "Dave Marsh: The Best of the Top 40 Singles: 1959",
-                  "type": "Recording series",
-                  "type-id": "dd968243-7128-30a2-81f0-79843430a8e2"
-                },
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "series",
-                "type": "part of",
-                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774"
-              },
-              {
-                "attribute-ids": {},
-                "attribute-values": {},
-                "attributes": [],
-                "begin": null,
-                "direction": "forward",
-                "end": null,
-                "ended": false,
-                "source-credit": "",
-                "target-credit": "",
-                "target-type": "url",
-                "type": "secondhandsongs",
-                "type-id": "a98fb02f-f289-4778-b34e-2625d922e28f",
-                "url": {
-                  "id": "f3cd7eac-26c1-404f-97d2-065fe7dfcae2",
-                  "resource": "https://secondhandsongs.com/performance/201863"
-                }
-              },
               {
                 "attribute-ids": {},
                 "attribute-values": {},
@@ -3283,6 +3385,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "5780ff53-6dfa-4835-80dc-71c7316208a5",
                         "name": "Doc Pomus",
@@ -3309,6 +3412,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "US singer, pianist & songwriter",
                         "id": "1226cb0d-03d3-4021-801a-a74408575abf",
                         "name": "Mort Shuman",
@@ -3332,42 +3436,6 @@
                       "target-type": "artist",
                       "type": "writer",
                       "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "1b425df9-67c1-4974-9b2a-3cecae36c7e4",
-                        "resource": "https://secondhandsongs.com/work/123162"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "10bd4fac-a826-4933-aea4-be0bfaf5ba61",
-                        "resource": "https://www.wikidata.org/wiki/Q778574"
-                      }
                     },
                     {
                       "attribute-ids": {},
@@ -3487,10 +3555,11 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "doo-wop/R&B",
                 "genres": [
                   {
-                    "count": 1,
+                    "count": 2,
                     "disambiguation": "",
                     "id": "1696f12e-9f01-4309-be9d-116e31ac65b7",
                     "name": "doo-wop"
@@ -3515,7 +3584,7 @@
                     "name": "2008 universal fire victim"
                   },
                   {
-                    "count": 1,
+                    "count": 2,
                     "name": "doo-wop"
                   },
                   {
@@ -3547,6 +3616,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "doo-wop/R&B",
                   "id": "467c7eeb-3741-48b4-9bfb-7d6d0b2b0f83",
                   "name": "The Flamingos",
@@ -3604,6 +3674,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "US composer and lyricist",
                         "id": "7a9390eb-76ea-4d3a-a786-7fd09c8ae291",
                         "name": "Harry Warren",
@@ -3630,6 +3701,7 @@
                     },
                     {
                       "artist": {
+                        "country": "CH",
                         "disambiguation": "",
                         "id": "ab4ee924-e126-4835-8433-5c6090f7ea1b",
                         "name": "Al Dubin",
@@ -3659,288 +3731,18 @@
                       "attribute-values": {},
                       "attributes": [],
                       "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "publisher active since the 1910s",
-                        "id": "35df76cb-b23f-41be-af59-6276ad31a342",
-                        "label-code": null,
-                        "name": "B. Feldman & Co.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "B. Feldman & Co.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "publisher est. 1946",
-                        "id": "71e25609-33f3-4c22-b341-708f74a943e0",
-                        "label-code": null,
-                        "name": "B. Feldman & Co. Ltd.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "B. Feldman & Co. Ltd.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "3d870401-ef24-44b8-bcf5-4660da268d59",
-                        "label-code": null,
-                        "name": "B. Feldman Ltd.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "B. Feldman Ltd.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "do not use as a release label!",
-                        "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae",
-                        "label-code": null,
-                        "name": "EMI Music Publishing",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "EMI Music Publishing",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "EMI Music Publishing",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "10effb82-f754-42fe-ac03-cf69180f2532",
-                        "label-code": null,
-                        "name": "Remick Music Corp.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Remick Music Corp.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "not for release label use!",
-                        "id": "4a3ad928-6ab2-4f88-901c-5b705c69b768",
-                        "label-code": null,
-                        "name": "Warner Bros., Inc.",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "Warner Bros., Inc.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "Warner Bros. Inc.",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "holding company \u2013 do not use as release label",
-                        "id": "198ab15b-1078-44d1-8b45-993c24383602",
-                        "label-code": null,
-                        "name": "\u30e4\u30de\u30cf\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "\u30e4\u30de\u30cf\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
-                        "type": "Holding",
-                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed"
-                      },
-                      "source-credit": "",
-                      "target-credit": "\u30e4\u30de\u30cf\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "label": {
-                        "disambiguation": "",
-                        "id": "4e7c6713-0ff5-4dfa-9285-63cb50694380",
-                        "label-code": null,
-                        "name": "\u30ef\u30fc\u30ca\u30fc\u30fb\u30c1\u30e3\u30da\u30eb\u97f3\u697d\u51fa\u7248 Synch\u4e8b\u696d\u90e8",
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "sort-name": "\u30ef\u30fc\u30ca\u30fc\u30fb\u30c1\u30e3\u30da\u30eb\u97f3\u697d\u51fa\u7248 Synch\u4e8b\u696d\u90e8",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "lyrics",
-                      "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
-                      "url": {
-                        "id": "b0e25e86-8961-40d1-839b-a8f2e3bc122b",
-                        "resource": "https://genius.com/Barry-manilow-i-only-have-eyes-for-you-lyrics"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "8173f338-8d7f-4926-a683-cbbdf142b1aa",
-                        "resource": "https://secondhandsongs.com/work/10913"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "681e8c94-1a44-4227-8791-d1e8104920ec",
-                        "resource": "https://www.wikidata.org/wiki/Q5978682"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
                       "direction": "forward",
                       "end": null,
                       "ended": false,
                       "source-credit": "",
                       "target-credit": "",
                       "target-type": "work",
-                      "type": "based on",
-                      "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                      "type": "arrangement",
+                      "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
                       "work": {
                         "attributes": [],
-                        "disambiguation": "",
-                        "id": "391c49da-ed87-466f-ba0b-0bd9c7aff1d0",
+                        "disambiguation": "orch. Alan Baylock",
+                        "id": "840e7673-8839-47b6-aedf-de6737ce5385",
                         "iswcs": [],
                         "language": null,
                         "languages": [],
@@ -3948,7 +3750,7 @@
                           "value": null,
                           "votes-count": 0
                         },
-                        "title": "I Love Them Ho\u2019s",
+                        "title": "I Only Have Eyes for You",
                         "type": "Song",
                         "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                       }
@@ -3983,6 +3785,35 @@
                       }
                     },
                     {
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "attributes": [],
+                      "begin": null,
+                      "direction": "forward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "work",
+                      "type": "based on",
+                      "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                      "work": {
+                        "attributes": [],
+                        "disambiguation": "",
+                        "id": "391c49da-ed87-466f-ba0b-0bd9c7aff1d0",
+                        "iswcs": [],
+                        "language": null,
+                        "languages": [],
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "title": "I Love Them Ho\u2019s",
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                      }
+                    },
+                    {
                       "attribute-ids": {
                         "number": "f4c9322b-2bfa-4c55-bb96-254be574b365"
                       },
@@ -3994,6 +3825,7 @@
                       "direction": "backward",
                       "end": null,
                       "ended": false,
+                      "ordering-key": 10,
                       "source-credit": "",
                       "target-credit": "",
                       "target-type": "work",
@@ -4147,8 +3979,15 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "genres": [
+                  {
+                    "count": 1,
+                    "disambiguation": "",
+                    "id": "ac30756b-55a7-4dc3-8908-8f94c93318d0",
+                    "name": "bebop"
+                  },
                   {
                     "count": 1,
                     "disambiguation": "",
@@ -4156,7 +3995,13 @@
                     "name": "bossa nova"
                   },
                   {
-                    "count": 5,
+                    "count": 1,
+                    "disambiguation": "",
+                    "id": "5fc86669-d9ba-4716-8090-eff39081090e",
+                    "name": "cool jazz"
+                  },
+                  {
+                    "count": 7,
                     "disambiguation": "",
                     "id": "a715278f-1580-409f-8078-4ffbc800e08b",
                     "name": "jazz"
@@ -4168,7 +4013,7 @@
                     "name": "traditional pop"
                   },
                   {
-                    "count": 4,
+                    "count": 5,
                     "disambiguation": "",
                     "id": "782dc157-d1a5-42b9-9174-d329c24a7ef3",
                     "name": "vocal jazz"
@@ -4184,6 +4029,10 @@
                 "tags": [
                   {
                     "count": 1,
+                    "name": "bebop"
+                  },
+                  {
+                    "count": 1,
                     "name": "bop"
                   },
                   {
@@ -4195,7 +4044,11 @@
                     "name": "cool"
                   },
                   {
-                    "count": 5,
+                    "count": 1,
+                    "name": "cool jazz"
+                  },
+                  {
+                    "count": 7,
                     "name": "jazz"
                   },
                   {
@@ -4211,7 +4064,7 @@
                     "name": "traditional pop"
                   },
                   {
-                    "count": 4,
+                    "count": 5,
                     "name": "vocal jazz"
                   },
                   {
@@ -4258,6 +4111,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
                   "name": "Sarah Vaughan",
@@ -4277,13 +4131,7 @@
             "first-release-date": "1961",
             "genres": [
               {
-                "count": 1,
-                "disambiguation": "",
-                "id": "ca06817d-8622-4120-b49d-96921c8bb767",
-                "name": "easy listening"
-              },
-              {
-                "count": 5,
+                "count": 4,
                 "disambiguation": "",
                 "id": "a715278f-1580-409f-8078-4ffbc800e08b",
                 "name": "jazz"
@@ -4295,7 +4143,7 @@
                 "name": "swing"
               },
               {
-                "count": 2,
+                "count": 3,
                 "disambiguation": "",
                 "id": "782dc157-d1a5-42b9-9174-d329c24a7ef3",
                 "name": "vocal jazz"
@@ -4307,12 +4155,13 @@
             ],
             "length": 145000,
             "rating": {
-              "value": null,
-              "votes-count": 0
+              "value": 4,
+              "votes-count": 1
             },
             "relations": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
                   "name": "Sarah Vaughan",
@@ -4357,8 +4206,10 @@
                   "iswcs": [
                     "T-070.884.145-5"
                   ],
-                  "language": null,
-                  "languages": [],
+                  "language": "eng",
+                  "languages": [
+                    "eng"
+                  ],
                   "rating": {
                     "value": null,
                     "votes-count": 0
@@ -4366,6 +4217,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "55b98ea0-48f3-4a50-afcd-154312457463",
                         "name": "Sherman Edwards",
@@ -4392,6 +4244,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "41f5d2cd-672b-460e-8ab6-e29db2f1e088",
                         "name": "Hal David",
@@ -4415,39 +4268,21 @@
                       "target-type": "artist",
                       "type": "lyricist",
                       "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "31df45a5-fcab-4f54-a95c-89ad372ee51b",
-                        "resource": "https://secondhandsongs.com/work/72361"
-                      }
                     }
                   ],
                   "title": "Broken-Hearted Melody",
-                  "type": null,
-                  "type-id": null
+                  "type": "Song",
+                  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                 }
               }
             ],
             "tags": [
               {
                 "count": 1,
-                "name": "easy listening"
+                "name": "boogie woogie"
               },
               {
-                "count": 5,
+                "count": 4,
                 "name": "jazz"
               },
               {
@@ -4463,7 +4298,7 @@
                 "name": "swing"
               },
               {
-                "count": 2,
+                "count": 3,
                 "name": "vocal jazz"
               }
             ],
@@ -4477,6 +4312,7 @@
             {
               "artist": {
                 "aliases": [],
+                "country": "US",
                 "disambiguation": "late 1950s US vocal group",
                 "genres": [],
                 "id": "952d8a54-5c19-463d-825d-0f1d3d1df8eb",
@@ -4503,6 +4339,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "late 1950s US vocal group",
                   "id": "952d8a54-5c19-463d-825d-0f1d3d1df8eb",
                   "name": "The Playmates",
@@ -4573,6 +4410,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "American former actress and chart-topping singer",
                 "genres": [
                   {
@@ -4580,6 +4418,12 @@
                     "disambiguation": "",
                     "id": "8c5defb4-95b6-42f6-bfee-8791f670f3a8",
                     "name": "brill building"
+                  },
+                  {
+                    "count": 1,
+                    "disambiguation": "",
+                    "id": "ca06817d-8622-4120-b49d-96921c8bb767",
+                    "name": "easy listening"
                   },
                   {
                     "count": 2,
@@ -4609,6 +4453,10 @@
                   {
                     "count": 1,
                     "name": "brill building"
+                  },
+                  {
+                    "count": 1,
+                    "name": "easy listening"
                   },
                   {
                     "count": 2,
@@ -4658,6 +4506,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "American former actress and chart-topping singer",
                   "id": "5fcd7daf-25e1-47fd-9ba1-830b42708f84",
                   "name": "Connie Francis",
@@ -4697,6 +4546,12 @@
               {
                 "count": 1,
                 "disambiguation": "",
+                "id": "797e2e85-5ffd-495c-a757-8b4079052f0e",
+                "name": "pop rock"
+              },
+              {
+                "count": 1,
+                "disambiguation": "",
                 "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
                 "name": "rock"
               },
@@ -4725,6 +4580,7 @@
             "relations": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "American former actress and chart-topping singer",
                   "id": "5fcd7daf-25e1-47fd-9ba1-830b42708f84",
                   "name": "Connie Francis",
@@ -4780,6 +4636,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": null,
                         "disambiguation": "",
                         "id": "342d6733-4da0-4ba0-b56b-97b7808126d2",
                         "name": "George Goehring",
@@ -4806,6 +4663,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "1a77c835-a721-4f17-a485-dbafe0c33f23",
                         "name": "Edna Lewis",
@@ -4838,59 +4696,59 @@
                       "direction": "backward",
                       "end": null,
                       "ended": false,
-                      "label": {
+                      "ordering-key": 20,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "work",
+                      "type": "medley",
+                      "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                      "work": {
+                        "attributes": [],
                         "disambiguation": "",
-                        "id": "91620235-63ec-4c70-9f1e-181756b4e48a",
-                        "label-code": null,
-                        "name": "Anne-Rachel Music Corp.",
+                        "id": "60f4404d-3089-4a6b-a2d2-3979fe581b41",
+                        "iswcs": [],
+                        "language": null,
+                        "languages": [],
                         "rating": {
                           "value": null,
                           "votes-count": 0
                         },
-                        "sort-name": "Anne-Rachel Music Corp.",
-                        "type": "Publisher",
-                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
-                      },
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "label",
-                      "type": "publishing",
-                      "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "c80d3dbe-b475-401c-b97c-78f19c2ec59a",
-                        "resource": "https://secondhandsongs.com/work/73296"
+                        "title": "Rock n\u2019 Roll Hall of Fame",
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                       }
                     },
                     {
-                      "attribute-ids": {},
+                      "attribute-ids": {
+                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                      },
                       "attribute-values": {},
-                      "attributes": [],
+                      "attributes": [
+                        "translated"
+                      ],
                       "begin": null,
-                      "direction": "backward",
+                      "direction": "forward",
                       "end": null,
                       "ended": false,
                       "source-credit": "",
                       "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "98a73106-e355-4316-8c62-285ea836c485",
-                        "resource": "https://www.wikidata.org/wiki/Q4563330"
+                      "target-type": "work",
+                      "type": "other version",
+                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                      "work": {
+                        "attributes": [],
+                        "disambiguation": "",
+                        "id": "852328b7-302e-4888-b597-b21248ef43d8",
+                        "iswcs": [],
+                        "language": null,
+                        "languages": [],
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "title": "\u30ab\u30e9\u30fc\u306b\u53e3\u7d05",
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                       }
                     },
                     {
@@ -4922,6 +4780,39 @@
                           "votes-count": 0
                         },
                         "title": "L\u00e4ppstick p\u00e5 din krage",
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                      }
+                    },
+                    {
+                      "attribute-ids": {
+                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                      },
+                      "attribute-values": {},
+                      "attributes": [
+                        "translated"
+                      ],
+                      "begin": null,
+                      "direction": "forward",
+                      "end": null,
+                      "ended": false,
+                      "source-credit": "",
+                      "target-credit": "",
+                      "target-type": "work",
+                      "type": "other version",
+                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                      "work": {
+                        "attributes": [],
+                        "disambiguation": "Italian version",
+                        "id": "44f6c9f6-74bf-4ffb-a983-52c4018e6bf4",
+                        "iswcs": [],
+                        "language": null,
+                        "languages": [],
+                        "rating": {
+                          "value": null,
+                          "votes-count": 0
+                        },
+                        "title": "Rossetto sul colletto",
                         "type": "Song",
                         "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                       }
@@ -4979,7 +4870,7 @@
                       "work": {
                         "attributes": [],
                         "disambiguation": "",
-                        "id": "852328b7-302e-4888-b597-b21248ef43d8",
+                        "id": "e6fa623c-e9ff-45c9-bdee-d1cf01ea4d75",
                         "iswcs": [],
                         "language": null,
                         "languages": [],
@@ -4987,40 +4878,7 @@
                           "value": null,
                           "votes-count": 0
                         },
-                        "title": "\u30ab\u30e9\u30fc\u306b\u53e3\u7d05",
-                        "type": "Song",
-                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
-                      }
-                    },
-                    {
-                      "attribute-ids": {
-                        "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
-                      },
-                      "attribute-values": {},
-                      "attributes": [
-                        "translated"
-                      ],
-                      "begin": null,
-                      "direction": "forward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "work",
-                      "type": "other version",
-                      "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
-                      "work": {
-                        "attributes": [],
-                        "disambiguation": "Italian version",
-                        "id": "44f6c9f6-74bf-4ffb-a983-52c4018e6bf4",
-                        "iswcs": [],
-                        "language": null,
-                        "languages": [],
-                        "rating": {
-                          "value": null,
-                          "votes-count": 0
-                        },
-                        "title": "Rossetto sul colletto",
+                        "title": "Lipstick op je boordje",
                         "type": "Song",
                         "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
                       }
@@ -5055,7 +4913,15 @@
               },
               {
                 "count": 1,
+                "name": "pop rock"
+              },
+              {
+                "count": 1,
                 "name": "rock"
+              },
+              {
+                "count": 1,
+                "name": "rock & roll"
               },
               {
                 "count": 1,
@@ -5166,6 +5032,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "genres": [
                   {
@@ -5181,7 +5048,7 @@
                     "name": "country pop"
                   },
                   {
-                    "count": 1,
+                    "count": 2,
                     "disambiguation": "",
                     "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
                     "name": "pop"
@@ -5209,7 +5076,7 @@
                 "name": "The Everly Brothers",
                 "rating": {
                   "value": 5,
-                  "votes-count": 1
+                  "votes-count": 2
                 },
                 "sort-name": "Everly Brothers, The",
                 "tags": [
@@ -5222,7 +5089,7 @@
                     "name": "country pop"
                   },
                   {
-                    "count": 1,
+                    "count": 2,
                     "name": "pop"
                   },
                   {
@@ -5281,12 +5148,13 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "091ec508-877f-4e3c-92a3-10903bbbc7ad",
                   "name": "The Everly Brothers",
                   "rating": {
                     "value": 5,
-                    "votes-count": 1
+                    "votes-count": 2
                   },
                   "sort-name": "Everly Brothers, The",
                   "type": "Group",
@@ -5351,6 +5219,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "e008fbcd-cbe6-40af-a89f-581ba041b5ba",
                         "name": "Don Everly",
@@ -5377,6 +5246,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "e008fbcd-cbe6-40af-a89f-581ba041b5ba",
                         "name": "Don Everly",
@@ -5400,42 +5270,6 @@
                       "target-type": "artist",
                       "type": "lyricist",
                       "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "secondhandsongs",
-                      "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
-                      "url": {
-                        "id": "d3e4fe81-4992-4078-95e6-8fdd792523c6",
-                        "resource": "https://secondhandsongs.com/work/47924"
-                      }
-                    },
-                    {
-                      "attribute-ids": {},
-                      "attribute-values": {},
-                      "attributes": [],
-                      "begin": null,
-                      "direction": "backward",
-                      "end": null,
-                      "ended": false,
-                      "source-credit": "",
-                      "target-credit": "",
-                      "target-type": "url",
-                      "type": "wikidata",
-                      "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
-                      "url": {
-                        "id": "e59f45d3-c019-4bd2-ad78-e85da77b4ce5",
-                        "resource": "https://www.wikidata.org/wiki/Q4544892"
-                      }
                     },
                     {
                       "attribute-ids": {
@@ -5487,7 +5321,7 @@
                 "name": "rock and roll"
               }
             ],
-            "title": "(\u2019Til) I Kissed You",
+            "title": "(Til) I Kissed You",
             "video": false
           },
           "title": "\u2019Til I Kissed You"
@@ -5509,6 +5343,7 @@
                     "type-id": null
                   }
                 ],
+                "country": "US",
                 "disambiguation": "",
                 "genres": [
                   {
@@ -5607,6 +5442,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "b02cc1b7-35ef-4804-9678-e95085e106ae",
                   "name": "Jan & Dean",
@@ -5665,6 +5501,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "fcb16d6e-a427-4de1-826d-fa059130c245",
                         "name": "Melvin Schwartz",
@@ -5691,6 +5528,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "fcb16d6e-a427-4de1-826d-fa059130c245",
                         "name": "Melvin Schwartz",
@@ -5734,26 +5572,7 @@
   "packaging": "Jewel Case",
   "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
   "quality": "normal",
-  "relations": [
-    {
-      "attribute-ids": {},
-      "attribute-values": {},
-      "attributes": [],
-      "begin": null,
-      "direction": "forward",
-      "end": null,
-      "ended": false,
-      "source-credit": "",
-      "target-credit": "",
-      "target-type": "url",
-      "type": "amazon asin",
-      "type-id": "4f2e710d-166c-480c-a293-2e2c8d658d87",
-      "url": {
-        "id": "d6415940-1ebe-4310-acd9-c42540cabbd3",
-        "resource": "https://www.amazon.com/gp/product/B00005NEKI"
-      }
-    }
-  ],
+  "relations": [],
   "release-group": {
     "aliases": [],
     "artist-credit": [
@@ -5898,7 +5717,7 @@
               "ended": false,
               "locale": "fr",
               "name": "Artistes vari\u00e9s",
-              "primary": true,
+              "primary": false,
               "sort-name": "Artistes vari\u00e9s",
               "type": null,
               "type-id": null
@@ -5985,6 +5804,17 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "Bassrush",
+              "primary": null,
+              "sort-name": "Bassrush",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "Battle of the Bits",
               "primary": null,
               "sort-name": "Battle of the Bits",
@@ -6051,9 +5881,31 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "Christmas Karma",
+              "primary": null,
+              "sort-name": "Christmas Karma",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "Circus Records",
               "primary": null,
               "sort-name": "Records, Circus",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Coala.Records",
+              "primary": null,
+              "sort-name": "Coala Records",
               "type": null,
               "type-id": null
             },
@@ -6303,12 +6155,34 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": null,
+              "name": "EXIT TUNES/PONY CANYON",
+              "primary": null,
+              "sort-name": "EXIT TUNES/PONY CANYON",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Encrypted Audio",
+              "primary": null,
+              "sort-name": "Encrypted Audio",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "fi",
               "name": "Eri esitt\u00e4ji\u00e4",
               "primary": true,
               "sort-name": "Eri esitt\u00e4ji\u00e4",
-              "type": null,
-              "type-id": null
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -6337,9 +6211,75 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "Ferkels grosses Abenteuer",
+              "primary": null,
+              "sort-name": "Ferkels grosee Abenteuer",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "Fitness Workout Music",
               "primary": null,
               "sort-name": "Fitness Workout Music",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Goths For Palestine",
+              "primary": null,
+              "sort-name": "Goths For Palestine",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": "eu",
+              "name": "Hainbat artista",
+              "primary": true,
+              "sort-name": "Hainbat artista",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Hazbin Hotel",
+              "primary": null,
+              "sort-name": "Hazbin Hotel",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Helluva Boss",
+              "primary": null,
+              "sort-name": "Helluva Boss",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Hitradio \u00d63",
+              "primary": null,
+              "sort-name": "Hitradio \u00d63",
               "type": null,
               "type-id": null
             },
@@ -6403,6 +6343,28 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "KC101\u2014Connecticut's #1 Hit Music Station",
+              "primary": null,
+              "sort-name": "KC101",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "KZOK 102.5FM",
+              "primary": null,
+              "sort-name": "KZOK 102.5 FM",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "La Historia de la Fania",
               "primary": null,
               "sort-name": "Historia de la Fania, La",
@@ -6419,6 +6381,17 @@
               "sort-name": "MDB",
               "type": "Search hint",
               "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "MUSIC STUDY PROJECT",
+              "primary": null,
+              "sort-name": "MUSIC STUDY PROJECT",
+              "type": null,
+              "type-id": null
             },
             {
               "begin": null,
@@ -6503,10 +6476,10 @@
               "ended": false,
               "locale": "fr",
               "name": "Multi\u2010interpr\u00e8tes",
-              "primary": false,
+              "primary": true,
               "sort-name": "Multi\u2010interpr\u00e8tes",
-              "type": null,
-              "type-id": null
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -6529,6 +6502,17 @@
               "sort-name": "Multi\u2010interpr\u00e8tes",
               "type": "Search hint",
               "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Nhi\u1ec1u Ngh\u1ec7 S\u0129",
+              "primary": null,
+              "sort-name": "Nhi\u1ec1u Ngh\u1ec7 S\u0129",
+              "type": null,
+              "type-id": null
             },
             {
               "begin": null,
@@ -6568,17 +6552,6 @@
               "end": null,
               "ended": false,
               "locale": null,
-              "name": "OST",
-              "primary": null,
-              "sort-name": "OST",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
               "name": "Omnibus",
               "primary": null,
               "sort-name": "Omnibus",
@@ -6589,12 +6562,12 @@
               "begin": null,
               "end": null,
               "ended": false,
-              "locale": null,
-              "name": "Planets Of The Universe",
-              "primary": null,
-              "sort-name": "Planets Of The Universe",
-              "type": null,
-              "type-id": null
+              "locale": "eo",
+              "name": "Pluraj artistoj",
+              "primary": true,
+              "sort-name": "Pluraj artistoj",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -6688,6 +6661,17 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": null,
+              "name": "Rossmann",
+              "primary": null,
+              "sort-name": "Rossmann",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "pl",
               "name": "R\u00f3\u017cni",
               "primary": false,
@@ -6721,6 +6705,17 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": "cs",
+              "name": "R\u016fzn\u00ed interpreti",
+              "primary": true,
+              "sort-name": "R\u016fzn\u00ed interpreti",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "en",
               "name": "Sampler",
               "primary": false,
@@ -6736,6 +6731,17 @@
               "name": "Siren Cues",
               "primary": null,
               "sort-name": "Siren Cues",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "Skratch 'N Sniff",
+              "primary": null,
+              "sort-name": "Skratch 'N Sniff",
               "type": null,
               "type-id": null
             },
@@ -6857,28 +6863,6 @@
               "name": "V/a",
               "primary": null,
               "sort-name": "V/a",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": "en",
-              "name": "VA",
-              "primary": false,
-              "sort-name": "VA",
-              "type": "Artist name",
-              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "VA",
-              "primary": null,
-              "sort-name": "VA",
               "type": "Search hint",
               "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
             },
@@ -7145,17 +7129,6 @@
               "sort-name": "Various Artists",
               "type": null,
               "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": "he",
-              "name": "Various Artists",
-              "primary": true,
-              "sort-name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
-              "type": "Artist name",
-              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -7470,6 +7443,17 @@
               "end": null,
               "ended": false,
               "locale": "de",
+              "name": "Verschiedene Interpret:innen",
+              "primary": false,
+              "sort-name": "Verschiedene Interpret:innen",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": "de",
               "name": "Verschiedene Interpreten",
               "primary": false,
               "sort-name": "Verschiedene Interpreten",
@@ -7536,9 +7520,31 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "War Child Records",
+              "primary": null,
+              "sort-name": "War Child Records",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "WiddFam",
               "primary": null,
               "sort-name": "WiddFam",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "WitChoirRecords",
+              "primary": null,
+              "sort-name": "WitChoirRecords",
               "type": null,
               "type-id": null
             },
@@ -7596,6 +7602,17 @@
               "sort-name": "div.",
               "type": "Search hint",
               "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": "ca",
+              "name": "diversos artistes",
+              "primary": true,
+              "sort-name": "diversos artistes",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -7701,6 +7718,17 @@
               "end": null,
               "ended": false,
               "locale": null,
+              "name": "\u015awiatowe Przeboje",
+              "primary": null,
+              "sort-name": "Przeboje, \u015awiatowe",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
               "name": "\u038c\u03bb\u03bf\u03b9",
               "primary": null,
               "sort-name": "\u038c\u03bb\u03bf\u03b9",
@@ -7722,6 +7750,17 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": "bg",
+              "name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0438\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
+              "primary": true,
+              "sort-name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0438\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "ru",
               "name": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u0438",
               "primary": false,
@@ -7733,10 +7772,21 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": "mk",
+              "name": "\u0420\u0430\u0437\u043d\u0438 \u0438\u0437\u0432\u0435\u0434\u0443\u0432\u0430\u0447\u0438",
+              "primary": false,
+              "sort-name": "Razni izveduva\u010di",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "ru",
               "name": "\u0420\u0430\u0437\u043d\u044b\u0435 \u0430\u0440\u0442\u0438\u0441\u0442\u044b",
               "primary": true,
-              "sort-name": "Raznye artisty",
+              "sort-name": "\u0420\u0430\u0437\u043d\u044b\u0435 \u0430\u0440\u0442\u0438\u0441\u0442\u044b",
               "type": null,
               "type-id": null
             },
@@ -7766,10 +7816,54 @@
               "begin": null,
               "end": null,
               "ended": false,
+              "locale": "be",
+              "name": "\u0440\u043e\u0437\u043d\u044b\u044f \u0432\u044b\u043a\u0430\u043d\u0430\u045e\u0446\u044b",
+              "primary": true,
+              "sort-name": "\u0440\u043e\u0437\u043d\u044b\u044f \u0432\u044b\u043a\u0430\u043d\u0430\u045e\u0446\u044b",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
               "locale": "uk",
               "name": "\u0440\u0456\u0437\u043d\u0438\u0445 \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0446\u0456\u0432",
               "primary": false,
               "sort-name": "\u0440\u0456\u0437\u043d\u0438\u0445 \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0446\u0456\u0432",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": "he",
+              "name": "\u05d0\u05d5\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+              "primary": false,
+              "sort-name": "\u05d0\u05d5\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+              "type": null,
+              "type-id": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": "he",
+              "name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+              "primary": true,
+              "sort-name": "\u05d0\u05de\u05e0\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd",
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "locale": null,
+              "name": "\u05db\u05dc \u05d4\u05de\u05e9\u05ea\u05ea\u05e4\u05d9\u05dd",
+              "primary": null,
+              "sort-name": "\u05d4\u05de\u05e9\u05ea\u05ea\u05e4\u05d9\u05dd, \u05db\u05dc",
               "type": null,
               "type-id": null
             },
@@ -7792,8 +7886,8 @@
               "name": "\u0647\u0646\u0631\u0645\u0646\u062f\u0627\u0646 \u0645\u062e\u062a\u0644\u0641",
               "primary": true,
               "sort-name": "\u0647\u0646\u0631\u0645\u0646\u062f\u0627\u0646 \u0645\u062e\u062a\u0644\u0641",
-              "type": null,
-              "type-id": null
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
             },
             {
               "begin": null,
@@ -7876,166 +7970,12 @@
               "begin": null,
               "end": null,
               "ended": false,
-              "locale": null,
-              "name": "\u4e16\u754c\u5c0f\u59d0",
-              "primary": null,
-              "sort-name": "\u4e16\u754c\u5c0f\u59d0",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u539f\u58f0\u5e26",
-              "primary": null,
-              "sort-name": "\u539f\u58f0\u5e26",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": "zh",
-              "name": "\u5408\u8f2f",
-              "primary": false,
-              "sort-name": "\u5408\u8f2f",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-              "primary": null,
-              "sort-name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-              "primary": null,
-              "sort-name": "\u591a\u4f4d\u827a\u672f\u5bb6",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u591a\u4f4d\u85dd\u8853\u5bb6",
-              "primary": null,
-              "sort-name": "\u591a\u4f4d\u85dd\u8853\u5bb6",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u5929\u5a31\u7fa4\u661f",
-              "primary": null,
-              "sort-name": "Various Artists from TianYu",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u5bf6\u9e97\u91d1\u53f0\u7063\u7fa4\u661f",
-              "primary": null,
-              "sort-name": "Various Artists from Polygram Taiwan",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u5bf6\u9e97\u91d1\u7fa4\u661f",
-              "primary": null,
-              "sort-name": "Various Artists from Polygram",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u5f71\u89c6\u539f\u58f0",
-              "primary": null,
-              "sort-name": "\u5f71\u89c6\u539f\u58f0",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u6b4c\u624b",
-              "primary": null,
-              "sort-name": "\u6b4c\u624b",
-              "type": "Search hint",
-              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u74b0\u7403\u7fa4\u661f",
-              "primary": null,
-              "sort-name": "\u74b0\u7403\u7fa4\u661f",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
               "locale": "zh",
               "name": "\u7fa4\u661f",
               "primary": true,
-              "sort-name": "Qun xing",
-              "type": null,
-              "type-id": null
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": "zh_Hans",
-              "name": "\u7fa4\u661f",
-              "primary": true,
-              "sort-name": "Qun Xing",
+              "sort-name": "\u7fa4\u661f",
               "type": "Artist name",
               "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
-            },
-            {
-              "begin": null,
-              "end": null,
-              "ended": false,
-              "locale": null,
-              "name": "\u83ef\u7d0d\u7fa4\u661f",
-              "primary": null,
-              "sort-name": "Various Artists from WEA",
-              "type": null,
-              "type-id": null
             },
             {
               "begin": null,
@@ -8060,12 +8000,13 @@
               "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
             }
           ],
+          "country": null,
           "disambiguation": "add compilations to this artist",
           "id": "89ad4ac3-39f7-470e-963a-56509c546377",
           "name": "Various Artists",
           "rating": {
-            "value": 3.85,
-            "votes-count": 29
+            "value": 4.05,
+            "votes-count": 34
           },
           "sort-name": "Various Artists",
           "type": "Other",
@@ -8085,7 +8026,6 @@
       "value": null,
       "votes-count": 0
     },
-    "relations": [],
     "secondary-type-ids": [
       "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
     ],

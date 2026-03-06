@@ -1,8 +1,236 @@
 {
-  "count": 32,
-  "created": "2024-10-06T15:46:32.481Z",
+  "count": 43,
+  "created": "2026-03-06T19:33:44.667Z",
   "offset": 0,
   "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
+            "name": "Pomplamoose",
+            "sort-name": "Pomplamoose"
+          },
+          "name": "Pomplamoose"
+        }
+      ],
+      "artist-credit-id": "278b9d4b-4d4a-37af-9b5b-1dea859c73f9",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-03-18",
+      "id": "c4a8f130-5c44-454e-9e06-282e4053b0a0",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "ffd8ab2a-4441-3f7f-aca3-0f80656b77ed",
+          "track-count": 1
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-03-18"
+        }
+      ],
+      "release-group": {
+        "id": "c83a6101-3f33-4630-844f-c7562b3e5d2e",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "3744392f-b326-45d4-95ac-d7ac86a5bb4d",
+            "name": "Jennifer Jess",
+            "sort-name": "Jess, Jennifer"
+          },
+          "joinphrase": " & ",
+          "name": "Jennifer Jess"
+        },
+        {
+          "artist": {
+            "id": "6dcf8116-e700-4df5-a0cd-632909122c94",
+            "name": "Caleb Hicks",
+            "sort-name": "Hicks, Caleb"
+          },
+          "name": "Caleb Hicks"
+        }
+      ],
+      "artist-credit-id": "a62b6e47-a2b9-459f-8fcf-3bd671082032",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-06-11",
+      "id": "84cf481d-6203-4025-a4b1-52af8c6fb280",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "e1c4f886-de02-33e8-bb54-5007fdb8ff73",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-06-11"
+        }
+      ],
+      "release-group": {
+        "id": "2e69bb1d-613d-4b74-8702-adfc39a0beae",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "0c55ff38-946c-4be1-8210-e89cd9fb651a",
+            "name": "Fiona Greenly",
+            "sort-name": "Greenly, Fiona"
+          },
+          "name": "Fiona Greenly"
+        }
+      ],
+      "artist-credit-id": "8c7ad086-5aed-4290-8666-f044d6ef9053",
+      "count": 1,
+      "id": "87102373-8a6c-4cbb-a2b1-062c7fdda66f",
+      "label-info": [
+        {
+          "label": {
+            "id": "f987ae1a-c94e-4150-94db-92202f53210a",
+            "name": "K\u012bb\u014ddo Music"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "992a960f-8ab6-344f-8fc2-d8502615fa07",
+          "track-count": 1
+        }
+      ],
+      "release-group": {
+        "id": "3e46cf0d-775a-428f-9bcc-55b91a40aef9",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "emo pop-rock",
+            "id": "f98620d4-c763-4efb-b1be-c26e15fa98e9",
+            "name": "jxdn",
+            "sort-name": "jxdn"
+          },
+          "name": "jxdn"
+        }
+      ],
+      "artist-credit-id": "45577bba-cc48-3acc-8b7b-c2af1ffacb3e",
+      "barcode": "075679791948",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-19",
+      "id": "75bc4628-73c9-4069-b99d-8c35c8c8ec76",
+      "label-info": [
+        {
+          "label": {
+            "id": "cc2b9f5f-1f99-49b2-8f3f-19c7c92206c7",
+            "name": "DTA Records"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "b2619c85-5f5b-3b11-a2e7-93583fecc978",
+          "track-count": 6
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-19"
+        }
+      ],
+      "release-group": {
+        "id": "5e6cd7ef-21c6-44d2-88b2-274c49ae51a5",
+        "primary-type": "EP",
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "title": "drivers license",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 6
+    },
     {
       "artist-credit": [
         {
@@ -15,11 +243,13 @@
           "name": "Claire Annabeth"
         }
       ],
+      "artist-credit-id": "c89ca068-ab21-3ebd-94ea-8ef4b2f3ab75",
       "count": 1,
       "id": "f33dd086-e3dc-47b0-8f35-671f189199e2",
       "media": [
         {
           "disc-count": 0,
+          "id": "cb82cce7-1093-3e9a-9844-d23640455506",
           "track-count": 1
         }
       ],
@@ -44,6 +274,1023 @@
       "artist-credit": [
         {
           "artist": {
+            "id": "289ef89d-a97d-4c3a-88d5-ab8fcd85c1fa",
+            "name": "Coco Quinn",
+            "sort-name": "Quinn, Coco"
+          },
+          "name": "Coco Quinn"
+        }
+      ],
+      "artist-credit-id": "400c5139-e61d-4192-a9fe-72b8ba2ba460",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-14",
+      "id": "9a6797a1-7885-47e3-a3b5-c805ca056f48",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "1950f9bf-a7f5-3852-ae08-77ee10049123",
+          "track-count": 1
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-14"
+        }
+      ],
+      "release-group": {
+        "id": "9f1c6e8d-5ab1-46b9-8ecc-756603cf7df4",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "bbd91979-d0f8-4ac4-a6e6-3c372da17d40",
+            "name": "Dennis Rodrigues",
+            "sort-name": "Dennis Rodrigues"
+          },
+          "name": "Dennis Rodrigues"
+        }
+      ],
+      "artist-credit-id": "3c6902c5-ec1b-4f70-81c1-184ebff2e762",
+      "count": 1,
+      "id": "755cbf1e-6a90-452d-9ad0-e8173aecd7ae",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "41760690-6bf7-3bab-9f21-ca8e63419194",
+          "track-count": 1
+        }
+      ],
+      "release-group": {
+        "id": "f1c065b2-65cb-496b-b38a-614a66495ba5",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "baritone for Home Free",
+            "id": "7a6021ad-a51a-4cf7-8379-2d9c7ca06608",
+            "name": "Adam Chance",
+            "sort-name": "Chance, Adam"
+          },
+          "name": "Adam Chance"
+        }
+      ],
+      "artist-credit-id": "7a0bc91b-4815-4e53-9945-315114683384",
+      "barcode": "198001476297",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-09-28",
+      "id": "91db56c7-5ee6-48e0-87d4-64ca6fe0e738",
+      "label-info": [
+        {
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "9642f937-0853-361c-9e85-85e17f59aa4a",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-09-28"
+        }
+      ],
+      "release-group": {
+        "id": "2c68bd24-e706-47a4-800f-c497af346f66",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "8cae46d4-3df3-4211-85ff-5cf3be605587",
+            "name": "RickyJab",
+            "sort-name": "RickyJab"
+          },
+          "joinphrase": ", ",
+          "name": "RickyJab"
+        },
+        {
+          "artist": {
+            "id": "9ad330cf-9e2f-4698-9bb9-c526211301b9",
+            "name": "Cali Rodi",
+            "sort-name": "Rodi, Cali"
+          },
+          "joinphrase": " & ",
+          "name": "Cali Rodi"
+        },
+        {
+          "artist": {
+            "id": "1ff8dc3d-3099-40e7-9cf6-2cb38d35ce9c",
+            "name": "Ben Carey",
+            "sort-name": "Carey, Ben"
+          },
+          "name": "Ben Carey"
+        }
+      ],
+      "artist-credit-id": "5fef5d5a-c19d-4d06-afd3-d2afa2380fa9",
+      "barcode": "195937514536",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-05",
+      "id": "0085ce91-1808-431c-ac31-a68f6fafcc84",
+      "label-info": [
+        {
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "9171767d-1e54-3c8f-a1a2-ca8c0bab8efe",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-05"
+        }
+      ],
+      "release-group": {
+        "id": "59f79b9b-5a1a-4c2e-9988-d041294f76ca",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "norwegian group",
+            "id": "01835ecf-333d-4b06-902f-f84b6c056fd4",
+            "name": "KEiiNO",
+            "sort-name": "KEiiNO"
+          },
+          "name": "KEiiNO"
+        }
+      ],
+      "artist-credit-id": "45d0eedf-070b-3b21-bd75-a71f58d7b7b3",
+      "barcode": "602438198320",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-04-09",
+      "id": "fa9ce3ad-eb50-45d3-8fae-f9291084dd13",
+      "label-info": [
+        {
+          "label": {
+            "id": "7794e7e7-97f1-45bb-81e6-8b6eb1884db2",
+            "name": "Virgin Music Label & Artist Services"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "f4e97e22-7f0a-33b3-8fe4-d7c487ef9674",
+          "track-count": 2
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-04-09"
+        }
+      ],
+      "release-group": {
+        "id": "40d90593-7d58-4fec-9134-75abc2f5e17f",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "DRIVERS LICENSE",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "DRIVERS LICENSE",
+      "track-count": 2
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "986f3ed2-441e-4db4-8d9f-4468865ac524",
+            "name": "Mansions",
+            "sort-name": "Mansions"
+          },
+          "name": "Mansions"
+        }
+      ],
+      "artist-credit-id": "c4fae4a7-0d70-3104-afd8-ca2459cc3c55",
+      "barcode": "8720205830609",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-07-30",
+      "id": "cdd6bb9f-96a2-483d-a106-4198af57c58a",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "4508c537-3dae-3125-9e42-4fc2410468e2",
+          "track-count": 2
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-07-30"
+        }
+      ],
+      "release-group": {
+        "id": "18d3764a-49c1-4966-98a5-8815e8ba3173",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 2
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "5466b02a-4465-4e87-b372-584cd5f97bff",
+            "name": "Our Last Night",
+            "sort-name": "Our Last Night"
+          },
+          "name": "Our Last Night"
+        }
+      ],
+      "artist-credit-id": "11565ec3-1cb5-38f4-9717-57fee548f945",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-18",
+      "id": "91a4874f-49c6-45c7-a85f-12c8a3d9bcf0",
+      "label-info": [
+        {
+          "label": {
+            "id": "215a7f90-c61e-4051-8e4f-3366524d1a22",
+            "name": "OLN Recordings"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "c915a996-d019-3a91-b810-f3cf57d64fc5",
+          "track-count": 1
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-18"
+        }
+      ],
+      "release-group": {
+        "id": "da064272-cc4a-406b-90cc-f49df5a4aabe",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "5466b02a-4465-4e87-b372-584cd5f97bff",
+            "name": "Our Last Night",
+            "sort-name": "Our Last Night"
+          },
+          "name": "Our Last Night"
+        }
+      ],
+      "artist-credit-id": "11565ec3-1cb5-38f4-9717-57fee548f945",
+      "barcode": "195940982483",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-18",
+      "id": "0dd85e79-364b-4272-a033-173f59062ada",
+      "label-info": [
+        {
+          "label": {
+            "id": "215a7f90-c61e-4051-8e4f-3366524d1a22",
+            "name": "OLN Recordings"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "461e19b3-913a-38a7-9d82-04367b3b3389",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-18"
+        }
+      ],
+      "release-group": {
+        "id": "da064272-cc4a-406b-90cc-f49df5a4aabe",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "emo pop-rock",
+            "id": "f98620d4-c763-4efb-b1be-c26e15fa98e9",
+            "name": "jxdn",
+            "sort-name": "jxdn"
+          },
+          "name": "jxdn"
+        }
+      ],
+      "artist-credit-id": "45577bba-cc48-3acc-8b7b-c2af1ffacb3e",
+      "barcode": "075679791955",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-19",
+      "id": "af1cc413-b88e-4eb7-bb35-9b1711d51bc3",
+      "label-info": [
+        {
+          "label": {
+            "id": "cc2b9f5f-1f99-49b2-8f3f-19c7c92206c7",
+            "name": "DTA Records"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "e7ca8ca2-2b2d-39c9-8586-e07db927cef8",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-19"
+        }
+      ],
+      "release-group": {
+        "id": "140f7e6c-442a-4723-bebd-a666d615c9fb",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "89a707c3-aab6-4f37-b181-fce7ad54ea6f",
+            "name": "Bardcore",
+            "sort-name": "Bardcore"
+          },
+          "name": "Bardcore"
+        }
+      ],
+      "artist-credit-id": "ef05655b-fe7a-48a9-9eea-510f82689bdc",
+      "count": 1,
+      "country": "US",
+      "date": "2022-02-10",
+      "id": "4d4bb31d-6084-49d4-9473-f75456a9a6c1",
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "be8b731b-f5cd-356c-9d8d-5948a23d8632",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States"
+          },
+          "date": "2022-02-10"
+        }
+      ],
+      "release-group": {
+        "id": "60a5004d-26b5-458a-ae5d-4e0e707d7208",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "3744392f-b326-45d4-95ac-d7ac86a5bb4d",
+            "name": "Jennifer Jess",
+            "sort-name": "Jess, Jennifer"
+          },
+          "joinphrase": " & ",
+          "name": "Jennifer Jess"
+        },
+        {
+          "artist": {
+            "id": "6dcf8116-e700-4df5-a0cd-632909122c94",
+            "name": "Caleb Hicks",
+            "sort-name": "Hicks, Caleb"
+          },
+          "name": "Caleb Hicks"
+        }
+      ],
+      "artist-credit-id": "a62b6e47-a2b9-459f-8fcf-3bd671082032",
+      "barcode": "196251963710",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-06-11",
+      "id": "aba500a2-2615-4220-b120-dc6145536656",
+      "label-info": [
+        {
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "b2f93539-ffc3-3d3f-b3ca-7fc568ec26b2",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-06-11"
+        }
+      ],
+      "release-group": {
+        "id": "2e69bb1d-613d-4b74-8702-adfc39a0beae",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "Belgian cover band w/ Joeri Mellaerts",
+            "id": "cc673d9c-afcd-4865-880f-dc2b737d6fdb",
+            "name": "BYNK",
+            "sort-name": "BYNK"
+          },
+          "name": "BYNK"
+        }
+      ],
+      "artist-credit-id": "4b6cdcb0-21c0-4c2d-b66b-1fd91b2826f1",
+      "barcode": "190296787546",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-12",
+      "id": "cae0d914-f49b-4ae2-8511-01695461e307",
+      "label-info": [
+        {
+          "label": {
+            "id": "350263af-5f01-47ee-a6ff-4cc889cf996a",
+            "name": "Absolute"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "4bf7c6f9-711a-32b7-91f8-4f338eb9a5ec",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-12"
+        }
+      ],
+      "release-group": {
+        "id": "91712a0a-c805-46c4-999d-4d6390448893",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "536a63a4-0d31-46d3-932c-d9b25e30ea97",
+            "name": "Halocene",
+            "sort-name": "Halocene"
+          },
+          "name": "Halocene"
+        }
+      ],
+      "artist-credit-id": "0aa576e4-9256-30f1-b493-206ec5c021e4",
+      "barcode": "195937270890",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-12",
+      "id": "14236c2c-0c64-4ecc-ac38-0a9d58d75d34",
+      "label-info": [
+        {
+          "label": {
+            "id": "c05a3a11-412c-45a8-b2d7-eba2e855628c",
+            "name": "Halocene"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "962ece0e-d3f6-308e-a31f-df08a4a2f9b6",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-12"
+        }
+      ],
+      "release-group": {
+        "id": "749da658-ce64-48b8-9dea-6a9d98f30cd1",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Drivers License",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Drivers License",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "1f78331a-324a-482b-aa5e-f346f17a3488",
+            "name": "Andie Case",
+            "sort-name": "Case, Andie"
+          },
+          "name": "Andie Case"
+        }
+      ],
+      "artist-credit-id": "077d52b9-c5b3-313f-970f-9e41c8b141e9",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-27",
+      "id": "cf1e62ae-52f0-468e-a59c-791de0427642",
+      "label-info": [
+        {
+          "label": {
+            "id": "fae733ad-97a5-4c9f-b5bb-a1c7c841a6f1",
+            "name": "Mud Hut"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "dff73d38-95df-3e02-8768-25c956631f74",
+          "track-count": 1
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-27"
+        }
+      ],
+      "release-group": {
+        "id": "36e57b00-1f3a-41b8-a762-c75ce4adde73",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "a586e6fd-4fa4-47cc-a497-0b69a5acbbee",
+            "name": "Lunity",
+            "sort-name": "Lunity"
+          },
+          "name": "Lunity"
+        }
+      ],
+      "artist-credit-id": "4ac6bab8-56af-4824-bf21-3f713d304d2c",
+      "barcode": "195937792101",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-28",
+      "id": "7959357b-1252-4ae9-813d-32c942bf4e08",
+      "label-info": [
+        {
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "1be3b800-89b5-34a2-bb68-42e2490db334",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-28"
+        }
+      ],
+      "release-group": {
+        "id": "89c66ca7-3d55-4b4f-8d33-466c1ae06d25",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "id": "93ba42f8-10c5-4865-9ca1-e7e7a5c9f389",
+            "name": "Kurt Hugo Schneider",
+            "sort-name": "Schneider, Kurt Hugo"
+          },
+          "joinphrase": " & ",
+          "name": "Kurt Hugo Schneider"
+        },
+        {
+          "artist": {
+            "id": "9b92b0c8-b87f-470b-880a-40181065583a",
+            "name": "Madilyn Bailey",
+            "sort-name": "Bailey, Madilyn"
+          },
+          "name": "Madilyn"
+        }
+      ],
+      "artist-credit-id": "c10e1b3a-4342-40c8-9b27-9e08aaea08d0",
+      "barcode": "5052917033768",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-02-08",
+      "id": "3d402da9-2375-4825-b2ca-6e798242c6fc",
+      "label-info": [
+        {
+          "label": {
+            "id": "fae733ad-97a5-4c9f-b5bb-a1c7c841a6f1",
+            "name": "Mud Hut"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "8a3cc1dc-32e3-3162-8dd5-df51a1fa9712",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-02-08"
+        }
+      ],
+      "release-group": {
+        "id": "3f293032-42dd-438e-8920-bfe700c878d7",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "US singer\u2010songwriter",
             "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
             "name": "Olivia Rodrigo",
             "sort-name": "Rodrigo, Olivia"
@@ -51,6 +1298,208 @@
           "name": "Olivia Rodrigo"
         }
       ],
+      "artist-credit-id": "8bbbaf6c-f073-33d2-8627-16562847d9fa",
+      "barcode": "00602435640105",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-08",
+      "disambiguation": "clean",
+      "id": "5bc7d7fb-4fc5-4da9-ab84-63f42189d094",
+      "label-info": [
+        {
+          "label": {
+            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
+            "name": "Olivia Rodrigo PS"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "1fba8ad7-837f-3859-b277-d7eab232cbc1",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-08"
+        }
+      ],
+      "release-group": {
+        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "US singer\u2010songwriter",
+            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
+            "name": "Olivia Rodrigo",
+            "sort-name": "Rodrigo, Olivia"
+          },
+          "name": "Olivia Rodrigo"
+        }
+      ],
+      "artist-credit-id": "8bbbaf6c-f073-33d2-8627-16562847d9fa",
+      "barcode": "00602435678641",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-08",
+      "disambiguation": "music video",
+      "id": "3c6d900e-13e8-4d52-a504-08a0d65f7084",
+      "label-info": [
+        {
+          "label": {
+            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
+            "name": "Olivia Rodrigo PS"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "15edc0a8-586f-3fdf-b973-8b07c2a24b96",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-08"
+        }
+      ],
+      "release-group": {
+        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "US singer\u2010songwriter",
+            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
+            "name": "Olivia Rodrigo",
+            "sort-name": "Rodrigo, Olivia"
+          },
+          "name": "Olivia Rodrigo"
+        }
+      ],
+      "artist-credit-id": "8bbbaf6c-f073-33d2-8627-16562847d9fa",
+      "barcode": "00602435640075",
+      "count": 1,
+      "country": "XW",
+      "date": "2021-01-08",
+      "disambiguation": "explicit",
+      "id": "2f147a4b-7a77-4f5e-a1f3-346f54c5879a",
+      "label-info": [
+        {
+          "label": {
+            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
+            "name": "Olivia Rodrigo PS"
+          }
+        }
+      ],
+      "media": [
+        {
+          "disc-count": 0,
+          "format": "Digital Media",
+          "id": "ffa786ec-0aa8-3fdb-8598-1bdf26fe04b0",
+          "track-count": 1
+        }
+      ],
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]"
+          },
+          "date": "2021-01-08"
+        }
+      ],
+      "release-group": {
+        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
+        "primary-type": "Single",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "drivers license",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
+      },
+      "score": 100,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "drivers license",
+      "track-count": 1
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "US singer\u2010songwriter",
+            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
+            "name": "Olivia Rodrigo",
+            "sort-name": "Rodrigo, Olivia"
+          },
+          "name": "Olivia Rodrigo"
+        }
+      ],
+      "artist-credit-id": "8bbbaf6c-f073-33d2-8627-16562847d9fa",
       "barcode": "0602435848211",
       "count": 1,
       "country": "AT",
@@ -69,6 +1518,7 @@
         {
           "disc-count": 0,
           "format": "CD",
+          "id": "fc773c01-69ef-364c-9292-fc86e26ca49d",
           "track-count": 3
         }
       ],
@@ -125,1448 +1575,6 @@
       },
       "title": "drivers license",
       "track-count": 3
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "emo pop-rock",
-            "id": "f98620d4-c763-4efb-b1be-c26e15fa98e9",
-            "name": "jxdn",
-            "sort-name": "jxdn"
-          },
-          "name": "jxdn"
-        }
-      ],
-      "barcode": "075679791955",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-19",
-      "id": "af1cc413-b88e-4eb7-bb35-9b1711d51bc3",
-      "label-info": [
-        {
-          "label": {
-            "id": "cc2b9f5f-1f99-49b2-8f3f-19c7c92206c7",
-            "name": "DTA Records"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-19"
-        }
-      ],
-      "release-group": {
-        "id": "140f7e6c-442a-4723-bebd-a666d615c9fb",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "baritone for Home Free",
-            "id": "7a6021ad-a51a-4cf7-8379-2d9c7ca06608",
-            "name": "Adam Chance",
-            "sort-name": "Chance, Adam"
-          },
-          "name": "Adam Chance"
-        }
-      ],
-      "barcode": "198001476297",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-09-28",
-      "id": "91db56c7-5ee6-48e0-87d4-64ca6fe0e738",
-      "label-info": [
-        {
-          "label": {
-            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
-            "name": "[no label]"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-09-28"
-        }
-      ],
-      "release-group": {
-        "id": "2c68bd24-e706-47a4-800f-c497af346f66",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "3744392f-b326-45d4-95ac-d7ac86a5bb4d",
-            "name": "Jennifer Jess",
-            "sort-name": "Jess, Jennifer"
-          },
-          "joinphrase": " & ",
-          "name": "Jennifer Jess"
-        },
-        {
-          "artist": {
-            "id": "6dcf8116-e700-4df5-a0cd-632909122c94",
-            "name": "Caleb Hicks",
-            "sort-name": "Hicks, Caleb"
-          },
-          "name": "Caleb Hicks"
-        }
-      ],
-      "count": 1,
-      "country": "XW",
-      "date": "2021-06-11",
-      "id": "84cf481d-6203-4025-a4b1-52af8c6fb280",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-06-11"
-        }
-      ],
-      "release-group": {
-        "id": "2e69bb1d-613d-4b74-8702-adfc39a0beae",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "emo pop-rock",
-            "id": "f98620d4-c763-4efb-b1be-c26e15fa98e9",
-            "name": "jxdn",
-            "sort-name": "jxdn"
-          },
-          "name": "jxdn"
-        }
-      ],
-      "barcode": "075679791948",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-19",
-      "id": "75bc4628-73c9-4069-b99d-8c35c8c8ec76",
-      "label-info": [
-        {
-          "label": {
-            "id": "cc2b9f5f-1f99-49b2-8f3f-19c7c92206c7",
-            "name": "DTA Records"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 6
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-19"
-        }
-      ],
-      "release-group": {
-        "id": "5e6cd7ef-21c6-44d2-88b2-274c49ae51a5",
-        "primary-type": "EP",
-        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
-        "title": "drivers license",
-        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 6
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "0c55ff38-946c-4be1-8210-e89cd9fb651a",
-            "name": "Fiona Greenly",
-            "sort-name": "Greenly, Fiona"
-          },
-          "name": "Fiona Greenly"
-        }
-      ],
-      "count": 1,
-      "id": "87102373-8a6c-4cbb-a2b1-062c7fdda66f",
-      "label-info": [
-        {
-          "label": {
-            "id": "f987ae1a-c94e-4150-94db-92202f53210a",
-            "name": "K\u012bb\u014ddo Music"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "release-group": {
-        "id": "3e46cf0d-775a-428f-9bcc-55b91a40aef9",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "3744392f-b326-45d4-95ac-d7ac86a5bb4d",
-            "name": "Jennifer Jess",
-            "sort-name": "Jess, Jennifer"
-          },
-          "joinphrase": " & ",
-          "name": "Jennifer Jess"
-        },
-        {
-          "artist": {
-            "id": "6dcf8116-e700-4df5-a0cd-632909122c94",
-            "name": "Caleb Hicks",
-            "sort-name": "Hicks, Caleb"
-          },
-          "name": "Caleb Hicks"
-        }
-      ],
-      "barcode": "196251963710",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-06-11",
-      "id": "aba500a2-2615-4220-b120-dc6145536656",
-      "label-info": [
-        {
-          "label": {
-            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
-            "name": "[no label]"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-06-11"
-        }
-      ],
-      "release-group": {
-        "id": "2e69bb1d-613d-4b74-8702-adfc39a0beae",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "8cae46d4-3df3-4211-85ff-5cf3be605587",
-            "name": "RickyJab",
-            "sort-name": "RickyJab"
-          },
-          "joinphrase": ", ",
-          "name": "RickyJab"
-        },
-        {
-          "artist": {
-            "id": "9ad330cf-9e2f-4698-9bb9-c526211301b9",
-            "name": "Cali Rodi",
-            "sort-name": "Rodi, Cali"
-          },
-          "joinphrase": " & ",
-          "name": "Cali Rodi"
-        },
-        {
-          "artist": {
-            "id": "1ff8dc3d-3099-40e7-9cf6-2cb38d35ce9c",
-            "name": "Ben Carey",
-            "sort-name": "Carey, Ben"
-          },
-          "name": "Ben Carey"
-        }
-      ],
-      "barcode": "195937514536",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-02-05",
-      "id": "0085ce91-1808-431c-ac31-a68f6fafcc84",
-      "label-info": [
-        {
-          "label": {
-            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
-            "name": "[no label]"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-02-05"
-        }
-      ],
-      "release-group": {
-        "id": "59f79b9b-5a1a-4c2e-9988-d041294f76ca",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "bbd91979-d0f8-4ac4-a6e6-3c372da17d40",
-            "name": "Dennis Rodrigues",
-            "sort-name": "Dennis Rodrigues"
-          },
-          "name": "Dennis Rodrigues"
-        }
-      ],
-      "count": 1,
-      "id": "755cbf1e-6a90-452d-9ad0-e8173aecd7ae",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "release-group": {
-        "id": "f1c065b2-65cb-496b-b38a-614a66495ba5",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "89a707c3-aab6-4f37-b181-fce7ad54ea6f",
-            "name": "Bardcore",
-            "sort-name": "Bardcore"
-          },
-          "name": "Bardcore"
-        }
-      ],
-      "count": 1,
-      "country": "US",
-      "date": "2022-02-10",
-      "id": "4d4bb31d-6084-49d4-9473-f75456a9a6c1",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "489ce91b-6658-3307-9877-795b68554c98",
-            "iso-3166-1-codes": [
-              "US"
-            ],
-            "name": "United States",
-            "sort-name": "United States"
-          },
-          "date": "2022-02-10"
-        }
-      ],
-      "release-group": {
-        "id": "60a5004d-26b5-458a-ae5d-4e0e707d7208",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "norwegian group",
-            "id": "01835ecf-333d-4b06-902f-f84b6c056fd4",
-            "name": "KEiiNO",
-            "sort-name": "KEiiNO"
-          },
-          "name": "KEiiNO"
-        }
-      ],
-      "barcode": "602438198320",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-04-09",
-      "id": "fa9ce3ad-eb50-45d3-8fae-f9291084dd13",
-      "label-info": [
-        {
-          "label": {
-            "id": "7794e7e7-97f1-45bb-81e6-8b6eb1884db2",
-            "name": "Virgin Music Label & Artist Services"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 2
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-04-09"
-        }
-      ],
-      "release-group": {
-        "id": "40d90593-7d58-4fec-9134-75abc2f5e17f",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "DRIVERS LICENSE",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "DRIVERS LICENSE",
-      "track-count": 2
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "5466b02a-4465-4e87-b372-584cd5f97bff",
-            "name": "Our Last Night",
-            "sort-name": "Our Last Night"
-          },
-          "name": "Our Last Night"
-        }
-      ],
-      "barcode": "195940982483",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-02-18",
-      "id": "0dd85e79-364b-4272-a033-173f59062ada",
-      "label-info": [
-        {
-          "label": {
-            "id": "215a7f90-c61e-4051-8e4f-3366524d1a22",
-            "name": "OLN Recordings"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-02-18"
-        }
-      ],
-      "release-group": {
-        "id": "da064272-cc4a-406b-90cc-f49df5a4aabe",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
-            "name": "Olivia Rodrigo",
-            "sort-name": "Rodrigo, Olivia"
-          },
-          "name": "Olivia Rodrigo"
-        }
-      ],
-      "barcode": "00602435640105",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-08",
-      "disambiguation": "clean",
-      "id": "5bc7d7fb-4fc5-4da9-ab84-63f42189d094",
-      "label-info": [
-        {
-          "label": {
-            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
-            "name": "Olivia Rodrigo PS"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "986f3ed2-441e-4db4-8d9f-4468865ac524",
-            "name": "Mansions",
-            "sort-name": "Mansions"
-          },
-          "name": "Mansions"
-        }
-      ],
-      "barcode": "8720205830609",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-07-30",
-      "id": "cdd6bb9f-96a2-483d-a106-4198af57c58a",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 2
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-07-30"
-        }
-      ],
-      "release-group": {
-        "id": "18d3764a-49c1-4966-98a5-8815e8ba3173",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 2
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "289ef89d-a97d-4c3a-88d5-ab8fcd85c1fa",
-            "name": "Coco Quinn",
-            "sort-name": "Quinn, Coco"
-          },
-          "name": "Coco Quinn"
-        }
-      ],
-      "count": 1,
-      "country": "XW",
-      "date": "2021-02-14",
-      "id": "9a6797a1-7885-47e3-a3b5-c805ca056f48",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-02-14"
-        }
-      ],
-      "release-group": {
-        "id": "9f1c6e8d-5ab1-46b9-8ecc-756603cf7df4",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "2b1e6b63-8ccf-4dd8-9bc0-14df0771ee13",
-            "name": "Chase Holfelder",
-            "sort-name": "Holfelder, Chase"
-          },
-          "joinphrase": " & ",
-          "name": "Chase Holfelder"
-        },
-        {
-          "artist": {
-            "disambiguation": "production music",
-            "id": "2c23fc14-5886-4276-8aed-79f4404d5273",
-            "name": "Thomas Graham Evans",
-            "sort-name": "Evans, Thomas Graham"
-          },
-          "name": "Tom Evans"
-        }
-      ],
-      "barcode": "196053042255",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-03-25",
-      "id": "8e1d69d4-3245-47ab-9b7f-e37735f129e0",
-      "label-info": [
-        {
-          "label": {
-            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
-            "name": "[no label]"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-03-25"
-        }
-      ],
-      "release-group": {
-        "id": "4c2520ea-5563-4aa0-b14e-1872c7c9c85c",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "5466b02a-4465-4e87-b372-584cd5f97bff",
-            "name": "Our Last Night",
-            "sort-name": "Our Last Night"
-          },
-          "name": "Our Last Night"
-        }
-      ],
-      "count": 1,
-      "country": "XW",
-      "date": "2021-02-18",
-      "id": "91a4874f-49c6-45c7-a85f-12c8a3d9bcf0",
-      "label-info": [
-        {
-          "label": {
-            "id": "215a7f90-c61e-4051-8e4f-3366524d1a22",
-            "name": "OLN Recordings"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-02-18"
-        }
-      ],
-      "release-group": {
-        "id": "da064272-cc4a-406b-90cc-f49df5a4aabe",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
-            "name": "Olivia Rodrigo",
-            "sort-name": "Rodrigo, Olivia"
-          },
-          "name": "Olivia Rodrigo"
-        }
-      ],
-      "barcode": "00602435640075",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-08",
-      "disambiguation": "explicit",
-      "id": "2f147a4b-7a77-4f5e-a1f3-346f54c5879a",
-      "label-info": [
-        {
-          "label": {
-            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
-            "name": "Olivia Rodrigo PS"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
-            "name": "Olivia Rodrigo",
-            "sort-name": "Rodrigo, Olivia"
-          },
-          "name": "Olivia Rodrigo"
-        }
-      ],
-      "barcode": "00602435678641",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-08",
-      "disambiguation": "music video",
-      "id": "3c6d900e-13e8-4d52-a504-08a0d65f7084",
-      "label-info": [
-        {
-          "label": {
-            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
-            "name": "Olivia Rodrigo PS"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
-            "name": "Olivia Rodrigo",
-            "sort-name": "Rodrigo, Olivia"
-          },
-          "name": "Olivia Rodrigo"
-        }
-      ],
-      "barcode": "00602435640112",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-08",
-      "disambiguation": "clean",
-      "id": "8cc04d41-26ae-4736-8a53-a2653e25dc2e",
-      "label-info": [
-        {
-          "catalog-number": "00602435640112",
-          "label": {
-            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
-            "name": "Olivia Rodrigo PS"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
-            "name": "Olivia Rodrigo",
-            "sort-name": "Rodrigo, Olivia"
-          },
-          "name": "Olivia Rodrigo"
-        }
-      ],
-      "barcode": "00602435640099",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-08",
-      "disambiguation": "explicit",
-      "id": "5738dde6-8303-417b-91ba-586410ae70e5",
-      "label-info": [
-        {
-          "label": {
-            "id": "ad676065-6be5-43b7-ab77-87fa23791685",
-            "name": "Olivia Rodrigo PS"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "b6085650-a88d-43a3-9b63-d907a33a1cc0",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "id": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
-            "name": "Pomplamoose",
-            "sort-name": "Pomplamoose"
-          },
-          "name": "Pomplamoose"
-        }
-      ],
-      "count": 1,
-      "country": "XW",
-      "date": "2021-03-18",
-      "id": "c4a8f130-5c44-454e-9e06-282e4053b0a0",
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-03-18"
-        }
-      ],
-      "release-group": {
-        "id": "c83a6101-3f33-4630-844f-c7562b3e5d2e",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "drivers license",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 100,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "singer/songwriter, acoustic covers",
-            "id": "485ee180-a8c0-483a-afb5-15c2eb6b14fb",
-            "name": "Matt Johnson",
-            "sort-name": "Johnson, Matt"
-          },
-          "name": "Matt Johnson"
-        }
-      ],
-      "barcode": "5057805683056",
-      "count": 1,
-      "country": "XW",
-      "date": "2021-01-22",
-      "id": "870bafda-132d-4ac7-aeeb-6fc6d9cf890b",
-      "label-info": [
-        {
-          "catalog-number": "TR1069",
-          "label": {
-            "id": "b32f41d5-2e29-401a-82fd-e46a3f9f8c72",
-            "name": "Tristar Records"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2021-01-22"
-        }
-      ],
-      "release-group": {
-        "id": "a15c5067-4b5b-4e52-9502-228de2a7f7df",
-        "primary-type": "Single",
-        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
-        "title": "Drivers License (acoustic)",
-        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9"
-      },
-      "score": 87,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "tags": [
-        {
-          "count": 1,
-          "name": "acoustic"
-        },
-        {
-          "count": 1,
-          "name": "matt johnson"
-        },
-        {
-          "count": 1,
-          "name": "tristar records"
-        },
-        {
-          "count": 1,
-          "name": "drivers license"
-        }
-      ],
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "Drivers License (acoustic)",
-      "track-count": 1
-    },
-    {
-      "artist-credit": [
-        {
-          "artist": {
-            "disambiguation": "British artist from Yorkshire",
-            "id": "c82f341b-52d3-4da1-b747-4c33f32e6d29",
-            "name": "Chris Too Far",
-            "sort-name": "Too Far, Chris"
-          },
-          "name": "Chris Too Far"
-        }
-      ],
-      "count": 1,
-      "country": "XW",
-      "date": "2022-01-08",
-      "id": "f55ffa79-1e09-42cc-8a3d-d2b0cce422fd",
-      "label-info": [
-        {
-          "label": {
-            "id": "0af4bc0d-fbfe-4896-9df5-058bbb97023d",
-            "name": "Alien House"
-          }
-        }
-      ],
-      "media": [
-        {
-          "disc-count": 0,
-          "format": "Digital Media",
-          "track-count": 1
-        }
-      ],
-      "packaging": "None",
-      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-      "release-events": [
-        {
-          "area": {
-            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-            "iso-3166-1-codes": [
-              "XW"
-            ],
-            "name": "[Worldwide]",
-            "sort-name": "[Worldwide]"
-          },
-          "date": "2022-01-08"
-        }
-      ],
-      "release-group": {
-        "id": "2b509177-dd99-4bdd-a3c2-0329cf08922b",
-        "primary-type": "Other",
-        "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
-        "title": "drivers license (cover)",
-        "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22"
-      },
-      "score": 87,
-      "status": "Official",
-      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-      "tags": [
-        {
-          "count": 1,
-          "name": "contemporary r&b"
-        },
-        {
-          "count": 1,
-          "name": "cover"
-        },
-        {
-          "count": 1,
-          "name": "pop rock"
-        },
-        {
-          "count": 1,
-          "name": "pop"
-        }
-      ],
-      "text-representation": {
-        "language": "eng",
-        "script": "Latn"
-      },
-      "title": "drivers license (cover)",
-      "track-count": 1
     }
   ]
 }

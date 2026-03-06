@@ -1,6 +1,6 @@
 {
   "count": 1,
-  "created": "2024-10-03T17:52:04.310Z",
+  "created": "2026-03-06T19:26:53.207Z",
   "offset": 0,
   "release-groups": [
     {
@@ -45,6 +45,7 @@
           "name": "Fred Giannelli"
         }
       ],
+      "artist-credit-id": "ce1e40a1-048d-3ffb-afd7-c9d6eb6984c5",
       "count": 1,
       "first-release-date": "1998",
       "id": "70664047-2545-4e46-b75f-4556f2a7b83e",
@@ -66,11 +67,11 @@
         },
         {
           "count": 1,
-          "name": "tech house"
+          "name": "deep house"
         },
         {
           "count": 1,
-          "name": "deep house"
+          "name": "tech house"
         }
       ],
       "title": "Main Tenance",

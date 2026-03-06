@@ -18,6 +18,7 @@
   "relations": [
     {
       "artist": {
+        "country": "JP",
         "disambiguation": "",
         "id": "d997d399-355e-4c49-9c7b-75a93d76bc0e",
         "name": "\u3064\u3093\u304f\u2642",
@@ -40,6 +41,7 @@
     },
     {
       "artist": {
+        "country": "JP",
         "disambiguation": "",
         "id": "d997d399-355e-4c49-9c7b-75a93d76bc0e",
         "name": "\u3064\u3093\u304f\u2642",

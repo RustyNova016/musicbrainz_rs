@@ -2,6 +2,7 @@
   "artist-credit": [
     {
       "artist": {
+        "country": "US",
         "disambiguation": "US composer",
         "id": "96681463-98e2-4032-9728-5fbb7b002427",
         "name": "John Luther Adams",
@@ -14,6 +15,7 @@
     },
     {
       "artist": {
+        "country": "US",
         "disambiguation": "",
         "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
         "name": "Seattle Symphony",
@@ -26,6 +28,7 @@
     },
     {
       "artist": {
+        "country": "FR",
         "disambiguation": "conductor",
         "id": "eace8da8-8535-47c4-82da-902c792ec9f4",
         "name": "Ludovic Morlot",
@@ -68,6 +71,7 @@
     {
       "format": "Digital Media",
       "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+      "id": "ab87bea8-a3fb-31fd-8b39-673b60975e1d",
       "position": 1,
       "title": "",
       "track-count": 1,
@@ -77,6 +81,7 @@
           "artist-credit": [
             {
               "artist": {
+                "country": "US",
                 "disambiguation": "US composer",
                 "id": "96681463-98e2-4032-9728-5fbb7b002427",
                 "name": "John Luther Adams",
@@ -96,6 +101,7 @@
             "artist-credit": [
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
                   "name": "Seattle Symphony",
@@ -108,6 +114,7 @@
               },
               {
                 "artist": {
+                  "country": "FR",
                   "disambiguation": "conductor",
                   "id": "eace8da8-8535-47c4-82da-902c792ec9f4",
                   "name": "Ludovic Morlot",
@@ -126,6 +133,7 @@
             "relations": [
               {
                 "artist": {
+                  "country": "FR",
                   "disambiguation": "conductor",
                   "id": "eace8da8-8535-47c4-82da-902c792ec9f4",
                   "name": "Ludovic Morlot",
@@ -148,6 +156,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "music producer, rerecording mixer",
                   "id": "ac0122d6-14e8-4335-a01f-5d6ee71d308b",
                   "name": "Nathaniel Reichman",
@@ -170,6 +179,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "",
                   "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
                   "name": "Seattle Symphony",
@@ -192,6 +202,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "recording engineer & producer",
                   "id": "748b47b2-604b-4487-b994-944918df19e9",
                   "name": "Dmitriy Lipay",
@@ -214,6 +225,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "music producer, rerecording mixer",
                   "id": "ac0122d6-14e8-4335-a01f-5d6ee71d308b",
                   "name": "Nathaniel Reichman",
@@ -236,6 +248,7 @@
               },
               {
                 "artist": {
+                  "country": null,
                   "disambiguation": "",
                   "id": "e2a6142d-83f5-4626-a48a-1211588d06db",
                   "name": "Alexander Lipay",
@@ -258,6 +271,7 @@
               },
               {
                 "artist": {
+                  "country": "US",
                   "disambiguation": "recording engineer & producer",
                   "id": "748b47b2-604b-4487-b994-944918df19e9",
                   "name": "Dmitriy Lipay",
@@ -303,6 +317,7 @@
                   "relations": [
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "7cdb68bc-c4f1-4a92-9bd2-739641c5eff0",
                         "name": "New York Philharmonic",
@@ -325,6 +340,7 @@
                     },
                     {
                       "artist": {
+                        "country": "NL",
                         "disambiguation": "",
                         "id": "c5958778-9c97-4970-9e63-0072ab2c4189",
                         "name": "Rotterdams Philharmonisch Orkest",
@@ -347,6 +363,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "68f7b9d5-b329-40aa-a474-5abffd6dfb44",
                         "name": "San Diego Symphony",
@@ -369,6 +386,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
                         "name": "Seattle Symphony",
@@ -391,6 +409,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "US composer",
                         "id": "96681463-98e2-4032-9728-5fbb7b002427",
                         "name": "John Luther Adams",
@@ -413,6 +432,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
                         "name": "Seattle Symphony",
@@ -435,6 +455,7 @@
                     },
                     {
                       "artist": {
+                        "country": "US",
                         "disambiguation": "",
                         "id": "0b51c328-1f2b-464c-9e2c-0c2a8cce20ae",
                         "name": "Seattle Symphony",

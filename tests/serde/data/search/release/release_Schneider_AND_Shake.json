@@ -1,13 +1,13 @@
 {
   "count": 1,
-  "created": "2024-10-03T17:52:05.464Z",
+  "created": "2026-03-06T19:35:16.977Z",
   "offset": 0,
   "releases": [
     {
       "artist-credit": [
         {
           "artist": {
-            "disambiguation": "US singer-songwriter, frontman of The B-52s",
+            "disambiguation": "US singer\u2010songwriter, frontman of The B\u201052s",
             "id": "43bcca8b-9edc-4997-8343-122350e790bf",
             "name": "Fred Schneider",
             "sort-name": "Schneider, Fred"
@@ -15,6 +15,7 @@
           "name": "Fred Schneider"
         }
       ],
+      "artist-credit-id": "04590110-2280-322a-a0c4-6d6bc8dc17e8",
       "barcode": "07599251581",
       "count": 1,
       "country": "US",
@@ -33,6 +34,7 @@
         {
           "disc-count": 0,
           "format": "12\" Vinyl",
+          "id": "77eb5267-0d1d-37da-ae45-ef0c738acca0",
           "track-count": 9
         }
       ],

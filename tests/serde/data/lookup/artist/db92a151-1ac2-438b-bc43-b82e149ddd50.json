@@ -82,19 +82,19 @@
   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
   "genres": [
     {
-      "count": 3,
+      "count": 4,
       "disambiguation": "",
       "id": "650bda08-20ca-4012-b873-3b68c5768bdf",
       "name": "blue-eyed soul"
     },
     {
-      "count": 3,
+      "count": 4,
       "disambiguation": "",
       "id": "b739a895-85ed-4ad3-8717-4e9ef5387dd8",
       "name": "dance-pop"
     },
     {
-      "count": 3,
+      "count": 4,
       "disambiguation": "",
       "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
       "name": "pop"
@@ -120,20 +120,24 @@
   "sort-name": "Astley, Rick",
   "tags": [
     {
-      "count": 2,
+      "count": 1,
       "name": "adult contemporary"
     },
     {
-      "count": 3,
+      "count": 4,
       "name": "blue-eyed soul"
     },
     {
-      "count": 3,
+      "count": 4,
       "name": "dance-pop"
     },
     {
-      "count": 3,
+      "count": 4,
       "name": "pop"
+    },
+    {
+      "count": 1,
+      "name": "synthpop"
     }
   ],
   "type": "Person",

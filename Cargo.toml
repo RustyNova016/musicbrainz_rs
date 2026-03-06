@@ -38,6 +38,12 @@ lucene_query_builder = "^0.4.0"
 governor = { version = "0.10.0", optional = true }  
 regex = { version = "1.11.1", optional = true}
 
+# Test fixture management
+clap = { version = "4.5.60", features = ["derive"], optional = true}
+serde-json-fmt = { version = "0.1.0", optional = true }
+serde_json = { version = "1.0.117", optional = true }
+glob = { version = "0.3.1", optional = true }
+
 [build-dependencies]
 glob = "0.3.1"
 
@@ -49,6 +55,15 @@ futures = "0.3.31"
 serde_json = "1.0.117"
 macro_rules_attribute = "0.2.2"
 smol-macros = "0.1.1"
+serde-json-fmt = { version = "0.1.0"}
+
+[[bin]]
+# developer utility for managing test fixtures
+name = "fixtures"
+path = "src/fixtures.rs"
+test = false
+doc = false
+required-features = ["fixtures"]
 
 [features]
 default = []
@@ -56,6 +71,9 @@ default = []
 # Schema
 legacy_serialize = []
 extras = ["regex"]
+
+# Fixture cli tools (only used for developer workflows)
+fixtures = ["clap", "glob", "serde_json", "serde-json-fmt"]
 
 # Async
 sync = ["api_bindium/sync"]
