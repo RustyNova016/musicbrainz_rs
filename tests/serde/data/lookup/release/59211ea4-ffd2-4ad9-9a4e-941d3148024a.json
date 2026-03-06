@@ -1,1 +1,269 @@
-{"asin":null,"text-representation":{"language":"eng","script":"Latn"},"status":"Official","packaging-id":"f7101ce3-0384-39ce-9fde-fbbd0044d35f","country":"GB","quality":"normal","artist-credit":[{"artist":{"name":"Autechre","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","type":"Group","id":"410c9baf-5469-44f6-9852-826524b80c61","disambiguation":"electronic music duo","sort-name":"Autechre"},"joinphrase":" & ","name":"Autechre"},{"joinphrase":"","name":"The Hafler Trio","artist":{"type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","name":"The Hafler Trio","disambiguation":"","sort-name":"Hafler Trio, The","type":"Group","id":"146c01d0-d3a2-44c3-acb5-9208bce75e14"}}],"cover-art-archive":{"artwork":true,"front":true,"darkened":false,"count":1,"back":false},"packaging":"Cardboard/Paper Sleeve","title":"æ³o & h³æ","barcode":null,"id":"59211ea4-ffd2-4ad9-9a4e-941d3148024a","media":[{"format-id":"9712d52a-4509-3d4b-a1a2-67c88c643e31","title":"æ³o","track-offset":0,"position":1,"discs":[{"id":"nN2g3a0ZSjovyIgK3bJl6_.j8C4-","offset-count":1,"offsets":[150],"sectors":73241}],"track-count":1,"format":"CD","tracks":[{"artist-credit":[{"artist":{"name":"Autechre","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","id":"410c9baf-5469-44f6-9852-826524b80c61","type":"Group","sort-name":"Autechre","disambiguation":"electronic music duo"},"joinphrase":" & ","name":"Autechre"},{"name":"The Hafler Trio","joinphrase":"","artist":{"type":"Group","id":"146c01d0-d3a2-44c3-acb5-9208bce75e14","sort-name":"Hafler Trio, The","disambiguation":"","name":"The Hafler Trio","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b"}}],"id":"61af3e5a-14e0-350d-9826-a884c6e586b1","length":974546,"position":1,"number":"1","title":"æ³o","recording":{"length":974546,"id":"af87f070-238b-46c1-aa3e-f831ab91fa20","artist-credit":[{"artist":{"type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","name":"Autechre","id":"410c9baf-5469-44f6-9852-826524b80c61","type":"Group","disambiguation":"electronic music duo","sort-name":"Autechre"},"name":"Autechre","joinphrase":" & "},{"joinphrase":"","name":"The Hafler Trio","artist":{"type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","name":"The Hafler Trio","type":"Group","id":"146c01d0-d3a2-44c3-acb5-9208bce75e14","disambiguation":"","sort-name":"Hafler Trio, The"}}],"video":false,"title":"æ³o","first-release-date":"2003-12-04","disambiguation":""}}]},{"track-count":1,"format":"CD","tracks":[{"recording":{"first-release-date":"2003-12-04","disambiguation":"","video":false,"title":"h³æ","length":922546,"id":"5aff6309-2e02-4a47-9233-32d7dcc9a960","artist-credit":[{"joinphrase":" & ","name":"Autechre","artist":{"name":"Autechre","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","id":"410c9baf-5469-44f6-9852-826524b80c61","type":"Group","disambiguation":"electronic music duo","sort-name":"Autechre"}},{"joinphrase":"","name":"The Hafler Trio","artist":{"disambiguation":"","sort-name":"Hafler Trio, The","id":"146c01d0-d3a2-44c3-acb5-9208bce75e14","type":"Group","name":"The Hafler Trio","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b"}}]},"title":"h³æ","number":"1","length":922546,"position":1,"artist-credit":[{"name":"Autechre","joinphrase":" & ","artist":{"disambiguation":"electronic music duo","sort-name":"Autechre","id":"410c9baf-5469-44f6-9852-826524b80c61","type":"Group","name":"Autechre","type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b"}},{"name":"The Hafler Trio","joinphrase":"","artist":{"type-id":"e431f5f6-b5d2-343d-8b36-72607fffb74b","name":"The Hafler Trio","disambiguation":"","sort-name":"Hafler Trio, The","type":"Group","id":"146c01d0-d3a2-44c3-acb5-9208bce75e14"}}],"id":"5f2031a2-c67d-3bec-8ae5-8d22847ab0a5"}],"format-id":"9712d52a-4509-3d4b-a1a2-67c88c643e31","track-offset":0,"title":"h³æ","discs":[{"offset-count":1,"sectors":69341,"offsets":[150],"id":"aSHvkMnq2jZVFEK.DmSPbvN_f54-"}],"position":2}],"date":"2003-12-04","label-info":[{"label":{"name":"Phonometrography","label-code":null,"type-id":"7aaa37fe-2def-3476-b359-80245850062d","sort-name":"Phonometrography","id":"a0759efa-f583-49ea-9a8d-d5bbce55541c","disambiguation":"","type":"Original Production"},"catalog-number":"pgram002"}],"disambiguation":"","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","release-events":[{"area":{"type":null,"disambiguation":"","iso-3166-1-codes":["GB"],"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","sort-name":"United Kingdom","name":"United Kingdom","type-id":null},"date":"2003-12-04"}]}
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "electronic music duo",
+        "id": "410c9baf-5469-44f6-9852-826524b80c61",
+        "name": "Autechre",
+        "sort-name": "Autechre",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": " & ",
+      "name": "Autechre"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
+        "name": "The Hafler Trio",
+        "sort-name": "Hafler Trio, The",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "The Hafler Trio"
+    }
+  ],
+  "asin": null,
+  "barcode": null,
+  "country": "GB",
+  "cover-art-archive": {
+    "artwork": true,
+    "back": false,
+    "count": 1,
+    "darkened": false,
+    "front": true
+  },
+  "date": "2003-12-04",
+  "disambiguation": "",
+  "id": "59211ea4-ffd2-4ad9-9a4e-941d3148024a",
+  "label-info": [
+    {
+      "catalog-number": "pgram002",
+      "label": {
+        "disambiguation": "",
+        "id": "a0759efa-f583-49ea-9a8d-d5bbce55541c",
+        "label-code": null,
+        "name": "Phonometrography",
+        "sort-name": "Phonometrography",
+        "type": "Original Production",
+        "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+      }
+    }
+  ],
+  "media": [
+    {
+      "discs": [
+        {
+          "id": "nN2g3a0ZSjovyIgK3bJl6_.j8C4-",
+          "offset-count": 1,
+          "offsets": [
+            150
+          ],
+          "sectors": 73241
+        }
+      ],
+      "format": "CD",
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "a474fe64-9ca4-30fd-9653-dd135e1c50ae",
+      "position": 1,
+      "title": "\u00e6\u00b3o",
+      "track-count": 1,
+      "track-offset": 0,
+      "tracks": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "country": "GB",
+                "disambiguation": "electronic music duo",
+                "id": "410c9baf-5469-44f6-9852-826524b80c61",
+                "name": "Autechre",
+                "sort-name": "Autechre",
+                "type": "Group",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+              },
+              "joinphrase": " & ",
+              "name": "Autechre"
+            },
+            {
+              "artist": {
+                "country": "GB",
+                "disambiguation": "",
+                "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
+                "name": "The Hafler Trio",
+                "sort-name": "Hafler Trio, The",
+                "type": "Group",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+              },
+              "joinphrase": "",
+              "name": "The Hafler Trio"
+            }
+          ],
+          "id": "61af3e5a-14e0-350d-9826-a884c6e586b1",
+          "length": 974546,
+          "number": "1",
+          "position": 1,
+          "recording": {
+            "artist-credit": [
+              {
+                "artist": {
+                  "country": "GB",
+                  "disambiguation": "electronic music duo",
+                  "id": "410c9baf-5469-44f6-9852-826524b80c61",
+                  "name": "Autechre",
+                  "sort-name": "Autechre",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                },
+                "joinphrase": " & ",
+                "name": "Autechre"
+              },
+              {
+                "artist": {
+                  "country": "GB",
+                  "disambiguation": "",
+                  "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
+                  "name": "The Hafler Trio",
+                  "sort-name": "Hafler Trio, The",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                },
+                "joinphrase": "",
+                "name": "The Hafler Trio"
+              }
+            ],
+            "disambiguation": "",
+            "first-release-date": "2003-12-04",
+            "id": "af87f070-238b-46c1-aa3e-f831ab91fa20",
+            "length": 974546,
+            "title": "\u00e6\u00b3o",
+            "video": false
+          },
+          "title": "\u00e6\u00b3o"
+        }
+      ]
+    },
+    {
+      "discs": [
+        {
+          "id": "aSHvkMnq2jZVFEK.DmSPbvN_f54-",
+          "offset-count": 1,
+          "offsets": [
+            150
+          ],
+          "sectors": 69341
+        }
+      ],
+      "format": "CD",
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "id": "a5181503-48f0-30f6-884c-e02f1a9205dd",
+      "position": 2,
+      "title": "h\u00b3\u00e6",
+      "track-count": 1,
+      "track-offset": 0,
+      "tracks": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "country": "GB",
+                "disambiguation": "electronic music duo",
+                "id": "410c9baf-5469-44f6-9852-826524b80c61",
+                "name": "Autechre",
+                "sort-name": "Autechre",
+                "type": "Group",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+              },
+              "joinphrase": " & ",
+              "name": "Autechre"
+            },
+            {
+              "artist": {
+                "country": "GB",
+                "disambiguation": "",
+                "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
+                "name": "The Hafler Trio",
+                "sort-name": "Hafler Trio, The",
+                "type": "Group",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+              },
+              "joinphrase": "",
+              "name": "The Hafler Trio"
+            }
+          ],
+          "id": "5f2031a2-c67d-3bec-8ae5-8d22847ab0a5",
+          "length": 922546,
+          "number": "1",
+          "position": 1,
+          "recording": {
+            "artist-credit": [
+              {
+                "artist": {
+                  "country": "GB",
+                  "disambiguation": "electronic music duo",
+                  "id": "410c9baf-5469-44f6-9852-826524b80c61",
+                  "name": "Autechre",
+                  "sort-name": "Autechre",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                },
+                "joinphrase": " & ",
+                "name": "Autechre"
+              },
+              {
+                "artist": {
+                  "country": "GB",
+                  "disambiguation": "",
+                  "id": "146c01d0-d3a2-44c3-acb5-9208bce75e14",
+                  "name": "The Hafler Trio",
+                  "sort-name": "Hafler Trio, The",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                },
+                "joinphrase": "",
+                "name": "The Hafler Trio"
+              }
+            ],
+            "disambiguation": "",
+            "first-release-date": "2003-12-04",
+            "id": "5aff6309-2e02-4a47-9233-32d7dcc9a960",
+            "length": 922546,
+            "title": "h\u00b3\u00e6",
+            "video": false
+          },
+          "title": "h\u00b3\u00e6"
+        }
+      ]
+    }
+  ],
+  "packaging": "Cardboard/Paper Sleeve",
+  "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+  "quality": "normal",
+  "release-events": [
+    {
+      "area": {
+        "disambiguation": "",
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type": null,
+        "type-id": null
+      },
+      "date": "2003-12-04"
+    }
+  ],
+  "status": "Official",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "title": "\u00e6\u00b3o & h\u00b3\u00e6"
+}

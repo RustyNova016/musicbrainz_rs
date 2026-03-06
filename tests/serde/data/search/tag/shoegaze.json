@@ -1,1 +1,107 @@
-{"created":"2024-10-03T17:52:07.770Z","count":82,"offset":0,"tags":[{"score":100,"name":"shoegazeshoegaze"},{"score":87,"name":"shoegaze."},{"score":87,"name":"shoegazerish"},{"score":87,"name":"vf shoegaze"},{"score":87,"name":"lo-fi shoegaze"},{"score":87,"name":"estonianshoegaze"},{"score":87,"name":"shoegazepop"},{"score":87,"name":"#shoegaze"},{"score":87,"name":"shoegazer"},{"score":85,"name":"shoegaze psych"},{"score":85,"name":"shoegaze twee lo-fi"},{"score":85,"name":"electro shoegaze"},{"score":85,"name":"psych-shoegaze"},{"score":85,"name":"electronic shoegaze"},{"score":85,"name":"ambient-shoegaze"},{"score":85,"name":"asian shoegaze"},{"score":85,"name":"shoegaze indie"},{"score":85,"name":"shoegaze folk"},{"score":85,"name":"ambient. shoegaze"},{"score":85,"name":"suicide shoegaze"},{"score":85,"name":"blackened shoegaze"},{"score":85,"name":"shoegaze blues"},{"score":85,"name":"shoegaze pop"},{"score":85,"name":"shoegaze metal"},{"score":85,"name":"dark shoegaze"}]}
+{
+  "count": 91,
+  "created": "2026-03-06T19:28:12.735Z",
+  "offset": 0,
+  "tags": [
+    {
+      "name": "shoegazeshoegaze",
+      "score": 100
+    },
+    {
+      "name": "shoegaze.",
+      "score": 87
+    },
+    {
+      "name": "lo-fi shoegaze",
+      "score": 87
+    },
+    {
+      "name": "vf shoegaze",
+      "score": 87
+    },
+    {
+      "name": "estonianshoegaze",
+      "score": 87
+    },
+    {
+      "name": "#shoegaze",
+      "score": 87
+    },
+    {
+      "name": "shoegazepop",
+      "score": 87
+    },
+    {
+      "name": "shoegazer",
+      "score": 87
+    },
+    {
+      "name": "shoegazerish",
+      "score": 87
+    },
+    {
+      "name": "shoegazepunk",
+      "score": 87
+    },
+    {
+      "name": "\"shoegaze\"",
+      "score": 87
+    },
+    {
+      "name": "shoegaze trap",
+      "score": 85
+    },
+    {
+      "name": "shoegaze phonk",
+      "score": 85
+    },
+    {
+      "name": "american shoegaze",
+      "score": 85
+    },
+    {
+      "name": "shoegaze pysch",
+      "score": 85
+    },
+    {
+      "name": "gothic shoegaze",
+      "score": 85
+    },
+    {
+      "name": "black shoegaze",
+      "score": 85
+    },
+    {
+      "name": "shoegaze twee lo-fi",
+      "score": 85
+    },
+    {
+      "name": "ambient-shoegaze",
+      "score": 85
+    },
+    {
+      "name": "shoegaze folk",
+      "score": 85
+    },
+    {
+      "name": "blackened shoegaze",
+      "score": 85
+    },
+    {
+      "name": "desert shoegaze",
+      "score": 85
+    },
+    {
+      "name": "french shoegaze",
+      "score": 85
+    },
+    {
+      "name": "psychedelic shoegaze",
+      "score": 85
+    },
+    {
+      "name": "shoegaze psych",
+      "score": 85
+    }
+  ]
+}

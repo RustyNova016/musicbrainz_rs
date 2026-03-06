@@ -1,1 +1,540 @@
-{"created":"2024-10-03T17:52:00.794Z","count":34,"offset":0,"labels":[{"id":"d2c296e3-10a4-4ba9-97b9-5620ff8a3ce0","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":100,"name":"Devil's Records","sort-name":"Devil's Records","country":"FR","area":{"id":"08310658-51eb-3801-80de-5a0739207115","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"France","sort-name":"France","life-span":{"ended":null}},"life-span":{"ended":null},"aliases":[{"sort-name":"Devil Records","name":"Devil Records","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Devils Records","name":"Devils Records","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]},{"id":"758909cf-ec50-4797-8a73-1c46bec3475c","type":"Distributor","type-id":"53ab8dcc-9946-3b62-966e-7634d78e5034","score":96,"name":"God Devil Records","sort-name":"God Devil Records","life-span":{"begin":"2020-06-11","ended":null},"tags":[{"count":1,"name":"nu metal"},{"count":1,"name":"rap"},{"count":1,"name":"neosoul"},{"count":1,"name":"underground hip hop"},{"count":1,"name":"west coast hip hop"},{"count":1,"name":"political hip hop"},{"count":1,"name":"god devil"},{"count":1,"name":"sketch a peaze"},{"count":1,"name":"gen z"},{"count":1,"name":"hellbound"},{"count":1,"name":"rapmetal"},{"count":1,"name":"eraz"},{"count":1,"name":"heavy metal"},{"count":1,"name":"spokenwordmetal"},{"count":1,"name":"metal"},{"count":1,"name":"punk rock"},{"count":1,"name":"punk metal"},{"count":1,"name":"sludge metal"},{"count":1,"name":"ska punk"},{"count":1,"name":"dark rock"},{"count":1,"name":"chicano rap"},{"count":1,"name":"death metal"},{"count":1,"name":"deathcore"},{"count":1,"name":"r&b"},{"count":1,"name":"conscious hip hop"},{"count":1,"name":"alternative hip hop"},{"count":1,"name":"hardcore hip hop"}]},{"id":"c258fdd0-962c-48d9-9f44-d8e65fe71279","score":95,"name":"Devil Records","sort-name":"Devil Records","disambiguation":"bootleg label","life-span":{"ended":null}},{"id":"0694c1fe-2bca-4d29-a548-1f9ace518261","type":"Production","type-id":"a2426aab-2dd4-339c-b47d-b4923a241678","score":94,"name":"Devil Records","sort-name":"Devil Records","country":"GB","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United Kingdom","sort-name":"United Kingdom","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"5fa66cdf-623a-4997-953b-f5b3e570aae7","score":88,"name":"Devil Records","sort-name":"Devil Records","disambiguation":"Happy Hardcore sublabel from ID&T","life-span":{"ended":null}},{"id":"b3446a32-c5be-4c80-9b60-81a4fa610846","type":"Distributor","type-id":"53ab8dcc-9946-3b62-966e-7634d78e5034","score":86,"name":"DevilDuck Records","sort-name":"DevilDuck Records","label-code":9479,"country":"DE","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"Germany","sort-name":"Germany","life-span":{"ended":null}},"life-span":{"ended":null},"aliases":[{"sort-name":"Devil Duck Records","name":"Devil Duck Records","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]},{"id":"fdc1df11-1f4e-4824-a774-49b83662ce23","score":85,"name":"Devil's Records","sort-name":"Devil's Records","disambiguation":"Evil Incarnate Release Label","life-span":{"ended":null}},{"id":"404f82ab-9fa0-414d-9aa9-9023191bd6c6","score":84,"name":"Whiskey Devil Records","sort-name":"Whiskey Devil Records","life-span":{"ended":null}},{"id":"1348791e-8411-4b74-9454-f37dd5592aef","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":83,"name":"Daredevil Records","sort-name":"Daredevil Records","area":{"id":"df0c8ed7-db8a-4787-92b0-e726155149bc","type":"City","type-id":"6fd8f29a-3d0a-32fc-980d-ea697b69da78","name":"Weiden in der Oberpfalz","sort-name":"Weiden in der Oberpfalz","life-span":{"ended":null}},"life-span":{"begin":"1999","ended":null}},{"id":"2abcb2bf-2837-4fd4-b4b0-e992e47bb9e6","score":81,"name":"Jersey Devil Records","sort-name":"Jersey Devil Records","life-span":{"ended":null}},{"id":"bc7b68c9-8903-43cb-8ef4-fd53ab0a49f9","type":"Bootleg Production","type-id":"fdac9b96-359b-3488-9322-ad99c2473636","score":80,"name":"Devil's Records","sort-name":"Devil's Records","disambiguation":"German bootleg","country":"DE","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"Germany","sort-name":"Germany","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"eeedba3b-b061-4bbd-ad66-10c516a7486c","score":78,"name":"Red Devil Records","sort-name":"Red Devil Records","disambiguation":"bootleg label","life-span":{"ended":null}},{"id":"8a3f18ee-9997-4b3b-90c8-52fdae5b48ba","score":78,"name":"Red Devil Records","sort-name":"Red Devil Records","disambiguation":"reissue label","life-span":{"ended":null}},{"id":"6102dba9-b636-4209-8854-f31482387734","score":78,"name":"Romantic Devil Records","sort-name":"Romantic Devil Records","life-span":{"ended":null}},{"id":"04e828ef-5760-4648-a3a2-a337d275c865","score":76,"name":"Better the Devil Records","sort-name":"Better the Devil Records","country":"GB","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United Kingdom","sort-name":"United Kingdom","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"82309cc2-983e-4f44-ba28-6b961a8db054","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":76,"name":"Red Devil Records","sort-name":"Red Devil Records","disambiguation":"US punk","area":{"id":"83f22bb6-4631-443c-bace-9fae8540362a","type":"City","type-id":"6fd8f29a-3d0a-32fc-980d-ea697b69da78","name":"San Francisco","sort-name":"San Francisco","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"6c5f139d-5b89-48a2-a38b-5e91e5e01031","score":76,"name":"White Devil Records","sort-name":"White Devil Records","life-span":{"ended":null}},{"id":"aad8fdd7-c3a0-414a-a6ce-2d2e72f57533","type":"Imprint","type-id":"b6285b2a-3514-3d43-80df-fcf528824ded","score":75,"name":"Devilspit Records","sort-name":"Devilspit Records","life-span":{"ended":null}},{"id":"68a76e60-8da2-473a-bfc0-4055faa9d934","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":73,"name":"Electric Devil Records","sort-name":"Electric Devil Records","country":"US","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United States","sort-name":"United States","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"8cff9717-00b9-448c-ac2e-dfd7300861ef","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":73,"name":"Blood Devil Records","sort-name":"Blood Devil Records","country":"DE","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"Germany","sort-name":"Germany","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"3f65f8e1-8fc7-440c-9261-8a640ca4f961","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":73,"name":"Flesh Devil Records","sort-name":"Flesh Devil Records","country":"US","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United States","sort-name":"United States","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"1b7b1737-462b-49d3-8339-e995ecae67d2","score":73,"name":"Sea Devil Records","sort-name":"Sea Devil Records","life-span":{"ended":null}},{"id":"68f6e3dc-bfef-48e7-acef-e6119be1bd00","score":73,"name":"Lucky Devil Records","sort-name":"Lucky Devil Records","disambiguation":"Indie Record Label","country":"US","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United States","sort-name":"United States","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"076b30e9-e6fd-4699-abdf-6f0dcdf53a2f","score":68,"name":"SheDevil Records","sort-name":"SheDevil Records","life-span":{"ended":null}},{"id":"ae854b9c-b714-4558-acba-b7b0bf8cb484","type":"Original Production","type-id":"7aaa37fe-2def-3476-b359-80245850062d","score":67,"name":"Up Jumps The Devil Records","sort-name":"Up Jumps The Devil Records","country":"US","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"United States","sort-name":"United States","life-span":{"ended":null}},"life-span":{"begin":"1998","ended":true}}]}
+{
+  "count": 37,
+  "created": "2026-03-06T19:39:20.065Z",
+  "labels": [
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Devil Records",
+          "primary": null,
+          "sort-name": "Devil Records",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Devils Records",
+          "primary": null,
+          "sort-name": "Devils Records",
+          "type": null
+        }
+      ],
+      "area": {
+        "id": "08310658-51eb-3801-80de-5a0739207115",
+        "life-span": {
+          "ended": null
+        },
+        "name": "France",
+        "sort-name": "France",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "FR",
+      "id": "d2c296e3-10a4-4ba9-97b9-5620ff8a3ce0",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil's Records",
+      "score": 100,
+      "sort-name": "Devil's Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "id": "758909cf-ec50-4797-8a73-1c46bec3475c",
+      "life-span": {
+        "begin": "2020-06-11",
+        "ended": null
+      },
+      "name": "God Devil Records",
+      "score": 96,
+      "sort-name": "God Devil Records",
+      "tags": [
+        {
+          "count": 1,
+          "name": "rap"
+        },
+        {
+          "count": 1,
+          "name": "neosoul"
+        },
+        {
+          "count": 1,
+          "name": "underground hip hop"
+        },
+        {
+          "count": 1,
+          "name": "west coast hip hop"
+        },
+        {
+          "count": 1,
+          "name": "political hip hop"
+        },
+        {
+          "count": 1,
+          "name": "god devil"
+        },
+        {
+          "count": 1,
+          "name": "sketch a peaze"
+        },
+        {
+          "count": 1,
+          "name": "gen z"
+        },
+        {
+          "count": 1,
+          "name": "hellbound"
+        },
+        {
+          "count": 1,
+          "name": "rapmetal"
+        },
+        {
+          "count": 1,
+          "name": "eraz"
+        },
+        {
+          "count": 1,
+          "name": "heavy metal"
+        },
+        {
+          "count": 1,
+          "name": "spokenwordmetal"
+        },
+        {
+          "count": 1,
+          "name": "metal"
+        },
+        {
+          "count": 1,
+          "name": "punk rock"
+        },
+        {
+          "count": 1,
+          "name": "punk metal"
+        },
+        {
+          "count": 1,
+          "name": "sludge metal"
+        },
+        {
+          "count": 1,
+          "name": "ska punk"
+        },
+        {
+          "count": 1,
+          "name": "nu metal"
+        },
+        {
+          "count": 1,
+          "name": "dark rock"
+        },
+        {
+          "count": 1,
+          "name": "chicano rap"
+        },
+        {
+          "count": 1,
+          "name": "death metal"
+        },
+        {
+          "count": 1,
+          "name": "deathcore"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "conscious hip hop"
+        },
+        {
+          "count": 1,
+          "name": "alternative hip hop"
+        },
+        {
+          "count": 1,
+          "name": "hardcore hip hop"
+        }
+      ],
+      "type": "Distributor",
+      "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034"
+    },
+    {
+      "disambiguation": "bootleg label",
+      "id": "c258fdd0-962c-48d9-9f44-d8e65fe71279",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil Records",
+      "score": 96,
+      "sort-name": "Devil Records"
+    },
+    {
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "GB",
+      "id": "0694c1fe-2bca-4d29-a548-1f9ace518261",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil Records",
+      "score": 94,
+      "sort-name": "Devil Records",
+      "type": "Production",
+      "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678"
+    },
+    {
+      "disambiguation": "Happy Hardcore sublabel from ID&T",
+      "id": "5fa66cdf-623a-4997-953b-f5b3e570aae7",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil Records",
+      "score": 88,
+      "sort-name": "Devil Records"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Devil Duck Records",
+          "primary": null,
+          "sort-name": "Devil Duck Records",
+          "type": null
+        }
+      ],
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Germany",
+        "sort-name": "Germany",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "DE",
+      "id": "b3446a32-c5be-4c80-9b60-81a4fa610846",
+      "label-code": 9479,
+      "life-span": {
+        "ended": null
+      },
+      "name": "DevilDuck Records",
+      "score": 86,
+      "sort-name": "DevilDuck Records",
+      "type": "Distributor",
+      "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034"
+    },
+    {
+      "disambiguation": "Evil Incarnate Release Label",
+      "id": "fdc1df11-1f4e-4824-a774-49b83662ce23",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil's Records",
+      "score": 85,
+      "sort-name": "Devil's Records"
+    },
+    {
+      "id": "404f82ab-9fa0-414d-9aa9-9023191bd6c6",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Whiskey Devil Records",
+      "score": 85,
+      "sort-name": "Whiskey Devil Records"
+    },
+    {
+      "area": {
+        "id": "df0c8ed7-db8a-4787-92b0-e726155149bc",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Weiden in der Oberpfalz",
+        "sort-name": "Weiden in der Oberpfalz",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+      },
+      "id": "1348791e-8411-4b74-9454-f37dd5592aef",
+      "life-span": {
+        "begin": "1999",
+        "ended": null
+      },
+      "name": "Daredevil Records",
+      "score": 83,
+      "sort-name": "Daredevil Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "id": "2abcb2bf-2837-4fd4-b4b0-e992e47bb9e6",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Jersey Devil Records",
+      "score": 81,
+      "sort-name": "Jersey Devil Records",
+      "type": "Bootleg Production",
+      "type-id": "fdac9b96-359b-3488-9322-ad99c2473636"
+    },
+    {
+      "disambiguation": "reissue label",
+      "id": "8a3f18ee-9997-4b3b-90c8-52fdae5b48ba",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Red Devil Records",
+      "score": 81,
+      "sort-name": "Red Devil Records"
+    },
+    {
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Germany",
+        "sort-name": "Germany",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "DE",
+      "disambiguation": "German bootleg",
+      "id": "bc7b68c9-8903-43cb-8ef4-fd53ab0a49f9",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil's Records",
+      "score": 80,
+      "sort-name": "Devil's Records",
+      "type": "Bootleg Production",
+      "type-id": "fdac9b96-359b-3488-9322-ad99c2473636"
+    },
+    {
+      "id": "6c5f139d-5b89-48a2-a38b-5e91e5e01031",
+      "life-span": {
+        "ended": null
+      },
+      "name": "White Devil Records",
+      "score": 78,
+      "sort-name": "White Devil Records"
+    },
+    {
+      "disambiguation": "bootleg label",
+      "id": "eeedba3b-b061-4bbd-ad66-10c516a7486c",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Red Devil Records",
+      "score": 78,
+      "sort-name": "Red Devil Records"
+    },
+    {
+      "id": "6102dba9-b636-4209-8854-f31482387734",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Romantic Devil Records",
+      "score": 78,
+      "sort-name": "Romantic Devil Records"
+    },
+    {
+      "id": "aad8fdd7-c3a0-414a-a6ce-2d2e72f57533",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devilspit Records",
+      "score": 76,
+      "sort-name": "Devilspit Records",
+      "type": "Imprint",
+      "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded"
+    },
+    {
+      "area": {
+        "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+        "life-span": {
+          "ended": null
+        },
+        "name": "San Francisco",
+        "sort-name": "San Francisco",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+      },
+      "disambiguation": "US punk",
+      "id": "82309cc2-983e-4f44-ba28-6b961a8db054",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Red Devil Records",
+      "score": 76,
+      "sort-name": "Red Devil Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "GB",
+      "id": "04e828ef-5760-4648-a3a2-a337d275c865",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Better the Devil Records",
+      "score": 76,
+      "sort-name": "Better the Devil Records"
+    },
+    {
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "disambiguation": "Indie Record Label",
+      "id": "68f6e3dc-bfef-48e7-acef-e6119be1bd00",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Lucky Devil Records",
+      "score": 73,
+      "sort-name": "Lucky Devil Records"
+    },
+    {
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "id": "68a76e60-8da2-473a-bfc0-4055faa9d934",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Electric Devil Records",
+      "score": 73,
+      "sort-name": "Electric Devil Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Germany",
+        "sort-name": "Germany",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "DE",
+      "id": "8cff9717-00b9-448c-ac2e-dfd7300861ef",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Blood Devil Records",
+      "score": 73,
+      "sort-name": "Blood Devil Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "id": "3f65f8e1-8fc7-440c-9261-8a640ca4f961",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Flesh Devil Records",
+      "score": 73,
+      "sort-name": "Flesh Devil Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    },
+    {
+      "id": "1b7b1737-462b-49d3-8339-e995ecae67d2",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Sea Devil Records",
+      "score": 73,
+      "sort-name": "Sea Devil Records"
+    },
+    {
+      "id": "536a670d-de6c-4d78-bf40-ef237f83f6f9",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Devil Records (7)",
+      "score": 73,
+      "sort-name": "Devil Records (7)"
+    },
+    {
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "life-span": {
+          "ended": null
+        },
+        "name": "United States",
+        "sort-name": "United States",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+      },
+      "country": "US",
+      "id": "122a2d61-6c5f-4118-a13a-1f357db53897",
+      "life-span": {
+        "ended": null
+      },
+      "name": "DeVille Records",
+      "score": 70,
+      "sort-name": "DeVille Records",
+      "type": "Original Production",
+      "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+    }
+  ],
+  "offset": 0
+}

@@ -1,1 +1,1175 @@
-{"created":"2024-10-03T17:51:27.554Z","count":9,"offset":0,"events":[{"id":"4dc59052-0039-4fc0-b668-72edb847716e","type":"Concert","score":100,"name":"Stephen O’Malley at Le Lieu Unique","life-span":{"begin":"2021-04-21","end":"2021-04-21"},"time":"20:00:00","relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"2841d983-f8c3-432a-af02-7407a84580a8","name":"Merzbow","sort-name":"Merzbow","disambiguation":"Japanese noise project"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"d2db31eb-4469-4e8d-8ed2-b3c1bfff0c17","name":"Stephen O’Malley","sort-name":"O’Malley, Stephen","disambiguation":"guitarist, producer, composer, and designer"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"ab7fd308-da33-4d01-8bdb-d8238bb3842a","name":"Le Lieu Unique"}}]},{"id":"bc58d881-0b8e-45de-bee7-5d4a03d71190","type":"Concert","score":87,"name":"Dominique A at Le Lieu Unique, April 2012","life-span":{"begin":"2012-04-12","end":"2012-04-12"},"time":"20:30:00","relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8ae5648d-d9b7-4083-b538-17f71672990f","name":"Dominique A","sort-name":"A, Dominique"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"ab7fd308-da33-4d01-8bdb-d8238bb3842a","name":"Le Lieu Unique"}}]},{"id":"be837471-331f-4a00-a016-05af95dc316f","score":84,"name":"Joung & Junique at Maybe's","life-span":{"begin":"1987-07-15","end":"1987-07-15"},"relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"7207655a-af08-4baa-a7aa-eee953e5e344","name":"Joung & Junique","sort-name":"Joung & Junique"}}]},{"id":"6eb86e6b-327b-41ae-aec8-25ca42e4810f","type":"Concert","score":70,"name":"Dead Can Dance: A Celebration – Life & Works 1980–2019: Nantes, Le Lieu Unique","life-span":{"begin":"2019-04-30","end":"2019-04-30"},"time":"20:30:00","relations":[{"type":"support act","type-id":"492a850e-97eb-306a-a85e-4b6d98527796","direction":"backward","artist":{"id":"81e73c5b-bf5d-4ae2-a68f-b919ff70f27e","name":"David Kuckhermann","sort-name":"Kuckhermann, David","disambiguation":"German percussionist"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"ccda046a-2674-4f7d-97e6-f23d6c156432","name":"Dead Can Dance","sort-name":"Dead Can Dance","disambiguation":"Australian musical project"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"ab7fd308-da33-4d01-8bdb-d8238bb3842a","name":"Le Lieu Unique"}}]},{"id":"27b5fe8c-7032-44f7-98fb-72555deebe76","type":"Festival","score":69,"name":"SXSW 2005, day 2: Friends","life-span":{"begin":"2005-03-17","end":"2005-03-17"},"relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"30509c58-3d0a-45f1-a647-575f83561554","name":"The Oranges Band","sort-name":"Oranges Band, The"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"2f604768-438e-4539-a31e-e97f51b4d52d","name":"Communiqué","sort-name":"Communiqué"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"69f5512b-6b05-4e2c-bc25-740bc4f60c25","name":"The Reputation","sort-name":"Reputation, The"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b4baea0f-ca53-4c11-8c2d-ffbc641f5c09","name":"Troubled Hubble","sort-name":"Troubled Hubble"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"fc688bb9-5560-477e-b9b1-9e3c057c9aeb","name":"Hockey Night","sort-name":"Hockey Night","disambiguation":"Minnesota indie rock band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8f32a244-b257-42ce-af34-1e9eaa68e60c","name":"The Like Young","sort-name":"Like Young, The"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"33d36599-cd0e-4119-a2e2-bcf17ef259c8","name":"Friends"}}]},{"id":"95287009-9718-4147-88e7-9e20e57749f9","type":"Festival","score":67,"name":"CMJ Music Marathon 2007, day 4: Arlene's Grocery","life-span":{"begin":"2007-10-19","end":"2007-10-19"},"relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"591c5e93-ca51-496b-9476-346f405ada1b","name":"Skybox","sort-name":"Skybox","disambiguation":"US indie pop quintet"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"6fb56c81-8c4a-49a2-8579-d1629952dbac","name":"Unique Chique","sort-name":"Unique Chique"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"68281d06-128f-4140-aabd-6babab1d0458","name":"Tom Schraeder and His Ego","sort-name":"Schraeder, Tom and His Ego"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"898e48f1-e9a1-4b21-aa98-e0723731ad74","name":"Meowskers","sort-name":"Meowskers"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b916bbe7-307b-4394-bb27-895b7dbde9b1","name":"Hollywood Holt","sort-name":"Hollywood Holt"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"fac10a90-c2fd-459f-ad22-18c8a746fe13","name":"Catfish Haven","sort-name":"Catfish Haven"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"fa7a1faa-02d5-413e-864b-8b8cdbff5037","name":"Head of Femur","sort-name":"Head of Femur"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8b042995-e9b6-4f10-9882-bab39de396e4","name":"Brighton, MA","sort-name":"Brighton, MA"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"bf06dd9a-f24f-41de-a8a9-24e346b90472","name":"Arlene’s Grocery"}}]},{"id":"5797deac-bd56-4c5c-ad17-f014138aecb3","type":"Festival","score":66,"name":"Summer Sonic Festival Osaka 2007, day 1: Breeze Stage","life-span":{"begin":"2007-08-11","end":"2007-08-11"},"relations":[{"type":"support act","type-id":"492a850e-97eb-306a-a85e-4b6d98527796","direction":"backward","artist":{"id":"125ec42a-7229-4250-afc5-e057484327fe","name":"[unknown]","sort-name":"[unknown]","disambiguation":"Special Purpose Artist – Do not add releases here, if possible."}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"895653ce-15c4-46a9-bc24-75eb2a91cf57","name":"ミドリ","sort-name":"Midori","disambiguation":"Jazz-punk fusion band from Japan"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"33d7c606-8b05-4e93-95ce-8508249b3f74","name":"PhilHarmoUniQue","sort-name":"PhilHarmoUniQue"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"21bb7399-b4e5-4f2f-8312-a7ad51273c87","name":"NICO Touches the Walls","sort-name":"NICO Touches the Walls"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"30ba45b0-9c95-41e7-88d1-c7b15ad7b110","name":"8otto","sort-name":"8otto"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"9953de19-d56c-4b0e-bf5b-79a2192ac481","name":"Start From Scratch","sort-name":"Start From Scratch"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b3b24a1d-78b4-40c9-98ef-19fb812b067a","name":"Base Ball Bear","sort-name":"Base Ball Bear","disambiguation":"Japanese rock band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"333a223b-81ec-4856-805f-4d1bb4f7bcdd","name":"土屋アンナ","sort-name":"Tsuchiya, Anna"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"e69c8ccb-25b1-4c4a-89c6-8fdad1172951","name":"the pillows","sort-name":"pillows, the","disambiguation":"Japanese band"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"baffc96c-1dbe-4eaa-a428-3c79d5980d32","name":"舞洲アリーナ"}}]},{"id":"dd0d1b49-bdd3-45d9-bde2-28511e021b23","type":"Festival","score":48,"name":"Dour 2002, day 1","life-span":{"begin":"2002-07-11","end":"2002-07-11"},"relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b6af59c6-ffe1-4667-bfaf-cee8654abe7d","name":"Pneumatic Head Compressor","sort-name":"Pneumatic Head Compressor","disambiguation":"Belgian elektro/metal/noise band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"01e60eba-52df-4694-8f09-39f43abe54e9","name":"Brandy","sort-name":"Brandy","disambiguation":"US R&B singer"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"2d5fbbfd-27a7-4b74-848a-2b1f24fa1d0a","name":"Super Cat","sort-name":"Super Cat","disambiguation":"dancehall deejay"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"0c7cca84-ead4-4434-9bf5-334ccf2142ee","name":"Hudson","sort-name":"Hudson","disambiguation":"Belgian alternative band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b175c5ad-2972-42e6-8450-ba6200467405","name":"Secret Cinema","sort-name":"Secret Cinema","disambiguation":"Dutch techno producer Jeroen Verheij"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"f5d53c01-158a-4576-b5c4-23a2a9af7a2c","name":"John Thomas","sort-name":"Thomas, John","disambiguation":"French techno DJ/producer"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"7aa4d5d2-0c05-4769-b9b6-030fda34c045","name":"Terence Fixmer","sort-name":"Fixmer, Terence"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"4c994c24-844a-4272-854e-f92e9e61fbbc","name":"The Eternals","sort-name":"Eternals, The","disambiguation":"French house/electro trio"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"107799a4-115d-4912-b89c-6564c88b8ed5","name":"Nicolas Reznik","sort-name":"Reznik, Nicolas"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"0bed96ed-3139-4a1f-b7a8-bdea4751cc21","name":"DJ Storm","sort-name":"Storm, DJ","disambiguation":"UK D&B producer Jane Conneely"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"ad8c6da4-baec-47b8-ab1b-29066ad5b6e7","name":"DJ System D","sort-name":"System D, DJ"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"ae037287-3291-4342-8f74-1f40b787ebc4","name":"Lady Vortex","sort-name":"Lady Vortex"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"80e8128e-1006-424e-9066-de729eac0d4f","name":"Richie Inkle","sort-name":"Inkle, Richie"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8fade2b4-7f77-477f-aa32-366782c49216","name":"Da.Taz","sort-name":"Da.Taz"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"ba20e655-73a9-4c2d-adcb-ea736a0de895","name":"Funk for Sale","sort-name":"Funk for Sale"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"e39a34d0-2ccd-4368-9838-83b2158665a1","name":"Bedroom Research","sort-name":"Bedroom Research"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"76a8ba97-2c4f-4d28-b797-3b077d3bc354","name":"Jonas Bering","sort-name":"Bering, Jonas"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"22314d41-6f00-4e10-ad36-40d03dce93c3","name":"Barbirooza","sort-name":"Barbirooza"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"58e5332d-383e-414c-9917-776d7b1493a2","name":"Tiga","sort-name":"Tiga","disambiguation":"Montreal techno DJ/producer Tiga Sontag"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b2233a1e-2b25-4660-a578-b2e2de990792","name":"Kerri Chandler","sort-name":"Chandler, Kerri"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"f6131f3d-af10-46f8-a46d-565e65b76862","name":"DJ Raoul","sort-name":"DJ Raoul"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"69860489-ca9a-4c02-beb2-f28692da3f38","name":"Mayaku","sort-name":"Mayaku","disambiguation":"Belgian house music project"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"4c553e5f-c9e0-45c5-bfde-779d126bf706","name":"Unique 3","sort-name":"Unique 3","disambiguation":"UK Bleep/Techno/Bass pioneers"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"d7244fef-63d1-46e1-9f54-9f739316ee5a","name":"Pink Satellite","sort-name":"Pink Satellite","disambiguation":"Belgian electronic music duo"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"f12877b7-7b61-457a-be0f-1b92bfdcbb9c","name":"Ming","sort-name":"Ming","disambiguation":"Belgian electronic duo"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"74f6b7d3-af9b-45d9-a58a-d209ce053a6e","name":"Sink","sort-name":"Sink","disambiguation":"Finnish experimental black metal/drone/ambient/darkwave"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"37adcbc3-ff8b-4795-a32c-a3fcae290bf3","name":"Cream & Spices","sort-name":"Cream & Spices","disambiguation":"Belgian indiepop group"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"2f44b39c-e0e4-4aa9-9b3f-08536e6361aa","name":"Mouse Analyse","sort-name":"Mouse Analyse","disambiguation":"Belgian 1990s/2000s rock/metalcore band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b488a946-9391-4953-bace-337533147105","name":"San Remo","sort-name":"San Remo","disambiguation":"Belgian early 2000s indie"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"5eb8cb7b-4aec-4b8b-be49-e6c44766ac98","name":"Starfield Season","sort-name":"Starfield Season","disambiguation":"Belgian postrock band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"cfc10d76-5fe0-48eb-a96e-18f91bf8f8d3","name":"S.Box","sort-name":"S.Box"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"c2c30502-b286-422f-852b-74dc70c41e87","name":"Roll the Dice","sort-name":"Roll the Dice"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8bf14c6f-0e85-429d-a474-1897cc90a528","name":"Alughana","sort-name":"Alughana","disambiguation":"Belgian folkmetal band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"754abc13-d242-4585-8276-2c8c45aa37cf","name":"Stupeflip","sort-name":"Stupeflip"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"ca470d02-5eba-4050-a7f7-f3ab3474656c","name":"Girls in Hawaii","sort-name":"Girls in Hawaii","disambiguation":"Belgian indie band"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"c1f636bb-83fa-4efa-acc2-835f1906a70d","name":"The Youngsters","sort-name":"Youngsters, The","disambiguation":"French electro duo"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"0df6d50f-7e43-4c6a-8220-61932b67c9c5","name":"The Supermen Lovers","sort-name":"Supermen Lovers, The"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"3c56ac72-2f3d-4142-aab2-49364af9d917","name":"Fabrice Lig","sort-name":"Lig, Fabrice","disambiguation":"Belgian DJ/producer"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"af2d25d8-bca9-4e22-984d-8cb0b1e0c79f","name":"Soul Designer","sort-name":"Soul Designer"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"0b03f91a-2991-4a49-b9b9-93b084872952","name":"Shakedown","sort-name":"Shakedown","disambiguation":"trance/acid house group"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"19009dee-7534-46d9-a664-bc0f21087084","name":"Otis","sort-name":"Otis","disambiguation":"French hip-hop/drum & bass"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"e64050be-64c0-4056-afc0-1658e85c9bff","name":"Jamalski","sort-name":"Jamalski"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"b7134fe8-e1ab-43c3-bd4a-78bf990ee685","name":"Rom1","sort-name":"Rom1"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"d7012ed6-d1e0-4fd7-b7e7-591295a5435f","name":"DJ Rolando","sort-name":"Rolando, DJ"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"2cddb9a2-01a5-49f6-a018-a39a7155052c","name":"Nitrox & Kay","sort-name":"Nitrox & Kay","disambiguation":"Early 2000s DJ duo"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"db6107e1-f692-453a-ab0e-4566faaba298","name":"La Ruda","sort-name":"Ruda, La","disambiguation":"French ska group"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"6d4c4759-8a16-4b9f-83e2-4c225307fc85","name":"Ken Ishii","sort-name":"Ishii, Ken","disambiguation":"Electronic / DJ"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"5d315a04-2b30-4916-9864-929d44c5ff4c","name":"George Clinton and the P-Funk All Stars","sort-name":"Clinton, George and P-Funk All Stars, the"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"f2af655c-3e60-4c6e-85f3-8f45c004ee17","name":"Jenna G","sort-name":"G, Jenna","disambiguation":"UK drum & bass, breakbeat vocalist"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"0095520c-da95-44b0-b212-1463a6c38b63","name":"Future Cut","sort-name":"Future Cut"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"8a7456ef-ee90-4ec2-b0af-7d56cafce0ad","name":"MC Rage","sort-name":"MC Rage","disambiguation":"US/Italian hardcore MC & label owner"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"5d39821b-83ad-4c9a-bbaa-2ae32ab0f7b8","name":"Dillinja","sort-name":"Dillinja","disambiguation":"UK drum & bass producer"}},{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"5d828a09-2aea-4e03-acb9-da080ec247b9","name":"Daniel Hélin","sort-name":"Hélin, Daniel"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"2a92f95b-ff58-47ee-9bbb-5f6373f5207b","name":"Plaine de la Machine à Feu"}}]},{"id":"247d1c4a-8844-45a6-865a-362551710b46","type":"Concert","score":27,"name":"MTV apresenta: Seu Jorge","life-span":{"begin":"2004-04-20"},"relations":[{"type":"main performer","type-id":"936c7c95-3156-3889-a062-8a0cd57f8946","direction":"backward","artist":{"id":"c73d651d-87c9-4c5e-8abb-4ec9c4077241","name":"Seu Jorge","sort-name":"Jorge, Seu"}},{"type":"held at","type-id":"e2c6f697-07dc-38b1-be0b-83d740165532","direction":"backward","place":{"id":"008a3e37-9771-4075-88dc-16bc68133b52","name":"Hotel Unique"}}]}]}
+{
+  "count": 11,
+  "created": "2026-03-06T19:39:17.358Z",
+  "events": [
+    {
+      "id": "4dc59052-0039-4fc0-b668-72edb847716e",
+      "life-span": {
+        "begin": "2021-04-21",
+        "end": "2021-04-21"
+      },
+      "name": "Stephen O\u2019Malley at Le Lieu Unique",
+      "relations": [
+        {
+          "artist": {
+            "disambiguation": "Japanese noise project",
+            "id": "2841d983-f8c3-432a-af02-7407a84580a8",
+            "name": "Merzbow",
+            "sort-name": "Merzbow"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "guitarist, producer, composer, and designer",
+            "id": "d2db31eb-4469-4e8d-8ed2-b3c1bfff0c17",
+            "name": "Stephen O\u2019Malley",
+            "sort-name": "O\u2019Malley, Stephen"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "ab7fd308-da33-4d01-8bdb-d8238bb3842a",
+            "name": "Le Lieu Unique"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 100,
+      "time": "20:00:00",
+      "type": "Concert"
+    },
+    {
+      "id": "bc58d881-0b8e-45de-bee7-5d4a03d71190",
+      "life-span": {
+        "begin": "2012-04-12",
+        "end": "2012-04-12"
+      },
+      "name": "Dominique A at Le Lieu Unique, April 2012",
+      "relations": [
+        {
+          "artist": {
+            "id": "8ae5648d-d9b7-4083-b538-17f71672990f",
+            "name": "Dominique A",
+            "sort-name": "A, Dominique"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "ab7fd308-da33-4d01-8bdb-d8238bb3842a",
+            "name": "Le Lieu Unique"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 87,
+      "time": "20:30:00",
+      "type": "Concert"
+    },
+    {
+      "id": "be837471-331f-4a00-a016-05af95dc316f",
+      "life-span": {
+        "begin": "1987-07-15",
+        "end": "1987-07-15"
+      },
+      "name": "Joung & Junique at Maybe's",
+      "relations": [
+        {
+          "artist": {
+            "id": "7207655a-af08-4baa-a7aa-eee953e5e344",
+            "name": "Joung & Junique",
+            "sort-name": "Joung & Junique"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        }
+      ],
+      "score": 87
+    },
+    {
+      "id": "a77dd1ad-25d9-46c9-85c6-961747f52d24",
+      "life-span": {
+        "begin": "1987-05-10",
+        "end": "1987-05-10"
+      },
+      "name": "La Monte Young 30\u2010Year Retrospective: The Well\u2010Tuned Piano: 7 Unique Realizations, Day 7",
+      "relations": [
+        {
+          "artist": {
+            "disambiguation": "American composer and performer",
+            "id": "40fa96a1-d9c0-4092-a0f9-ca1de5aa125a",
+            "name": "La Monte Young",
+            "sort-name": "Young, La Monte"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "9b48ebdc-8e19-4e0d-9a94-2934132b8de6",
+            "name": "Dia Art Foundation Performance Space"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 73,
+      "time": "18:00:00",
+      "type": "Concert"
+    },
+    {
+      "id": "cc925d89-0e75-4050-9d22-36a18115199f",
+      "life-span": {
+        "begin": "2010-08-21",
+        "end": "2010-08-21"
+      },
+      "name": "Pukkelpop 2010, Saturday: Dance Hall",
+      "relations": [
+        {
+          "artist": {
+            "disambiguation": "Australian drum & bass",
+            "id": "beff21d3-88c7-4ee0-8b7a-40b6db22c6d7",
+            "name": "Pendulum",
+            "sort-name": "Pendulum"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian indie/rock/electro band",
+            "id": "68ec1b08-3c2e-40b3-b0af-8f323743fdff",
+            "name": "Soulwax",
+            "sort-name": "Soulwax"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "dance/electro rock band; Skint; Belgium",
+            "id": "6849ebec-b385-4b41-b5a1-125f91e46119",
+            "name": "GOOSE",
+            "sort-name": "GOOSE"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "818be9a0-e5a7-4ff5-a190-98d2411d0cbf",
+            "name": "Uffie",
+            "sort-name": "Uffie"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "7e07ffb5-c0f6-4891-a74d-a5e12a247785",
+            "name": "Die Antwoord",
+            "sort-name": "Antwoord, Die"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "89d05416-e46c-44cd-9a03-c57a1e24c484",
+            "name": "Dominique Young Unique",
+            "sort-name": "Unique, Dominique Young"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "cc03d610-a3bf-4209-b7b3-d6647f0332af",
+            "name": "Dance Hall"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 72,
+      "type": "Festival"
+    },
+    {
+      "id": "6eb86e6b-327b-41ae-aec8-25ca42e4810f",
+      "life-span": {
+        "begin": "2019-04-30",
+        "end": "2019-04-30"
+      },
+      "name": "Dead Can Dance: A Celebration \u2013 Life & Works 1980\u20132019: Nantes, Le Lieu Unique",
+      "relations": [
+        {
+          "artist": {
+            "disambiguation": "Australian musical project",
+            "id": "ccda046a-2674-4f7d-97e6-f23d6c156432",
+            "name": "Dead Can Dance",
+            "sort-name": "Dead Can Dance"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "German percussionist",
+            "id": "81e73c5b-bf5d-4ae2-a68f-b919ff70f27e",
+            "name": "David Kuckhermann",
+            "sort-name": "Kuckhermann, David"
+          },
+          "direction": "backward",
+          "type": "support act",
+          "type-id": "492a850e-97eb-306a-a85e-4b6d98527796"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "ab7fd308-da33-4d01-8bdb-d8238bb3842a",
+            "name": "Le Lieu Unique"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 72,
+      "time": "20:30:00",
+      "type": "Concert"
+    },
+    {
+      "id": "27b5fe8c-7032-44f7-98fb-72555deebe76",
+      "life-span": {
+        "begin": "2005-03-17",
+        "end": "2005-03-17"
+      },
+      "name": "SXSW 2005, day 2: Friends",
+      "relations": [
+        {
+          "artist": {
+            "id": "8f32a244-b257-42ce-af34-1e9eaa68e60c",
+            "name": "The Like Young",
+            "sort-name": "Like Young, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Minnesota indie rock band",
+            "id": "fc688bb9-5560-477e-b9b1-9e3c057c9aeb",
+            "name": "Hockey Night",
+            "sort-name": "Hockey Night"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "b4baea0f-ca53-4c11-8c2d-ffbc641f5c09",
+            "name": "Troubled Hubble",
+            "sort-name": "Troubled Hubble"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "69f5512b-6b05-4e2c-bc25-740bc4f60c25",
+            "name": "The Reputation",
+            "sort-name": "Reputation, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "2f604768-438e-4539-a31e-e97f51b4d52d",
+            "name": "Communiqu\u00e9",
+            "sort-name": "Communiqu\u00e9"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "30509c58-3d0a-45f1-a647-575f83561554",
+            "name": "The Oranges Band",
+            "sort-name": "Oranges Band, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "33d36599-cd0e-4119-a2e2-bcf17ef259c8",
+            "name": "Friends"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 71,
+      "type": "Festival"
+    },
+    {
+      "id": "95287009-9718-4147-88e7-9e20e57749f9",
+      "life-span": {
+        "begin": "2007-10-19",
+        "end": "2007-10-19"
+      },
+      "name": "CMJ Music Marathon 2007, day 4: Arlene\u2019s Grocery",
+      "relations": [
+        {
+          "artist": {
+            "id": "8b042995-e9b6-4f10-9882-bab39de396e4",
+            "name": "Brighton, MA",
+            "sort-name": "Brighton, MA"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "fa7a1faa-02d5-413e-864b-8b8cdbff5037",
+            "name": "Head of Femur",
+            "sort-name": "Head of Femur"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "fac10a90-c2fd-459f-ad22-18c8a746fe13",
+            "name": "Catfish Haven",
+            "sort-name": "Catfish Haven"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "b916bbe7-307b-4394-bb27-895b7dbde9b1",
+            "name": "Hollywood Holt",
+            "sort-name": "Hollywood Holt"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "898e48f1-e9a1-4b21-aa98-e0723731ad74",
+            "name": "Meowskers",
+            "sort-name": "Meowskers"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "68281d06-128f-4140-aabd-6babab1d0458",
+            "name": "Tom Schraeder and His Ego",
+            "sort-name": "Schraeder, Tom and His Ego"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "6fb56c81-8c4a-49a2-8579-d1629952dbac",
+            "name": "Unique Chique",
+            "sort-name": "Unique Chique"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "US indie pop quintet",
+            "id": "591c5e93-ca51-496b-9476-346f405ada1b",
+            "name": "Skybox",
+            "sort-name": "Skybox"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "bf06dd9a-f24f-41de-a8a9-24e346b90472",
+            "name": "Arlene\u2019s Grocery"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 69,
+      "type": "Festival"
+    },
+    {
+      "id": "5797deac-bd56-4c5c-ad17-f014138aecb3",
+      "life-span": {
+        "begin": "2007-08-11",
+        "end": "2007-08-11"
+      },
+      "name": "Summer Sonic Festival Osaka 2007, day 1: Breeze Stage",
+      "relations": [
+        {
+          "artist": {
+            "disambiguation": "Special Purpose Artist \u2013 Do not add releases here, if possible.",
+            "id": "125ec42a-7229-4250-afc5-e057484327fe",
+            "name": "[unknown]",
+            "sort-name": "[unknown]"
+          },
+          "direction": "backward",
+          "type": "support act",
+          "type-id": "492a850e-97eb-306a-a85e-4b6d98527796"
+        },
+        {
+          "artist": {
+            "disambiguation": "jazz\u2010punk fusion band from Japan",
+            "id": "895653ce-15c4-46a9-bc24-75eb2a91cf57",
+            "name": "\u30df\u30c9\u30ea",
+            "sort-name": "Midori"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "33d7c606-8b05-4e93-95ce-8508249b3f74",
+            "name": "PhilHarmoUniQue",
+            "sort-name": "PhilHarmoUniQue"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "21bb7399-b4e5-4f2f-8312-a7ad51273c87",
+            "name": "NICO Touches the Walls",
+            "sort-name": "NICO Touches the Walls"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "30ba45b0-9c95-41e7-88d1-c7b15ad7b110",
+            "name": "8otto",
+            "sort-name": "8otto"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "9953de19-d56c-4b0e-bf5b-79a2192ac481",
+            "name": "Start From Scratch",
+            "sort-name": "Start From Scratch"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Japanese rock band",
+            "id": "b3b24a1d-78b4-40c9-98ef-19fb812b067a",
+            "name": "Base Ball Bear",
+            "sort-name": "Base Ball Bear"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "333a223b-81ec-4856-805f-4d1bb4f7bcdd",
+            "name": "\u571f\u5c4b\u30a2\u30f3\u30ca",
+            "sort-name": "Tsuchiya, Anna"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Japanese band",
+            "id": "e69c8ccb-25b1-4c4a-89c6-8fdad1172951",
+            "name": "the pillows",
+            "sort-name": "pillows, the"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "baffc96c-1dbe-4eaa-a428-3c79d5980d32",
+            "name": "\u821e\u6d32\u30a2\u30ea\u30fc\u30ca"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 68,
+      "type": "Festival"
+    },
+    {
+      "id": "dd0d1b49-bdd3-45d9-bde2-28511e021b23",
+      "life-span": {
+        "begin": "2002-07-11",
+        "end": "2002-07-11"
+      },
+      "name": "Dour 2002, day 1",
+      "relations": [
+        {
+          "artist": {
+            "id": "5d828a09-2aea-4e03-acb9-da080ec247b9",
+            "name": "Daniel H\u00e9lin",
+            "sort-name": "H\u00e9lin, Daniel"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "UK drum & bass producer",
+            "id": "5d39821b-83ad-4c9a-bbaa-2ae32ab0f7b8",
+            "name": "Dillinja",
+            "sort-name": "Dillinja"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "US/Italian hardcore MC & label owner",
+            "id": "8a7456ef-ee90-4ec2-b0af-7d56cafce0ad",
+            "name": "MC Rage",
+            "sort-name": "MC Rage"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "0095520c-da95-44b0-b212-1463a6c38b63",
+            "name": "Future Cut",
+            "sort-name": "Future Cut"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "UK drum & bass, breakbeat vocalist",
+            "id": "f2af655c-3e60-4c6e-85f3-8f45c004ee17",
+            "name": "Jenna G",
+            "sort-name": "G, Jenna"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "5d315a04-2b30-4916-9864-929d44c5ff4c",
+            "name": "George Clinton and the P-Funk All Stars",
+            "sort-name": "Clinton, George and P-Funk All Stars, the"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "electronic / DJ",
+            "id": "6d4c4759-8a16-4b9f-83e2-4c225307fc85",
+            "name": "Ken Ishii",
+            "sort-name": "Ishii, Ken"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "French ska group",
+            "id": "db6107e1-f692-453a-ab0e-4566faaba298",
+            "name": "La Ruda",
+            "sort-name": "Ruda, La"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Early 2000s DJ duo",
+            "id": "2cddb9a2-01a5-49f6-a018-a39a7155052c",
+            "name": "Nitrox & Kay",
+            "sort-name": "Nitrox & Kay"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "d7012ed6-d1e0-4fd7-b7e7-591295a5435f",
+            "name": "DJ Rolando",
+            "sort-name": "Rolando, DJ"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "b7134fe8-e1ab-43c3-bd4a-78bf990ee685",
+            "name": "Rom1",
+            "sort-name": "Rom1"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "e64050be-64c0-4056-afc0-1658e85c9bff",
+            "name": "Jamalski",
+            "sort-name": "Jamalski"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "French hip-hop/drum & bass",
+            "id": "19009dee-7534-46d9-a664-bc0f21087084",
+            "name": "Otis",
+            "sort-name": "Otis"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "trance/acid house group",
+            "id": "0b03f91a-2991-4a49-b9b9-93b084872952",
+            "name": "Shakedown",
+            "sort-name": "Shakedown"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "af2d25d8-bca9-4e22-984d-8cb0b1e0c79f",
+            "name": "Soul Designer",
+            "sort-name": "Soul Designer"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian DJ/producer",
+            "id": "3c56ac72-2f3d-4142-aab2-49364af9d917",
+            "name": "Fabrice Lig",
+            "sort-name": "Lig, Fabrice"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "0df6d50f-7e43-4c6a-8220-61932b67c9c5",
+            "name": "The Supermen Lovers",
+            "sort-name": "Supermen Lovers, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "French electro duo",
+            "id": "c1f636bb-83fa-4efa-acc2-835f1906a70d",
+            "name": "The Youngsters",
+            "sort-name": "Youngsters, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian indie band",
+            "id": "ca470d02-5eba-4050-a7f7-f3ab3474656c",
+            "name": "Girls in Hawaii",
+            "sort-name": "Girls in Hawaii"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "754abc13-d242-4585-8276-2c8c45aa37cf",
+            "name": "Stupeflip",
+            "sort-name": "Stupeflip"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian folkmetal band",
+            "id": "8bf14c6f-0e85-429d-a474-1897cc90a528",
+            "name": "Alughana",
+            "sort-name": "Alughana"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "c2c30502-b286-422f-852b-74dc70c41e87",
+            "name": "Roll the Dice",
+            "sort-name": "Roll the Dice"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "cfc10d76-5fe0-48eb-a96e-18f91bf8f8d3",
+            "name": "S.Box",
+            "sort-name": "S.Box"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian postrock band",
+            "id": "5eb8cb7b-4aec-4b8b-be49-e6c44766ac98",
+            "name": "Starfield Season",
+            "sort-name": "Starfield Season"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian early 2000s indie",
+            "id": "b488a946-9391-4953-bace-337533147105",
+            "name": "San Remo",
+            "sort-name": "San Remo"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian 1990s/2000s rock/metalcore band",
+            "id": "2f44b39c-e0e4-4aa9-9b3f-08536e6361aa",
+            "name": "Mouse Analyse",
+            "sort-name": "Mouse Analyse"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian indiepop group",
+            "id": "37adcbc3-ff8b-4795-a32c-a3fcae290bf3",
+            "name": "Cream & Spices",
+            "sort-name": "Cream & Spices"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Finnish experimental black metal/drone/ambient/darkwave",
+            "id": "74f6b7d3-af9b-45d9-a58a-d209ce053a6e",
+            "name": "Sink",
+            "sort-name": "Sink"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian electronic duo",
+            "id": "f12877b7-7b61-457a-be0f-1b92bfdcbb9c",
+            "name": "Ming",
+            "sort-name": "Ming"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian electronic music duo",
+            "id": "d7244fef-63d1-46e1-9f54-9f739316ee5a",
+            "name": "Pink Satellite",
+            "sort-name": "Pink Satellite"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "UK Bleep/Techno/Bass pioneers",
+            "id": "4c553e5f-c9e0-45c5-bfde-779d126bf706",
+            "name": "Unique 3",
+            "sort-name": "Unique 3"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian house music project",
+            "id": "69860489-ca9a-4c02-beb2-f28692da3f38",
+            "name": "Mayaku",
+            "sort-name": "Mayaku"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "f6131f3d-af10-46f8-a46d-565e65b76862",
+            "name": "DJ Raoul",
+            "sort-name": "DJ Raoul"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "b2233a1e-2b25-4660-a578-b2e2de990792",
+            "name": "Kerri Chandler",
+            "sort-name": "Chandler, Kerri"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian alternative band",
+            "id": "0c7cca84-ead4-4434-9bf5-334ccf2142ee",
+            "name": "Hudson",
+            "sort-name": "Hudson"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Montreal techno DJ/producer Tiga Sontag",
+            "id": "58e5332d-383e-414c-9917-776d7b1493a2",
+            "name": "Tiga",
+            "sort-name": "Tiga"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "22314d41-6f00-4e10-ad36-40d03dce93c3",
+            "name": "Barbirooza",
+            "sort-name": "Barbirooza"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "76a8ba97-2c4f-4d28-b797-3b077d3bc354",
+            "name": "Jonas Bering",
+            "sort-name": "Bering, Jonas"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "e39a34d0-2ccd-4368-9838-83b2158665a1",
+            "name": "Bedroom Research",
+            "sort-name": "Bedroom Research"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "ba20e655-73a9-4c2d-adcb-ea736a0de895",
+            "name": "Funk for Sale",
+            "sort-name": "Funk for Sale"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "80e8128e-1006-424e-9066-de729eac0d4f",
+            "name": "Richie Inkle",
+            "sort-name": "Inkle, Richie"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "ae037287-3291-4342-8f74-1f40b787ebc4",
+            "name": "Lady Vortex",
+            "sort-name": "Lady Vortex"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "ad8c6da4-baec-47b8-ab1b-29066ad5b6e7",
+            "name": "DJ System D",
+            "sort-name": "System D, DJ"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "UK D&B producer Jane Conneely",
+            "id": "0bed96ed-3139-4a1f-b7a8-bdea4751cc21",
+            "name": "DJ Storm",
+            "sort-name": "Storm, DJ"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "107799a4-115d-4912-b89c-6564c88b8ed5",
+            "name": "Nicolas Reznik",
+            "sort-name": "Reznik, Nicolas"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "French house/electro trio",
+            "id": "4c994c24-844a-4272-854e-f92e9e61fbbc",
+            "name": "The Eternals",
+            "sort-name": "Eternals, The"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "7aa4d5d2-0c05-4769-b9b6-030fda34c045",
+            "name": "Terence Fixmer",
+            "sort-name": "Fixmer, Terence"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "French techno DJ/producer",
+            "id": "f5d53c01-158a-4576-b5c4-23a2a9af7a2c",
+            "name": "John Thomas",
+            "sort-name": "Thomas, John"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Dutch techno producer Jeroen Verheij",
+            "id": "b175c5ad-2972-42e6-8450-ba6200467405",
+            "name": "Secret Cinema",
+            "sort-name": "Secret Cinema"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "id": "8fade2b4-7f77-477f-aa32-366782c49216",
+            "name": "Da.Taz",
+            "sort-name": "Da.Taz"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "dancehall deejay",
+            "id": "2d5fbbfd-27a7-4b74-848a-2b1f24fa1d0a",
+            "name": "Super Cat",
+            "sort-name": "Super Cat"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "US R&B singer",
+            "id": "01e60eba-52df-4694-8f09-39f43abe54e9",
+            "name": "Brandy",
+            "sort-name": "Brandy"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "artist": {
+            "disambiguation": "Belgian elektro/metal/noise band",
+            "id": "b6af59c6-ffe1-4667-bfaf-cee8654abe7d",
+            "name": "Pneumatic Head Compressor",
+            "sort-name": "Pneumatic Head Compressor"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "2a92f95b-ff58-47ee-9bbb-5f6373f5207b",
+            "name": "Plaine de la Machine \u00e0 Feu"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 50,
+      "type": "Festival"
+    },
+    {
+      "id": "247d1c4a-8844-45a6-865a-362551710b46",
+      "life-span": {
+        "begin": "2004-04-20"
+      },
+      "name": "MTV apresenta: Seu Jorge",
+      "relations": [
+        {
+          "artist": {
+            "id": "c73d651d-87c9-4c5e-8abb-4ec9c4077241",
+            "name": "Seu Jorge",
+            "sort-name": "Jorge, Seu"
+          },
+          "direction": "backward",
+          "type": "main performer",
+          "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+          "direction": "backward",
+          "place": {
+            "id": "008a3e37-9771-4075-88dc-16bc68133b52",
+            "name": "Hotel Unique"
+          },
+          "type": "held at",
+          "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532"
+        }
+      ],
+      "score": 29,
+      "type": "Concert"
+    }
+  ],
+  "offset": 0
+}
