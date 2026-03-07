@@ -1,10 +1,15 @@
 use std::sync::LazyLock;
 
-use api_bindium::ApiClient;
-use api_bindium::ureq::Agent;
-use api_bindium::ureq::config::Config;
-
 use crate::api::endpoints::MusicBrainzAPIEnpoints;
+#[cfg(feature = "basic_auth")]
+use crate::client::music_brainz_client_builder::SetBasicAuthCredentials;
+use crate::client::music_brainz_client_builder::State;
+use api_bindium::ureq::config::Config;
+use api_bindium::ureq::Agent;
+use api_bindium::ApiClient;
+use bon::__::{IsSet, IsUnset};
+#[cfg(feature = "netrc")]
+use netrc::Netrc;
 
 pub(crate) const DEFAULT_USER_AGENT: &str =
     concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"));
@@ -28,12 +33,36 @@ pub struct MusicBrainzClient {
     pub api_client: ApiClient,
 
     /// Domain of the api
-    #[builder(default = "musicbrainz.org".to_string())]
+    #[builder(default = "musicbrainz.org".to_string(), getter)]
     pub musicbrainz_domain: String,
 
     /// Domain of the cover art archive api
     #[builder(default = "http://coverartarchive.org".to_string())]
     pub coverart_archive_url: String,
+
+    #[cfg(feature = "basic_auth")]
+    /// Basic auth credentials for the API. May be required for some musicbrainz_domains.
+    pub basic_auth_credentials: Option<(String, String)>,
+}
+
+impl<S: State> MusicBrainzClientBuilder<S> {
+    #[cfg(feature = "netrc")]
+    pub fn netrc_auth(self) -> MusicBrainzClientBuilder<SetBasicAuthCredentials<S>>
+    where
+        S::MusicbrainzDomain: IsSet,
+        S::BasicAuthCredentials: IsUnset,
+    {
+        let default_domain = "musicbrainz.org".to_string();
+        let domain = self.get_musicbrainz_domain().unwrap_or(&default_domain);
+
+        let credentials = Netrc::new()
+            .ok()
+            .and_then(|nrc| nrc.hosts.get(domain).cloned())
+            .map(|auth| (auth.login, auth.password))
+            .unwrap_or_default();
+
+        self.basic_auth_credentials(credentials)
+    }
 }
 
 // Common implements
