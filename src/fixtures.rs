@@ -93,7 +93,7 @@ fn fixtures() -> std::vec::Vec<Fixture<'static>> {
         Fixture {
             file_path: "tests/serde/data/lookup/recording/b9ad642e-b012-41c7-b72a-42cf4911f9ff.json",
             api_path: "recording/b9ad642e-b012-41c7-b72a-42cf4911f9ff",
-            params: vec![("inc", "artist-credits+releases")],
+            params: vec![("inc", "artist-credits+releases+isrcs")],
         },
         Fixture {
             file_path: "tests/serde/data/lookup/release/59211ea4-ffd2-4ad9-9a4e-941d3148024a.json",
