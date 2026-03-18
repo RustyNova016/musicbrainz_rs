@@ -23,7 +23,7 @@ mod entity {
         assert_eq!(recording.isrcs, Some(vec!("JPB600760301".to_string())));
         assert_eq!(recording.title, "LAST ANGEL".to_string());
         assert_eq!(recording.video, Some(false));
-        assert!(recording.releases.is_some_and(|x| x.len() == 15));
+        assert!(recording.releases.is_some_and(|x| x.len() == 16));
         assert_eq!(recording.disambiguation, Some("".to_string()));
         assert_eq!(
             recording.first_release_date,
@@ -73,7 +73,7 @@ mod entity {
         );
         assert!(release.genres.is_some_and(|x| x.is_empty()));
         assert_eq!(release.status, Some(ReleaseStatus::Official));
-        assert!(release.relations.is_some_and(|x| x.len() == 1));
+        assert!(release.relations.is_some_and(|x| x.is_empty()));
         assert_eq!(
             release.packaging_id,
             Some("ec27701a-4a22-37f4-bfac-6616e0f9750a".to_string())

@@ -1,1 +1,80 @@
-{"created":"2024-10-03T17:52:01.940Z","count":3,"offset":0,"places":[{"id":"d1ab65f8-d082-492a-bd70-ce375548dabf","type":"Studio","type-id":"05fa6a09-ff92-3d34-bdbb-5141d3c24f38","score":100,"name":"Chipping Norton Recording Studios","address":"28–30 New Street, Chipping Norton","coordinates":{"latitude":"51.9414","longitude":"-1.548"},"area":{"id":"716234d3-b8ed-45ac-8983-e7219eb85956","type":"City","type-id":"6fd8f29a-3d0a-32fc-980d-ea697b69da78","name":"Chipping Norton","sort-name":"Chipping Norton","life-span":{"ended":null}},"life-span":{"begin":"1971","end":"1999-10","ended":true}},{"id":"d7c2df1c-32fb-49d2-ad22-7318a17f99ee","type":"Religious building","type-id":"a120ca4a-69e9-3c0e-bc09-21cae26eb621","score":21,"name":"St Catherine’s","disambiguation":"UK, Gloustershire, Chipping Campden, Church","area":{"id":"da806ae8-ff93-4988-93ee-4bee3c5a56bf","type":"Subdivision","type-id":"fd3d44c5-80a1-3842-9745-2c4972d35afa","name":"Gloucestershire","sort-name":"Gloucestershire","life-span":{"ended":null}},"life-span":{"ended":null}},{"id":"b6188bf6-db84-4606-afa4-d2882972ec36","type":"Park","type-id":"9c482e19-7975-4d38-bfca-ef00ba919c92","score":11,"name":"Cornbury Park","address":"Cornbury Park, Charlbury, Chipping Norton OX7 3HL, United Kingdom","coordinates":{"latitude":"51.8696","longitude":"-1.5161"},"area":{"id":"f3f37e05-c411-4860-9239-132620fcbab0","type":"City","type-id":"6fd8f29a-3d0a-32fc-980d-ea697b69da78","name":"Charlbury","sort-name":"Charlbury","life-span":{"ended":null}},"life-span":{"ended":null}}]}
+{
+  "count": 3,
+  "created": "2026-03-06T19:39:21.253Z",
+  "offset": 0,
+  "places": [
+    {
+      "address": "28\u201330 New Street, Chipping Norton",
+      "area": {
+        "id": "716234d3-b8ed-45ac-8983-e7219eb85956",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Chipping Norton",
+        "sort-name": "Chipping Norton",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+      },
+      "coordinates": {
+        "latitude": "51.9414",
+        "longitude": "-1.548"
+      },
+      "id": "d1ab65f8-d082-492a-bd70-ce375548dabf",
+      "life-span": {
+        "begin": "1971",
+        "end": "1999-10",
+        "ended": true
+      },
+      "name": "Chipping Norton Recording Studios",
+      "score": 100,
+      "type": "Studio",
+      "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
+    },
+    {
+      "area": {
+        "id": "da806ae8-ff93-4988-93ee-4bee3c5a56bf",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Gloucestershire",
+        "sort-name": "Gloucestershire",
+        "type": "Subdivision",
+        "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+      },
+      "disambiguation": "UK, Gloustershire, Chipping Campden, Church",
+      "id": "d7c2df1c-32fb-49d2-ad22-7318a17f99ee",
+      "life-span": {
+        "ended": null
+      },
+      "name": "St Catherine\u2019s",
+      "score": 21,
+      "type": "Religious building",
+      "type-id": "a120ca4a-69e9-3c0e-bc09-21cae26eb621"
+    },
+    {
+      "address": "Cornbury Park, Charlbury, Chipping Norton OX7 3HL, United Kingdom",
+      "area": {
+        "id": "f3f37e05-c411-4860-9239-132620fcbab0",
+        "life-span": {
+          "ended": null
+        },
+        "name": "Charlbury",
+        "sort-name": "Charlbury",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+      },
+      "coordinates": {
+        "latitude": "51.8696",
+        "longitude": "-1.5161"
+      },
+      "id": "b6188bf6-db84-4606-afa4-d2882972ec36",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Cornbury Park",
+      "score": 11,
+      "type": "Park",
+      "type-id": "9c482e19-7975-4d38-bfca-ef00ba919c92"
+    }
+  ]
+}

@@ -1,1 +1,2847 @@
-{"created":"2024-10-03T17:51:24.067Z","count":1,"offset":0,"areas":[{"id":"d79e4501-8cba-431b-96e7-bb9976f0ae76","type":"Subdivision","type-id":"fd3d44c5-80a1-3842-9745-2c4972d35afa","score":100,"name":"Île-de-France","sort-name":"Île-de-France","iso-3166-2-codes":["FR-J"],"life-span":{"ended":null},"aliases":[{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"de","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"en","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Isla de Francia","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Isla de Francia","locale":"es","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"et","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"fi","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"fr","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"it","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"イル＝ド＝フランス地域圏","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"イル＝ド＝フランス地域圏","locale":"ja","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"nl","type":"Area name","primary":true,"begin-date":null,"end-date":null},{"sort-name":"Île-de-France","type-id":"0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29","name":"Île-de-France","locale":"no","type":"Area name","primary":true,"begin-date":null,"end-date":null}],"relation-list":[{"relations":[{"type":"part of","type-id":"de7cc874-8b1b-3a05-8272-f3834c968fb7","target":"08310658-51eb-3801-80de-5a0739207115","direction":"backward","area":{"id":"08310658-51eb-3801-80de-5a0739207115","type":"Country","type-id":"06dd0ae4-8c74-30bb-b43d-95dcedf961de","name":"France","sort-name":"France","life-span":{"ended":null}}}]}]}]}
+{
+  "areas": [
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "France",
+          "primary": true,
+          "sort-name": "France",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "France",
+          "primary": true,
+          "sort-name": "France",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Francia",
+          "primary": true,
+          "sort-name": "Francia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Frankrike",
+          "primary": true,
+          "sort-name": "Frankrike",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d5\u30e9\u30f3\u30b9",
+          "primary": true,
+          "sort-name": "\u30d5\u30e9\u30f3\u30b9",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Frankrijk",
+          "primary": true,
+          "sort-name": "Frankrijk",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Francia",
+          "primary": true,
+          "sort-name": "Francia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Prantsusmaa",
+          "primary": true,
+          "sort-name": "Prantsusmaa",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Ranska",
+          "primary": true,
+          "sort-name": "Ranska",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Frankreich",
+          "primary": true,
+          "sort-name": "Frankreich",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0393\u03b1\u03bb\u03bb\u03af\u03b1",
+          "primary": true,
+          "sort-name": "\u0393\u03b1\u03bb\u03bb\u03af\u03b1",
+          "type": null
+        }
+      ],
+      "id": "08310658-51eb-3801-80de-5a0739207115",
+      "iso-3166-1-codes": [
+        "FR"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "France",
+      "score": 100,
+      "sort-name": "France",
+      "tags": [
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 4,
+          "name": "chanson fran\u00e7aise"
+        },
+        {
+          "count": 1,
+          "name": "eurodance"
+        },
+        {
+          "count": 2,
+          "name": "europop"
+        },
+        {
+          "count": 0,
+          "name": "chanson"
+        },
+        {
+          "count": 0,
+          "name": "french pop"
+        },
+        {
+          "count": 4,
+          "name": "europe"
+        },
+        {
+          "count": 3,
+          "name": "french house"
+        },
+        {
+          "count": 2,
+          "name": "edm"
+        },
+        {
+          "count": 2,
+          "name": "euro house"
+        },
+        {
+          "count": 5,
+          "name": "un member state"
+        },
+        {
+          "count": 0,
+          "name": "rif"
+        },
+        {
+          "count": 0,
+          "name": "place"
+        },
+        {
+          "count": 0,
+          "name": "identity rock"
+        },
+        {
+          "count": 2,
+          "name": "eu member state"
+        },
+        {
+          "count": 0,
+          "name": "rock identitaire fran\u00e7ais"
+        },
+        {
+          "count": -1,
+          "name": "cannot delete wikipedia"
+        },
+        {
+          "count": 4,
+          "name": "western europe"
+        },
+        {
+          "count": 1,
+          "name": "nato member country"
+        },
+        {
+          "count": 0,
+          "name": "imperial core"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Isla de Francia",
+          "primary": true,
+          "sort-name": "Isla de Francia",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30a4\u30eb\uff1d\u30c9\uff1d\u30d5\u30e9\u30f3\u30b9\u5730\u57df\u570f",
+          "primary": true,
+          "sort-name": "\u30a4\u30eb\uff1d\u30c9\uff1d\u30d5\u30e9\u30f3\u30b9\u5730\u57df\u570f",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "\u00cele-de-France",
+          "primary": true,
+          "sort-name": "\u00cele-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "d79e4501-8cba-431b-96e7-bb9976f0ae76",
+      "iso-3166-2-codes": [
+        "FR-J"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "\u00cele-de-France",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "France",
+                "sort-name": "France",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "08310658-51eb-3801-80de-5a0739207115",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 99,
+      "sort-name": "\u00cele-de-France",
+      "type": "Subdivision",
+      "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Brasilien",
+          "primary": true,
+          "sort-name": "Brasilien",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0392\u03c1\u03b1\u03b6\u03b9\u03bb\u03af\u03b1",
+          "primary": true,
+          "sort-name": "\u0392\u03c1\u03b1\u03b6\u03b9\u03bb\u03af\u03b1",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Brazil",
+          "primary": true,
+          "sort-name": "Brazil",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Brasil",
+          "primary": true,
+          "sort-name": "Brasil",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Brasiilia",
+          "primary": true,
+          "sort-name": "Brasiilia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "Br\u00e9sil",
+          "primary": true,
+          "sort-name": "Br\u00e9sil",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Brasilia",
+          "primary": true,
+          "sort-name": "Brasilia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Brasile",
+          "primary": true,
+          "sort-name": "Brasile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d6\u30e9\u30b8\u30eb",
+          "primary": true,
+          "sort-name": "\u30d6\u30e9\u30b8\u30eb",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Brazili\u00eb",
+          "primary": true,
+          "sort-name": "Brazili\u00eb",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Brasil",
+          "primary": true,
+          "sort-name": "Brasil",
+          "type": null
+        }
+      ],
+      "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+      "iso-3166-1-codes": [
+        "BR"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Brazil",
+      "score": 66,
+      "sort-name": "Brazil",
+      "tags": [
+        {
+          "count": 3,
+          "name": "un member state"
+        },
+        {
+          "count": -1,
+          "name": "female"
+        },
+        {
+          "count": 0,
+          "name": "come to brazil"
+        },
+        {
+          "count": 4,
+          "name": "latin"
+        },
+        {
+          "count": -2,
+          "name": "cannot delete wikipedia"
+        },
+        {
+          "count": 2,
+          "name": "america"
+        },
+        {
+          "count": 2,
+          "name": "south america"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Cile",
+          "primary": true,
+          "sort-name": "Cile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "Chili",
+          "primary": true,
+          "sort-name": "Chili",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Chile",
+          "primary": true,
+          "sort-name": "Chile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Chili",
+          "primary": true,
+          "sort-name": "Chili",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u03a7\u03b9\u03bb\u03ae",
+          "primary": true,
+          "sort-name": "\u03a7\u03b9\u03bb\u03ae",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Chile",
+          "primary": true,
+          "sort-name": "Chile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Chile",
+          "primary": true,
+          "sort-name": "Chile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "T\u0161iili",
+          "primary": true,
+          "sort-name": "T\u0161iili",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Chile",
+          "primary": true,
+          "sort-name": "Chile",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30c1\u30ea",
+          "primary": true,
+          "sort-name": "\u30c1\u30ea",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Chile",
+          "primary": true,
+          "sort-name": "Chile",
+          "type": null
+        }
+      ],
+      "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+      "iso-3166-1-codes": [
+        "CL"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Chile",
+      "score": 60,
+      "sort-name": "Chile",
+      "tags": [
+        {
+          "count": 2,
+          "name": "un member state"
+        },
+        {
+          "count": 2,
+          "name": "latin"
+        },
+        {
+          "count": 1,
+          "name": "america"
+        },
+        {
+          "count": 1,
+          "name": "south america"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "China",
+          "primary": true,
+          "sort-name": "China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u039b\u03b1\u03ca\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1 \u03c4\u03b7\u03c2 \u039a\u03af\u03bd\u03b1\u03c2",
+          "primary": true,
+          "sort-name": "\u039b\u03b1\u03ca\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1 \u03c4\u03b7\u03c2 \u039a\u03af\u03bd\u03b1\u03c2",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "People's Republic of China",
+          "primary": true,
+          "sort-name": "People's Republic of China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "China",
+          "primary": true,
+          "sort-name": "China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Hiina",
+          "primary": true,
+          "sort-name": "Hiina",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Kiina",
+          "primary": true,
+          "sort-name": "Kiina",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "R\u00e9publique populaire de Chine",
+          "primary": true,
+          "sort-name": "R\u00e9publique populaire de Chine",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Cina",
+          "primary": true,
+          "sort-name": "Cina",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd",
+          "primary": true,
+          "sort-name": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Volksrepubliek China",
+          "primary": true,
+          "sort-name": "Volksrepubliek China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Folkerepublikken Kina",
+          "primary": true,
+          "sort-name": "Folkerepublikken Kina",
+          "type": null
+        }
+      ],
+      "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+      "iso-3166-1-codes": [
+        "CN"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "China",
+      "score": 58,
+      "sort-name": "China",
+      "tags": [
+        {
+          "count": 2,
+          "name": "c-pop"
+        },
+        {
+          "count": 3,
+          "name": "un member state"
+        },
+        {
+          "count": 2,
+          "name": "asia"
+        },
+        {
+          "count": 2,
+          "name": "east asia"
+        },
+        {
+          "count": 3,
+          "name": "greater china"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Taiwan",
+          "primary": true,
+          "sort-name": "Taiwan",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u4e2d\u83ef\u6c11\u56fd",
+          "primary": true,
+          "sort-name": "\u4e2d\u83ef\u6c11\u56fd",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Taiwan",
+          "primary": true,
+          "sort-name": "Taiwan",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Republikken Kina",
+          "primary": true,
+          "sort-name": "Republikken Kina",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Republik China",
+          "primary": true,
+          "sort-name": "Republik China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1 \u03c4\u03b7\u03c2 \u039a\u03af\u03bd\u03b1\u03c2",
+          "primary": true,
+          "sort-name": "\u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1 \u03c4\u03b7\u03c2 \u039a\u03af\u03bd\u03b1\u03c2",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Republic of China",
+          "primary": true,
+          "sort-name": "Republic of China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Rep\u00fablica de China",
+          "primary": true,
+          "sort-name": "Rep\u00fablica de China",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Hiina Vabariik",
+          "primary": true,
+          "sort-name": "Hiina Vabariik",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Kiinan tasavalta",
+          "primary": true,
+          "sort-name": "Kiinan tasavalta",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "R\u00e9publique de Chine",
+          "primary": true,
+          "sort-name": "R\u00e9publique de Chine",
+          "type": null
+        }
+      ],
+      "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+      "iso-3166-1-codes": [
+        "TW"
+      ],
+      "iso-3166-2-codes": [
+        "CN-71"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Taiwan",
+      "score": 57,
+      "sort-name": "Taiwan",
+      "tags": [
+        {
+          "count": 1,
+          "name": "asia"
+        },
+        {
+          "count": 1,
+          "name": "east asia"
+        },
+        {
+          "count": 2,
+          "name": "greater china"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u039d\u03ae\u03c3\u03bf\u03b9 \u03a6\u03b5\u03c1\u03cc\u03b5\u03c2",
+          "primary": true,
+          "sort-name": "\u039d\u03ae\u03c3\u03bf\u03b9 \u03a6\u03b5\u03c1\u03cc\u03b5\u03c2",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Faroe Islands",
+          "primary": true,
+          "sort-name": "Faroe Islands",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Islas Feroe",
+          "primary": true,
+          "sort-name": "Islas Feroe",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "F\u00e4r\u00f6er",
+          "primary": true,
+          "sort-name": "F\u00e4r\u00f6er",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00celes F\u00e9ro\u00e9",
+          "primary": true,
+          "sort-name": "\u00celes F\u00e9ro\u00e9",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "F\u00e4\u00e4ri saared",
+          "primary": true,
+          "sort-name": "F\u00e4\u00e4ri saared",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "F\u00e4rsaaret",
+          "primary": true,
+          "sort-name": "F\u00e4rsaaret",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Isole F\u00e6r \u00d8er",
+          "primary": true,
+          "sort-name": "Isole F\u00e6r \u00d8er",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Faer\u00f6er",
+          "primary": true,
+          "sort-name": "Faer\u00f6er",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
+          "primary": true,
+          "sort-name": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "F\u00e6r\u00f8yene",
+          "primary": true,
+          "sort-name": "F\u00e6r\u00f8yene",
+          "type": null
+        }
+      ],
+      "id": "9ed3be5f-d54c-3add-a6a6-76c0cca54fd8",
+      "iso-3166-1-codes": [
+        "FO"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Faroe Islands",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "4757b525-2a60-324a-b060-578765d2c993",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Denmark",
+                "sort-name": "Denmark",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "4757b525-2a60-324a-b060-578765d2c993",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 46,
+      "sort-name": "Faroe Islands",
+      "tags": [
+        {
+          "count": 1,
+          "name": "island"
+        },
+        {
+          "count": 1,
+          "name": "nordic"
+        },
+        {
+          "count": 1,
+          "name": "europe"
+        },
+        {
+          "count": 1,
+          "name": "northern europe"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Isle of Man",
+          "primary": true,
+          "sort-name": "Isle of Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Man",
+          "primary": true,
+          "sort-name": "Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00cele de Man",
+          "primary": true,
+          "sort-name": "\u00cele de Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u039d\u03ae\u03c3\u03bf\u03c2 \u03c4\u03bf\u03c5 \u039c\u03b1\u03bd",
+          "primary": true,
+          "sort-name": "\u039d\u03ae\u03c3\u03bf\u03c2 \u03c4\u03bf\u03c5 \u039c\u03b1\u03bd",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Isle of Man",
+          "primary": true,
+          "sort-name": "Isle of Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Isla de Man",
+          "primary": true,
+          "sort-name": "Isla de Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Mansaari",
+          "primary": true,
+          "sort-name": "Mansaari",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Isola di Man",
+          "primary": true,
+          "sort-name": "Isola di Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30de\u30f3\u5cf6",
+          "primary": true,
+          "sort-name": "\u30de\u30f3\u3068\u3046",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Man",
+          "primary": true,
+          "sort-name": "Man",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Man",
+          "primary": true,
+          "sort-name": "Man",
+          "type": null
+        }
+      ],
+      "id": "e9857f2e-5db7-36a0-b4a9-c7c32d1b3172",
+      "iso-3166-1-codes": [
+        "IM"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Isle of Man",
+      "score": 46,
+      "sort-name": "Isle of Man",
+      "tags": [
+        {
+          "count": 1,
+          "name": "island"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "id": "710d5c37-c6b2-4bfb-bfa7-a72c6be2367b",
+      "life-span": {
+        "begin": "2016-01-01",
+        "ended": null
+      },
+      "name": "Hauts-de-France",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "France",
+                "sort-name": "France",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "08310658-51eb-3801-80de-5a0739207115",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 45,
+      "sort-name": "Hauts-de-France",
+      "type": "Subdivision",
+      "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Prantsuse Guajaana",
+          "primary": true,
+          "sort-name": "Prantsuse Guajaana",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Ranskan Guayana",
+          "primary": true,
+          "sort-name": "Ranskan Guayana",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Franz\u00f6sisch-Guayana",
+          "primary": true,
+          "sort-name": "Franz\u00f6sisch-Guayana",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d5\u30e9\u30f3\u30b9\u9818\u30ae\u30a2\u30ca",
+          "primary": true,
+          "sort-name": "\u30d5\u30e9\u30f3\u30b9\u9818\u30ae\u30a2\u30ca",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ae \u0393\u03bf\u03c5\u03b9\u03ac\u03bd\u03b1",
+          "primary": true,
+          "sort-name": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ae \u0393\u03bf\u03c5\u03b9\u03ac\u03bd\u03b1",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "French Guiana",
+          "primary": true,
+          "sort-name": "French Guiana",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "Guyane",
+          "primary": true,
+          "sort-name": "Guyane",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Guayana Francesa",
+          "primary": true,
+          "sort-name": "Guayana Francesa",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Frans-Guyana",
+          "primary": true,
+          "sort-name": "Frans-Guyana",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Guyana francese",
+          "primary": true,
+          "sort-name": "Guyana francese",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Fransk Guyana",
+          "primary": true,
+          "sort-name": "Fransk Guyana",
+          "type": null
+        }
+      ],
+      "id": "bc6f4b9a-3b76-33ca-bde3-2ae452afe66a",
+      "iso-3166-1-codes": [
+        "GF"
+      ],
+      "iso-3166-2-codes": [
+        "FR-GF"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "French Guiana",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "France",
+                "sort-name": "France",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "08310658-51eb-3801-80de-5a0739207115",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 43,
+      "sort-name": "French Guiana",
+      "tags": [
+        {
+          "count": 2,
+          "name": "latin"
+        },
+        {
+          "count": 1,
+          "name": "south america"
+        },
+        {
+          "count": 1,
+          "name": "america"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
+          "primary": true,
+          "sort-name": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Frans-Polynesi\u00eb",
+          "primary": true,
+          "sort-name": "Frans-Polynesi\u00eb",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Fransk Polynesia",
+          "primary": true,
+          "sort-name": "Fransk Polynesia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Franz\u00f6sisch-Polynesien",
+          "primary": true,
+          "sort-name": "Franz\u00f6sisch-Polynesien",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ae \u03a0\u03bf\u03bb\u03c5\u03bd\u03b7\u03c3\u03af\u03b1",
+          "primary": true,
+          "sort-name": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ae \u03a0\u03bf\u03bb\u03c5\u03bd\u03b7\u03c3\u03af\u03b1",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Polinesia Francesa",
+          "primary": true,
+          "sort-name": "Polinesia Francesa",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "French Polynesia",
+          "primary": true,
+          "sort-name": "French Polynesia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Prantsuse Pol\u00fcneesia",
+          "primary": true,
+          "sort-name": "Prantsuse Pol\u00fcneesia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Ranskan Polynesia",
+          "primary": true,
+          "sort-name": "Ranskan Polynesia",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "Polyn\u00e9sie fran\u00e7aise",
+          "primary": true,
+          "sort-name": "Polyn\u00e9sie fran\u00e7aise",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Polinesia francese",
+          "primary": true,
+          "sort-name": "Polinesia francese",
+          "type": null
+        }
+      ],
+      "id": "8b681e01-6c95-3b24-ae60-5cdbcb1d7dce",
+      "iso-3166-1-codes": [
+        "PF"
+      ],
+      "iso-3166-2-codes": [
+        "FR-PF"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "French Polynesia",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "France",
+                "sort-name": "France",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "08310658-51eb-3801-80de-5a0739207115",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 42,
+      "sort-name": "French Polynesia",
+      "tags": [
+        {
+          "count": 1,
+          "name": "oceania"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Costa d'Avorio",
+          "primary": true,
+          "sort-name": "Costa d'Avorio",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb",
+          "primary": true,
+          "sort-name": "\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "C\u00f4te d'Ivoire",
+          "primary": true,
+          "sort-name": "C\u00f4te d'Ivoire",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Ivoorkust",
+          "primary": true,
+          "sort-name": "Ivoorkust",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "C\u00f4te d'Ivoire",
+          "primary": true,
+          "sort-name": "C\u00f4te d'Ivoire",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Elfenbenskysten",
+          "primary": true,
+          "sort-name": "Elfenbenskysten",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Elfenbeink\u00fcste",
+          "primary": true,
+          "sort-name": "Elfenbeink\u00fcste",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0391\u03ba\u03c4\u03ae \u0395\u03bb\u03b5\u03c6\u03b1\u03bd\u03c4\u03bf\u03c3\u03c4\u03bf\u03cd",
+          "primary": true,
+          "sort-name": "\u0391\u03ba\u03c4\u03ae \u0395\u03bb\u03b5\u03c6\u03b1\u03bd\u03c4\u03bf\u03c3\u03c4\u03bf\u03cd",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Elevandiluurannik",
+          "primary": true,
+          "sort-name": "Elevandiluurannik",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Norsunluurannikko",
+          "primary": true,
+          "sort-name": "Norsunluurannikko",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Costa de Marfil",
+          "primary": true,
+          "sort-name": "Costa de Marfil",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Ivory Coast",
+          "primary": null,
+          "sort-name": "Ivory Coast",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "e56e3d7a-4b90-3546-8450-49548050924a",
+      "iso-3166-1-codes": [
+        "CI"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "C\u00f4te d'Ivoire",
+      "score": 41,
+      "sort-name": "C\u00f4te d'Ivoire",
+      "tags": [
+        {
+          "count": 2,
+          "name": "un member state"
+        },
+        {
+          "count": 1,
+          "name": "africa"
+        },
+        {
+          "count": 1,
+          "name": "western africa"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Ciudad Aut\u00f3noma de Buenos Aires",
+          "primary": null,
+          "sort-name": "Ciudad Aut\u00f3noma de Buenos Aires",
+          "type": "Formal name",
+          "type-id": "b280c712-f676-342e-a8f2-e5c5fe0159b4"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "1",
+          "primary": true,
+          "sort-name": "1",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": null,
+          "name": "Bs. As.",
+          "primary": null,
+          "sort-name": "Bs. As.",
+          "type": "Search hint",
+          "type-id": "7090dd35-e32e-3422-8a48-224821c2468b"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "1",
+          "primary": null,
+          "sort-name": "1",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Buenos Aires",
+          "primary": true,
+          "sort-name": "Buenos Aires",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d6\u30a8\u30ce\u30b9\u30a2\u30a4\u30ec\u30b9",
+          "primary": true,
+          "sort-name": "\u30d6\u30a8\u30ce\u30b9\u30a2\u30a4\u30ec\u30b9",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "2bd8607d-56fe-4fa1-96e3-3badd6a98588",
+      "iso-3166-2-codes": [
+        "AR-C"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Buenos Aires",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Argentina",
+                "sort-name": "Argentina",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 39,
+      "sort-name": "Buenos Aires",
+      "tags": [
+        {
+          "count": 1,
+          "name": "robyn lekker"
+        }
+      ],
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Santiago de Chile",
+          "primary": true,
+          "sort-name": "Santiago de Chile",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Santiago",
+          "primary": true,
+          "sort-name": "Santiago",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "77ec97c2-5377-4ac7-b156-620470e71940",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Santiago",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "8270a6f3-3e8d-482d-8cb6-649912ac5a63",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Regi\u00f3n Metropolitana de Santiago",
+                "sort-name": "Regi\u00f3n Metropolitana de Santiago",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+              },
+              "direction": "backward",
+              "target": "8270a6f3-3e8d-482d-8cb6-649912ac5a63",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 39,
+      "sort-name": "Santiago",
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Mexico City",
+          "primary": true,
+          "sort-name": "Mexico City",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Ciudad de M\u00e9xico",
+          "primary": true,
+          "sort-name": "Ciudad de M\u00e9xico",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Mexiko-Stadt",
+          "primary": true,
+          "sort-name": "Mexiko-Stadt",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30e1\u30ad\u30b7\u30b3\u30b7\u30c6\u30a3",
+          "primary": true,
+          "sort-name": "\u30e1\u30ad\u30b7\u30b3\u30b7\u30c6\u30a3",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "3c810219-baf2-4fff-b98c-46b425eea1f5",
+      "iso-3166-2-codes": [
+        "MX-DIF"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Ciudad de M\u00e9xico",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Mexico",
+                "sort-name": "Mexico",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 39,
+      "sort-name": "Ciudad de M\u00e9xico",
+      "tags": [
+        {
+          "count": 1,
+          "name": "dos es mquina"
+        }
+      ],
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Vereinigte Arabische Emirate",
+          "primary": true,
+          "sort-name": "Vereinigte Arabische Emirate",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0397\u03bd\u03c9\u03bc\u03ad\u03bd\u03b1 \u0391\u03c1\u03b1\u03b2\u03b9\u03ba\u03ac \u0395\u03bc\u03b9\u03c1\u03ac\u03c4\u03b1",
+          "primary": true,
+          "sort-name": "\u0397\u03bd\u03c9\u03bc\u03ad\u03bd\u03b1 \u0391\u03c1\u03b1\u03b2\u03b9\u03ba\u03ac \u0395\u03bc\u03b9\u03c1\u03ac\u03c4\u03b1",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "United Arab Emirates",
+          "primary": true,
+          "sort-name": "United Arab Emirates",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Emiratos \u00c1rabes Unidos",
+          "primary": true,
+          "sort-name": "Emiratos \u00c1rabes Unidos",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Araabia \u00dchendemiraadid",
+          "primary": true,
+          "sort-name": "Araabia \u00dchendemiraadid",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Yhdistyneet arabiemiirikunnat",
+          "primary": true,
+          "sort-name": "Yhdistyneet arabiemiirikunnat",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00c9mirats arabes unis",
+          "primary": true,
+          "sort-name": "\u00c9mirats arabes unis",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Emirati Arabi Uniti",
+          "primary": true,
+          "sort-name": "Emirati Arabi Uniti",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30a2\u30e9\u30d6\u9996\u9577\u56fd\u9023\u90a6",
+          "primary": true,
+          "sort-name": "\u30a2\u30e9\u30d6\u9996\u9577\u56fd\u9023\u90a6",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Verenigde Arabische Emiraten",
+          "primary": true,
+          "sort-name": "Verenigde Arabische Emiraten",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "De forente arabiske emirater",
+          "primary": true,
+          "sort-name": "De forente arabiske emirater",
+          "type": null
+        }
+      ],
+      "id": "fe40c648-ba74-3e17-b768-58181d5ee563",
+      "iso-3166-1-codes": [
+        "AE"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "United Arab Emirates",
+      "score": 38,
+      "sort-name": "United Arab Emirates",
+      "tags": [
+        {
+          "count": 1,
+          "name": "arab"
+        },
+        {
+          "count": 1,
+          "name": "arabia"
+        },
+        {
+          "count": 1,
+          "name": "asia"
+        },
+        {
+          "count": 1,
+          "name": "middle east"
+        },
+        {
+          "count": 2,
+          "name": "un member state"
+        },
+        {
+          "count": 1,
+          "name": "western asia"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Yhdysvaltain Neitsytsaaret",
+          "primary": true,
+          "sort-name": "Yhdysvaltain Neitsytsaaret",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00celes Vierges des \u00c9tats-Unis",
+          "primary": true,
+          "sort-name": "\u00celes Vierges des \u00c9tats-Unis",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Isole Vergini americane",
+          "primary": true,
+          "sort-name": "Isole Vergini americane",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
+          "primary": true,
+          "sort-name": "\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Amerikanische Jungferninseln",
+          "primary": true,
+          "sort-name": "Amerikanische Jungferninseln",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03b1\u03bd\u03b9\u03ba\u03ad\u03c2 \u03a0\u03b1\u03c1\u03b8\u03ad\u03bd\u03bf\u03b9 \u039d\u03ae\u03c3\u03bf\u03b9",
+          "primary": true,
+          "sort-name": "\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03b1\u03bd\u03b9\u03ba\u03ad\u03c2 \u03a0\u03b1\u03c1\u03b8\u03ad\u03bd\u03bf\u03b9 \u039d\u03ae\u03c3\u03bf\u03b9",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Amerikaanse Maagdeneilanden",
+          "primary": true,
+          "sort-name": "Amerikaanse Maagdeneilanden",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "U.S. Virgin Islands",
+          "primary": true,
+          "sort-name": "U.S. Virgin Islands",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Islas V\u00edrgenes de los Estados Unidos",
+          "primary": true,
+          "sort-name": "Islas V\u00edrgenes de los Estados Unidos",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "USA Neitsisaared",
+          "primary": true,
+          "sort-name": "USA Neitsisaared",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "De amerikanske jomfru\u00f8yene",
+          "primary": true,
+          "sort-name": "De amerikanske jomfru\u00f8yene",
+          "type": null
+        }
+      ],
+      "id": "f33958ac-4198-3ce8-a751-1c44d9b4063a",
+      "iso-3166-1-codes": [
+        "VI"
+      ],
+      "iso-3166-2-codes": [
+        "US-VI"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "U.S. Virgin Islands",
+      "score": 38,
+      "sort-name": "U.S. Virgin Islands",
+      "tags": [
+        {
+          "count": 1,
+          "name": "island"
+        },
+        {
+          "count": 1,
+          "name": "north america"
+        },
+        {
+          "count": 1,
+          "name": "america"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "pt",
+          "name": "Rio de Janeiro",
+          "primary": true,
+          "sort-name": "Rio de Janeiro",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Rio de Janeiro",
+          "primary": true,
+          "sort-name": "Rio de Janeiro",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "9443d4f5-668c-4f30-96bd-6caf831de30f",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Rio de Janeiro",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "7a317b09-3948-46f2-99da-a14355d6fff7",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Rio de Janeiro",
+                "sort-name": "Rio de Janeiro",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+              },
+              "direction": "backward",
+              "target": "7a317b09-3948-46f2-99da-a14355d6fff7",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 38,
+      "sort-name": "Rio de Janeiro",
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ga",
+          "name": "Baile \u00c1tha Cliath",
+          "primary": true,
+          "sort-name": "Baile \u00c1tha Cliath",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Dublin",
+          "primary": true,
+          "sort-name": "Dublin",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30c0\u30d6\u30ea\u30f3",
+          "primary": true,
+          "sort-name": "\u30c0\u30d6\u30ea\u30f3",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "462e7952-4fa9-43cd-bc24-2c5c9cd5dd47",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Dublin",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "a4382217-8e68-4101-8ac0-2f14a31dd44d",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "County Dublin",
+                "sort-name": "County Dublin",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+              },
+              "direction": "backward",
+              "target": "a4382217-8e68-4101-8ac0-2f14a31dd44d",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 38,
+      "sort-name": "Dublin",
+      "tags": [
+        {
+          "count": 1,
+          "name": "place"
+        },
+        {
+          "count": 1,
+          "name": "capital city"
+        }
+      ],
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Fort-de-France",
+          "primary": true,
+          "sort-name": "Fort-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "Fort-de-France",
+          "primary": true,
+          "sort-name": "Fort-de-France",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d5\u30a9\u30fc\u30eb\uff1d\u30c9\uff1d\u30d5\u30e9\u30f3\u30b9",
+          "primary": true,
+          "sort-name": "\u30d5\u30a9\u30fc\u30eb\uff1d\u30c9\uff1d\u30d5\u30e9\u30f3\u30b9",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "1d17f106-1280-4bfa-8809-bb140003f141",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Fort-de-France",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "b360247d-4719-47bb-92d2-3d3c9f7f4c06",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Arrondissement of Fort-de-France",
+                "sort-name": "Arrondissement of Fort-de-France",
+                "type": "County",
+                "type-id": "bcecec27-8bdb-3e00-8254-d948dda502fa"
+              },
+              "direction": "backward",
+              "target": "b360247d-4719-47bb-92d2-3d3c9f7f4c06",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 36,
+      "sort-name": "Fort-de-France",
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "1",
+          "primary": true,
+          "sort-name": "1",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Bogot\u00e1",
+          "primary": true,
+          "sort-name": "Bogot\u00e1",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "1",
+          "primary": null,
+          "sort-name": "1",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Distrito Capital de Bogot\u00e1",
+          "primary": null,
+          "sort-name": "Bogot\u00e1, Distrito Capital de",
+          "type": "Formal name",
+          "type-id": "b280c712-f676-342e-a8f2-e5c5fe0159b4"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30dc\u30b4\u30bf",
+          "primary": true,
+          "sort-name": "\u30dc\u30b4\u30bf",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "6f85c2b6-4250-468b-9bd8-300fd8b451ad",
+      "iso-3166-2-codes": [
+        "CO-DC"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Bogot\u00e1",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Colombia",
+                "sort-name": "Colombia",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "02b60d8d-7164-339d-868d-22d147d9f74a",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 34,
+      "sort-name": "Bogot\u00e1",
+      "tags": [
+        {
+          "count": 1,
+          "name": "realidad mental"
+        },
+        {
+          "count": 1,
+          "name": "rock al parque"
+        }
+      ],
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "R\u00e9gion de Bruxelles-Capitale",
+          "primary": null,
+          "sort-name": "Bruxelles-Capitale, R\u00e9gion de",
+          "type": "Formal name",
+          "type-id": "b280c712-f676-342e-a8f2-e5c5fe0159b4"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Region Br\u00fcssel-Hauptstadt",
+          "primary": true,
+          "sort-name": "Region Br\u00fcssel-Hauptstadt",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Brussels Hoofdstedelijk Gewest",
+          "primary": true,
+          "sort-name": "Brussels Hoofdstedelijk Gewest",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Brussels-Capital Region",
+          "primary": true,
+          "sort-name": "Brussels-Capital Region",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d6\u30ea\u30e5\u30c3\u30bb\u30eb\u9996\u90fd\u570f\u5730\u57df",
+          "primary": true,
+          "sort-name": "\u30d6\u30ea\u30e5\u30c3\u30bb\u30eb\u9996\u90fd\u570f\u5730\u57df",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "7bda5d46-4809-41dc-a0b8-e889ff818f2e",
+      "iso-3166-2-codes": [
+        "BE-BRU"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Brussels",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Belgium",
+                "sort-name": "Belgium",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+              },
+              "direction": "backward",
+              "target": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 33,
+      "sort-name": "Brussels",
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Lima",
+          "primary": null,
+          "sort-name": "Lima",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30ea\u30de",
+          "primary": null,
+          "sort-name": "\u30ea\u30de",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Lima",
+          "primary": true,
+          "sort-name": "Lima",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Departamento de Lima",
+          "primary": true,
+          "sort-name": "Departamento de Lima",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30ea\u30de\u770c",
+          "primary": true,
+          "sort-name": "\u30ea\u30de\u770c",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "927c394e-4c75-46d7-980f-cd7a6af2ca33",
+      "iso-3166-2-codes": [
+        "PE-LIM"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Lima",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "fd36bfd6-37a5-474e-9b28-db98fc7151ae",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Municipalidad Metropolitana de Lima",
+                "sort-name": "Municipalidad Metropolitana de Lima",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+              },
+              "direction": "backward",
+              "target": "fd36bfd6-37a5-474e-9b28-db98fc7151ae",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 33,
+      "sort-name": "Lima",
+      "tags": [
+        {
+          "count": 1,
+          "name": "punk"
+        },
+        {
+          "count": 1,
+          "name": "crust punk"
+        }
+      ],
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Cayman Islands",
+          "primary": true,
+          "sort-name": "Cayman Islands",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "el",
+          "name": "\u039d\u03b7\u03c3\u03b9\u03ac \u039a\u03b1\u03cb\u03bc\u03ac\u03bd",
+          "primary": true,
+          "sort-name": "\u039d\u03b7\u03c3\u03b9\u03ac \u039a\u03b1\u03cb\u03bc\u03ac\u03bd",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Cayman Islands",
+          "primary": true,
+          "sort-name": "Cayman Islands",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "es",
+          "name": "Islas Caim\u00e1n",
+          "primary": true,
+          "sort-name": "Islas Caim\u00e1n",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "et",
+          "name": "Kaimanisaared",
+          "primary": true,
+          "sort-name": "Kaimanisaared",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fi",
+          "name": "Caymansaaret",
+          "primary": true,
+          "sort-name": "Caymansaaret",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "\u00celes Ca\u00efmans",
+          "primary": true,
+          "sort-name": "\u00celes Ca\u00efmans",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Isole Cayman",
+          "primary": true,
+          "sort-name": "Isole Cayman",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
+          "primary": true,
+          "sort-name": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "nl",
+          "name": "Kaaimaneilanden",
+          "primary": true,
+          "sort-name": "Kaaimaneilanden",
+          "type": null
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "no",
+          "name": "Cayman\u00f8yene",
+          "primary": true,
+          "sort-name": "Cayman\u00f8yene",
+          "type": null
+        }
+      ],
+      "id": "5dd25184-711c-3e6a-b089-572cd095f287",
+      "iso-3166-1-codes": [
+        "KY"
+      ],
+      "life-span": {
+        "ended": null
+      },
+      "name": "Cayman Islands",
+      "score": 33,
+      "sort-name": "Cayman Islands",
+      "tags": [
+        {
+          "count": 2,
+          "name": "island"
+        },
+        {
+          "count": 2,
+          "name": "america"
+        },
+        {
+          "count": 2,
+          "name": "north america"
+        }
+      ],
+      "type": "Country",
+      "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de"
+    },
+    {
+      "aliases": [
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "de",
+          "name": "Basel",
+          "primary": true,
+          "sort-name": "Basel",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "fr",
+          "name": "B\u00e2le",
+          "primary": true,
+          "sort-name": "B\u00e2le",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "it",
+          "name": "Basilea",
+          "primary": true,
+          "sort-name": "Basilea",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "en",
+          "name": "Basel",
+          "primary": true,
+          "sort-name": "Basel",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        },
+        {
+          "begin-date": null,
+          "end-date": null,
+          "locale": "ja",
+          "name": "\u30d0\u30fc\u30bc\u30eb",
+          "primary": true,
+          "sort-name": "\u30d0\u30fc\u30bc\u30eb",
+          "type": "Area name",
+          "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29"
+        }
+      ],
+      "id": "264779d6-59a8-4fb6-8c43-5f39ce67ccd1",
+      "life-span": {
+        "ended": null
+      },
+      "name": "Basel",
+      "relation-list": [
+        {
+          "relations": [
+            {
+              "area": {
+                "id": "d2e39224-187c-4346-b7c4-5d20ac1e11ac",
+                "life-span": {
+                  "ended": null
+                },
+                "name": "Basel-Stadt",
+                "sort-name": "Basel-Stadt",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa"
+              },
+              "direction": "backward",
+              "target": "d2e39224-187c-4346-b7c4-5d20ac1e11ac",
+              "type": "part of",
+              "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7"
+            }
+          ]
+        }
+      ],
+      "score": 32,
+      "sort-name": "Basel",
+      "type": "City",
+      "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+    }
+  ],
+  "count": 4998,
+  "created": "2026-03-06T19:39:13.573Z",
+  "offset": 0
+}

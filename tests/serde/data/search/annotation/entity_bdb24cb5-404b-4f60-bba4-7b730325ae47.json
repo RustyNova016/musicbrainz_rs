@@ -1,1 +1,14 @@
-{"created":"2024-10-03T17:51:22.924Z","count":1,"offset":0,"annotations":[{"type":"release","score":100,"entity":"bdb24cb5-404b-4f60-bba4-7b730325ae47","name":"Pieds nus sur la braise","text":"Lyrics and music by Merzhin except:\n04, 08, 09, 10 (V. L'hour - Merzhin),\n03 (V. L'hour - P. Le Bourdonnec - Merzhin),\n05 & 13 (P. Le Bourdonnec - Merzhin),\n06 ([http://musicbrainz.org/artist/38cfa519-21bb-4e79-8388-3bf798b8c076.html|JM. Poisson] - Merzhin),\n07 ([http://musicbrainz.org/artist/f2d7c07c-a8e7-45c9-a888-0b2e6e3a240d.html|Ignatus] - V. L'hour - Merzhin),\n11 ([http://musicbrainz.org/artist/f2d7c07c-a8e7-45c9-a888-0b2e6e3a240d.html|Ignatus] - Merzhin),\n12 ([http://musicbrainz.org/artist/38cfa519-21bb-4e79-8388-3bf798b8c076.html|JM. Poisson])."}]}
+{
+  "annotations": [
+    {
+      "entity": "bdb24cb5-404b-4f60-bba4-7b730325ae47",
+      "name": "Pieds nus sur la braise",
+      "score": 100,
+      "text": "Lyrics and music by Merzhin except:\n04, 08, 09, 10 (V. L'hour - Merzhin),\n03 (V. L'hour - P. Le Bourdonnec - Merzhin),\n05 & 13 (P. Le Bourdonnec - Merzhin),\n06 ([http://musicbrainz.org/artist/38cfa519-21bb-4e79-8388-3bf798b8c076.html|JM. Poisson] - Merzhin),\n07 ([http://musicbrainz.org/artist/f2d7c07c-a8e7-45c9-a888-0b2e6e3a240d.html|Ignatus] - V. L'hour - Merzhin),\n11 ([http://musicbrainz.org/artist/f2d7c07c-a8e7-45c9-a888-0b2e6e3a240d.html|Ignatus] - Merzhin),\n12 ([http://musicbrainz.org/artist/38cfa519-21bb-4e79-8388-3bf798b8c076.html|JM. Poisson]).",
+      "type": "release"
+    }
+  ],
+  "count": 1,
+  "created": "2024-10-03T17:51:22.924Z",
+  "offset": 0
+}

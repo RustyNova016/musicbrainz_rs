@@ -1,1 +1,52 @@
-{"name":"Arēna Rīga","id":"478558f9-a951-4067-ad91-e83f6ba63e74","disambiguation":"","type":"Indoor arena","aliases":[{"name":"Arena Riga","begin":null,"locale":"en","sort-name":"Arena Riga","primary":true,"type-id":"fb68f9a2-622c-319b-83b0-bbff4127cdc5","type":"Place name","end":null,"ended":false},{"ended":false,"end":null,"locale":"lv","begin":null,"name":"Arēna Rīga","type":"Place name","type-id":"fb68f9a2-622c-319b-83b0-bbff4127cdc5","primary":true,"sort-name":"Arēna Rīga"}],"type-id":"a77c11f6-82fa-3cc0-9041-ac60e5f6e024","coordinates":{"longitude":24.121403,"latitude":56.967989},"life-span":{"ended":false,"end":null,"begin":"2006-02-15"},"area":{"type":null,"type-id":null,"iso-3166-2-codes":["LV-RIX"],"sort-name":"Rīga","disambiguation":"","name":"Rīga","id":"9c612199-d66f-4109-aedc-67ab26e0a43b"},"address":"Skanstes iela 21, Rīga, Latvia"}
+{
+  "address": "Skanstes iela 21, R\u012bga, Latvia",
+  "aliases": [
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "en",
+      "name": "Arena Riga",
+      "primary": true,
+      "sort-name": "Arena Riga",
+      "type": "Place name",
+      "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "lv",
+      "name": "Ar\u0113na R\u012bga",
+      "primary": true,
+      "sort-name": "Ar\u0113na R\u012bga",
+      "type": "Place name",
+      "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5"
+    }
+  ],
+  "area": {
+    "disambiguation": "",
+    "id": "9c612199-d66f-4109-aedc-67ab26e0a43b",
+    "iso-3166-2-codes": [
+      "LV-RIX"
+    ],
+    "name": "R\u012bga",
+    "sort-name": "R\u012bga",
+    "type": null,
+    "type-id": null
+  },
+  "coordinates": {
+    "latitude": 56.967989,
+    "longitude": 24.121403
+  },
+  "disambiguation": "",
+  "id": "478558f9-a951-4067-ad91-e83f6ba63e74",
+  "life-span": {
+    "begin": "2006-02-15",
+    "end": null,
+    "ended": false
+  },
+  "name": "Ar\u0113na R\u012bga",
+  "type": "Indoor arena",
+  "type-id": "a77c11f6-82fa-3cc0-9041-ac60e5f6e024"
+}

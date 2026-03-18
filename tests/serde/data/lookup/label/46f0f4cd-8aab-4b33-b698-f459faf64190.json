@@ -1,1 +1,43 @@
-{"isnis":["0000000107280584"],"area":{"type-id":null,"disambiguation":"","id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","type":null,"name":"United Kingdom","iso-3166-1-codes":["GB"],"sort-name":"United Kingdom"},"disambiguation":"UK independent label","life-span":{"end":null,"ended":false,"begin":"1989-07"},"name":"Warp","label-code":2070,"type-id":"7aaa37fe-2def-3476-b359-80245850062d","aliases":[{"end":null,"begin":null,"sort-name":"Warp Records","type":"Label name","ended":false,"name":"Warp Records","type-id":"3a1a0c48-d885-3b89-87b2-9e8a483c5675","locale":"en_GB","primary":false}],"country":"GB","ipis":[],"id":"46f0f4cd-8aab-4b33-b698-f459faf64190","sort-name":"Warp","type":"Original Production"}
+{
+  "aliases": [
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "en_GB",
+      "name": "Warp Records",
+      "primary": false,
+      "sort-name": "Warp Records",
+      "type": "Label name",
+      "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675"
+    }
+  ],
+  "area": {
+    "disambiguation": "",
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "iso-3166-1-codes": [
+      "GB"
+    ],
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "type": null,
+    "type-id": null
+  },
+  "country": "GB",
+  "disambiguation": "UK independent label",
+  "id": "46f0f4cd-8aab-4b33-b698-f459faf64190",
+  "ipis": [],
+  "isnis": [
+    "0000000107280584"
+  ],
+  "label-code": 2070,
+  "life-span": {
+    "begin": "1989-07",
+    "end": null,
+    "ended": false
+  },
+  "name": "Warp",
+  "sort-name": "Warp",
+  "type": "Original Production",
+  "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+}

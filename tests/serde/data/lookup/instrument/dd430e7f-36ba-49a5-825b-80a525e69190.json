@@ -1,1 +1,142 @@
-{"disambiguation":"Banana shaped bronze slit-drum used in javanese gamelan","name":"kemanak","id":"dd430e7f-36ba-49a5-825b-80a525e69190","type-id":"68fa2525-4c23-3386-bb81-e84994342e9a","aliases":[{"ended":false,"type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","locale":"de","type":"Instrument name","end":null,"sort-name":"Kemanak","primary":true,"begin":null,"name":"Kemanak"},{"end":null,"primary":null,"sort-name":"gumanak","begin":null,"name":"gumanak","ended":false,"type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","locale":null,"type":"Instrument name"},{"name":"kamanak","sort-name":"kamanak","end":null,"primary":null,"begin":null,"ended":false,"type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","locale":null,"type":"Search hint"},{"ended":false,"type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","locale":null,"type":"Search hint","name":"kamanek","end":null,"sort-name":"kamanek","primary":null,"begin":null},{"type":"Search hint","locale":null,"type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","ended":false,"name":"kamenak","begin":null,"end":null,"sort-name":"kamenak","primary":null},{"type":"Instrument name","locale":"en","type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","ended":false,"name":"kemanak","begin":null,"end":null,"sort-name":"kemanak","primary":true},{"name":"kemanak","begin":null,"end":null,"sort-name":"kemanak","primary":true,"type":"Instrument name","locale":"jv","type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","ended":false},{"begin":null,"end":null,"sort-name":"kemanek","primary":null,"name":"kemanek","type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","ended":false,"type":"Search hint","locale":null},{"type":"Search hint","locale":null,"type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","ended":false,"name":"kemenak","begin":null,"sort-name":"kemenak","end":null,"primary":null},{"locale":null,"type":"Search hint","ended":false,"type-id":"7d5ef40f-4856-3000-8667-aa13b9db547d","sort-name":"kemenek","end":null,"primary":null,"begin":null,"name":"kemenek"},{"locale":null,"type":"Instrument name","ended":false,"type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","end":null,"sort-name":"kenawak","primary":null,"begin":null,"name":"kenawak"},{"type-id":"2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd","ended":false,"type":"Instrument name","locale":"bg","name":"кеманак","begin":null,"end":null,"primary":true,"sort-name":"kemanak"}],"description":"Bent into a ladle or banana like shape, it is a pair of bronze slit-drums hit with tabuh beaters.","type":"Percussion instrument"}
+{
+  "aliases": [
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "de",
+      "name": "Kemanak",
+      "primary": true,
+      "sort-name": "Kemanak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "gumanak",
+      "primary": null,
+      "sort-name": "gumanak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kamanak",
+      "primary": null,
+      "sort-name": "kamanak",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kamanek",
+      "primary": null,
+      "sort-name": "kamanek",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kamenak",
+      "primary": null,
+      "sort-name": "kamenak",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "en",
+      "name": "kemanak",
+      "primary": true,
+      "sort-name": "kemanak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "jv",
+      "name": "kemanak",
+      "primary": true,
+      "sort-name": "kemanak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kemanek",
+      "primary": null,
+      "sort-name": "kemanek",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kemenak",
+      "primary": null,
+      "sort-name": "kemenak",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kemenek",
+      "primary": null,
+      "sort-name": "kemenek",
+      "type": "Search hint",
+      "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": null,
+      "name": "kenawak",
+      "primary": null,
+      "sort-name": "kenawak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "locale": "bg",
+      "name": "\u043a\u0435\u043c\u0430\u043d\u0430\u043a",
+      "primary": true,
+      "sort-name": "kemanak",
+      "type": "Instrument name",
+      "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd"
+    }
+  ],
+  "description": "Bent into a ladle or banana like shape, it is a pair of bronze slit-drums hit with tabuh beaters.",
+  "disambiguation": "Banana shaped bronze slit-drum used in javanese gamelan",
+  "id": "dd430e7f-36ba-49a5-825b-80a525e69190",
+  "name": "kemanak",
+  "type": "Percussion instrument",
+  "type-id": "68fa2525-4c23-3386-bb81-e84994342e9a"
+}

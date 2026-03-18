@@ -1,1 +1,107 @@
-{"secondary-types":["DJ-mix","Mixtape/Street"],"disambiguation":"","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","releases":[{"text-representation":{"script":"Latn","language":"eng"},"artist-credit":[{"name":"50 Cent","joinphrase":" & ","artist":{"type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","id":"8e68819d-71be-4e7d-b41d-f1df81b01d3f","type":"Person","disambiguation":"","name":"50 Cent","sort-name":"50 Cent"}},{"artist":{"id":"de23d637-20df-4b15-ae63-263dd5a34f10","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","sort-name":"Drama, DJ","type":"Person","disambiguation":"US rap mixtape DJ Tyree Cinque Simmons","name":"DJ Drama"},"name":"DJ Drama","joinphrase":""}],"title":"The Lost Tape","release-events":[{"date":"2012-05-22","area":{"id":"525d4e18-3d00-31b9-a58b-a146a916de8f","iso-3166-1-codes":["XW"],"sort-name":"[Worldwide]","type":null,"name":"[Worldwide]","type-id":null,"disambiguation":""}}],"date":"2012-05-22","disambiguation":"","status-id":"518ffc83-5cde-34df-8627-81bff5093d92","status":"Promotion","barcode":"","id":"2ec84eb6-ab92-4ac3-9720-32ad84c34f11","quality":"normal","country":"XW","packaging":"None","packaging-id":"119eba76-b343-3e02-a292-f0f00644bb9b"}],"primary-type":"Album","title":"The Lost Tape","artist-credit":[{"artist":{"sort-name":"50 Cent","disambiguation":"","type":"Person","name":"50 Cent","id":"8e68819d-71be-4e7d-b41d-f1df81b01d3f","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df"},"name":"50 Cent","joinphrase":" & "},{"joinphrase":"","name":"DJ Drama","artist":{"id":"de23d637-20df-4b15-ae63-263dd5a34f10","type-id":"b6e035f4-3ce9-331c-97df-83397230b0df","sort-name":"Drama, DJ","name":"DJ Drama","disambiguation":"US rap mixtape DJ Tyree Cinque Simmons","type":"Person"}}],"secondary-type-ids":["0d47f47a-3fe5-3d69-ac9d-d566c23968bf","15c1b1f5-d893-3375-a1db-e180c5ae15ed"],"id":"c9fdb94c-4975-4ed6-a96f-ef6d80bb7738","first-release-date":"2012-05-22"}
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+        "name": "50 Cent",
+        "sort-name": "50 Cent",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "50 Cent"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
+        "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
+        "name": "DJ Drama",
+        "sort-name": "Drama, DJ",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "DJ Drama"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2012-05-22",
+  "id": "c9fdb94c-4975-4ed6-a96f-ef6d80bb7738",
+  "primary-type": "Album",
+  "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+            "name": "50 Cent",
+            "sort-name": "50 Cent",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "50 Cent"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
+            "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
+            "name": "DJ Drama",
+            "sort-name": "Drama, DJ",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "DJ Drama"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2012-05-22",
+      "disambiguation": "",
+      "id": "2ec84eb6-ab92-4ac3-9720-32ad84c34f11",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2012-05-22"
+        }
+      ],
+      "status": "Promotion",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Lost Tape"
+    }
+  ],
+  "secondary-type-ids": [
+    "0d47f47a-3fe5-3d69-ac9d-d566c23968bf",
+    "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+  ],
+  "secondary-types": [
+    "DJ-mix",
+    "Mixtape/Street"
+  ],
+  "title": "The Lost Tape"
+}

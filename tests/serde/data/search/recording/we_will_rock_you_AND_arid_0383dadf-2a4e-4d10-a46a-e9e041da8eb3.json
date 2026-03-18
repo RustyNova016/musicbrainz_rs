@@ -1,1 +1,3027 @@
-{"created":"2024-10-03T17:51:21.730Z","count":392,"offset":0,"recordings":[{"id":"3eb00f9f-6291-4a47-9309-8c7152a408bb","score":100,"title":"We Will Rock You","length":126826,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1999","releases":[{"id":"08a09c20-9bb4-49c9-81c9-b0f028652cbe","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"MTV Music History: The Greatest Hits III–IV","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"f4975179-f390-3d66-b217-ec5a8cbeea05","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"MTV Music History: The Greatest Hits III–IV","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"1999","country":"UA","release-events":[{"date":"1999","area":{"id":"904768d0-61ca-3c40-93ac-93adc36fef4b","name":"Ukraine","sort-name":"Ukraine","iso-3166-1-codes":["UA"]}}],"track-count":39,"media":[{"position":1,"format":"CD","track":[{"id":"eee4b2b9-2827-3cde-b352-53b987c5be38","number":"1","title":"We Will Rock You","length":126826}],"track-count":20,"track-offset":0}]}]},{"id":"9fb468ce-309f-4a4a-90d5-6b74df17c1b7","score":100,"title":"We Will Rock You","length":301600,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1994","releases":[{"id":"0d3ce00e-03de-477d-8cb3-51b2c1414843","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":1,"title":"The Ultimate Queen Back Catalogue, Volume II","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"b238e426-6e37-3bbf-bf6c-d9f2c1a74abe","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The Ultimate Queen Back Catalogue, Volume II","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"1994","country":"XE","release-events":[{"date":"1994","area":{"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","sort-name":"Europe","iso-3166-1-codes":["XE"]}}],"track-count":16,"media":[{"position":1,"format":"CD","track":[{"id":"84d5a3b2-0acb-3b98-8515-cd82278b429f","number":"12","title":"We Will Rock You","length":301600}],"track-count":16,"track-offset":11}]}]},{"id":"45a9744c-de19-4861-a302-5c5a33941bdd","score":100,"title":"We Will Rock You","length":131000,"disambiguation":"live, 1981-11-(24-25): Montreal Forum, Montreal, Canada","video":true,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1997-12-16","releases":[{"id":"7c75625e-73a5-4439-8159-ca233389ba62","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Rock Montreal & Live Aid","status":"Official","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock Montreal","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2007","country":"XE","release-events":[{"date":"2007","area":{"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","sort-name":"Europe","iso-3166-1-codes":["XE"]}}],"track-count":37,"media":[{"position":1,"format":"Blu-ray","track":[{"id":"a9a76a20-e577-4c3d-a9f3-d38e154fb1ec","number":"24","title":"We Will Rock You","length":131000}],"track-count":37,"track-offset":23}]},{"id":"f51385bc-dbd0-40dc-9a96-80e013692d45","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"We Will Rock You","status":"Official","disambiguation":"commemorative release","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock Montreal","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"1997-12-16","country":"US","release-events":[{"date":"1997-12-16","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"track-count":26,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"2155ffba-5c22-4e4e-a748-81e67cdc6b95","number":"23","title":"We Will Rock You (reprise)","length":130431}],"track-count":26,"track-offset":22}]},{"id":"35c58e93-8ebf-461e-848a-e0d3ea99a14e","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"Rock Montreal & Live Aid","status":"Official","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock Montreal","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2007-10-30","country":"US","release-events":[{"date":"2007-10-30","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"track-count":37,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"45efdeb9-d23d-4534-b881-3bd838834744","number":"24","title":"We Will Rock You","length":131166}],"track-count":26,"track-offset":23}]},{"id":"7d638c9c-acb8-4074-9df4-930eebc51c12","count":1,"title":"Rock Montreal & Live Aid","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock Montreal","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2007-11-21","country":"US","release-events":[{"date":"2007-11-21","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"track-count":37,"media":[{"position":1,"format":"Blu-ray","track":[{"id":"1139d926-eb94-4bfc-8fbd-0813bace5a81","number":"24","title":"We Will Rock You"}],"track-count":37,"track-offset":23}]},{"id":"7bd09e3f-b33c-48f9-ac24-b561e0261997","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Rock Montreal","status":"Official","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock Montreal","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2007-10-29","country":"US","release-events":[{"date":"2007-10-29","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"track-count":26,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"dfe56ca2-d65b-3003-89b2-426974e9b60e","number":"24","title":"We Will Rock You","length":131178}],"track-count":26,"track-offset":23}]}]},{"id":"59765b03-1779-4bc3-a355-bb6b52c4c120","score":100,"title":"We Will Rock You","length":188493,"video":null,"artist-credit":[{"joinphrase":" & ","name":"Five","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive","aliases":[{"sort-name":"5ive","name":"5ive","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"5","name":"5","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}},{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2000","releases":[{"id":"c20d8a07-ef92-41e9-80f2-77e511d89d0a","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Fox Kids Hits","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"49730e40-fcce-4070-8655-8c784b42ce7f","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Fox Kids Hits","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2000","country":"BE","release-events":[{"date":"2000","area":{"id":"5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc","name":"Belgium","sort-name":"Belgium","iso-3166-1-codes":["BE"]}},{"date":"2000","area":{"id":"ef1b7cc0-cd26-36f4-8ea0-04d9623786c7","name":"Netherlands","sort-name":"Netherlands","iso-3166-1-codes":["NL"]}}],"track-count":20,"media":[{"position":1,"format":"CD","track":[{"id":"601c71de-7eab-4a4d-ba29-eb8c6ca7c348","number":"4","title":"We Will Rock You","length":188493}],"track-count":20,"track-offset":3}]}]},{"id":"210c4a6a-f430-4e1a-b36b-46586466eb49","score":100,"title":"We Will Rock You","length":264000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"releases":[{"id":"74b3d6cb-d861-41ea-a0c7-544331944d1a","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":1,"title":"1977-10-28: BBC Friday Night Rock Show","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"b35337d7-4d81-400e-b748-0f94145846c5","title":"1977-10-28: BBC Friday Night Rock Show","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"track-count":4,"media":[{"position":1,"track":[{"id":"05e5c03f-2a6f-3e65-893b-4f84609b9f5b","number":"1","title":"We Will Rock You","length":264000}],"track-count":4,"track-offset":0}]}]},{"id":"02178ea1-8d43-4465-941a-3984fca9a8d4","score":100,"title":"We Will Rock You","length":173000,"disambiguation":"live, 1986-06-21: Maimarktgelände, Mannheim, Germany","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2012","releases":[{"id":"24359013-a4a7-40d8-a261-aa449af99db4","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"Mannheim 1986 NPR/NDR German Pre-FM Master","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"949cce09-8371-441d-97a1-e65fc3a0b545","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Definitive Mannheim","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2012","country":"JP","release-events":[{"date":"2012","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"track-count":29,"media":[{"position":2,"format":"CD","track":[{"id":"02537250-cbc5-412f-aec9-d3f95156852a","number":"11","title":"We Will Rock You","length":173000}],"track-count":15,"track-offset":10}]}]},{"id":"548649ef-f2ff-4bf9-a2e8-37f8833ad57a","score":100,"title":"We Will Rock You","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2019","releases":[{"id":"37cf2562-f21e-4cfe-b16b-84605aeb47bb","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"Definitive Chicago 1980","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"7c254bd0-09ca-4dee-a286-64f8deb74c3c","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Definitive Chicago 1980","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2019","country":"JP","release-events":[{"date":"2019","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"track-count":27,"media":[{"position":2,"format":"CD","track":[{"id":"a2d94bd1-1224-480e-bee0-69f2dcc30e18","number":"11","title":"We Will Rock You"}],"track-count":13,"track-offset":10}]}]},{"id":"27fe7f6a-9f42-49d6-b33a-7c7c57cb0322","score":100,"title":"We Will Rock You","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2020","releases":[{"id":"b8cdc104-d03e-4157-afda-19951ee35295","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"Definitive Nishinomiya 1982","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"c112ce3e-60a7-4412-87bf-b5cb34c4d58b","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Definitive Nishinomiya 1982","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2020","country":"JP","release-events":[{"date":"2020","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"track-count":28,"media":[{"position":2,"format":"CD","track":[{"id":"293393ae-be90-42ef-bfbc-714ba0d97457","number":"11","title":"We Will Rock You"}],"track-count":13,"track-offset":10}]}]},{"id":"e975049a-92c8-448a-bae0-12c68c9f99c0","score":100,"title":"We Will Rock You","length":200000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2003","releases":[{"id":"58267601-3ad5-4582-9a7b-e827ed6d9bff","count":1,"title":"That 80’s (disc 5)","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"74cd1f35-f945-3ae1-9846-7079b03d3d20","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"That 80's","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2003","country":"US","release-events":[{"date":"2003","area":{"id":"489ce91b-6658-3307-9877-795b68554c98","name":"United States","sort-name":"United States","iso-3166-1-codes":["US"]}}],"track-count":10,"media":[{"position":1,"format":"CD","track":[{"id":"f6256c6f-9e61-3a37-90fa-bb1b0744c491","number":"6","title":"We Will Rock You","length":200000}],"track-count":10,"track-offset":5}]}],"tags":[{"count":1,"name":"rock"},{"count":1,"name":"hard rock"},{"count":1,"name":"classic rock"}]},{"id":"799e5f85-f74c-4fc1-acb6-8c79b2351c6a","score":100,"title":"We Will Rock You","length":122000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2009-08-03","releases":[{"id":"5de36c20-7454-4eb1-9b31-37984dcd77af","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"Rockline","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"9ef13eb8-7077-4ff8-8631-833ca81fc401","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rockline","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2009-08-03","country":"FR","release-events":[{"date":"2009-08-03","area":{"id":"08310658-51eb-3801-80de-5a0739207115","name":"France","sort-name":"France","iso-3166-1-codes":["FR"]}}],"track-count":34,"media":[{"position":1,"format":"CD","track":[{"id":"d2a3dc3b-d2da-4c40-8982-f3f72f257c39","number":"1","title":"We Will Rock You","length":122000}],"track-count":17,"track-offset":0}]}]},{"id":"00397b3a-6c21-4d59-8b68-53e9ea0b404e","score":100,"title":"We Will Rock You","length":167840,"disambiguation":"live, 1981-02-28: Estadio José Amalfitani, Buenos Aires, Argentina","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2016","releases":[{"id":"99b90715-1de0-49af-9781-d628defdcdc7","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":3,"title":"Transmission Impossible","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"af353db0-f864-44db-a455-3855e04dc3a6","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Transmission Impossible","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2020","country":"DE","release-events":[{"date":"2020","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","name":"Germany","sort-name":"Germany","iso-3166-1-codes":["DE"]}}],"track-count":58,"media":[{"position":2,"format":"CD","track":[{"id":"957c2532-2be2-4a23-bcad-3662e18dfa83","number":"1","title":"We Will Rock You","length":168506}],"track-count":22,"track-offset":0}]},{"id":"9f965390-38d9-4c6e-973c-2cd9c963d2a1","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":4,"title":"We Will Rock Rio: The Legendary Broadcasts","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"79ab83a6-a4ea-4de3-a07c-e89a91f5f41a","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"We Will Rock Rio: The Legendary Broadcasts","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2016","country":"CZ","release-events":[{"date":"2016","area":{"id":"51d34c28-61bf-3d21-849f-7492672a9d44","name":"Czechia","sort-name":"Czechia","iso-3166-1-codes":["CZ"]}}],"track-count":76,"media":[{"position":3,"format":"CD","track":[{"id":"daee886d-09f2-4015-ae7f-ae8c9628d10d","number":"1","title":"We Will Rock You","length":167840}],"track-count":22,"track-offset":0}]}]},{"id":"9cedd286-0531-487c-8389-f4e7f013207e","score":100,"title":"We Will Rock You","length":262000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1999","releases":[{"id":"d69f1e93-31dc-4401-bb52-815bcbc8038d","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Superstars of Rock, Volume 1","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"1ef50cc5-ab60-4db1-bf36-d9f76951ed7a","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Superstars of Rock, Volume 1","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"1999","country":"NL","release-events":[{"date":"1999","area":{"id":"ef1b7cc0-cd26-36f4-8ea0-04d9623786c7","name":"Netherlands","sort-name":"Netherlands","iso-3166-1-codes":["NL"]}}],"track-count":16,"media":[{"position":1,"format":"CD","track":[{"id":"93a13e53-6cc8-4ee5-a0fa-e5f0e02d5229","number":"2","title":"We Will Rock You","length":262000}],"track-count":16,"track-offset":1}]}],"tags":[{"count":1,"name":"rock"},{"count":1,"name":"hard rock"},{"count":1,"name":"classic rock"}]},{"id":"fb595a37-27ef-4676-86e5-e6c8de0431ec","score":100,"title":"We Will Rock You","length":188000,"video":true,"artist-credit":[{"joinphrase":" + ","name":"Five","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive","aliases":[{"sort-name":"5ive","name":"5ive","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"5","name":"5","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}},{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2000-07-17","releases":[{"id":"0f5261e2-ac23-4ba8-9fdf-f4fd10b4bb8e","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"We Will Rock You","status":"Official","artist-credit":[{"joinphrase":" + ","name":"Five","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive"}},{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"12fe0555-2b6e-36ae-9a4f-c9fead114a50","type-id":"d6038452-8ee0-3f68-affc-2de9a1ede0b9","primary-type-id":"d6038452-8ee0-3f68-affc-2de9a1ede0b9","title":"We Will Rock You","primary-type":"Single"},"date":"2000-07-17","country":"GB","release-events":[{"date":"2000-07-17","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":7,"media":[{"position":1,"format":"Enhanced CD","track":[{"id":"9e9b466e-7a56-48b4-90fa-f761b9bd70b7","number":"3","title":"We Will Rock You (video - enhanced track)","length":188000}],"track-count":7,"track-offset":2}]}]},{"id":"bcb08bc9-b4be-491d-86fa-20bf0359b39f","score":100,"title":"We Will Rock You","length":123000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2008","releases":[{"id":"c3c4ad95-e92f-4c72-a17c-dea928f277b2","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"Nostalgie La Legende: 20ème Anniversaire","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"ebc9a6fb-cf8d-4d6c-a99b-aeb08e9fa218","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Nostalgie La Legende: 20ème Anniversaire","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2008","country":"FR","release-events":[{"date":"2008","area":{"id":"08310658-51eb-3801-80de-5a0739207115","name":"France","sort-name":"France","iso-3166-1-codes":["FR"]}}],"track-count":40,"media":[{"position":1,"format":"CD","track":[{"id":"0b523194-f7c1-49a2-8dcc-2ba729397ec8","number":"1","title":"We Will Rock You","length":123000}],"track-count":20,"track-offset":0}]}]},{"id":"866d4a9e-7f2b-4909-8a88-851e67fbe3f3","score":100,"title":"We Will Rock You","length":123000,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2006","releases":[{"id":"6584578d-0d96-4251-a7da-3b7ce30a024e","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Goal! 21 Classic Footballing Anthems","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"7fe19c4f-75c3-49a6-ba3e-960cf6f05fd0","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Goal! 21 Classic Footballing Anthems","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2006","country":"GB","release-events":[{"date":"2006","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":21,"media":[{"position":1,"format":"CD","track":[{"id":"9f284482-6a96-38b0-90fd-dc45ab346093","number":"1","title":"We Will Rock You","length":123000}],"track-count":21,"track-offset":0}]}]},{"id":"4321cda7-1fd8-4555-bcae-c06be983bbda","score":100,"title":"We Will Rock You","length":199000,"disambiguation":"live, 1992-04-20: Wembley Stadium, London, UK","video":true,"artist-credit":[{"joinphrase":" + ","name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}},{"name":"Axl Rose","artist":{"id":"db4da9ba-c52b-4df9-876f-7c6db3582256","name":"Axl Rose","sort-name":"Rose, Axl","aliases":[{"sort-name":"Rose, W. Axl","name":"W. Axl Rose","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Axel Rose","name":"Axel Rose","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Bailey, William","name":"William Bailey","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}}],"first-release-date":"2002-07","releases":[{"id":"89d3337e-947b-4249-8fc5-910bc4495338","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"The Freddie Mercury Tribute Concert","status":"Official","disambiguation":"Special 10th Anniversary Edition: EMI UDEN pressing","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"a29bc8d9-9b3e-3a13-98c9-257dd4020eb0","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The Freddie Mercury Tribute Concert","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2002","country":"FR","release-events":[{"date":"2002","area":{"id":"08310658-51eb-3801-80de-5a0739207115","name":"France","sort-name":"France","iso-3166-1-codes":["FR"]}},{"date":"2002","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","name":"Germany","sort-name":"Germany","iso-3166-1-codes":["DE"]}},{"date":"2002","area":{"id":"ef1b7cc0-cd26-36f4-8ea0-04d9623786c7","name":"Netherlands","sort-name":"Netherlands","iso-3166-1-codes":["NL"]}},{"date":"2002","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}},{"date":"2002","area":{"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","sort-name":"Europe","iso-3166-1-codes":["XE"]}}],"track-count":32,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"d5c6c1a8-9f5b-4b14-adec-c5e1ca32d477","number":"18","title":"We Will Rock You","length":199000}],"track-count":22,"track-offset":17}]},{"id":"275a9c54-8862-46dd-bcd3-1658a39c310b","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"The Freddie Mercury Tribute Concert","status":"Official","disambiguation":"special 10th anniversary edition","artist-credit":[{"name":"Queen+","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"a29bc8d9-9b3e-3a13-98c9-257dd4020eb0","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The Freddie Mercury Tribute Concert","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2002","country":"GB","release-events":[{"date":"2002","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":38,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"b2e04bcc-6215-48f1-870e-4def46c16037","number":"20","title":"We Will Rock You","length":199000}],"track-count":26,"track-offset":19}]},{"id":"aff72b85-cf9a-4c6c-a09a-bf66ea2641e7","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"The Freddie Mercury Tribute Concert – Special 10th Anniversary Edition","status":"Official","disambiguation":"has Heroes, does not have God Save the Queen","artist-credit":[{"joinphrase":" + ","name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}},{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"a29bc8d9-9b3e-3a13-98c9-257dd4020eb0","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The Freddie Mercury Tribute Concert","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2002-07","country":"JP","release-events":[{"date":"2002-07","area":{"id":"2db42837-c832-3c27-b4a3-08198f75693c","name":"Japan","sort-name":"Japan","iso-3166-1-codes":["JP"]}}],"track-count":20,"media":[{"position":1,"format":"DVD-Video","track":[{"id":"49b577c4-7c46-4fdf-9d93-88756c2d5c08","number":"19","title":"We Will Rock You","length":200000}],"track-count":20,"track-offset":18}]},{"id":"a1960a72-3686-41f7-b7fb-a210d3d381e8","count":1,"title":"Freddie Mercury Tribute Concert","disambiguation":"special 10th anniversary edition","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"a29bc8d9-9b3e-3a13-98c9-257dd4020eb0","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The Freddie Mercury Tribute Concert","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2002","country":"GB","release-events":[{"date":"2002","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":21,"media":[{"position":1,"format":"DVD","track":[{"id":"77de0c3d-03eb-338e-a77a-de55fcbdbcdd","number":"19","title":"We Will Rock You","length":200000}],"track-count":21,"track-offset":18}]}],"tags":[{"count":1,"name":"arena rock"}]},{"id":"791ab549-54bd-48e3-a3de-210842875b81","score":100,"title":"We Will Rock You","length":159560,"video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1985-07","releases":[{"id":"e68e1e74-330c-49e6-ab35-6adc85a04a5a","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"Rock in Japan","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"f83bec89-70a3-4483-891f-0b9d3ba259eb","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock in Japan","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"1985-07","country":"LU","release-events":[{"date":"1985-07","area":{"id":"563d21b7-4a8e-35e2-83a7-7804baefbfa7","name":"Luxembourg","sort-name":"Luxembourg","iso-3166-1-codes":["LU"]}},{"date":"1985-07","area":{"id":"85752fda-13c4-31a3-bee5-0e5cb1f51dad","name":"Germany","sort-name":"Germany","iso-3166-1-codes":["DE"]}}],"track-count":28,"media":[{"position":2,"format":"CD","track":[{"id":"1153019e-f979-4d5f-a87f-633aa89e7119","number":"9","title":"We Will Rock You","length":159560}],"track-count":15,"track-offset":8}]}]},{"id":"f7a9b5a2-dfdf-4093-8ab1-dac10add6a37","score":100,"title":"We Will Rock You","length":188106,"video":null,"artist-credit":[{"joinphrase":" feat. ","name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}},{"name":"John Farnham","artist":{"id":"3b81f816-bdcb-42d0-a0dd-1aa4fc4e19ec","name":"John Farnham","sort-name":"Farnham, John","aliases":[{"sort-name":"Farnham, John Peter","type-id":"d4dcd0c0-b341-3612-a332-c0ce797b25cf","name":"John Peter Farnham","locale":null,"type":"Legal name","primary":null,"begin-date":null,"end-date":null},{"sort-name":"John Earnham","name":"John Earnham","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Johan Farnham","name":"Johan Farnham","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"Farnham, Johnny","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"Johnny Farnham","locale":null,"type":"Artist name","primary":null,"begin-date":null,"end-date":null}]}}],"first-release-date":"2003-09-29","releases":[{"id":"344599bb-81e0-40d6-827c-c47a00a58a8d","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"One Voice: The Greatest Hits","status":"Official","artist-credit":[{"name":"John Farnham","artist":{"id":"3b81f816-bdcb-42d0-a0dd-1aa4fc4e19ec","name":"John Farnham","sort-name":"Farnham, John"}}],"release-group":{"id":"0ffc8c41-c831-394d-8b89-08a05c2d8c69","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"One Voice: The Greatest Hits","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2003","country":"AU","release-events":[{"date":"2003","area":{"id":"106e0bec-b638-3b37-b731-f53d507dc00e","name":"Australia","sort-name":"Australia","iso-3166-1-codes":["AU"]}}],"track-count":27,"media":[{"position":1,"format":"CD","track":[{"id":"e3dd9a93-67ce-3e2e-b131-5b95a44e4c95","number":"1","title":"We Will Rock You","length":188106}],"track-count":14,"track-offset":0}]},{"id":"14857d43-328f-4c53-8858-df9b6d218d07","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"One Voice: The Greatest Hits","status":"Official","artist-credit":[{"name":"John Farnham","artist":{"id":"3b81f816-bdcb-42d0-a0dd-1aa4fc4e19ec","name":"John Farnham","sort-name":"Farnham, John"}}],"release-group":{"id":"0ffc8c41-c831-394d-8b89-08a05c2d8c69","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"One Voice: The Greatest Hits","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2003-10-20","country":"AU","release-events":[{"date":"2003-10-20","area":{"id":"106e0bec-b638-3b37-b731-f53d507dc00e","name":"Australia","sort-name":"Australia","iso-3166-1-codes":["AU"]}}],"track-count":27,"media":[{"position":1,"format":"CD","track":[{"id":"01f96df8-b133-4e5c-b2dd-80b3e5ad6bcf","number":"1","title":"We Will Rock You","length":188106}],"track-count":14,"track-offset":0}]},{"id":"9bded7f7-a2ea-417e-90c6-4e4ce5e2bf6f","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"True Colours: The World in Union","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"4afcb670-84e2-3410-8e18-228e4a4f208f","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"True Colours: The World in Union","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2003-09-29","country":"AU","release-events":[{"date":"2003-09-29","area":{"id":"106e0bec-b638-3b37-b731-f53d507dc00e","name":"Australia","sort-name":"Australia","iso-3166-1-codes":["AU"]}}],"track-count":20,"media":[{"position":1,"format":"CD","track":[{"id":"26b2c76e-313f-39f2-b455-887f2b4d90e5","number":"1","title":"We Will Rock You","length":187013}],"track-count":20,"track-offset":0}]}],"isrcs":["GBCEE0300071"],"tags":[{"count":1,"name":"rock"},{"count":1,"name":"pop"},{"count":1,"name":"adult contemporary"},{"count":1,"name":"pop rock"}]},{"id":"73bc67d7-67b3-4834-9187-81816fa9209a","score":100,"title":"We Will Rock You","length":178000,"video":null,"artist-credit":[{"joinphrase":" & ","name":"Five","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive","aliases":[{"sort-name":"5","name":"5","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"5ive","name":"5ive","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}},{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2000","releases":[{"id":"67942f35-5e22-4708-a9e8-222d19534a7f","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":15,"title":"The No.1 DJ Collection: 2000s (Digital Collection)","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"ce01f030-ffc3-4cd0-8bdf-e8296c160de8","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The No.1 DJ Collection: 2000s (Digital Collection)","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"","country":"GB","release-events":[{"date":"","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":283,"media":[{"position":2,"format":"Digital Media","track":[{"id":"a60d5052-23ab-4622-9d41-57793db5c976","number":"4","title":"We Will Rock You","length":178000}],"track-count":19,"track-offset":3}]},{"id":"7c8ebeaf-60ba-44f6-becc-9b62a8f9eeb6","status-id":"518ffc83-5cde-34df-8627-81bff5093d92","count":1,"title":"Mastermix: Pro Disc 2","status":"Promotion","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"2e8d622f-b1c5-4aef-ad37-ca42fab30b8f","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Mastermix: Pro Disc 2","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2000","country":"GB","release-events":[{"date":"2000","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":19,"media":[{"position":1,"format":"CD","track":[{"id":"43298825-2897-4e76-9178-e21dd2f8187b","number":"7","title":"We Will Rock You","length":177000}],"track-count":19,"track-offset":6}]},{"id":"8a29070f-3686-420b-990f-44b1ce9284db","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"The No.1 DJ Collection: 2000’s, Volume 2","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"c22b75e1-1e09-324d-adad-b0ba10bbfa91","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"The No.1 DJ Collection: 2000’s, Volume 2","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2007","country":"GB","release-events":[{"date":"2007","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":19,"media":[{"position":1,"format":"CD","track":[{"id":"a3bc49b4-63d9-3967-91b4-dbc33b400fe8","number":"4","title":"We Will Rock You","length":181000}],"track-count":19,"track-offset":3}]}],"tags":[{"count":1,"name":"trance"},{"count":1,"name":"house"},{"count":2,"name":"blues"}]},{"id":"d5bd5653-7eec-40f6-9f93-533354c3052f","score":100,"title":"We Will Rock You","length":286173,"disambiguation":"remix","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"1994","releases":[{"id":"bbb459c3-f053-456c-aced-972652d4f46c","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":1,"title":"Million Dollar Riff","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"e704b988-9d05-40ed-a7ba-6813b1166803","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Million Dollar Riff","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"1994","country":"AU","release-events":[{"date":"1994","area":{"id":"106e0bec-b638-3b37-b731-f53d507dc00e","name":"Australia","sort-name":"Australia","iso-3166-1-codes":["AU"]}}],"track-count":18,"media":[{"position":1,"format":"CD","track":[{"id":"bc7849f4-80b4-4762-83be-132f43fa5260","number":"1","title":"We Will Rock You","length":290000}],"track-count":18,"track-offset":0}]},{"id":"c7c04009-431a-465b-9c0d-a0a65d98b019","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":1,"title":"Great Dance Remixes","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"a69a3af1-3db2-3144-b383-4fc33f7278a0","type-id":"0c60f497-ff81-3818-befd-abfc84a4858b","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Great Dance Remixes","primary-type":"Album","secondary-types":["Remix"],"secondary-type-ids":["0c60f497-ff81-3818-befd-abfc84a4858b"]},"track-count":8,"media":[{"position":1,"track":[{"id":"671b96f9-d6fc-30da-a55d-5a46ee3c6349","number":"1","title":"We Will Rock You","length":286173}],"track-count":8,"track-offset":0}]}],"tags":[{"count":2,"name":"rock"}]},{"id":"bdb996d9-f708-49ce-b6bf-b3d0b2f64245","score":100,"title":"We Will Rock You","length":238760,"disambiguation":"live, 1978-12-01: Montreal Forum, Montreal, QC, Canada","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2016","releases":[{"id":"85fe5953-ee48-4b56-ba8d-09f42e2623c1","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"Piece de resistance","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"7d7582d4-fd1e-4c49-b284-39ffbc01876f","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Piece de resistance","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"track-count":25,"media":[{"position":1,"format":"CD","track":[{"id":"e2cb82de-ce00-4785-b226-cf0fb6cabd54","number":"1","title":"We Will Rock You","length":238760}],"track-count":14,"track-offset":0}]}]},{"id":"62744e3b-d62c-4bbc-9108-3d36ed24feec","score":100,"title":"We Will Rock You","disambiguation":"live, 1982-10-26: Kosusai Tenjijo, Nagoya, Japan","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"releases":[{"id":"ee20c3f5-f317-4b32-b220-4875efc2076b","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":2,"title":"1982-10-26: Action and More Action: Kosusai Tenjijo, Nagoya, Japan","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"f1024c8b-c650-46a4-8f47-be6bf590d3b2","title":"1982-10-26: Action and More Action: Kosusai Tenjijo, Nagoya, Japan","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"track-count":25,"media":[{"position":2,"format":"Digital Media","track":[{"id":"f95880e9-1d5f-31f2-9336-a3ffa9ce9730","number":"9","title":"We Will Rock You"}],"track-count":11,"track-offset":8}]}]},{"id":"a161c3ee-5dc8-4128-8bc2-4904dae28bc1","score":100,"title":"We Will Rock You","length":149240,"disambiguation":"live, 1985-01-12: Rock in Rio Festival, Rio de Janeiro, Brazil","video":null,"artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2009","releases":[{"id":"136f1e2b-247f-4b11-a890-56b44d4ece22","status-id":"1156806e-d06a-38bd-83f0-cf2284a808b9","count":1,"title":"Rock You From Rio – Live","status":"Bootleg","artist-credit":[{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group"}}],"release-group":{"id":"10e9951b-231f-4f8d-a0b3-dbd06a2a0845","type-id":"6fd474e2-6b58-3102-9d17-d6f7eb7da0a0","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Rock You From Rio – Live","primary-type":"Album","secondary-types":["Live"],"secondary-type-ids":["6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"]},"date":"2009","country":"XE","release-events":[{"date":"2009","area":{"id":"89a675c2-3e37-3518-b83c-418bad59a85a","name":"Europe","sort-name":"Europe","iso-3166-1-codes":["XE"]}}],"track-count":16,"media":[{"position":1,"format":"CD","track":[{"id":"9d1e9b3a-3f75-4ed4-ab50-626666a26109","number":"14","title":"We Will Rock You","length":149240}],"track-count":16,"track-offset":13}]}]},{"id":"e62c1689-e020-4935-bac1-767edf4edb7a","score":100,"title":"We Will Rock You","length":188933,"video":null,"artist-credit":[{"joinphrase":" & ","name":"Five","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive","aliases":[{"sort-name":"5ive","name":"5ive","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"5","name":"5","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}},{"name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}}],"first-release-date":"2000","releases":[{"id":"1c076ac2-f786-479a-824b-e66c64116b8b","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":2,"title":"Smash! Hits 2001","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"bff3748c-970a-4035-a926-577e626edaf2","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Smash! Hits 2001","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2000","country":"GB","release-events":[{"date":"2000","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":43,"media":[{"position":1,"format":"CD","track":[{"id":"abb09ec1-2264-412c-a8b4-16ad16899193","number":"1","title":"We Will Rock You","length":188933}],"track-count":22,"track-offset":0}]}]},{"id":"24a1f11c-d2e7-4262-8537-5468cd7ea5eb","score":100,"title":"We Will Rock You","length":195840,"video":null,"artist-credit":[{"joinphrase":" & ","name":"Queen","artist":{"id":"0383dadf-2a4e-4d10-a46a-e9e041da8eb3","name":"Queen","sort-name":"Queen","disambiguation":"UK rock group","aliases":[{"sort-name":"クイーン","type-id":"894afba6-2816-3c24-8072-eadb66bd04bc","name":"クイーン","locale":"ja","type":"Artist name","primary":true,"begin-date":null,"end-date":null}]}},{"name":"5ive","artist":{"id":"88d6db37-0d87-4e84-a949-9cf8e8879505","name":"Five","sort-name":"Five","disambiguation":"UK boy band, also known as 5ive","aliases":[{"sort-name":"5ive","name":"5ive","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null},{"sort-name":"5","name":"5","locale":null,"type":null,"primary":null,"begin-date":null,"end-date":null}]}}],"first-release-date":"2010-02-08","releases":[{"id":"c50ba044-47cb-49d9-bf95-7f3563a5e8f4","status-id":"4e304316-386d-3409-af2e-78857eec5cfe","count":3,"title":"Brit Awards With Mastercard 2010","status":"Official","artist-credit":[{"name":"Various Artists","artist":{"id":"89ad4ac3-39f7-470e-963a-56509c546377","name":"Various Artists","sort-name":"Various Artists","disambiguation":"add compilations to this artist"}}],"release-group":{"id":"08d40b2b-c7e6-4f69-8785-ce1b488fe5f8","type-id":"dd2a21e1-0c00-3729-a7a0-de60b84eb5d1","primary-type-id":"f529b476-6e62-324f-b0aa-1f3e33d313fc","title":"Brit Awards With Mastercard 2010","primary-type":"Album","secondary-types":["Compilation"],"secondary-type-ids":["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]},"date":"2010-02-08","country":"GB","release-events":[{"date":"2010-02-08","area":{"id":"8a754a16-0027-3a29-b6d7-2b40ea0481ed","name":"United Kingdom","sort-name":"United Kingdom","iso-3166-1-codes":["GB"]}}],"track-count":60,"media":[{"position":3,"format":"CD","track":[{"id":"0a40316d-cf52-373d-8fd1-8ba03e1ff120","number":"1","title":"We Will Rock You (live 2000)","length":195840}],"track-count":20,"track-offset":0}]}]}]}
+{
+  "count": 423,
+  "created": "2026-03-06T19:39:23.953Z",
+  "offset": 0,
+  "recordings": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1994-10-25",
+      "id": "2c372141-d624-41f1-9f97-2a6375d6df2b",
+      "length": 138693,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 1,
+          "country": "US",
+          "date": "1994-10-25",
+          "id": "a781f9fa-9a42-4954-969b-ba9c50b7d168",
+          "media": [
+            {
+              "format": "CD",
+              "id": "69f4c035-8a25-3c9c-9b5f-d6a4bc341335",
+              "position": 1,
+              "track": [
+                {
+                  "id": "6d6a207f-a745-3aa4-9b94-40613313b714",
+                  "length": 138693,
+                  "number": "2",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 24,
+              "track-offset": 1
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "iso-3166-1-codes": [
+                  "US"
+                ],
+                "name": "United States",
+                "sort-name": "United States"
+              },
+              "date": "1994-10-25"
+            }
+          ],
+          "release-group": {
+            "id": "9ffb002c-7a33-36c9-a434-54ae215753a3",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "ESPN Presents: Jock Rock, Volume 1",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "ESPN Presents: Jock Rock, Volume 1",
+          "track-count": 24
+        }
+      ],
+      "score": 100,
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        }
+      ],
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 1982-10-19: Kyuden Auditorium, Fukuoka, Japan",
+      "first-release-date": "1991",
+      "id": "17a12e08-f7a6-48ae-b904-41fbeb706239",
+      "length": 162960,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "DE",
+          "date": "1991",
+          "disambiguation": "1982\u201010\u201019: Kyuden Auditorium, Fukuoka, Japan",
+          "id": "ec3c9c76-3c4b-4711-9fdc-f0358fcb2c07",
+          "media": [
+            {
+              "format": "CD",
+              "id": "9cb462d4-7007-30be-aff1-5e4f57c70e6e",
+              "position": 1,
+              "track": [
+                {
+                  "id": "9b38b934-7cc4-371d-a4bd-0e4e6f006dea",
+                  "length": 162960,
+                  "number": "2",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 11,
+              "track-offset": 1
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "1991"
+            }
+          ],
+          "release-group": {
+            "id": "9f16a102-2952-3066-a743-ae4f62b7bf0a",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "1982-10-19: Live USA",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Live USA",
+          "track-count": 21
+        }
+      ],
+      "score": 100,
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        }
+      ],
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 1985-05-11: Tokyo, Japan",
+      "first-release-date": "1993",
+      "id": "64f97ffc-a1e2-4d91-b51c-950ca3756332",
+      "length": 197000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "IT",
+          "date": "1993",
+          "id": "5ad1dd8f-d674-406d-9fe9-0a28022f6402",
+          "media": [
+            {
+              "id": "18064427-0d6d-3335-b9ed-5340a97595ec",
+              "position": 2,
+              "track": [
+                {
+                  "id": "fbe959a6-7b80-3722-bf33-66c07d5b3955",
+                  "length": 197000,
+                  "number": "8",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 13,
+              "track-offset": 7
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                "iso-3166-1-codes": [
+                  "IT"
+                ],
+                "name": "Italy",
+                "sort-name": "Italy"
+              },
+              "date": "1993"
+            }
+          ],
+          "release-group": {
+            "id": "50c46450-e8a8-315d-a295-f4de1a657cf0",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Nihon",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Nihon",
+          "track-count": 25
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 1982/1986: Hallenstadion, Z\u00fcrich, Switzerland",
+      "first-release-date": "1991",
+      "id": "599fe0ef-496d-489c-aeed-8ed5a0b6791e",
+      "length": 140426,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "CH",
+          "date": "1991",
+          "id": "316bb85f-0e70-4469-bd83-5068e2fd32bf",
+          "media": [
+            {
+              "format": "CD",
+              "id": "a3896a8b-a454-3f61-8ae0-de1c3224ead3",
+              "position": 1,
+              "track": [
+                {
+                  "id": "a082a912-f08e-3923-98f8-256cffb9a79f",
+                  "length": 140426,
+                  "number": "7",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 18,
+              "track-offset": 6
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+                "iso-3166-1-codes": [
+                  "CH"
+                ],
+                "name": "Switzerland",
+                "sort-name": "Switzerland"
+              },
+              "date": "1991"
+            }
+          ],
+          "release-group": {
+            "id": "7e09ad8e-dc23-41a3-aeff-38c3e9e3bcc2",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Compilation",
+              "Live"
+            ],
+            "title": "18 Greatest Hits Live From Queen",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "18 Greatest Hits Live From Queen",
+          "track-count": 18
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live",
+      "first-release-date": "1992-01",
+      "id": "d6eef2e5-b98e-4618-af54-a4b6653e5fcc",
+      "length": 167640,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "GB",
+          "date": "1992-01",
+          "id": "73c8ab23-e16a-487f-8df0-fdc35444c1b9",
+          "media": [
+            {
+              "format": "CD",
+              "id": "1d4221c6-de61-32b6-8fe1-fa48a646418a",
+              "position": 1,
+              "track": [
+                {
+                  "id": "499167bb-893f-3cbf-827c-1c3656331b43",
+                  "length": 167640,
+                  "number": "17",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 16
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": "1992-01"
+            }
+          ],
+          "release-group": {
+            "id": "63df4b28-fac9-3b13-9fd1-08aa5c7cb7a4",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Who Wants to Live Forever",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Who Wants to Live Forever",
+          "track-count": 20
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1992",
+      "id": "eb0d6122-fd27-4548-b6c4-79e99e9a8101",
+      "length": 169000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "IT",
+          "date": "1992",
+          "id": "b323f1e9-562a-425e-a29d-21f46eee9600",
+          "media": [
+            {
+              "format": "CD",
+              "id": "b29ca80e-512a-369f-a199-6ee0856cf856",
+              "position": 1,
+              "track": [
+                {
+                  "id": "d6958aca-2ccf-3591-abae-b79bed6b7edf",
+                  "length": 169000,
+                  "number": "15",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 18,
+              "track-offset": 14
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                "iso-3166-1-codes": [
+                  "IT"
+                ],
+                "name": "Italy",
+                "sort-name": "Italy"
+              },
+              "date": "1992"
+            }
+          ],
+          "release-group": {
+            "id": "2ee20356-aa72-461d-9264-b60244d25678",
+            "primary-type": "Other",
+            "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+            "title": "Noblesse Oblige",
+            "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Noblesse Oblige",
+          "track-count": 18
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1992",
+      "id": "d2996094-743e-4d41-8cb4-2924e1be2c12",
+      "length": 262960,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "IT",
+          "date": "1992",
+          "id": "b323f1e9-562a-425e-a29d-21f46eee9600",
+          "media": [
+            {
+              "format": "CD",
+              "id": "b29ca80e-512a-369f-a199-6ee0856cf856",
+              "position": 1,
+              "track": [
+                {
+                  "id": "26c48fd0-dd55-36ed-bc46-81e48cc36be8",
+                  "length": 262960,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 18,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                "iso-3166-1-codes": [
+                  "IT"
+                ],
+                "name": "Italy",
+                "sort-name": "Italy"
+              },
+              "date": "1992"
+            }
+          ],
+          "release-group": {
+            "id": "2ee20356-aa72-461d-9264-b60244d25678",
+            "primary-type": "Other",
+            "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+            "title": "Noblesse Oblige",
+            "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Noblesse Oblige",
+          "track-count": 18
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "2010",
+      "id": "1f777d9e-a418-4ca5-af75-51d46bd44d0b",
+      "length": 122853,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 3,
+          "country": "AU",
+          "date": "2010",
+          "id": "71dcc185-3298-4b4f-9586-1d550dfc094a",
+          "media": [
+            {
+              "format": "CD",
+              "id": "d136d34e-c0fc-31a8-8509-cd254b49dfd8",
+              "position": 1,
+              "track": [
+                {
+                  "id": "f515e375-c8d3-4d0b-a65c-fb9c0928f213",
+                  "length": 122853,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                "iso-3166-1-codes": [
+                  "AU"
+                ],
+                "name": "Australia",
+                "sort-name": "Australia"
+              },
+              "date": "2010"
+            }
+          ],
+          "release-group": {
+            "id": "967941ce-c816-4243-99de-c468571e738a",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Triple M\u2019s 30 Years of Rock",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Triple M\u2019s 30 Years of Rock",
+          "track-count": 59
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 1979\u201012\u201004: City Hall, Newcastle, UK",
+      "id": "25c01ada-611b-436c-ba3d-c354e3605f7c",
+      "length": 141000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "GB",
+          "date": "",
+          "id": "b9989bbb-2f3d-42e5-87bd-663c8ba412a3",
+          "media": [
+            {
+              "format": "CD",
+              "id": "e10aefce-7b07-3594-a8a8-caf608725f03",
+              "position": 2,
+              "track": [
+                {
+                  "id": "37539f14-19cf-4971-b61c-a1ef804ad695",
+                  "length": 141000,
+                  "number": "13",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 15,
+              "track-offset": 12
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": ""
+            }
+          ],
+          "release-group": {
+            "id": "752fd744-921d-43bb-aade-993ba698bfbb",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "1979\u201012\u201004: In Concert, City Hall, Newcastle, UK",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "1979\u201012\u201004: In Concert, City Hall, Newcastle, UK",
+          "track-count": 27
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live (with DJ chatter), 1977-10-28: BBC Radio Session, Maida Vale 4 Studio, London, UK",
+      "first-release-date": "2016-11-04",
+      "id": "15361f50-9c28-4c12-baea-83c3772fa884",
+      "length": 95546,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 6,
+          "country": "GB",
+          "date": "2016-11-04",
+          "id": "4d96d700-3993-42fa-a2f0-883d7fbb1609",
+          "media": [
+            {
+              "format": "CD",
+              "id": "8b10ef1f-054f-321b-8d3e-56da5e1f404c",
+              "position": 2,
+              "track": [
+                {
+                  "id": "0e4cdb7b-8751-4662-bf22-34d177e0446b",
+                  "length": 95546,
+                  "number": "8",
+                  "title": "We Will Rock You (BBC session, October 1977, with DJ chatter)"
+                }
+              ],
+              "track-count": 12,
+              "track-offset": 7
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": "2016-11-04"
+            },
+            {
+              "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "iso-3166-1-codes": [
+                  "US"
+                ],
+                "name": "United States",
+                "sort-name": "United States"
+              },
+              "date": "2016-11-04"
+            },
+            {
+              "area": {
+                "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                "iso-3166-1-codes": [
+                  "XE"
+                ],
+                "name": "Europe",
+                "sort-name": "Europe"
+              },
+              "date": "2016-11-04"
+            }
+          ],
+          "release-group": {
+            "id": "bcf03ede-fb7f-4dca-8087-6cd58793e03c",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Compilation",
+              "Live"
+            ],
+            "title": "On Air",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "On Air",
+          "track-count": 137
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "id": "bc85d45b-cbc5-4003-a6e9-7f871a96d6ae",
+      "length": 149000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "BR",
+          "date": "",
+          "id": "70c43259-439f-42f9-a937-af27b8e8adb6",
+          "media": [
+            {
+              "format": "CD",
+              "id": "80bbb6bf-bc15-3c29-9da8-8b83245330cb",
+              "position": 1,
+              "track": [
+                {
+                  "id": "812919ec-143d-483d-b8ee-ddfe80cc0dfc",
+                  "length": 149000,
+                  "number": "14",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 13
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+                "iso-3166-1-codes": [
+                  "BR"
+                ],
+                "name": "Brazil",
+                "sort-name": "Brazil"
+              },
+              "date": ""
+            }
+          ],
+          "release-group": {
+            "id": "b2b05bf3-428b-499f-86aa-d5f8ec79c0c7",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Ao Vivo no Rock in Rio 1985",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Ao Vivo no Rock in Rio 1985",
+          "track-count": 16
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "2002",
+      "id": "5a501df8-e923-4079-a073-b88d9decb797",
+      "length": 261640,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 1,
+          "country": "DE",
+          "date": "2002",
+          "id": "7a27bb98-bf9a-4f1f-ac9c-4d0fa8cd839c",
+          "media": [
+            {
+              "format": "CD",
+              "id": "9feb9c98-ba11-3c2b-ac78-a254119f614b",
+              "position": 1,
+              "track": [
+                {
+                  "id": "be96f0d7-2f1d-498a-9654-896c00eb4184",
+                  "length": 261640,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "2002"
+            }
+          ],
+          "release-group": {
+            "id": "84a29001-73ef-47bd-8da3-06c21e738f6b",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Best of Hardrock, Vol.1",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Best of Hardrock, Vol.1",
+          "track-count": 16
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "karaoke version",
+      "first-release-date": "1998-11-18",
+      "id": "2ff79589-977d-4418-9834-cfdd090aeffb",
+      "length": 123400,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "JP",
+          "date": "1998-11-18",
+          "id": "b4ee6596-643a-4baf-861b-bd5934c21bd0",
+          "media": [
+            {
+              "format": "CD",
+              "id": "cee4490a-2092-3963-b89a-bec646117d91",
+              "position": 1,
+              "track": [
+                {
+                  "id": "27689881-aa6d-4dca-8d68-4205fe72ddf8",
+                  "length": 125600,
+                  "number": "6",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 5
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "iso-3166-1-codes": [
+                  "JP"
+                ],
+                "name": "Japan",
+                "sort-name": "Japan"
+              },
+              "date": "1998-11-18"
+            }
+          ],
+          "release-group": {
+            "id": "302d7356-2057-3f60-80a1-97dc31160164",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Greatest Karaoke Hits",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Karaoke Hits",
+          "track-count": 31
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "KR",
+          "date": "2004",
+          "id": "5fd21a83-12fc-47aa-b6dc-2bf74ff4feb8",
+          "media": [
+            {
+              "format": "DVD",
+              "id": "fb65bebf-57ce-34a1-9086-2fefe9d1cb8e",
+              "position": 1,
+              "track": [
+                {
+                  "id": "a3d89125-8a2e-4b58-a9e1-ea616f41540e",
+                  "length": 123400,
+                  "number": "6",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 5
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+                "iso-3166-1-codes": [
+                  "KR"
+                ],
+                "name": "South Korea",
+                "sort-name": "South Korea"
+              },
+              "date": "2004"
+            }
+          ],
+          "release-group": {
+            "id": "21ae9d9e-4d50-423e-a554-a2e1a7bc0591",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Greatest Karaoke Hits",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Karaoke Hits",
+          "track-count": 35
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "JP",
+          "date": "2004-07-14",
+          "id": "6786ab84-ffee-452b-970c-d8240119000a",
+          "media": [
+            {
+              "format": "CD",
+              "id": "735a6279-0ade-37fb-83d1-ee5a75e04231",
+              "position": 1,
+              "track": [
+                {
+                  "id": "9036dc24-e932-3b5f-b431-f976c1d99015",
+                  "length": 123400,
+                  "number": "6",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 5
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "iso-3166-1-codes": [
+                  "JP"
+                ],
+                "name": "Japan",
+                "sort-name": "Japan"
+              },
+              "date": "2004-07-14"
+            }
+          ],
+          "release-group": {
+            "id": "302d7356-2057-3f60-80a1-97dc31160164",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Greatest Karaoke Hits",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Karaoke Hits",
+          "track-count": 32
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "2009",
+      "id": "1933bb21-db95-4bda-9575-90877738b056",
+      "length": 121920,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 3,
+          "country": "AU",
+          "date": "2009",
+          "id": "e5566652-938b-41f6-a94d-bf8560751f44",
+          "media": [
+            {
+              "format": "CD",
+              "id": "c8de2865-0897-3c9a-8afe-c416e3aed7c9",
+              "position": 1,
+              "track": [
+                {
+                  "id": "5a979c88-fb6d-48cc-9a4d-0daf1517adf6",
+                  "length": 121920,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 22,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                "iso-3166-1-codes": [
+                  "AU"
+                ],
+                "name": "Australia",
+                "sort-name": "Australia"
+              },
+              "date": "2009"
+            }
+          ],
+          "release-group": {
+            "id": "15cdfac5-b1be-4001-92cd-1ce2d834c6e2",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "The Best Movie Album in the World\u2026 Ever! 2",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Best Movie Album in the World\u2026 Ever! 2",
+          "track-count": 62
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 2002-06-03: Buckingham Palace, London, England, UK",
+      "first-release-date": "2002",
+      "id": "8e7a092c-9c26-41a1-87ff-f5608a0fa77c",
+      "length": 107000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 1,
+          "country": "US",
+          "date": "2002",
+          "id": "b32c16d1-7f64-4b50-9c76-17748136225c",
+          "media": [
+            {
+              "format": "DVD-Video",
+              "id": "ae9c0c90-e90b-35de-9c11-240fae94e00f",
+              "position": 1,
+              "track": [
+                {
+                  "id": "ec6557e6-cbef-4fe2-aea8-2c5855e9e343",
+                  "length": 107000,
+                  "number": "19",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 40,
+              "track-offset": 18
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "iso-3166-1-codes": [
+                  "US"
+                ],
+                "name": "United States",
+                "sort-name": "United States"
+              },
+              "date": "2002"
+            }
+          ],
+          "release-group": {
+            "id": "961c3645-c8a3-38a1-af47-13724df9aa4d",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Party at the Palace",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Party at the Palace",
+          "track-count": 40
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": true
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "joinphrase": " feat. ",
+          "name": "Queen"
+        },
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": null,
+                "name": "5ive's Continuum Research Project",
+                "primary": null,
+                "sort-name": "5ive's Continuum Research Project",
+                "type": null
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": null,
+                "name": "5ive 's Continuum Research Project",
+                "primary": null,
+                "sort-name": "5ive 's Continuum Research Project",
+                "type": null
+              }
+            ],
+            "disambiguation": "progressive metal band from Boston, MA",
+            "id": "ff41acf5-0998-43c2-a65e-cd5c5b48e52d",
+            "name": "5ive",
+            "sort-name": "5ive"
+          },
+          "name": "5ive"
+        }
+      ],
+      "artist-credit-id": "c36261d0-b329-3690-bf49-b6c6c551a4c0",
+      "first-release-date": "2005",
+      "id": "1dccf1ae-9fee-41f4-a9ed-7ac7582bf3b1",
+      "length": 190984,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 5,
+          "id": "cd9e9040-6837-47a2-b22f-a4fe57bf9657",
+          "media": [
+            {
+              "format": "CD-R",
+              "id": "5ab22319-04f0-36ec-96c9-84892087b351",
+              "position": 3,
+              "track": [
+                {
+                  "id": "bcc952ad-e21a-463b-a692-438e031c4f45",
+                  "length": 190984,
+                  "number": "10",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 9
+            }
+          ],
+          "release-group": {
+            "id": "77739f9a-7d1c-424c-9cc3-0ba5d4370eba",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "The Rarities"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Royal Rarities",
+          "track-count": 86
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 5,
+          "id": "5940a76d-2ad7-47e1-8e38-8d4d3720b164",
+          "media": [
+            {
+              "format": "CD-R",
+              "id": "889f29c1-f55a-3653-a753-d2257f363222",
+              "position": 3,
+              "track": [
+                {
+                  "id": "74647a14-e4ce-4a91-8668-51789684e8a3",
+                  "length": 190984,
+                  "number": "10",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 16,
+              "track-offset": 9
+            }
+          ],
+          "release-group": {
+            "id": "77739f9a-7d1c-424c-9cc3-0ba5d4370eba",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "The Rarities"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rarities",
+          "track-count": 86
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "2021-11-05",
+      "id": "3303d619-20bc-4e0b-844d-5e14b50f300f",
+      "length": 123680,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 4,
+          "country": "GB",
+          "date": "2021-11-05",
+          "id": "6ac57471-4f66-4277-9e0b-2a5ebff8550b",
+          "media": [
+            {
+              "format": "CD",
+              "id": "eaed5aa7-e067-3446-a589-0669e9c2e5e2",
+              "position": 1,
+              "track": [
+                {
+                  "id": "38ef216c-b96f-4366-a85e-5b95084b43b2",
+                  "length": 123680,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 20,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": "2021-11-05"
+            }
+          ],
+          "release-group": {
+            "disambiguation": "UK",
+            "id": "d969d431-e5c1-404c-8abd-25913e10a5af",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Now That\u2019s What I Call Rock",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Now That\u2019s What I Call Rock",
+          "track-count": 80
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "2021",
+      "id": "0f14bfe1-aa7e-4bed-a1f5-a86f711a59b9",
+      "length": 349000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "GB",
+          "date": "2021",
+          "id": "7198c1dd-0cf9-4575-9433-bab68ea5552d",
+          "media": [
+            {
+              "format": "CD",
+              "id": "4615f9cd-4947-33e5-872c-ef4d954ee95a",
+              "position": 1,
+              "track": [
+                {
+                  "id": "b7ef13fb-85a7-4594-b91c-7df5aec0107b",
+                  "length": 349000,
+                  "number": "18",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 19,
+              "track-offset": 17
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "iso-3166-1-codes": [
+                  "GB"
+                ],
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom"
+              },
+              "date": "2021"
+            }
+          ],
+          "release-group": {
+            "id": "ef5a2075-2167-4c56-a69d-0759a4978625",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "The Concert for Kampuchea",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Concert for Kampuchea",
+          "track-count": 19
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1981",
+      "id": "b669ad9e-bfb6-430b-a718-0f42f1050a51",
+      "length": 120000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "DE",
+          "date": "1981",
+          "id": "5032df80-9baf-44f2-b20f-6058ae79a93d",
+          "media": [
+            {
+              "format": "12\" Vinyl",
+              "id": "102a03ef-6058-311f-87f7-e8d25515d5a0",
+              "position": 1,
+              "track": [
+                {
+                  "id": "2922d2bf-9f66-4002-8a78-a6bf8b0f6511",
+                  "length": 120000,
+                  "number": "B8",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 18,
+              "track-offset": 16
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                  "DE"
+                ],
+                "name": "Germany",
+                "sort-name": "Germany"
+              },
+              "date": "1981"
+            }
+          ],
+          "release-group": {
+            "id": "69ce61c8-127f-3809-95d8-62fdf3ae1347",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+            ],
+            "secondary-types": [
+              "Compilation"
+            ],
+            "title": "Greatest Hits",
+            "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "track-count": 18
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1994",
+      "id": "9941af8e-6048-4a3b-bba1-f82aceeff7d3",
+      "length": 272000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 4,
+          "country": "JP",
+          "date": "1994",
+          "id": "302b39e5-152d-4d72-8f89-2677e045604a",
+          "media": [
+            {
+              "format": "CD-R",
+              "id": "d58fef10-62f5-3efc-970d-c940905b11f8",
+              "position": 1,
+              "track": [
+                {
+                  "id": "6af033b5-af9b-4a2f-abec-a985e723e475",
+                  "length": 272000,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 15,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "iso-3166-1-codes": [
+                  "JP"
+                ],
+                "name": "Japan",
+                "sort-name": "Japan"
+              },
+              "date": "1994"
+            }
+          ],
+          "release-group": {
+            "id": "cb77492a-4710-4043-83db-ce076d076fd6",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Zoom 1979",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Zoom 1979",
+          "track-count": 50
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1994",
+      "id": "efe98ebe-c6c8-4b89-a082-e6c2101729a8",
+      "length": 157000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 4,
+          "country": "JP",
+          "date": "1994",
+          "id": "302b39e5-152d-4d72-8f89-2677e045604a",
+          "media": [
+            {
+              "format": "CD-R",
+              "id": "d4e1850f-80f4-354b-9886-d018880f3a9d",
+              "position": 4,
+              "track": [
+                {
+                  "id": "e024e2aa-cfff-4b55-8942-20704c87eb04",
+                  "length": 157000,
+                  "number": "8",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 10,
+              "track-offset": 7
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "iso-3166-1-codes": [
+                  "JP"
+                ],
+                "name": "Japan",
+                "sort-name": "Japan"
+              },
+              "date": "1994"
+            }
+          ],
+          "release-group": {
+            "id": "cb77492a-4710-4043-83db-ce076d076fd6",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Zoom 1979",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Zoom 1979",
+          "track-count": 50
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live, 1979-01-24: Deutschlandhalle, Berlin, Germany",
+      "id": "838ece48-11d8-43cd-b145-119b8829a826",
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "id": "11ec942f-5b66-44e8-85fe-6827cf1d1ed8",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "c0d2313d-79e6-31bd-a680-6481da5a7209",
+              "position": 2,
+              "track": [
+                {
+                  "id": "a1548eee-dfe4-3ed9-9cf3-8e744497ab97",
+                  "number": "15",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 18,
+              "track-offset": 14
+            }
+          ],
+          "release-group": {
+            "id": "e8118626-332e-49f1-a878-d4077389dab2",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "1979-01-24: Deutschlandhalle, Berlin, Germany"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "1979-01-24: Deutschlandhalle, Berlin, Germany",
+          "track-count": 42
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live",
+      "first-release-date": "1996",
+      "id": "59c878f6-63f3-42af-b191-61cdd4dac59f",
+      "length": 188000,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "add compilations to this artist",
+                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "name": "Various Artists",
+                "sort-name": "Various Artists"
+              },
+              "name": "Various Artists"
+            }
+          ],
+          "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+          "count": 1,
+          "country": "NL",
+          "date": "1996",
+          "id": "515abbb2-4ab4-473d-9a48-154daf155226",
+          "media": [
+            {
+              "format": "CD",
+              "id": "77ad97ca-e078-36e2-a25e-705f230ef3a3",
+              "position": 1,
+              "track": [
+                {
+                  "id": "aadd15b9-7584-31bc-95d3-5dd7c73ad4ff",
+                  "length": 188000,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 14,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+                "iso-3166-1-codes": [
+                  "NL"
+                ],
+                "name": "Netherlands",
+                "sort-name": "Netherlands"
+              },
+              "date": "1996"
+            }
+          ],
+          "release-group": {
+            "id": "b40a4ec1-b90d-3288-8e40-481f4318bee9",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "The Best Live",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Promotion",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Best Live",
+          "track-count": 14
+        }
+      ],
+      "score": 100,
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        }
+      ],
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "disambiguation": "live",
+      "first-release-date": "2003-09-19",
+      "id": "7466bac8-26c1-40c8-b279-0351b3601447",
+      "length": 209760,
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "XW",
+          "date": "",
+          "id": "10e563db-4452-4d19-89bb-5889fd4053ad",
+          "media": [
+            {
+              "format": "Digital Media",
+              "id": "8ef7c5fb-b0e0-3e5e-8f47-5e5539a0a9b4",
+              "position": 1,
+              "track": [
+                {
+                  "id": "6bba73e1-54bb-4338-becd-3038e372b232",
+                  "length": 209760,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 13,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                "iso-3166-1-codes": [
+                  "XW"
+                ],
+                "name": "[Worldwide]",
+                "sort-name": "[Worldwide]"
+              },
+              "date": ""
+            }
+          ],
+          "release-group": {
+            "id": "c8425a2f-c6fd-3656-aeda-162bf996b622",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Live Killers",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Live Killers",
+          "track-count": 22
+        },
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 2,
+          "country": "XE",
+          "date": "2003-09-19",
+          "id": "82de7f56-acd9-4b34-87ba-9983f6444f64",
+          "media": [
+            {
+              "format": "CD",
+              "id": "fa888c17-0317-3b9f-b9f1-081b8db016e2",
+              "position": 1,
+              "track": [
+                {
+                  "id": "0b68e056-2e11-4a5f-9e9d-1a996edbfd94",
+                  "length": 210000,
+                  "number": "1",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 13,
+              "track-offset": 0
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                "iso-3166-1-codes": [
+                  "XE"
+                ],
+                "name": "Europe",
+                "sort-name": "Europe"
+              },
+              "date": "2003-09-19"
+            }
+          ],
+          "release-group": {
+            "id": "c8425a2f-c6fd-3656-aeda-162bf996b622",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "Live Killers",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Official",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Live Killers",
+          "track-count": 22
+        }
+      ],
+      "score": 100,
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "arena rock"
+        }
+      ],
+      "title": "We Will Rock You",
+      "video": null
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "aliases": [
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "zh_Hans_CN",
+                "name": "\u7687\u540e\u4e50\u961f",
+                "primary": true,
+                "sort-name": "\u7687\u540e\u4e50\u961f",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              },
+              {
+                "begin-date": null,
+                "end-date": null,
+                "locale": "ja",
+                "name": "\u30af\u30a4\u30fc\u30f3",
+                "primary": true,
+                "sort-name": "\u30af\u30a4\u30fc\u30f3",
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "disambiguation": "UK rock group",
+            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+            "name": "Queen",
+            "sort-name": "Queen"
+          },
+          "name": "Queen"
+        }
+      ],
+      "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+      "first-release-date": "1990",
+      "id": "75013e20-7d29-4489-bd25-7ef46b3c87e7",
+      "releases": [
+        {
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "UK rock group",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "name": "Queen",
+                "sort-name": "Queen"
+              },
+              "name": "Queen"
+            }
+          ],
+          "artist-credit-id": "edbf1ee2-3861-3d95-b971-8f243cbc7e54",
+          "count": 1,
+          "country": "XE",
+          "date": "1990",
+          "id": "5c047bf3-7d0e-4be6-94ed-7f9f52566af6",
+          "media": [
+            {
+              "format": "CD",
+              "id": "8c8c4d86-6bf1-3aef-b8a6-222271460a55",
+              "position": 1,
+              "track": [
+                {
+                  "id": "dc1007bc-2102-4ef5-a4cd-3bdfc54e2192",
+                  "number": "8",
+                  "title": "We Will Rock You"
+                }
+              ],
+              "track-count": 12,
+              "track-offset": 7
+            }
+          ],
+          "release-events": [
+            {
+              "area": {
+                "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                "iso-3166-1-codes": [
+                  "XE"
+                ],
+                "name": "Europe",
+                "sort-name": "Europe"
+              },
+              "date": "1990"
+            }
+          ],
+          "release-group": {
+            "id": "7b329856-613f-4fa8-9baf-8827ae543134",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [
+              "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+            ],
+            "secondary-types": [
+              "Live"
+            ],
+            "title": "From the Beeb to Tokyo",
+            "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+          },
+          "status": "Bootleg",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "From the Beeb to Tokyo",
+          "track-count": 12
+        }
+      ],
+      "score": 100,
+      "title": "We Will Rock You",
+      "video": null
+    }
+  ]
+}
