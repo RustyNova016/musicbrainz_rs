@@ -2,7 +2,8 @@ use api_bindium::ApiRequestError;
 use api_bindium::endpoints::UriBuilderError;
 use snafu::Snafu;
 
-use crate::api::parser::ParsingError;
+use crate::ParsingError;
+use crate::entity::api::MusicbrainzError;
 
 pub mod browse_query;
 pub mod coverart_query;
@@ -47,4 +48,14 @@ pub enum ApiEndpointError {
         #[cfg(feature = "backtrace")]
         backtrace: snafu::Backtrace,
     },
+}
+
+impl ApiEndpointError {
+    // If the underlying error is an [`MusicbrainzError`](crate::entity::api::MusicbrainzError), return it
+    pub fn as_musicbrainz_error(&self) -> Option<&MusicbrainzError> {
+        match self {
+            Self::ParsingError { source, .. } => source.as_musicbrainz_error(),
+            _ => None,
+        }
+    }
 }

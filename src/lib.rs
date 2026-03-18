@@ -56,6 +56,8 @@ pub use crate::api::coverart_query::FetchCoverart;
 pub use crate::api::coverart_query::FetchCoverartQuery;
 pub use crate::api::fetch_query::Fetch;
 pub use crate::api::fetch_query::FetchQuery;
+pub use crate::api::parser::MusicBrainzParser;
+pub use crate::api::parser::parsing_error::ParsingError;
 pub use crate::api::search_query::Search;
 pub use crate::api::search_query::SearchQuery;
 pub use crate::client::MusicBrainzClient;
