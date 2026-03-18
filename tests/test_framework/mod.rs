@@ -3,8 +3,9 @@ use core::str::FromStr;
 use std::sync::LazyLock;
 
 use api_bindium::ApiRequest;
-use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::JsonParser;
 use api_bindium::ureq::http::Uri;
+use musicbrainz_rs::api::parser::MusicBrainzParser;
 use musicbrainz_rs::client::MusicBrainzClient;
 use serde::Serialize;
 use serde::de::DeserializeOwned;
@@ -18,13 +19,18 @@ pub(crate) static CLIENT: LazyLock<MusicBrainzClient> = LazyLock::new(|| {
     )
 });
 pub(crate) async fn check_fetch_query<T>(
-    mut request: ApiRequest<JsonParser<T>>,
+    mut request: ApiRequest<MusicBrainzParser<T>>,
     expected_url: &str,
     extra: impl Fn(T),
 ) where
     T: Serialize + DeserializeOwned + Clone + Sync,
 {
-    let test_json = request.send_async(&CLIENT.api_client).await.unwrap();
+    let test_json = request
+        .send_async(&CLIENT.api_client)
+        .await
+        .unwrap()
+        .parse()
+        .unwrap();
     let test_json_val = serde_json::to_value(test_json).unwrap();
     assert_equal_return(test_json_val.clone(), expected_url.to_string()).await;
     assert_round_trip::<T>(test_json_val.clone());
@@ -43,9 +49,15 @@ pub(crate) async fn assert_equal_return(test_json: Value, expected_url: String) 
             .unwrap(),
         )
         .verb(api_bindium::HTTPVerb::Get)
+        .parser(JsonParser::default())
         .build();
 
-    let expected_json = request.send_async(&CLIENT.api_client).await.unwrap();
+    let expected_json = request
+        .send_async(&CLIENT.api_client)
+        .await
+        .unwrap()
+        .parse()
+        .unwrap();
 
     if !expected_json.null_eq(&test_json) {
         eprintln!();

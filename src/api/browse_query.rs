@@ -1,7 +1,6 @@
 use core::marker::PhantomData;
 
 use api_bindium::ApiRequest;
-use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
 use serde::de::DeserializeOwned;
@@ -9,6 +8,7 @@ use serde::de::DeserializeOwned;
 use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
+use crate::api::parser::MusicBrainzParser;
 use crate::api::query::Query;
 use crate::entity::Browsable;
 use crate::entity::BrowseResult;
@@ -85,13 +85,14 @@ where
     pub fn as_api_request(
         &self,
         client: &crate::MusicBrainzClient,
-    ) -> Result<ApiRequest<JsonParser<BrowseResult<T>>>, UriBuilderError>
+    ) -> Result<ApiRequest<MusicBrainzParser<BrowseResult<T>>>, UriBuilderError>
     where
         T: DeserializeOwned + Browsable,
     {
         Ok(ApiRequest::builder()
             .uri(self.create_url(client)?)
             .verb(api_bindium::HTTPVerb::Get)
+            .parser(MusicBrainzParser::default())
             .build())
     }
 
@@ -120,11 +121,14 @@ where
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
+        use crate::api::ParsingSnafu;
 
         self.as_api_request(client)
             .context(InvalidUriSnafu)?
             .send(&client.api_client)
-            .context(ApiRequestSnafu)
+            .context(ApiRequestSnafu)?
+            .parse()
+            .context(ParsingSnafu)
     }
 
     #[cfg(feature = "async")]
@@ -150,12 +154,15 @@ where
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
+        use crate::api::ParsingSnafu;
 
         self.as_api_request(client)
             .context(InvalidUriSnafu)?
             .send_async(&client.api_client)
             .await
-            .context(ApiRequestSnafu)
+            .context(ApiRequestSnafu)?
+            .parse()
+            .context(ParsingSnafu)
     }
 }
 
