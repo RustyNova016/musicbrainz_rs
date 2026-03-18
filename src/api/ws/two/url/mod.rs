@@ -6,9 +6,9 @@ use api_bindium::Parser;
 use api_bindium::api_response::ureq_response::UreqResponseInner;
 use api_bindium::endpoints::UriBuilderError;
 
+use crate::ParsingError;
 use crate::api::endpoints::MusicBrainzAPIEnpoints;
 use crate::api::parser::MusicBrainzParser;
-use crate::api::parser::ParsingError;
 use crate::entity::url::MultiUrlResponse;
 use crate::entity::url::Url;
 
