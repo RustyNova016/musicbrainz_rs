@@ -3,7 +3,7 @@ use core::marker::PhantomData;
 use core::str::FromStr;
 
 use api_bindium::ApiRequest;
-use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ureq::http::Uri;
 
@@ -129,6 +129,7 @@ where
         Ok(ApiRequest::builder()
             .uri(Uri::from_str(&url).unwrap())
             .verb(api_bindium::HTTPVerb::Get)
+            .parser(JsonParser::default())
             .build())
     }
 
@@ -151,19 +152,17 @@ where
 
         let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
 
-        let response = req
-            .send_with_retries(&client.api_client)
-            .context(ApiRequestSnafu)?;
+        let response = req.send(&client.api_client).context(ApiRequestSnafu)?;
 
         // If we requested a specific image, we have a redirect in return
         if self.0.target.img_type.is_some() {
             use api_bindium::ureq::ResponseExt;
 
-            let redirect = response.get_uri();
+            let redirect = response.inner.data.get_uri();
             Ok(CoverartResponse::Url(redirect.to_string()))
         } else {
             Ok(CoverartResponse::Json(
-                req.parse_response(response).context(ApiRequestSnafu)?,
+                response.parse().context(ApiRequestSnafu)?,
             ))
         }
     }
@@ -188,7 +187,7 @@ where
         let mut req = self.as_api_request(client).context(InvalidUriSnafu)?;
 
         let response = req
-            .send_with_retries_async(&client.api_client)
+            .send_async(&client.api_client)
             .await
             .context(ApiRequestSnafu)?;
 
@@ -196,11 +195,11 @@ where
         if self.0.target.img_type.is_some() {
             use api_bindium::ureq::ResponseExt;
 
-            let redirect = response.get_uri();
+            let redirect = response.inner.data.get_uri();
             Ok(CoverartResponse::Url(redirect.to_string()))
         } else {
             Ok(CoverartResponse::Json(
-                req.parse_response(response).context(ApiRequestSnafu)?,
+                response.parse().context(ApiRequestSnafu)?,
             ))
         }
     }

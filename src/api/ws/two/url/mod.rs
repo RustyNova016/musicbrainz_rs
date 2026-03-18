@@ -2,11 +2,13 @@ use core::fmt::Display;
 use std::fmt::Write;
 
 use api_bindium::ApiRequest;
-use api_bindium::api_request::parsers::Parser;
-use api_bindium::api_request::parsers::json::JsonParser;
+use api_bindium::Parser;
+use api_bindium::api_response::ureq_response::UreqResponseInner;
 use api_bindium::endpoints::UriBuilderError;
 
 use crate::api::endpoints::MusicBrainzAPIEnpoints;
+use crate::api::parser::MusicBrainzParser;
+use crate::api::parser::ParsingError;
 use crate::entity::url::MultiUrlResponse;
 use crate::entity::url::Url;
 
@@ -70,21 +72,19 @@ impl MusicBrainzAPIEnpoints {
 
         endpoint
             .add_parameter("inc", incs)
-            .into_api_request(api_bindium::HTTPVerb::Get)
+            .into_api_request(api_bindium::HTTPVerb::Get, UrlResponseParser)
     }
 }
 
 pub struct UrlResponseParser;
 
-impl Parser<api_bindium::ureq::http::Response<api_bindium::ureq::Body>> for UrlResponseParser {
+impl Parser<UreqResponseInner> for UrlResponseParser {
     type Output = MultiUrlResponse;
+    type Error = ParsingError;
 
-    fn parse<P>(
-        request: &ApiRequest<P>,
-        response: api_bindium::ureq::http::Response<api_bindium::ureq::Body>,
-    ) -> Result<Self::Output, api_bindium::ApiRequestError> {
-        let res: MultiOrSingle = JsonParser::parse(request, response)?;
-        Ok(res.into_multi())
+    fn parse(&self, response: UreqResponseInner) -> Result<Self::Output, Self::Error> {
+        let res: Result<MultiOrSingle, ParsingError> = MusicBrainzParser::default().parse(response);
+        Ok(res?.into_multi())
     }
 }
 
@@ -126,6 +126,8 @@ mod test {
             .call()
             .unwrap()
             .send(&client.api_client)
+            .unwrap()
+            .parse()
             .unwrap();
 
         assert!(result.urls.first().is_some_and(

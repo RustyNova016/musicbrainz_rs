@@ -2,13 +2,13 @@ use core::fmt::Write as _;
 use core::marker::PhantomData;
 
 use api_bindium::ApiRequest;
-use api_bindium::api_request::parsers::json::JsonParser;
 use api_bindium::endpoints::UriBuilderError;
 use serde::de::DeserializeOwned;
 
 use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
+use crate::api::parser::MusicBrainzParser;
 use crate::api::query::Query;
 
 /// Perform a lookup of an entity when you have the MBID for that entity
@@ -50,13 +50,14 @@ where
     pub fn as_api_request(
         &self,
         client: &crate::MusicBrainzClient,
-    ) -> Result<ApiRequest<JsonParser<T>>, UriBuilderError>
+    ) -> Result<ApiRequest<MusicBrainzParser<T>>, UriBuilderError>
     where
         T: DeserializeOwned,
     {
         Ok(ApiRequest::builder()
             .uri(self.0.get_endpoint(client).to_uri()?)
             .verb(api_bindium::HTTPVerb::Get)
+            .parser(MusicBrainzParser::default())
             .build())
     }
 
@@ -83,11 +84,14 @@ where
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
+        use crate::api::ParsingSnafu;
 
         self.as_api_request(client)
             .context(InvalidUriSnafu)?
             .send(&client.api_client)
-            .context(ApiRequestSnafu)
+            .context(ApiRequestSnafu)?
+            .parse()
+            .context(ParsingSnafu)
     }
 
     #[cfg(feature = "async")]
@@ -113,12 +117,15 @@ where
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
+        use crate::api::ParsingSnafu;
 
         self.as_api_request(client)
             .context(InvalidUriSnafu)?
             .send_async(&client.api_client)
             .await
-            .context(ApiRequestSnafu)
+            .context(ApiRequestSnafu)?
+            .parse()
+            .context(ParsingSnafu)
     }
 }
 
