@@ -355,6 +355,9 @@ pub enum WorkAttribute {
     /// ID for the Canadian rights society SODRAC
     #[serde(rename = "SODRAC ID")]
     SodracId(String),
+    /// ID for the Serbian rights society SOKOJ
+    #[serde(rename = "SOKOJ ID")]
+    SokojId(String),
     /// ID for the Portuguese rights society SPA
     #[serde(rename = "SPA ID")]
     SpaId(String),
