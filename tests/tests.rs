@@ -1,4 +1,3 @@
-mod serde;
 #[cfg(feature = "async")]
 pub(crate) mod test_framework;
 
