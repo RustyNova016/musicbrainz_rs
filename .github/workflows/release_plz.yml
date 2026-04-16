@@ -1,5 +1,7 @@
 name: Release-plz
 
+# Setting this up was a shitshow. Please don't touch
+
 on:
   push:
     branches:
