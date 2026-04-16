@@ -111,6 +111,12 @@ doc-scrape-examples = true
 name = "set_user_agent"
 path = "examples/set_user_agent.rs"
 
+[[example]]
+required-features = ["sync", "async"]
+doc-scrape-examples = true
+name = "fetch_url"
+path = "examples/fetch_url.rs"
+
 # [[example]]
 # required-features = ["blocking"]
 # name = "oauth"
