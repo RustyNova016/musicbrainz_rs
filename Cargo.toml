@@ -18,7 +18,7 @@ travis-ci = { repository = "RustyNova016/musicbrainz_rs", branch = "master" }
 
 [dependencies]
 # Api core
-api_bindium = { version = "0.3.0" }
+api_bindium = { version = "0.4.0" }
 
 # Schema deserialization
 serde = { version = "1.0.220", features = ["derive"] }
@@ -49,9 +49,6 @@ futures = "0.3.31"
 serde_json = "1.0.117"
 macro_rules_attribute = "0.2.2"
 smol-macros = "0.1.1"
-
-[patch.crates-io]
-api_bindium = { git = "https://github.com/RustyNova016/api_bindium", rev = "25238ced3025af7962581fef8ccff425b9e3fd84" }
 
 [features]
 default = []
