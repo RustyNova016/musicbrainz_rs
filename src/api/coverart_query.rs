@@ -1,6 +1,6 @@
 use core::fmt::Write as _;
 use core::marker::PhantomData;
-use core::str::FromStr;
+use core::str::FromStr as _;
 
 use api_bindium::ApiRequest;
 use api_bindium::JsonParser;
@@ -145,7 +145,7 @@ where
         &mut self,
         client: &MusicBrainzClient,
     ) -> Result<CoverartResponse, ApiEndpointError> {
-        use snafu::ResultExt;
+        use snafu::ResultExt as _;
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
@@ -156,7 +156,7 @@ where
 
         // If we requested a specific image, we have a redirect in return
         if self.0.target.img_type.is_some() {
-            use api_bindium::ureq::ResponseExt;
+            use api_bindium::ureq::ResponseExt as _;
 
             let redirect = response.inner.data.get_uri();
             Ok(CoverartResponse::Url(redirect.to_string()))
@@ -179,7 +179,7 @@ where
         &mut self,
         client: &MusicBrainzClient,
     ) -> Result<CoverartResponse, ApiEndpointError> {
-        use snafu::ResultExt;
+        use snafu::ResultExt as _;
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
@@ -193,7 +193,7 @@ where
 
         // If we requested a specific image, we have a redirect in return
         if self.0.target.img_type.is_some() {
-            use api_bindium::ureq::ResponseExt;
+            use api_bindium::ureq::ResponseExt as _;
 
             let redirect = response.inner.data.get_uri();
             Ok(CoverartResponse::Url(redirect.to_string()))
@@ -223,8 +223,7 @@ pub trait FetchCoverart {
 
     fn get_coverart(&self) -> FetchCoverartQuery<Self>
     where
-        Self: Sized + APIPath,
-        Self: Clone,
+        Self: Sized + APIPath + Clone,
     {
         FetchCoverartQuery(CoverartQuery {
             path: Self::path().to_string(),

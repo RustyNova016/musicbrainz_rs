@@ -411,7 +411,7 @@ where
     where
         S: Serializer,
     {
-        use serde::ser::SerializeMap;
+        use serde::ser::SerializeMap as _;
         let mut map = serializer.serialize_map(Some(3))?;
         map.serialize_entry(T::COUNT_FIELD, &self.count)?;
         map.serialize_entry(T::OFFSET_FIELD, &self.offset)?;

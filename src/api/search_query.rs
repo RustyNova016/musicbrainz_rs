@@ -126,7 +126,7 @@ where
     where
         T: Search + Searchable + DeserializeOwned + Sync,
     {
-        use snafu::ResultExt;
+        use snafu::ResultExt as _;
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
@@ -159,7 +159,7 @@ where
     where
         T: Search + Searchable + DeserializeOwned + Sync,
     {
-        use snafu::ResultExt;
+        use snafu::ResultExt as _;
 
         use crate::api::ApiRequestSnafu;
         use crate::api::InvalidUriSnafu;
