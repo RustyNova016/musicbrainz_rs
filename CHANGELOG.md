@@ -2,6 +2,65 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.13.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.12.0...v0.13.0) - 2026-04-17
+
+### Added
+
+- added id to medias
+- add `as_musicbrainz_error`
+- deserialize musicbrainz errors
+- include score in more entities
+- multiple url fetching
+- added `as_musicbrainz_error`
+- Retry on connection resets
+- move from this_error to snafu
+- make client's reqwest client public
+- add ability to set reqwest_client at initialization to client
+- add abilty to set user_agent at initialization to client
+
+### Fixed
+
+- added SokojId work variant
+- removed old buggy tests
+- tests
+- ci lints
+- clippy lints
+- chrono reexport
+- missing backtrace in as_musicbrainz_error
+- Lints and replaced expects with returning a result
+
+### Other
+
+- more clippy lints
+- *(lint)* allow_attributes_without_reason
+- *(lint)* allow_attributes
+- *(lint)* std_instead_of_core
+- update api_bindium to 0.4.0
+- release plz fix 6
+- release plz fix 5
+- ci release plz fix 4
+- releaseplz fix 3
+- release plz fix2
+- add release-plz
+- add release-plz
+- Merge pull request #208 from RustyNova016/dependabot/cargo/main/hotpath-0.15.0
+- *(deps)* update hotpath requirement from 0.14.0 to 0.15.0
+- *(deps)* update snafu requirement from 0.8.9 to 0.9.0
+- *(deps)* update hotpath requirement from 0.12.0 to 0.13.0
+- *(deps)* update hotpath requirement from 0.9.0 to 0.12.0
+- update readme
+- edition
+- add features docs
+- removed empty config.rs
+- bump tracing
+- [**breaking**] move api request to api bindium
+- decompose browse request id
+- *(deps)* bump github/codeql-action from 3 to 4
+- Merge pull request #160 from RustyNova016/dependabot/github_actions/main/actions/checkout-5
+- clippy lints
+- cargo fmt
+- add more documentation to `new_with_reqwest_client`
+
 ## [0.8.0](https://github.com/RustyNova/musicbrainz_rs_nova/compare/195a6cd51b7f702a4936da578483e5f31fef5bba..0.8.0) - 2024-10-07
 #### Bug Fixes
 - **(cdstub)** Make Barcode field optional - ([cefceb2](https://github.com/RustyNova/musicbrainz_rs_nova/commit/cefceb2f90cc737854520c3636de289a8a94a20c)) - Jan Holthuis
