@@ -55,7 +55,7 @@ impl ApiEndpointError {
     pub fn as_musicbrainz_error(&self) -> Option<&MusicbrainzError> {
         match self {
             Self::ParsingError { source, .. } => source.as_musicbrainz_error(),
-            _ => None,
+            Self::ApiRequestError { .. } | Self::InvalidUriError { .. } => None,
         }
     }
 }

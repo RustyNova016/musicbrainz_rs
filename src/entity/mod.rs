@@ -236,7 +236,6 @@ impl APIPath for Discid {
 
 /// A query parameter that allows adding requested data to the query
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
 pub(crate) enum Include {
     Subquery(Subquery),
     Relationship(Relationship),
@@ -256,7 +255,7 @@ impl Include {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
+#[expect(unused, reason = "Some subqueries aren't used in the api")]
 pub(crate) enum Subquery {
     Urls,
     Areas,
@@ -312,7 +311,6 @@ impl Subquery {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
 pub(crate) enum Relationship {
     Area,
     Artist,
@@ -413,7 +411,7 @@ where
     where
         S: Serializer,
     {
-        use serde::ser::SerializeMap;
+        use serde::ser::SerializeMap as _;
         let mut map = serializer.serialize_map(Some(3))?;
         map.serialize_entry(T::COUNT_FIELD, &self.count)?;
         map.serialize_entry(T::OFFSET_FIELD, &self.offset)?;

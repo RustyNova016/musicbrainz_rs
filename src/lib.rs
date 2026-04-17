@@ -31,7 +31,10 @@
 //! [musicbrainz::prelude]: crate::prelude
 //! [entity]: crate::entity
 
-#![allow(clippy::result_large_err)]
+#![allow(
+    clippy::result_large_err,
+    reason = "Until `snafu` got something to easily box error sources, we ignore it"
+)]
 
 /// The api endpoint makers
 pub mod api;
