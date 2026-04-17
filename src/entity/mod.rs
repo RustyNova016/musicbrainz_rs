@@ -255,7 +255,7 @@ impl Include {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-#[expect(unused)]
+#[expect(unused, reason = "Some subqueries aren't used in the api")]
 pub(crate) enum Subquery {
     Urls,
     Areas,
