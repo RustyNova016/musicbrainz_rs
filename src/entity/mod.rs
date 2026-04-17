@@ -236,7 +236,6 @@ impl APIPath for Discid {
 
 /// A query parameter that allows adding requested data to the query
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
 pub(crate) enum Include {
     Subquery(Subquery),
     Relationship(Relationship),
@@ -256,7 +255,7 @@ impl Include {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
+#[expect(unused)]
 pub(crate) enum Subquery {
     Urls,
     Areas,
@@ -312,7 +311,6 @@ impl Subquery {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-#[allow(unused)]
 pub(crate) enum Relationship {
     Area,
     Artist,
