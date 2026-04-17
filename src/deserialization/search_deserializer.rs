@@ -1,9 +1,17 @@
-use crate::entity::search::{SearchResult, Searchable};
+use core::fmt;
+use core::marker::PhantomData;
+
 use chrono::NaiveDateTime;
+use serde::Deserialize;
+use serde::Deserializer;
+use serde::de;
 use serde::de::DeserializeOwned;
-use serde::de::{self, Deserialize, Deserializer, MapAccess, SeqAccess, Visitor};
-use std::fmt;
-use std::marker::PhantomData;
+use serde::de::MapAccess;
+use serde::de::SeqAccess;
+use serde::de::Visitor;
+
+use crate::entity::search::SearchResult;
+use crate::entity::search::Searchable;
 
 const FORMAT: &str = "%Y-%m-%dT%H:%M:%S%.f%Z";
 

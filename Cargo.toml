@@ -125,3 +125,13 @@ path = "tests/tests.rs"
 
 [package.metadata.docs.rs]
 cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
+
+[lints.clippy]
+alloc_instead_of_core = "deny"
+std_instead_of_core = "deny"
+# allow_attributes = "warn"
+# allow_attributes_without_reason = "deny"
+# cast_lossless = "deny"
+# cloned_instead_of_copied = "deny"
+# collapsible_else_if = "warn"
+# too_many_lines = "warn"

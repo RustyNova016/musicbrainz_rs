@@ -1,5 +1,5 @@
 use core::fmt::Display;
-use std::fmt::Write;
+use core::fmt::Write;
 
 use api_bindium::ApiRequest;
 use api_bindium::Parser;
