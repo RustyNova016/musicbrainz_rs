@@ -1,15 +1,19 @@
-use core::fmt::Write as _;
-use core::marker::PhantomData;
-
 use api_bindium::ApiRequest;
 use api_bindium::endpoints::UriBuilderError;
+use core::fmt::Write as _;
+use core::marker::PhantomData;
 use serde::de::DeserializeOwned;
+use std::collections::HashMap;
 
 use crate::APIPath;
 #[cfg(any(feature = "sync", feature = "async"))]
 use crate::api::ApiEndpointError;
 use crate::api::parser::MusicBrainzParser;
 use crate::api::query::Query;
+#[cfg(feature = "basic_auth")]
+use base64::Engine as _;
+#[cfg(feature = "basic_auth")]
+use base64::engine::general_purpose::STANDARD;
 
 /// Perform a lookup of an entity when you have the MBID for that entity
 ///
@@ -46,7 +50,7 @@ where
 
     // === Request Creation ===
 
-    /// Turn the query into an [`api_bindium::ApiRequest`]    
+    /// Turn the query into an [`api_bindium::ApiRequest`]
     pub fn as_api_request(
         &self,
         client: &crate::MusicBrainzClient,
@@ -54,11 +58,56 @@ where
     where
         T: DeserializeOwned,
     {
+        let uri = self.0.get_endpoint(client).to_uri()?;
+        let host = uri.host().unwrap_or_default().to_owned();
         Ok(ApiRequest::builder()
-            .uri(self.0.get_endpoint(client).to_uri()?)
+            .uri(uri)
+            .maybe_headers(Self::auth_headers(client, &host))
             .verb(api_bindium::HTTPVerb::Get)
             .parser(MusicBrainzParser::default())
             .build())
+    }
+
+    #[cfg(feature = "basic_auth")]
+    fn auth_headers(
+        client: &crate::MusicBrainzClient,
+        host: &str,
+    ) -> Option<HashMap<String, String>> {
+        Self::credentials(client, host).map(|(username, password)| {
+            HashMap::from([(
+                "Authorization".to_string(),
+                format!(
+                    "Basic {}",
+                    STANDARD.encode(format!("{username}:{password}"))
+                ),
+            )])
+        })
+    }
+
+    #[cfg(feature = "basic_auth")]
+    fn credentials<'a>(
+        client: &'a crate::MusicBrainzClient,
+        host: &str,
+    ) -> Option<(&'a str, &'a str)> {
+        #[cfg(feature = "netrc")]
+        if let Some(auth) = client.netrc.as_deref().and_then(|nrc| nrc.hosts.get(host)) {
+            return Some((&auth.login, &auth.password));
+        }
+        #[cfg(not(feature = "netrc"))]
+        let _ = host;
+
+        client
+            .basic_auth_credentials
+            .as_ref()
+            .map(|(username, password)| (username.as_str(), password.as_str()))
+    }
+
+    #[cfg(not(feature = "basic_auth"))]
+    fn auth_headers(
+        _client: &crate::MusicBrainzClient,
+        _host: &str,
+    ) -> Option<HashMap<String, String>> {
+        None
     }
 
     #[cfg(feature = "sync")]

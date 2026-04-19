@@ -35,8 +35,10 @@ tracing-indicatif = { version = "0.3.14", optional = true }
 
 # Others
 lucene_query_builder = "^0.4.0"
-governor = { version = "0.10.0", optional = true }  
-regex = { version = "1.11.1", optional = true}
+governor = { version = "0.10.0", optional = true }
+regex = { version = "1.11.1", optional = true }
+rust-netrc = { version = "0.1.2", optional = true }
+base64 = { version = "0.22.1", optional = true }
 
 [build-dependencies]
 glob = "0.3.1"
@@ -65,6 +67,8 @@ async = ["api_bindium/async"]
 native_tls = ["api_bindium/native_tls"]
 rustls = ["api_bindium/rustls"]
 rate_limit = ["dep:governor", "async"]
+basic_auth = ["dep:base64"]
+netrc = ["basic_auth", "dep:rust-netrc"]
 
 # Debugging
 backtrace = ["api_bindium/backtrace"]
@@ -113,6 +117,12 @@ required-features = ["sync", "async"]
 doc-scrape-examples = true
 name = "fetch_url"
 path = "examples/fetch_url.rs"
+
+[[example]]
+required-features = ["sync", "async", "netrc"]
+doc-scrape-examples = true
+name = "netrc"
+path = "examples/netrc.rs"
 
 # [[example]]
 # required-features = ["blocking"]
