@@ -1,12 +1,12 @@
-use std::sync::LazyLock;
 #[cfg(feature = "netrc")]
 use std::sync::Arc;
+use std::sync::LazyLock;
 
 use crate::api::endpoints::MusicBrainzAPIEnpoints;
 use crate::client::music_brainz_client_builder::State;
-use api_bindium::ureq::config::Config;
-use api_bindium::ureq::Agent;
 use api_bindium::ApiClient;
+use api_bindium::ureq::Agent;
+use api_bindium::ureq::config::Config;
 #[cfg(feature = "netrc")]
 use bon::__::IsUnset;
 #[cfg(feature = "netrc")]
