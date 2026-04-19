@@ -1,6 +1,5 @@
 use core::fmt::Write as _;
 use core::marker::PhantomData;
-#[cfg(feature = "basic_auth")]
 use std::collections::HashMap;
 use api_bindium::endpoints::UriBuilderError;
 use api_bindium::ApiRequest;
@@ -59,34 +58,43 @@ where
     where
         T: DeserializeOwned,
     {
+        let uri = self.0.get_endpoint(client).to_uri()?;
+        let host = uri.host().unwrap_or_default().to_owned();
         Ok(ApiRequest::builder()
-            .uri(self.0.get_endpoint(client).to_uri()?)
-            .maybe_headers(Self::auth_headers(client))
+            .uri(uri)
+            .maybe_headers(Self::auth_headers(client, &host))
             .verb(api_bindium::HTTPVerb::Get)
             .parser(MusicBrainzParser::default())
             .build())
     }
 
     #[cfg(feature = "basic_auth")]
-    fn auth_headers(client: &crate::MusicBrainzClient) -> Option<HashMap<String, String>> {
+    fn auth_headers(client: &crate::MusicBrainzClient, host: &str) -> Option<HashMap<String, String>> {
+        Self::credentials(client, host).map(|(username, password)| {
+            HashMap::from([(
+                "Authorization".to_string(),
+                format!("Basic {}", STANDARD.encode(format!("{username}:{password}"))),
+            )])
+        })
+    }
+
+    #[cfg(feature = "basic_auth")]
+    fn credentials<'a>(client: &'a crate::MusicBrainzClient, host: &str) -> Option<(&'a str, &'a str)> {
+        #[cfg(feature = "netrc")]
+        if let Some(auth) = client.netrc.as_deref().and_then(|nrc| nrc.hosts.get(host)) {
+            return Some((&auth.login, &auth.password));
+        }
+        #[cfg(not(feature = "netrc"))]
+        let _ = host;
+
         client
             .basic_auth_credentials
             .as_ref()
-            .map(|(username, password)| {
-                let mut headers = HashMap::new();
-                headers.insert(
-                    "Authorization".to_string(),
-                    format!(
-                        "Basic {}",
-                        STANDARD.encode(format!("{}:{}", username, password))
-                    ),
-                );
-                headers
-            })
+            .map(|(username, password)| (username.as_str(), password.as_str()))
     }
 
     #[cfg(not(feature = "basic_auth"))]
-    fn auth_headers() -> Option<HashMap<String, String>> {
+    fn auth_headers(_client: &crate::MusicBrainzClient, _host: &str) -> Option<HashMap<String, String>> {
         None
     }
 

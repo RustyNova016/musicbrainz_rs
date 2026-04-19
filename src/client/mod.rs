@@ -1,13 +1,14 @@
 use std::sync::LazyLock;
+#[cfg(feature = "netrc")]
+use std::sync::Arc;
 
 use crate::api::endpoints::MusicBrainzAPIEnpoints;
-#[cfg(feature = "basic_auth")]
-use crate::client::music_brainz_client_builder::SetBasicAuthCredentials;
 use crate::client::music_brainz_client_builder::State;
 use api_bindium::ureq::config::Config;
 use api_bindium::ureq::Agent;
 use api_bindium::ApiClient;
-use bon::__::{IsSet, IsUnset};
+#[cfg(feature = "netrc")]
+use bon::__::IsUnset;
 #[cfg(feature = "netrc")]
 use netrc::Netrc;
 
@@ -43,25 +44,19 @@ pub struct MusicBrainzClient {
     #[cfg(feature = "basic_auth")]
     /// Basic auth credentials for the API. May be required for some musicbrainz_domains.
     pub basic_auth_credentials: Option<(String, String)>,
+
+    #[cfg(feature = "netrc")]
+    /// Parsed `.netrc` file for per-host credential lookup at request time.
+    pub netrc: Option<Arc<Netrc>>,
 }
 
 impl<S: State> MusicBrainzClientBuilder<S> {
     #[cfg(feature = "netrc")]
-    pub fn netrc_auth(self) -> MusicBrainzClientBuilder<SetBasicAuthCredentials<S>>
+    pub fn netrc_auth(self) -> MusicBrainzClientBuilder<music_brainz_client_builder::SetNetrc<S>>
     where
-        S::MusicbrainzDomain: IsSet,
-        S::BasicAuthCredentials: IsUnset,
+        S::Netrc: IsUnset,
     {
-        let default_domain = "musicbrainz.org".to_string();
-        let domain = self.get_musicbrainz_domain().unwrap_or(&default_domain);
-
-        let credentials = Netrc::new()
-            .ok()
-            .and_then(|nrc| nrc.hosts.get(domain).cloned())
-            .map(|auth| (auth.login, auth.password))
-            .unwrap_or_default();
-
-        self.basic_auth_credentials(credentials)
+        self.maybe_netrc(Netrc::new().ok().map(Arc::new))
     }
 }
 
