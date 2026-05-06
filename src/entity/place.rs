@@ -1,16 +1,20 @@
-use super::{Include, Subquery};
+use serde::Deserialize;
+use serde::Serialize;
+
 use crate::api::impl_browse_includes::impl_browse_includes;
 use crate::api::impl_relations_includes::impl_relations_includes;
 use crate::entity::BrowseBy;
+use crate::entity::Include;
+use crate::entity::Subquery;
 use crate::entity::alias::Alias;
 use crate::entity::area::Area;
 use crate::entity::genre::Genre;
 use crate::entity::lifespan::LifeSpan;
 use crate::entity::relations::Relation;
 use crate::entity::tag::Tag;
-use serde::{Deserialize, Serialize};
-use std::borrow::Cow;
-use std::fmt;
+
+pub use crate::entity::coordinates::Coordinate;
+pub use crate::entity::coordinates::Coordinates;
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 #[cfg_attr(
@@ -51,65 +55,6 @@ pub struct Place {
     pub annotation: Option<String>,
     /// Relevance score of this entity (0–100). Present only in search querys.
     pub score: Option<u8>,
-}
-
-#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
-pub struct Coordinates {
-    pub latitude: Coordinate,
-    pub longitude: Coordinate,
-}
-
-/// Place coordinate (e.g., latitude or longitude).
-///
-/// The MusicBrainz API either returns a string or a floating point number. This enum abstracts
-/// that so that the user does not have to care about this distinction.
-#[derive(Debug, PartialEq, Clone)]
-pub enum Coordinate {
-    StringCoordinate(String),
-    FloatCoordinate(f64),
-}
-
-impl Coordinate {
-    pub fn to_cow_str(&self) -> Cow<'_, str> {
-        match &self {
-            Self::StringCoordinate(value) => Cow::from(value.as_str()),
-            Self::FloatCoordinate(value) => Cow::from(value.to_string()),
-        }
-    }
-
-    pub fn to_f64(&self) -> Option<f64> {
-        match &self {
-            Self::StringCoordinate(value) => value.as_str().parse::<f64>().ok(),
-            Self::FloatCoordinate(value) => (*value).into(),
-        }
-    }
-}
-
-impl fmt::Display for Coordinate {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        match &self {
-            Self::StringCoordinate(value) => value.fmt(f),
-            Self::FloatCoordinate(value) => value.fmt(f),
-        }
-    }
-}
-
-impl From<String> for Coordinate {
-    fn from(value: String) -> Self {
-        Self::StringCoordinate(value)
-    }
-}
-
-impl From<&str> for Coordinate {
-    fn from(value: &str) -> Self {
-        Self::StringCoordinate(value.to_string())
-    }
-}
-
-impl From<f64> for Coordinate {
-    fn from(value: f64) -> Self {
-        Self::FloatCoordinate(value)
-    }
 }
 
 /// The type of a MusicBrainz place entity.

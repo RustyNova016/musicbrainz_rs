@@ -27,8 +27,16 @@
           with pkgs;
           mkShell {
             buildInputs = [
-              openssl
+              openssl # In case native SSL is used
               pkg-config
+
+              # CI / Linting tools
+              cargo-mutants
+              cargo-hack
+              cargo-msrv
+              cargo-audit
+              cargo-machete
+
               (rust-bin.stable.latest.default.override {
                 extensions = [
                   "cargo"
