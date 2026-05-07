@@ -358,7 +358,7 @@ impl ReleaseScript {
 /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
 ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
 ///     sort | \
-///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,\/\/\/ \1\n\u\2\,,'
+///     sed -e 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,\/\/\/ \1\n\u\2\,,' -e "s/&#x27;/'/"
 /// ```
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 #[serde(rename_all = "lowercase")]
@@ -1111,6 +1111,16 @@ pub enum Language {
 
 impl Language {
     /// Get the human-readable name used by MusicBrainz.
+    ///
+    /// Generated using:
+    /// ```console
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed -e 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,Self::\2 => "\1"\,,' -e "s/&#x27;/'/"
+    /// ```
+    ///
+    /// and using editor features to fix capitalization of the variants.
     pub fn name(&self) -> &'static str {
         match &self {
             Self::Abk => "Abkhazian",
@@ -1489,6 +1499,16 @@ impl Language {
     }
 
     /// Get the [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) code as [`str`].
+    ///
+    /// Generated using:
+    /// ```console
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,Self::\2 => "\2"\,,'
+    /// ```
+    ///
+    /// and using editor features to fix capitalization of the variants.
     pub fn code(&self) -> &'static str {
         match &self {
             Self::Abk => "abk",
