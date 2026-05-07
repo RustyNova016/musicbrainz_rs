@@ -136,6 +136,7 @@ pub struct ReleaseTextRepresentation {
 ///     sort | \
 ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,\/\/\/ \1\n\2\,,'
 /// ```
+#[non_exhaustive]
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 pub enum ReleaseScript {
     /// Arabic
@@ -360,6 +361,7 @@ impl ReleaseScript {
 ///     sort | \
 ///     sed -e 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,\/\/\/ \1\n\u\2\,,' -e "s/&#x27;/'/"
 /// ```
+#[non_exhaustive]
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 #[serde(rename_all = "lowercase")]
 pub enum Language {
