@@ -167,6 +167,8 @@ pub enum ReleaseScript {
     Ethi,
     /// Georgian
     Geor,
+    /// Glagolitic
+    Glag,
     /// Gothic
     Goth,
     /// Greek
@@ -206,6 +208,8 @@ pub enum ReleaseScript {
     /// Latin is the most common script, and usually the correct choice. It is used
     /// for all Western European languages, and many others. It is also the most common script used for transliterations.
     Latn,
+    /// Lycian
+    Lyci,
     /// Malayalam
     Mlym,
     /// Mathematical notation
@@ -214,6 +218,8 @@ pub enum ReleaseScript {
     Qaaa,
     /// Myanmar
     Mymr,
+    /// Old Italic
+    Ital,
     /// Old Turkic
     Orkh,
     /// Oriya
@@ -222,8 +228,12 @@ pub enum ReleaseScript {
     Phag,
     /// Runic
     Runr,
+    /// Shavian
+    Shaw,
     /// Sinhala
     Sinh,
+    /// Sundanese
+    Sund,
     /// Symbols
     Zsym,
     /// Syriac
@@ -269,6 +279,7 @@ impl ReleaseScript {
             Self::Egyp => "Egyptian hieroglyphs",
             Self::Ethi => "Ethiopic",
             Self::Geor => "Georgian",
+            Self::Glag => "Glagolitic",
             Self::Goth => "Gothic",
             Self::Grek => "Greek",
             Self::Gujr => "Gujarati",
@@ -287,15 +298,19 @@ impl ReleaseScript {
             Self::Kore => "Korean",
             Self::Laoo => "Lao",
             Self::Latn => "Latin",
+            Self::Lyci => "Lycian",
             Self::Mlym => "Malayalam",
             Self::Zmth => "Mathematical notation",
             Self::Qaaa => "[Multiple scripts]",
             Self::Mymr => "Myanmar",
+            Self::Ital => "Old Italic",
             Self::Orkh => "Old Turkic",
             Self::Orya => "Oriya",
             Self::Phag => "Phags-pa",
             Self::Runr => "Runic",
+            Self::Shaw => "Shavian",
             Self::Sinh => "Sinhala",
+            Self::Sund => "Sundanese",
             Self::Zsym => "Symbols",
             Self::Syrc => "Syriac",
             Self::Taml => "Tamil",
@@ -333,6 +348,7 @@ impl ReleaseScript {
             Self::Egyp => "Egyp",
             Self::Ethi => "Ethi",
             Self::Geor => "Geor",
+            Self::Glag => "Glag",
             Self::Goth => "Goth",
             Self::Grek => "Grek",
             Self::Gujr => "Gujr",
@@ -351,15 +367,19 @@ impl ReleaseScript {
             Self::Kore => "Kore",
             Self::Laoo => "Laoo",
             Self::Latn => "Latn",
+            Self::Lyci => "Lyci",
             Self::Mlym => "Mlym",
             Self::Zmth => "Zmth",
             Self::Qaaa => "Qaaa",
             Self::Mymr => "Mymr",
+            Self::Ital => "Ital",
             Self::Orkh => "Orkh",
             Self::Orya => "Orya",
             Self::Phag => "Phag",
             Self::Runr => "Runr",
+            Self::Shaw => "Shaw",
             Self::Sinh => "Sinh",
+            Self::Sund => "Sund",
             Self::Zsym => "Zsym",
             Self::Syrc => "Syrc",
             Self::Taml => "Taml",
@@ -367,6 +387,7 @@ impl ReleaseScript {
             Self::Thai => "Thai",
             Self::Tibt => "Tibt",
             Self::Vaii => "Vaii",
+            Self::Yiii => "Yiii",
         }
     }
 }
