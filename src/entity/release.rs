@@ -238,10 +238,21 @@ pub enum ReleaseScript {
     Tibt,
     /// Vai
     Vaii,
+    /// Yi
+    Yiii,
 }
 
 impl ReleaseScript {
     /// Get the human-readable name used by MusicBrainz.
+    ///
+    /// The values for this enum have been generated with the following command:
+    ///
+    /// ```bash
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=script%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,            Self::\2 => "\1"\,,'
+    /// ```
     pub fn name(&self) -> &'static str {
         match &self {
             Self::Arab => "Arabic",
@@ -292,10 +303,20 @@ impl ReleaseScript {
             Self::Thai => "Thai",
             Self::Tibt => "Tibetan",
             Self::Vaii => "Vai",
+            Self::Yiii => "Yi",
         }
     }
 
     /// Get the [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924) code as [`str`].
+    ///
+    /// The values for this enum have been generated with the following command:
+    ///
+    /// ```bash
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=script%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,            Self::\2 => "\2"\,,'
+    /// ```
     pub fn code(&self) -> &'static str {
         match &self {
             Self::Arab => "Arab",
