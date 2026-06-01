@@ -31,9 +31,9 @@ impl<T> Query<T> {
         &self,
         client: &MusicBrainzClient,
     ) -> EndpointUriBuilder<EndpointUriBuilderQuery> {
-        let url = EndpointUriBuilder::new()
-            .http()
-            .set_authority(&client.musicbrainz_domain)
+        let url = client
+            .endpoints()
+            .endpoint_builder()
             .add_path_fragment("ws/2")
             .add_path_fragment(&self.path)
             .query()

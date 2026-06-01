@@ -4,26 +4,35 @@ use api_bindium::endpoints::path::EndpointUriBuilderPath;
 /// Endpoints for the api
 #[derive(Debug, bon::Builder, Clone)]
 pub struct MusicBrainzAPIEnpoints {
-    /// The domain of the server.
-    ///
-    /// Please note that all the api endpoints must be accessed by HTTPS.
+    /// Whether to use HTTPS. Defaults to `true`.
+    #[builder(default = true)]
+    use_https: bool,
+
+    /// The authority (host and optional port) of the server,
+    /// e.g. `musicbrainz.org` or `localhost:5000`.
     #[builder(default = "musicbrainz.org".to_string())]
-    domain: String,
+    authority: String,
 }
 
 impl MusicBrainzAPIEnpoints {
-    /// The api root
+    /// The api root URL
     pub fn api_root(&self) -> String {
-        format!("https://{}", self.domain)
+        format!(
+            "{}://{}",
+            if self.use_https { "https" } else { "http" },
+            self.authority,
+        )
     }
 
-    /// Return an endpoint builder for endpoints
-    ///
-    /// The scheme and domain are already set
+    /// Return an endpoint builder with the scheme and authority already set
     pub fn endpoint_builder(&self) -> EndpointUriBuilder<EndpointUriBuilderPath> {
-        EndpointUriBuilder::new()
-            .https()
-            .set_authority(&self.domain)
+        let builder = EndpointUriBuilder::new();
+        if self.use_https {
+            builder.https()
+        } else {
+            builder.http()
+        }
+        .set_authority(&self.authority)
     }
 }
 

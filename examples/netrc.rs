@@ -5,7 +5,7 @@ use musicbrainz_rs::prelude::*;
 #[macro_rules_attribute::apply(smol_macros::main!)]
 async fn main() {
     let client = MusicBrainzClient::builder()
-        .musicbrainz_domain("musicbrainz.org".to_string())
+        .musicbrainz_authority("musicbrainz.org".to_string())
         .netrc_auth()
         .build();
 
