@@ -33,9 +33,13 @@ pub struct MusicBrainzClient {
     #[builder(default = MusicBrainzClient::default_api_client())]
     pub api_client: ApiClient,
 
-    /// Domain of the api
-    #[builder(default = "musicbrainz.org".to_string(), getter)]
-    pub musicbrainz_domain: String,
+    /// Whether to use HTTPS for the MusicBrainz API. Defaults to `true`.
+    #[builder(default = true)]
+    pub musicbrainz_use_https: bool,
+
+    /// Authority (host and optional port) of the API.
+    #[builder(default = "musicbrainz.org".to_string())]
+    pub musicbrainz_authority: String,
 
     /// Domain of the cover art archive api
     #[builder(default = "http://coverartarchive.org".to_string())]
@@ -95,7 +99,8 @@ impl MusicBrainzClient {
     /// Return a struct with the endpoints of the api
     pub fn endpoints(&self) -> MusicBrainzAPIEnpoints {
         MusicBrainzAPIEnpoints::builder()
-            .domain(self.musicbrainz_domain.clone())
+            .use_https(self.musicbrainz_use_https)
+            .authority(self.musicbrainz_authority.clone())
             .build()
     }
 }
