@@ -124,7 +124,7 @@ where
     ) -> Result<ApiRequest<JsonParser<Coverart>>, UriBuilderError> {
         self.validate();
 
-        let url = format!("{}/{}", client.coverart_archive_url, &self.0.path);
+        let url = format!("{}/{}", client.coverart_archive_url, self.0.path);
 
         Ok(ApiRequest::builder()
             .uri(Uri::from_str(&url).unwrap())
