@@ -15,76 +15,6 @@ env:
 # https://github.com/allan2/dotenvy/blob/master/.github/workflows/ci.yml
 
 jobs:
-  stable_tests:
-    runs-on: ${{ matrix.os }}
-    needs: clippy
-    strategy:
-      fail-fast: false
-      matrix:
-        os:
-          #- windows-latest
-          - ubuntu-latest
-          #- macos-latest
-    steps:
-      - uses: actions/checkout@v7
-
-      - run: rustup toolchain install stable --profile minimal --no-self-update
-
-      - uses: Swatinem/rust-cache@v2
-        with: 
-          key: "(${{ matrix.os }})"
-
-      - uses: taiki-e/install-action@cargo-hack
-        
-      - name: Run async tests
-        # Check only async + ratelimit. Blocking only change reqwest to use the blocking runtime.
-        run: cargo test --no-default-features --features rate_limit,async,extras,sync
-  
-  # unstable_tests:
-  #   runs-on: ${{ matrix.os }}
-  #   needs: stable_tests
-  #   strategy:
-  #     fail-fast: false
-  #     matrix:
-  #       rust: [beta, nightly]
-  #       os:
-  #         - windows-latest
-  #         - ubuntu-latest
-  #         - macos-latest
-  #   steps:
-  #     - uses: actions/checkout@v7
-
-  #     - run: rustup toolchain install stable --profile minimal --no-self-update
-
-  #     - uses: Swatinem/rust-cache@v2
-  #       with: 
-  #         key: "(${{ matrix.rust }} - ${{ matrix.os }})"
-
-  #     - uses: taiki-e/install-action@cargo-hack
-        
-  #     - name: Run tests
-  #       run: cargo hack test --feature-powerset --mutually-exclusive-features=rate_limit,blocking --at-least-one-of=async,blocking --exclude-features=async --ignore-private
-
-  clippy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-
-      - name: Install minimal toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          override: true
-          profile: minimal
-          components: clippy
-
-      - uses: Swatinem/rust-cache@v2
-
-      - uses: taiki-e/install-action@cargo-hack
-
-      - name: Run clippy
-        run: cargo hack clippy --feature-powerset --skip tracing --skip default --skip backtrace --skip rate_limit --skip hotpath --skip native_tls --skip rustls --skip legacy_serialize --skip hotpath-alloc --skip hotpath-off -- -D warnings
-
   docs:
     runs-on: ubuntu-latest
     steps:
@@ -107,26 +37,52 @@ jobs:
           command: doc
           args: --no-deps --document-private-items
 
-  fmt:
+  checks:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repo
       - uses: actions/checkout@v7
 
-      - name: Install minimal toolchain
-        uses: actions-rs/toolchain@v1
+      # Install nix
+      - uses: cachix/install-nix-action@v25
+
+      - name: Restore and save Nix store
+        uses: nix-community/cache-nix-action@v7
         with:
-          toolchain: stable
-          override: true
-          profile: minimal
-          components: rustfmt
+          # restore and save a cache using this key
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('**/*.nix', '**/flake.lock') }}
+          # if there's no cache hit, restore a cache by this prefix
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          # collect garbage until the Nix store size (in bytes) is at most this number
+          # before trying to save a new cache
+          # 1G = 1073741824
+          gc-max-store-size-linux: 1G
+          # do purge caches
+          purge: true
+          # purge all versions of the cache
+          purge-prefixes: nix-${{ runner.os }}-
+          # created more than this number of seconds ago
+          purge-created: 0
+          # or last accessed this duration (ISO 8601 duration format)
+          # before the start of the `Post Restore and save Nix store` phase
+          purge-last-accessed: P1DT12H
+          # except any version with the key that is the same as the `primary-key`
+          purge-primary-key: never
 
       - uses: Swatinem/rust-cache@v2
 
-      - name: Run rustfmt
-        uses: actions-rs/cargo@v1
-        with:
-          command: fmt
-          args: --all --check
+      - name: Run fmt test
+        run: nix develop --command cargo fmt --all --check
+
+      - name: Clippy no features
+        run: nix develop --command cargo hack clippy --no-default-features -- -D warnings
+
+      - name: Run clippy
+        run: nix develop --command cargo hack clippy --all-features -- -D warnings
+
+      - name: Run async tests
+        # Check only async + ratelimit. This allows faster testing
+        run: nix develop --command cargo test --no-default-features --features rate_limit,async,extras,sync
 
   msrv:
     runs-on: ubuntu-latest
