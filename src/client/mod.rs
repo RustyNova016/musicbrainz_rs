@@ -90,7 +90,12 @@ impl MusicBrainzClient {
     }
 
     pub fn default_api_client() -> ApiClient {
-        let agent_conf = Config::builder().user_agent(DEFAULT_USER_AGENT).build();
+        let conf = Config::builder().user_agent(DEFAULT_USER_AGENT);
+
+        #[cfg(feature = "hotpath-http")]
+        let conf = hotpath::http!(conf);
+
+        let agent_conf = conf.build();
         let agent = Agent::new_with_config(agent_conf);
 
         ApiClient::builder().agent(agent).build()
