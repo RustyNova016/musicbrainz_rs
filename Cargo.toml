@@ -35,7 +35,6 @@ tracing-indicatif = { version = "0.3.14", optional = true }
 
 # Others
 lucene_query_builder = "^0.4.0"
-governor = { version = "0.10.0", optional = true }
 regex = { version = "1.11.1", optional = true }
 rust-netrc = { version = "0.1.2", optional = true }
 base64 = { version = "0.23.0", optional = true }
@@ -69,7 +68,7 @@ async = ["api_bindium/async"]
 # Fetching
 native_tls = ["api_bindium/native_tls"]
 rustls = ["api_bindium/rustls"]
-rate_limit = ["dep:governor", "async"]
+rate_limit = ["api_bindium/rate_limit"]
 basic_auth = ["dep:base64"]
 netrc = ["basic_auth", "dep:rust-netrc"]
 
