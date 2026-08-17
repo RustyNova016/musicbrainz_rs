@@ -49,7 +49,7 @@ tokio-shared-rt = "0.1.0"
 futures = "0.3.31"
 macro_rules_attribute = "0.2.2"
 smol-macros = "0.1.1"
-api_bindium = { version = "0.5.0", features = ["testing", "sync"]}
+api_bindium = { version = "0.5.1", features = ["testing", "sync"]}
 
 [patch.crates-io]
 api_bindium = {git = "https://github.com/RustyNova016/api_bindium", rev = '722cbb578701c36af459b113c8bde8ddbcf6a379'}
@@ -77,7 +77,7 @@ backtrace = ["api_bindium/backtrace"]
 tracing = ["api_bindium/tracing", "dep:tracing", "dep:tracing-indicatif"]
 hotpath = ["dep:hotpath", "hotpath/hotpath", "api_bindium/hotpath"]
 hotpath-alloc = ["hotpath/hotpath-alloc", "api_bindium/hotpath-alloc"]
-hotpath-http = ["api_bindium/hotpath-http"]
+hotpath-http = ["dep:hotpath", "api_bindium/hotpath-http"]
 
 [[example]]
 required-features = ["sync", "async"]
