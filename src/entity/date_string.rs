@@ -21,6 +21,27 @@ impl DateString {
         Self(string)
     }
 
+    pub fn year(&self) -> Option<i32> {
+        match self.0.split("-").nth(0) {
+            None | Some("????") => None,
+            Some(val) => val.parse::<i32>().ok(),
+        }
+    }
+
+    pub fn month(&self) -> Option<i32> {
+        match self.0.split("-").nth(1) {
+            None | Some("??") => None,
+            Some(val) => val.parse::<i32>().ok(),
+        }
+    }
+
+    pub fn day(&self) -> Option<i32> {
+        match self.0.split("-").nth(2) {
+            None | Some("??") => None,
+            Some(val) => val.parse::<i32>().ok(),
+        }
+    }
+
     pub fn into_naive_date(
         &self,
         default_year: u32,
@@ -66,8 +87,14 @@ impl DateString {
     }
 }
 
-impl<T: Display> From<T> for DateString {
-    fn from(value: T) -> Self {
+impl From<String> for DateString {
+    fn from(value: String) -> Self {
+        DateString(value)
+    }
+}
+
+impl From<&str> for DateString {
+    fn from(value: &str) -> Self {
         DateString(value.to_string())
     }
 }
@@ -75,6 +102,12 @@ impl<T: Display> From<T> for DateString {
 impl From<DateString> for String {
     fn from(value: DateString) -> Self {
         value.0
+    }
+}
+
+impl Display for DateString {
+    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
+        write!(f, "{}", self.0)
     }
 }
 
@@ -104,5 +137,18 @@ mod test {
                 .unwrap(),
             NaiveDate::parse_from_str(naive_string, FORMAT).unwrap()
         )
+    }
+
+    #[test]
+    fn get_elements() {
+        let date = DateString::from("2025-07-11");
+        assert_eq!(date.year(), Some(2025));
+        assert_eq!(date.month(), Some(07));
+        assert_eq!(date.day(), Some(11));
+
+        let date = DateString::from("????-??-??");
+        assert_eq!(date.year(), None);
+        assert_eq!(date.month(), None);
+        assert_eq!(date.day(), None);
     }
 }
