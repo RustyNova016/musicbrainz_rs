@@ -82,7 +82,7 @@ jobs:
 
       - name: Run async tests
         # Check only async + ratelimit. This allows faster testing
-        run: nix develop --command cargo test --no-default-features --features rate_limit,async,extras,sync
+        run: nix develop --command cargo test --no-default-features --features rate_limit,async,extras,sync,rustls
 
   msrv:
     runs-on: ubuntu-latest
