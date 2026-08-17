@@ -18,7 +18,7 @@ travis-ci = { repository = "RustyNova016/musicbrainz_rs", branch = "master" }
 
 [dependencies]
 # Api core
-api_bindium = { version = "0.4.0" }
+api_bindium = { version = "0.5.0" }
 
 # Schema deserialization
 serde = { version = "1.0.220", features = ["derive"] }
@@ -51,7 +51,7 @@ tokio-shared-rt = "0.1.0"
 futures = "0.3.31"
 macro_rules_attribute = "0.2.2"
 smol-macros = "0.1.1"
-api_bindium = { version = "0.4.0", features = ["testing", "sync"]}
+api_bindium = { version = "0.5.0", features = ["testing", "sync"]}
 
 [patch.crates-io]
 api_bindium = {git = "https://github.com/RustyNova016/api_bindium", rev = '722cbb578701c36af459b113c8bde8ddbcf6a379'}
