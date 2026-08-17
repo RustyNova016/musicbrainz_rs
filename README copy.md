@@ -8,7 +8,7 @@
 [crates.io]: https://www.crates.io/crates/musicbrainz_rs
 [MusicBrainz]: https://static.metabrainz.org/MB/header-logo-1f7dc2a.svg
 
-**MusicBrainz rust is a utility crate for the the [MusicBrainz API](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2).**
+**MusicBrainz rust is a utility crate for the the [MusicBrainz API](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2).** This provide api bindings for the endpoints, ratelimiting, while keeping itself relatively light.
 
 ---
 
@@ -17,25 +17,22 @@ you may be looking for :
 - [Api documentation](https://docs.rs/musicbrainz_rs)
 - [The crate](https://crates.io/crates/musicbrainz_rs)
 
-## Usage
+## Add it to your project
 
-You can choose to use either the default async client or a blocking one.
+By default, `musicbrainz_rs` won't do anything. You need to activate some features first:
 
-**async client:**
+- `sync` / `async`: activate `sync` and/or `async` requests
+- `rustls` / `native_tls`: Which TLS to use
 
-```toml
-musicbrainz_rs = "0.9.0"
-```
+Then add it with 
 
-**blocking client:**
-
-```toml
-musicbrainz_rs = { version = "0.9.0", default-features = false, features = ["blocking"] }
+```bash
+cargo add musicbrainz_rs --features sync,async,rustls
 ```
 
 ## Features
 
-**Note:** All the example below use the `blocking` feature for the sake of conciseness.
+**Note:** All the example below use the `sync` feature for the sake of conciseness.
 
 ### Fetch query
 
@@ -225,25 +222,38 @@ Async:
 
 Fetching:
 - `native_tls`: Use the system's native TLS. By default, Rustls is used to not have to depend on the system's tls
-- `rustls` (default): Use rustls as tls provider.
+- `rustls`: Use rustls as tls provider.
 - `rate_limit`: Add a rate limiter to the requests, using the `governor` crate. Please note that it only affect `async` variants of functions, as `governor` is made to work in async functions only. If you know a ratelimit crate that does both sync and async, feel free to submit an issue 
 
 Debuging:
 - `backtrace`: Enable error backtraces
 - `tracing`: Enable tracing
 - `hotpath`, `hotpath-alloc`, `hotpath-off`: Enable [`hotpath`](https://github.com/pawurb/hotpath-rs) debuging / perf analysis.
+- `hotpath-http`: Enable [hotpath http tracing](https://hotpath.rs/http_tracing). Note that it only works if the ureq agent is the default one, or use the default config
 
 Others:
 - `extras`: Extra non api related utilities that still fits musicbrainz
 - `legacy_serialize`: Enable legacy model serialization. Use an old version of the serializer for compatibility with musicbrainz_rs < 0.8.0. 
 
-## API changes and versioning
+## FAQ
 
-Versioning is based on rust poilicy, and independant of api changes. This means if the bindings need a breaking changes, the major version will be bumped. Otherwise, the patch version will be bumped
+- What async runtime does it uses?
 
-## MSRV
+None! This sends requests in their own system thread. This is to keep the crate light and runtime agnostic
 
-The Minimum Supported Rust Version for the crate is `1.85.0`. Bumps to the msrv are not considered breaking as cargo won't pull the new version (thanks resolver v3).
+- Do you respect the rust versioning policy?
+
+Yes. It's actually bumped automatically by the CI. Any breaking changes (even minor) get the version bumped
+
+- Even MSRV?
+
+No, because resolver v3 handles it for you. Any breaking MSRV change will not get pulled. 
+
+MSRV will only get bumped if dependencies needs it, and we'll try to keep it relatively old
+
+- What about Listenbrainz?
+
+You can find a crate with the same stack for listenbrainz [here](https://github.com/RustyNova016/listenbrainz_rs)
 
 ## Contributing
 
