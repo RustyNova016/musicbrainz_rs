@@ -136,6 +136,7 @@ pub struct ReleaseTextRepresentation {
 ///     sort | \
 ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,\/\/\/ \1\n\2\,,'
 /// ```
+#[non_exhaustive]
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 pub enum ReleaseScript {
     /// Arabic
@@ -166,6 +167,8 @@ pub enum ReleaseScript {
     Ethi,
     /// Georgian
     Geor,
+    /// Glagolitic
+    Glag,
     /// Gothic
     Goth,
     /// Greek
@@ -205,6 +208,8 @@ pub enum ReleaseScript {
     /// Latin is the most common script, and usually the correct choice. It is used
     /// for all Western European languages, and many others. It is also the most common script used for transliterations.
     Latn,
+    /// Lycian
+    Lyci,
     /// Malayalam
     Mlym,
     /// Mathematical notation
@@ -213,6 +218,8 @@ pub enum ReleaseScript {
     Qaaa,
     /// Myanmar
     Mymr,
+    /// Old Italic
+    Ital,
     /// Old Turkic
     Orkh,
     /// Oriya
@@ -221,8 +228,12 @@ pub enum ReleaseScript {
     Phag,
     /// Runic
     Runr,
+    /// Shavian
+    Shaw,
     /// Sinhala
     Sinh,
+    /// Sundanese
+    Sund,
     /// Symbols
     Zsym,
     /// Syriac
@@ -237,10 +248,21 @@ pub enum ReleaseScript {
     Tibt,
     /// Vai
     Vaii,
+    /// Yi
+    Yiii,
 }
 
 impl ReleaseScript {
     /// Get the human-readable name used by MusicBrainz.
+    ///
+    /// The values for this enum have been generated with the following command:
+    ///
+    /// ```bash
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=script%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,            Self::\2 => "\1"\,,'
+    /// ```
     pub fn name(&self) -> &'static str {
         match &self {
             Self::Arab => "Arabic",
@@ -257,6 +279,7 @@ impl ReleaseScript {
             Self::Egyp => "Egyptian hieroglyphs",
             Self::Ethi => "Ethiopic",
             Self::Geor => "Georgian",
+            Self::Glag => "Glagolitic",
             Self::Goth => "Gothic",
             Self::Grek => "Greek",
             Self::Gujr => "Gujarati",
@@ -275,15 +298,19 @@ impl ReleaseScript {
             Self::Kore => "Korean",
             Self::Laoo => "Lao",
             Self::Latn => "Latin",
+            Self::Lyci => "Lycian",
             Self::Mlym => "Malayalam",
             Self::Zmth => "Mathematical notation",
             Self::Qaaa => "[Multiple scripts]",
             Self::Mymr => "Myanmar",
+            Self::Ital => "Old Italic",
             Self::Orkh => "Old Turkic",
             Self::Orya => "Oriya",
             Self::Phag => "Phags-pa",
             Self::Runr => "Runic",
+            Self::Shaw => "Shavian",
             Self::Sinh => "Sinhala",
+            Self::Sund => "Sundanese",
             Self::Zsym => "Symbols",
             Self::Syrc => "Syriac",
             Self::Taml => "Tamil",
@@ -291,10 +318,20 @@ impl ReleaseScript {
             Self::Thai => "Thai",
             Self::Tibt => "Tibetan",
             Self::Vaii => "Vai",
+            Self::Yiii => "Yi",
         }
     }
 
     /// Get the [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924) code as [`str`].
+    ///
+    /// The values for this enum have been generated with the following command:
+    ///
+    /// ```bash
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=script%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,            Self::\2 => "\2"\,,'
+    /// ```
     pub fn code(&self) -> &'static str {
         match &self {
             Self::Arab => "Arab",
@@ -311,6 +348,7 @@ impl ReleaseScript {
             Self::Egyp => "Egyp",
             Self::Ethi => "Ethi",
             Self::Geor => "Geor",
+            Self::Glag => "Glag",
             Self::Goth => "Goth",
             Self::Grek => "Grek",
             Self::Gujr => "Gujr",
@@ -329,15 +367,19 @@ impl ReleaseScript {
             Self::Kore => "Kore",
             Self::Laoo => "Laoo",
             Self::Latn => "Latn",
+            Self::Lyci => "Lyci",
             Self::Mlym => "Mlym",
             Self::Zmth => "Zmth",
             Self::Qaaa => "Qaaa",
             Self::Mymr => "Mymr",
+            Self::Ital => "Ital",
             Self::Orkh => "Orkh",
             Self::Orya => "Orya",
             Self::Phag => "Phag",
             Self::Runr => "Runr",
+            Self::Shaw => "Shaw",
             Self::Sinh => "Sinh",
+            Self::Sund => "Sund",
             Self::Zsym => "Zsym",
             Self::Syrc => "Syrc",
             Self::Taml => "Taml",
@@ -345,6 +387,7 @@ impl ReleaseScript {
             Self::Thai => "Thai",
             Self::Tibt => "Tibt",
             Self::Vaii => "Vaii",
+            Self::Yiii => "Yiii",
         }
     }
 }
@@ -358,8 +401,9 @@ impl ReleaseScript {
 /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
 ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
 ///     sort | \
-///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,\/\/\/ \1\n\u\2\,,'
+///     sed -e 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,\/\/\/ \1\n\u\2\,,' -e "s/&#x27;/'/"
 /// ```
+#[non_exhaustive]
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 #[serde(rename_all = "lowercase")]
 pub enum Language {
@@ -375,6 +419,8 @@ pub enum Language {
     Ady,
     /// Afar
     Aar,
+    /// Afrihili
+    Afh,
     /// Afrikaans
     Afr,
     /// Ainu
@@ -497,6 +543,8 @@ pub enum Language {
     Chu,
     /// Chuvash
     Chv,
+    /// Classical Nahuatl
+    Nci,
     /// Coptic
     Cop,
     /// Cornish
@@ -629,6 +677,8 @@ pub enum Language {
     Guf,
     /// Guyanese Creole English
     Gyn,
+    /// Haida
+    Hai,
     /// Haitian Creole
     Hat,
     /// Hausa
@@ -649,6 +699,10 @@ pub enum Language {
     Hmn,
     /// Hungarian
     Hun,
+    /// Hupa
+    Hup,
+    /// Iban
+    Iba,
     /// Icelandic
     Isl,
     /// Igbo
@@ -661,6 +715,8 @@ pub enum Language {
     Izh,
     /// Innu
     Moe,
+    /// Interlingue
+    Ile,
     /// Inuktitut
     Iku,
     /// Irish
@@ -677,6 +733,8 @@ pub enum Language {
     Tmr,
     /// Judeo-Arabic
     Jrb,
+    /// Judeo-Persian
+    Jpr,
     /// Kabardian
     Kbd,
     /// Kabuverdianu
@@ -731,6 +789,8 @@ pub enum Language {
     Lad,
     /// Ladin
     Lld,
+    /// Lahnda
+    Lah,
     /// Lakota
     Lkt,
     /// Lao
@@ -767,6 +827,8 @@ pub enum Language {
     Mkd,
     /// Madurese
     Mad,
+    /// Magahi
+    Mag,
     /// Malagasy
     Mlg,
     /// Malayalam
@@ -805,6 +867,8 @@ pub enum Language {
     Nan,
     /// Mirandese
     Mwl,
+    /// Mi'kmaq
+    Mic,
     /// Miyako
     Mvi,
     /// Mohawk
@@ -815,6 +879,8 @@ pub enum Language {
     Mon,
     /// Mongo
     Lol,
+    /// Morisyen
+    Mfe,
     /// Mossi
     Mos,
     /// [Multiple languages]
@@ -863,6 +929,8 @@ pub enum Language {
     Osa,
     /// Pahlavi
     Pal,
+    /// Palauan
+    Pau,
     /// Pampanga
     Pam,
     /// Papiamento
@@ -913,6 +981,8 @@ pub enum Language {
     Rus,
     /// Rusyn
     Rue,
+    /// Samaritan Aramaic
+    Sam,
     /// Sami, Inari
     Smn,
     /// Sami, Lule
@@ -991,6 +1061,8 @@ pub enum Language {
     Swe,
     /// Syriac
     Syr,
+    /// Tachelhit
+    Shi,
     /// Tagalog
     Tgl,
     /// Tahitian
@@ -1019,8 +1091,12 @@ pub enum Language {
     Tok,
     /// Tok Pisin
     Tpi,
+    /// Tonga (Nyasa)
+    Tog,
     /// Tonga (Tonga Islands)
     Ton,
+    /// Tsimshian
+    Tsi,
     /// Tsonga
     Tso,
     /// Tswana
@@ -1067,6 +1143,8 @@ pub enum Language {
     Wln,
     /// Walser
     Wae,
+    /// Waray
+    War,
     /// Warlpiri
     Wbp,
     /// Washo
@@ -1111,6 +1189,16 @@ pub enum Language {
 
 impl Language {
     /// Get the human-readable name used by MusicBrainz.
+    ///
+    /// Generated using:
+    /// ```console
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed -e 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,Self::\2 => "\1"\,,' -e "s/&#x27;/'/"
+    /// ```
+    ///
+    /// and using editor features to fix capitalization of the variants.
     pub fn name(&self) -> &'static str {
         match &self {
             Self::Abk => "Abkhazian",
@@ -1119,6 +1207,7 @@ impl Language {
             Self::Ada => "Adangme",
             Self::Ady => "Adyghe",
             Self::Aar => "Afar",
+            Self::Afh => "Afrihili",
             Self::Afr => "Afrikaans",
             Self::Ain => "Ainu",
             Self::Aka => "Akan",
@@ -1146,6 +1235,7 @@ impl Language {
             Self::Bal => "Baluchi",
             Self::Bam => "Bambara",
             Self::Bas => "Basa",
+            Self::Bak => "Bashkir",
             Self::Eus => "Basque",
             Self::Bar => "Bavarian",
             Self::Bej => "Beja",
@@ -1179,6 +1269,7 @@ impl Language {
             Self::Zho => "Chinese",
             Self::Chu => "Church Slavic",
             Self::Chv => "Chuvash",
+            Self::Nci => "Classical Nahuatl",
             Self::Cop => "Coptic",
             Self::Cor => "Cornish",
             Self::Cos => "Corsican",
@@ -1187,12 +1278,17 @@ impl Language {
             Self::Crh => "Crimean Tatar",
             Self::Hrv => "Croatian",
             Self::Ces => "Czech",
+            Self::Dak => "Dakota",
             Self::Dan => "Danish",
+            Self::Dar => "Dargwa",
             Self::Del => "Delaware",
+            Self::Din => "Dinka",
             Self::Div => "Divehi",
+            Self::Doi => "Dogri",
             Self::Dua => "Duala",
             Self::Dum => "Dutch, Middle (ca.1050-1350)",
             Self::Nld => "Dutch",
+            Self::Dyu => "Dyula",
             Self::Dzo => "Dzongkha",
             Self::Aer => "Eastern Arrernte",
             Self::Egy => "Egyptian (Ancient)",
@@ -1240,21 +1336,26 @@ impl Language {
             Self::Guj => "Gujarati",
             Self::Guf => "Gupapuyngu",
             Self::Gyn => "Guyanese Creole English",
+            Self::Hai => "Haida",
             Self::Hat => "Haitian Creole",
             Self::Hau => "Hausa",
             Self::Haw => "Hawaiian",
             Self::Heb => "Hebrew",
             Self::Her => "Herero",
+            Self::Hil => "Hiligaynon",
             Self::Hin => "Hindi",
             Self::Hmo => "Hiri Motu",
             Self::Hmn => "Hmong",
             Self::Hun => "Hungarian",
+            Self::Hup => "Hupa",
+            Self::Iba => "Iban",
             Self::Isl => "Icelandic",
             Self::Ibo => "Igbo",
             Self::Ilo => "Iloko",
             Self::Ind => "Indonesian",
             Self::Izh => "Ingrian",
             Self::Moe => "Innu",
+            Self::Ile => "Interlingue",
             Self::Iku => "Inuktitut",
             Self::Gle => "Irish",
             Self::Ita => "Italian",
@@ -1262,6 +1363,8 @@ impl Language {
             Self::Jpn => "Japanese",
             Self::Jav => "Javanese",
             Self::Tmr => "Jewish Babylonian Aramaic (ca. 200-1200 CE)",
+            Self::Jrb => "Judeo-Arabic",
+            Self::Jpr => "Judeo-Persian",
             Self::Kbd => "Kabardian",
             Self::Kea => "Kabuverdianu",
             Self::Kab => "Kabyle",
@@ -1270,6 +1373,7 @@ impl Language {
             Self::Krc => "Karachay-Balkar",
             Self::Krl => "Karelian",
             Self::Kas => "Kashmiri",
+            Self::Csb => "Kashubian",
             Self::Kaz => "Kazakh",
             Self::Kca => "Khanty",
             Self::Kha => "Khasi",
@@ -1288,6 +1392,7 @@ impl Language {
             Self::Kur => "Kurdish",
             Self::Lad => "Ladino",
             Self::Lld => "Ladin",
+            Self::Lah => "Lahnda",
             Self::Lkt => "Lakota",
             Self::Lao => "Lao",
             Self::Lat => "Latin",
@@ -1306,6 +1411,7 @@ impl Language {
             Self::Luy => "Luyia",
             Self::Mkd => "Macedonian",
             Self::Mad => "Madurese",
+            Self::Mag => "Magahi",
             Self::Mlg => "Malagasy",
             Self::Mal => "Malayalam",
             Self::Msa => "Malay",
@@ -1324,11 +1430,14 @@ impl Language {
             Self::Men => "Mende",
             Self::Hna => "Mina (Cameroon)",
             Self::Nan => "Min Nan Chinese",
+            Self::Mwl => "Mirandese",
+            Self::Mic => "Mi'kmaq",
             Self::Mvi => "Miyako",
             Self::Moh => "Mohawk",
             Self::Mdf => "Moksha",
             Self::Mon => "Mongolian",
             Self::Lol => "Mongo",
+            Self::Mfe => "Morisyen",
             Self::Mos => "Mossi",
             Self::Mul => "[Multiple languages]",
             Self::Nau => "Nauru",
@@ -1353,6 +1462,8 @@ impl Language {
             Self::Orm => "Oromo",
             Self::Osa => "Osage",
             Self::Pal => "Pahlavi",
+            Self::Pau => "Palauan",
+            Self::Pam => "Pampanga",
             Self::Pap => "Papiamento",
             Self::Fas => "Persian",
             Self::Pjt => "Pitjantjatjara",
@@ -1377,6 +1488,7 @@ impl Language {
             Self::Run => "Rundi",
             Self::Rus => "Russian",
             Self::Rue => "Rusyn",
+            Self::Sam => "Samaritan Aramaic",
             Self::Smn => "Sami, Inari",
             Self::Smj => "Sami, Lule",
             Self::Sme => "Sami, Northern",
@@ -1391,6 +1503,7 @@ impl Language {
             Self::Gla => "Scottish Gaelic",
             Self::Gul => "Sea Island Creole English",
             Self::Srp => "Serbian",
+            Self::Hbs => "Serbo-Croatian",
             Self::Srr => "Serer",
             Self::Shn => "Shan",
             Self::Sna => "Shona",
@@ -1415,6 +1528,7 @@ impl Language {
             Self::Ssw => "Swati",
             Self::Swe => "Swedish",
             Self::Syr => "Syriac",
+            Self::Shi => "Tachelhit",
             Self::Tgl => "Tagalog",
             Self::Tah => "Tahitian",
             Self::Tgk => "Tajik",
@@ -1429,7 +1543,9 @@ impl Language {
             Self::Tkl => "Tokelau",
             Self::Tok => "Toki Pona",
             Self::Tpi => "Tok Pisin",
+            Self::Tog => "Tonga (Nyasa)",
             Self::Ton => "Tonga (Tonga Islands)",
+            Self::Tsi => "Tsimshian",
             Self::Tso => "Tsonga",
             Self::Tsn => "Tswana",
             Self::Ota => "Turkish, Ottoman",
@@ -1453,6 +1569,7 @@ impl Language {
             Self::Vot => "Votic",
             Self::Wln => "Walloon",
             Self::Wae => "Walser",
+            Self::War => "Waray",
             Self::Wbp => "Warlpiri",
             Self::Was => "Washo",
             Self::Cym => "Welsh",
@@ -1473,22 +1590,20 @@ impl Language {
             Self::Zza => "Zaza",
             Self::Zul => "Zulu",
             Self::Zun => "Zuni",
-            Self::Bak => "Bashkir",
-            Self::Dak => "Dakota",
-            Self::Dar => "Dargwa",
-            Self::Din => "Dinka",
-            Self::Doi => "Dogri",
-            Self::Dyu => "Dyula",
-            Self::Hil => "Hiligaynon",
-            Self::Jrb => "Judeo-Arabic",
-            Self::Csb => "Kashubian",
-            Self::Mwl => "Mirandese",
-            Self::Pam => "Pampanga",
-            Self::Hbs => "Serbo-Croatian",
         }
     }
 
     /// Get the [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) code as [`str`].
+    ///
+    /// Generated using:
+    /// ```console
+    /// $ curl -s https://musicbrainz.org/statistics/languages-scripts | \
+    ///     grep -Eo '<td>[^<]*</td><td class="t"><a href="https://musicbrainz.org/search\?query=lang%3A%22[^"]*%22' | \
+    ///     sort | \
+    ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=lang%3A%22\([^"]*\)%22,Self::\2 => "\2"\,,'
+    /// ```
+    ///
+    /// and using editor features to fix capitalization of the variants.
     pub fn code(&self) -> &'static str {
         match &self {
             Self::Abk => "abk",
@@ -1497,6 +1612,7 @@ impl Language {
             Self::Ada => "ada",
             Self::Ady => "ady",
             Self::Aar => "aar",
+            Self::Afh => "afh",
             Self::Afr => "afr",
             Self::Ain => "ain",
             Self::Aka => "aka",
@@ -1524,6 +1640,7 @@ impl Language {
             Self::Bal => "bal",
             Self::Bam => "bam",
             Self::Bas => "bas",
+            Self::Bak => "bak",
             Self::Eus => "eus",
             Self::Bar => "bar",
             Self::Bej => "bej",
@@ -1557,6 +1674,7 @@ impl Language {
             Self::Zho => "zho",
             Self::Chu => "chu",
             Self::Chv => "chv",
+            Self::Nci => "nci",
             Self::Cop => "cop",
             Self::Cor => "cor",
             Self::Cos => "cos",
@@ -1565,12 +1683,17 @@ impl Language {
             Self::Crh => "crh",
             Self::Hrv => "hrv",
             Self::Ces => "ces",
+            Self::Dak => "dak",
             Self::Dan => "dan",
+            Self::Dar => "dar",
             Self::Del => "del",
+            Self::Din => "din",
             Self::Div => "div",
+            Self::Doi => "doi",
             Self::Dua => "dua",
             Self::Dum => "dum",
             Self::Nld => "nld",
+            Self::Dyu => "dyu",
             Self::Dzo => "dzo",
             Self::Aer => "aer",
             Self::Egy => "egy",
@@ -1618,21 +1741,26 @@ impl Language {
             Self::Guj => "guj",
             Self::Guf => "guf",
             Self::Gyn => "gyn",
+            Self::Hai => "hai",
             Self::Hat => "hat",
             Self::Hau => "hau",
             Self::Haw => "haw",
             Self::Heb => "heb",
             Self::Her => "her",
+            Self::Hil => "hil",
             Self::Hin => "hin",
             Self::Hmo => "hmo",
             Self::Hmn => "hmn",
             Self::Hun => "hun",
+            Self::Hup => "hup",
+            Self::Iba => "iba",
             Self::Isl => "isl",
             Self::Ibo => "ibo",
             Self::Ilo => "ilo",
             Self::Ind => "ind",
             Self::Izh => "izh",
             Self::Moe => "moe",
+            Self::Ile => "ile",
             Self::Iku => "iku",
             Self::Gle => "gle",
             Self::Ita => "ita",
@@ -1640,6 +1768,8 @@ impl Language {
             Self::Jpn => "jpn",
             Self::Jav => "jav",
             Self::Tmr => "tmr",
+            Self::Jrb => "jrb",
+            Self::Jpr => "jpr",
             Self::Kbd => "kbd",
             Self::Kea => "kea",
             Self::Kab => "kab",
@@ -1648,6 +1778,7 @@ impl Language {
             Self::Krc => "krc",
             Self::Krl => "krl",
             Self::Kas => "kas",
+            Self::Csb => "csb",
             Self::Kaz => "kaz",
             Self::Kca => "kca",
             Self::Kha => "kha",
@@ -1666,6 +1797,7 @@ impl Language {
             Self::Kur => "kur",
             Self::Lad => "lad",
             Self::Lld => "lld",
+            Self::Lah => "lah",
             Self::Lkt => "lkt",
             Self::Lao => "lao",
             Self::Lat => "lat",
@@ -1684,6 +1816,7 @@ impl Language {
             Self::Luy => "luy",
             Self::Mkd => "mkd",
             Self::Mad => "mad",
+            Self::Mag => "mag",
             Self::Mlg => "mlg",
             Self::Mal => "mal",
             Self::Msa => "msa",
@@ -1702,11 +1835,14 @@ impl Language {
             Self::Men => "men",
             Self::Hna => "hna",
             Self::Nan => "nan",
+            Self::Mwl => "mwl",
+            Self::Mic => "mic",
             Self::Mvi => "mvi",
             Self::Moh => "moh",
             Self::Mdf => "mdf",
             Self::Mon => "mon",
             Self::Lol => "lol",
+            Self::Mfe => "mfe",
             Self::Mos => "mos",
             Self::Mul => "mul",
             Self::Nau => "nau",
@@ -1731,6 +1867,8 @@ impl Language {
             Self::Orm => "orm",
             Self::Osa => "osa",
             Self::Pal => "pal",
+            Self::Pau => "pau",
+            Self::Pam => "pam",
             Self::Pap => "pap",
             Self::Fas => "fas",
             Self::Pjt => "pjt",
@@ -1755,6 +1893,7 @@ impl Language {
             Self::Run => "run",
             Self::Rus => "rus",
             Self::Rue => "rue",
+            Self::Sam => "sam",
             Self::Smn => "smn",
             Self::Smj => "smj",
             Self::Sme => "sme",
@@ -1769,6 +1908,7 @@ impl Language {
             Self::Gla => "gla",
             Self::Gul => "gul",
             Self::Srp => "srp",
+            Self::Hbs => "hbs",
             Self::Srr => "srr",
             Self::Shn => "shn",
             Self::Sna => "sna",
@@ -1793,6 +1933,7 @@ impl Language {
             Self::Ssw => "ssw",
             Self::Swe => "swe",
             Self::Syr => "syr",
+            Self::Shi => "shi",
             Self::Tgl => "tgl",
             Self::Tah => "tah",
             Self::Tgk => "tgk",
@@ -1807,7 +1948,9 @@ impl Language {
             Self::Tkl => "tkl",
             Self::Tok => "tok",
             Self::Tpi => "tpi",
+            Self::Tog => "tog",
             Self::Ton => "ton",
+            Self::Tsi => "tsi",
             Self::Tso => "tso",
             Self::Tsn => "tsn",
             Self::Ota => "ota",
@@ -1831,6 +1974,7 @@ impl Language {
             Self::Vot => "vot",
             Self::Wln => "wln",
             Self::Wae => "wae",
+            Self::War => "war",
             Self::Wbp => "wbp",
             Self::Was => "was",
             Self::Cym => "cym",
@@ -1851,18 +1995,6 @@ impl Language {
             Self::Zza => "zza",
             Self::Zul => "zul",
             Self::Zun => "zun",
-            Self::Bak => "Bak",
-            Self::Dak => "Dak",
-            Self::Din => "Din",
-            Self::Doi => "Doi",
-            Self::Dyu => "Dyu",
-            Self::Hil => "Hil",
-            Self::Jrb => "Jrb",
-            Self::Csb => "Csb",
-            Self::Pam => "Pam",
-            Self::Hbs => "Hbs",
-            Self::Mwl => "Mwl",
-            Self::Dar => "Dar",
         }
     }
 }
