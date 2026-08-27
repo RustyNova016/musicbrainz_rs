@@ -9,6 +9,7 @@
 ///     sort | \
 ///     sed 's,<td>\([^<]*\)</td><td class="t"><a href="https://musicbrainz.org/search?query=script%3A%22\([^"]*\)%22,\/\/\/ \1\n\2\,,'
 /// ```
+#[non_exhaustive]
 #[derive(Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone)]
 pub enum ReleaseScript {
     /// Arabic
