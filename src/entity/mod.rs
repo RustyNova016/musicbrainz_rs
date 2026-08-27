@@ -1,4 +1,3 @@
-pub mod date_string;
 use core::marker::PhantomData;
 
 use serde::Serialize;
@@ -84,11 +83,13 @@ pub mod artist_credit;
 pub mod cdstub;
 pub mod coordinates;
 pub mod coverart;
+pub mod date_string;
 pub mod discid;
 pub mod event;
 pub mod genre;
 pub mod instrument;
 pub mod label;
+pub mod languages;
 pub mod lifespan;
 pub mod place;
 pub mod rating;
@@ -96,6 +97,7 @@ pub mod recording;
 pub mod relations;
 pub mod release;
 pub mod release_group;
+pub mod release_scripts;
 pub mod search;
 pub mod series;
 pub mod tag;

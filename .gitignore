@@ -7,3 +7,11 @@ api_samples/
 .envrc
 mutants.out/
 mutants.out.old/
+
+/templates/release_scripts/enum.txt
+/templates/release_scripts/name.txt
+/templates/release_scripts/code.txt
+
+/templates/languages/enum.txt
+/templates/languages/name.txt
+/templates/languages/code.txt
