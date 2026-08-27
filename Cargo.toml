@@ -51,9 +51,6 @@ macro_rules_attribute = "0.2.2"
 smol-macros = "0.1.1"
 api_bindium = { version = "0.5.1", features = ["testing", "sync"]}
 
-[patch.crates-io]
-api_bindium = {git = "https://github.com/RustyNova016/api_bindium", rev = '722cbb578701c36af459b113c8bde8ddbcf6a379'}
-
 [features]
 default = []
 
@@ -141,6 +138,12 @@ all-features = true
 cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
 
 [lints.clippy]
+#pedantic = { level = "warn", priority = -1 }
+
+# Allowed
+doc_markdown = "allow" # As much as I want it, it flags MusicBrainz as an item...
+must_use_candidate = "allow" # Too pedantic
+
 alloc_instead_of_core = "deny"
 std_instead_of_core = "deny"
 allow_attributes = "warn"
