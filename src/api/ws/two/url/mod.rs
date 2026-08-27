@@ -66,7 +66,7 @@ impl MusicBrainzAPIEnpoints {
             write!(incs, "work-rels+").unwrap();
         }
 
-        if incs.ends_with("+") {
+        if incs.ends_with('+') {
             incs.pop();
         }
 

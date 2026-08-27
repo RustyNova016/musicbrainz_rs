@@ -22,21 +22,21 @@ impl DateString {
     }
 
     pub fn year(&self) -> Option<i32> {
-        match self.0.split("-").nth(0) {
+        match self.0.split('-').nth(0) {
             None | Some("????") => None,
             Some(val) => val.parse::<i32>().ok(),
         }
     }
 
     pub fn month(&self) -> Option<i32> {
-        match self.0.split("-").nth(1) {
+        match self.0.split('-').nth(1) {
             None | Some("??") => None,
             Some(val) => val.parse::<i32>().ok(),
         }
     }
 
     pub fn day(&self) -> Option<i32> {
-        match self.0.split("-").nth(2) {
+        match self.0.split('-').nth(2) {
             None | Some("??") => None,
             Some(val) => val.parse::<i32>().ok(),
         }
