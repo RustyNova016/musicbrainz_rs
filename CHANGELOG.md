@@ -2,6 +2,47 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.14.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.13.0...v0.14.0) - 2026-08-27
+
+### Added
+
+- update languages
+- update release scripts
+- allow customizing MusicBrainz endpoints https and authority
+- implement basic auth and .netrc features
+
+### Fixed
+
+- clippy lints and patch
+- native tls and hotpath not initialised
+- remove governor and use api_bindium's
+- [**breaking**] Allow for integer coordinates
+
+### Other
+
+- *(deps)* update rust crate hotpath to 0.24.0
+- update api_bindium
+- (No message)
+- Merge pull request #265 from RustyNova016/datestring_fets
+- *(deps)* update release-plz/action action to v0.5.131
+- *(deps)* update actions/create-github-app-token action to v3.2.0
+- *(deps)* update cachix/install-nix-action action to v31
+- Merge pull request #258 from RustyNova016/renovate/actions-checkout-7.x
+- *(deps)* lock file maintenance
+- *(deps)* update rust crate base64 to 0.23.0
+- *(deps)* update rust crate hotpath to 0.23.0
+- merge some checks and use nix
+- fix CI
+- Merge pull request #236 from RustyNova016/dependabot/github_actions/main/actions/checkout-7
+- Add renovate.json
+- Revert "chore: moved to renovate for dependancies"
+- fix clippy lint
+- moved to renovate for dependancies
+- *(deps)* update hotpath requirement from 0.19.1 to 0.21.1
+- *(deps)* update hotpath requirement from 0.15.0 to 0.19.1
+- Fix formatting and lint errors
+- Pass .netrc config to resolve at request time
+
 ## [0.13.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.12.0...v0.13.0) - 2026-04-17
 
 ### Added
