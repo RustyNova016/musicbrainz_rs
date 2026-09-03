@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.14.1](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.14.0...v0.14.1) - 2026-09-03
+
+### Other
+
+- *(deps)* lock file maintenance
+
 ## [0.14.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.13.0...v0.14.0) - 2026-08-27
 
 ### Added
