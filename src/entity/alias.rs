@@ -21,4 +21,5 @@ pub struct Alias {
     pub alias_type: Option<String>,
     pub primary: Option<bool>,
     pub type_id: Option<String>,
+    pub locale: Option<String>,
 }
