@@ -99,7 +99,7 @@ where
     // === Api Fetching ===
 
     #[cfg(feature = "sync")]
-    pub fn execute(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    pub fn execute(&self) -> Result<BrowseResult<T>, ApiEndpointError>
     where
         T: Browse + Browsable + DeserializeOwned + Sync,
     {
@@ -111,7 +111,7 @@ where
     /// Execute the query with a specific client
     #[cfg(feature = "sync")]
     pub fn execute_with_client(
-        &mut self,
+        &self,
         client: &crate::MusicBrainzClient,
     ) -> Result<BrowseResult<T>, ApiEndpointError>
     where
@@ -132,7 +132,7 @@ where
     }
 
     #[cfg(feature = "async")]
-    pub async fn execute_async(&mut self) -> Result<BrowseResult<T>, ApiEndpointError>
+    pub async fn execute_async(&self) -> Result<BrowseResult<T>, ApiEndpointError>
     where
         T: Browse + Browsable + DeserializeOwned + Sync,
     {
@@ -144,7 +144,7 @@ where
     /// Execute the query with a specific client
     #[cfg(feature = "async")]
     pub async fn execute_with_client_async(
-        &mut self,
+        &self,
         client: &crate::MusicBrainzClient,
     ) -> Result<BrowseResult<T>, ApiEndpointError>
     where
