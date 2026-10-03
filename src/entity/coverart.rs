@@ -112,6 +112,28 @@ pub enum ImageType {
     /// (in this case it would fold out).
     Poster,
 
+    /// The section on a CD, record or other media containing such data as
+    /// matrix numbers. Usually found in the hub of a CD or the dead wax area of
+    /// a vinyl record.
+    #[serde(alias = "Matrix/Runout")]
+    #[serde(alias = "Runout")]
+    Matrix,
+
+    /// The top of a box or other similar packaging (for most common six sided
+    /// packaging options, the one perpendicular to and above front, back and
+    /// spines).
+    Top,
+
+    /// The bottom of a box or other similar packaging (for most common six
+    /// sided packaging options, the one perpendicular to and below front, back
+    /// and spines).
+    Bottom,
+
+    /// The individual segments of a folded packaging, such as a gatefold cover,
+    /// digipak or cassette inlay (don't use this for folded booklets nor
+    /// posters).
+    Panel,
+
     /// A watermark is a piece of text or an image which is not part of the cover art but is
     /// added by the person who scanned the cover art. Images without any watermarks are preferred
     /// where possible - this type is useful in cases where either the only available image is
@@ -121,6 +143,8 @@ pub enum ImageType {
 
     /// Select this type when uploading images that are usable for reference, but need more work to
     /// be usable for tagging (for example, uncropped scans like the one below).
+    #[serde(alias = "Raw/Unedited")]
+    #[serde(alias = "Unedited")]
     Raw,
 
     /// Anything which doesn't fit in the types defined above.
