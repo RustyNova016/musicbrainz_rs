@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.15.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.14.0...v0.15.0) - 2026-10-05
+
+### Added
+
+- *(entity)* add `locale` field to aliases
+
+### Fixed
+
+- remove useless `&mut` from `execute_with()`
+- updated `hotpath` to 0.25.0
+- updated  to 0.5.2
+
+### Other
+
+- Add some missing coverart image types
+- Fix for id in `Coverart` sometimes being a string
+- *(deps)* update release-plz/action action to v0.5.137
+- *(deps)* lock file maintenance
+- *(deps)* update release-plz/action action to v0.5.133
+- *(deps)* lock file maintenance
+
 ## [0.14.0](https://github.com/RustyNova016/musicbrainz_rs/compare/v0.13.0...v0.14.0) - 2026-08-27
 
 ### Added
