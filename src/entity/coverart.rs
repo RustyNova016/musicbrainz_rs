@@ -1,4 +1,36 @@
-use serde::{Deserialize, Serialize};
+use serde::de::Visitor;
+use serde::{Deserialize, Deserializer, Serialize, de};
+
+pub fn str_to_u64<'de, D>(deserializer: D) -> Result<u64, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    struct U64Visitor;
+
+    impl<'de> Visitor<'de> for U64Visitor {
+        type Value = u64;
+
+        fn expecting(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
+            f.write_str("u64 as a number or string")
+        }
+
+        fn visit_u64<E>(self, id: u64) -> Result<Self::Value, E>
+        where
+            E: de::Error,
+        {
+            Ok(id)
+        }
+
+        fn visit_str<E>(self, id: &str) -> Result<Self::Value, E>
+        where
+            E: de::Error,
+        {
+            id.parse().map_err(de::Error::custom)
+        }
+    }
+
+    deserializer.deserialize_any(U64Visitor)
+}
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Eq, Clone)]
 pub struct Coverart {
@@ -10,8 +42,10 @@ pub struct CoverartImage {
     pub approved: bool,
     pub back: bool,
     pub comment: String,
+    #[serde(deserialize_with = "str_to_u64")]
     pub edit: u64,
     pub front: bool,
+    #[serde(deserialize_with = "str_to_u64")]
     pub id: u64,
     pub image: String,
     pub thumbnails: Thumbnail,
@@ -78,6 +112,28 @@ pub enum ImageType {
     /// (in this case it would fold out).
     Poster,
 
+    /// The section on a CD, record or other media containing such data as
+    /// matrix numbers. Usually found in the hub of a CD or the dead wax area of
+    /// a vinyl record.
+    #[serde(alias = "Matrix/Runout")]
+    #[serde(alias = "Runout")]
+    Matrix,
+
+    /// The top of a box or other similar packaging (for most common six sided
+    /// packaging options, the one perpendicular to and above front, back and
+    /// spines).
+    Top,
+
+    /// The bottom of a box or other similar packaging (for most common six
+    /// sided packaging options, the one perpendicular to and below front, back
+    /// and spines).
+    Bottom,
+
+    /// The individual segments of a folded packaging, such as a gatefold cover,
+    /// digipak or cassette inlay (don't use this for folded booklets nor
+    /// posters).
+    Panel,
+
     /// A watermark is a piece of text or an image which is not part of the cover art but is
     /// added by the person who scanned the cover art. Images without any watermarks are preferred
     /// where possible - this type is useful in cases where either the only available image is
@@ -87,8 +143,41 @@ pub enum ImageType {
 
     /// Select this type when uploading images that are usable for reference, but need more work to
     /// be usable for tagging (for example, uncropped scans like the one below).
+    #[serde(alias = "Raw/Unedited")]
+    #[serde(alias = "Unedited")]
     Raw,
 
     /// Anything which doesn't fit in the types defined above.
     Other,
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::entity::coverart::Coverart;
+
+    #[test]
+    fn u64_id() {
+        // "id" here is a string, but we want u64
+        let bad_json = r#"{"images": [{"types": [], "front": true, "back": false, "edit": 123, "image": "http://example.org/id.jpg", "comment": "", "approved": true, "id": 456, "thumbnails": {}}]}"#;
+
+        let art: Result<Coverart, serde_json::Error> = serde_json::from_str(bad_json);
+        assert!(art.is_ok());
+
+        if let Ok(art) = art {
+            assert_eq!(art.images.first().unwrap().id, 456);
+        }
+    }
+
+    #[test]
+    fn non_u64_id() {
+        // "id" here is a string, but we want u64
+        let bad_json = r#"{"images": [{"types": [], "front": true, "back": false, "edit": "123", "image": "http://example.org/id.jpg", "comment": "", "approved": true, "id": "456", "thumbnails": {}}]}"#;
+
+        let art: Result<Coverart, serde_json::Error> = serde_json::from_str(bad_json);
+        assert!(art.is_ok());
+
+        if let Ok(art) = art {
+            assert_eq!(art.images.first().unwrap().id, 456);
+        }
+    }
 }
